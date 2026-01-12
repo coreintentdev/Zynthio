@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zynthio | Agentic AI Trading</title>
+<meta name="description" content="Glass Box Transparency. Open Source Launch Jan 17.">
+<style>
+:root{--neon:#00ff9d;--bg:#0a0a0a;--text:#e0e0e0}*{box-sizing:border-box}body{background:var(--bg);color:var(--text);font-family:'Courier New',monospace;margin:0;display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:20px}h1{font-size:2.5rem;text-transform:uppercase;letter-spacing:4px;margin-bottom:.5rem;color:var(--neon);text-shadow:0 0 10px rgba(0,255,157,.3)}p{font-size:1.1rem;color:#888;max-width:600px;line-height:1.6;margin:0 auto 2rem}.btn{border:1px solid var(--neon);color:var(--neon);padding:12px 24px;text-decoration:none;font-weight:700;transition:all .3s ease;display:inline-block;margin:10px;cursor:pointer;background:0 0;font-family:inherit;font-size:1rem}.btn:hover{background:var(--neon);color:var(--bg);box-shadow:0 0 20px rgba(0,255,157,.4)}.status{margin-top:40px;font-size:.8rem;color:#444}.blink{animation:blink 1.5s infinite}@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}.waitlist{margin-top:30px;max-width:400px;margin-left:auto;margin-right:auto}.waitlist input{width:100%;padding:12px;background:#1a1a1a;border:1px solid #333;color:var(--text);font-family:inherit;margin-bottom:10px}.waitlist input:focus{outline:0;border-color:var(--neon)}.message{margin-top:10px;font-size:.9rem}.success{color:var(--neon)}.error{color:#ff4444}
+</style>
+</head>
+<body>
+<div>
+<h1>Zynthio<span class="blink">_</span></h1>
+<p>MAXIMIZING ALPHA. MINIMIZING TRUST.</p>
+<p style="color:#fff">OPEN SOURCE LAUNCH: JAN 17</p>
+<a href="https://github.com/coreintentdev/coreintentai" class="btn">VIEW SOURCE</a>
+<div class="waitlist">
+<form id="waitlistForm">
+<input type="email" id="email" placeholder="your.email@domain.com" required>
+<button type="submit" class="btn" style="width:100%">JOIN WAITLIST</button>
+</form>
+<div id="message" class="message"></div>
+</div>
+<div class="status">
+SYSTEM STATUS: <span style="color:var(--neon)">ONLINE</span><br>
+VERCEL DEPLOY: <span style="color:var(--neon)">SECURE</span>
+</div>
+</div>
+<script>
+document.getElementById('waitlistForm').addEventListener('submit',async(e)=>{e.preventDefault();const email=document.getElementById('email').value;const messageDiv=document.getElementById('message');const submitBtn=e.target.querySelector('button');submitBtn.disabled=true;submitBtn.textContent='SENDING...';messageDiv.textContent='';try{const response=await fetch('/api/waitlist',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email})});const data=await response.json();if(response.ok){messageDiv.className='message success';messageDiv.textContent="✓ You're on the list. Check your email.";document.getElementById('email').value='';}else{throw new Error(data.error||'Failed to join waitlist');}}catch(error){messageDiv.className='message error';messageDiv.textContent='✗ '+error.message;}finally{submitBtn.disabled=false;submitBtn.textContent='JOIN WAITLIST';}});
+</script>
+</body>
+</html>
