@@ -34,12 +34,14 @@ Required env var (set in Vercel dashboard):
 RESEND_API_KEY=your_resend_api_key
 ```
 
+See [.env.example](.env.example) for the full template.
+
 ## Related Repos
 
 | Repo | Purpose |
-|------|---------|
-| [coreintent](https://github.com/coreintentdev/coreintent) | Main trading engine — Next.js 14, AI fleet, Commander Terminal |
-| [coreintentai](https://github.com/coreintentdev/coreintentai) | coreintent.dev marketing site |
+|------|----------|
+| [coreintent](https://github.com/coreintentdev/coreintent) | Main trading engine — Next.js 15, AI fleet, Commander Terminal |
+| [coreintentai](https://github.com/coreintentdev/coreintentai) | AI intelligence layer — multi-model orchestration (Claude, Grok, Perplexity) |
 | [Zynthio](https://github.com/coreintentdev/Zynthio) | This repo — zynthio.ai landing + waitlist |
 
 ## Philosophy
