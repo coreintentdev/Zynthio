@@ -12,13 +12,13 @@ Based in: New Zealand (NEVER register anything in Australia)
 - Entry point / public face of the CoreIntent platform
 
 ## What This Repo IS NOT
-- Not the main application (that is coreintentdev/coreintent — Next.js 14)
+- Not the main application (that is coreintentdev/coreintent — Next.js 15)
 - Not a Node.js app — no build step, no package dependencies
 - Not yet connected to a database or auth system
 
 ## Related Repos
-- **coreintentdev/coreintent** — Main trading engine (Next.js 14)
-- **coreintentdev/coreintentai** — coreintent.dev marketing site
+- **coreintentdev/coreintent** — Main trading engine (Next.js 15)
+- **coreintentdev/coreintentai** — AI intelligence layer — multi-model orchestration (Claude, Grok, Perplexity)
 
 ## Architecture
 - `public/index.html` — Static landing page
@@ -38,9 +38,7 @@ Based in: New Zealand (NEVER register anything in Australia)
 6. NEVER fabricate family data or personal details.
 
 ## Known Issues
-- Launch date in `public/index.html` hardcoded as "JAN 17" — update when re-launching
-- CORS in `api/waitlist.js` uses `*` wildcard — acceptable for a public waitlist endpoint
-- `package.json` is a stub (name + version only) — no scripts or deps needed
+- None currently. All prior issues resolved: CORS locked to `https://zynthio.ai`, expired launch date removed from index.html, package.json updated with description and deploy script.
 
 ## Family (NEVER fabricate)
 - Michelle (wife), Ruby (~14, daughter), Wesley (son)
