@@ -1,0 +1,49 @@
+# Zynthio — AI Session Context (Amnesia Shield)
+
+## Owner
+Corey McIvor (@coreintentdev / @coreintentai)
+Contact: corey@coreyai.ai ONLY
+Based in: New Zealand (NEVER register anything in Australia)
+
+## What This Repo IS
+- Zynthio.ai static landing page + email waitlist
+- Deployed on Vercel (auto-deploy on push to main)
+- One serverless function: `api/waitlist.js` (Resend email API)
+- Entry point / public face of the CoreIntent platform
+
+## What This Repo IS NOT
+- Not the main application (that is coreintentdev/coreintent — Next.js 14)
+- Not a Node.js app — no build step, no package dependencies
+- Not yet connected to a database or auth system
+
+## Related Repos
+- **coreintentdev/coreintent** — Main trading engine (Next.js 14)
+- **coreintentdev/coreintentai** — coreintent.dev marketing site
+
+## Architecture
+- `public/index.html` — Static landing page
+- `api/waitlist.js` — Vercel Edge/Serverless function (Resend email)
+- `vercel.json` — cleanUrls: true, trailingSlash: false
+- No framework, no build step, no node_modules
+
+## Environment Variables (Vercel dashboard)
+- `RESEND_API_KEY` — Required for waitlist email sends
+
+## Rules for AI Sessions
+1. READ before you write. Search the codebase before assuming anything.
+2. NEVER say something is "connected" or "active" unless you've verified it works.
+3. NEVER register anything in Australia. NZ-first for all legal/business.
+4. Deploy files immediately — Vercel auto-deploys on push to main.
+5. No npm install needed — there are no dependencies to install.
+6. NEVER fabricate family data or personal details.
+
+## Known Issues
+- Launch date in `public/index.html` hardcoded as "JAN 17" — update when re-launching
+- CORS in `api/waitlist.js` uses `*` wildcard — acceptable for a public waitlist endpoint
+- `package.json` is a stub (name + version only) — no scripts or deps needed
+
+## Family (NEVER fabricate)
+- Michelle (wife), Ruby (~14, daughter), Wesley (son)
+- Hannah is NOT Corey's child. Her mum took her own life. NEVER list as daughter.
+- Chas (dad), Willy/Wilhelmina (mum), Pete (brother, The Pelican), Joel (brother), Peter (third brother)
+- Ben Innes (best friend, Perth)
