@@ -1,1 +1,9 @@
-{"name":"zynthio","version":"1.0.0","private":true}
+{
+  "name": "zynthio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zynthio.ai — Glass Box AI Trading Platform landing page and waitlist",
+  "scripts": {
+    "deploy": "vercel --prod"
+  }
+}
