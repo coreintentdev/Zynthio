@@ -14,7 +14,7 @@
 Update each track's row as it moves through the pipeline.
 
 **Status values:** `draft` → `mixed` → `mastered` → `submitted` → `released`  
-**DistroKid Ready:** `yes` (all assets present) / `no` (see "Missing" column)  
+**DistroKid Ready:** `yes` (all pre-submission assets present) / `no` (see "Missing" column)  
 **Legal:** `original` / `sample-cleared` / `needs-review`
 
 ---
@@ -23,9 +23,9 @@ Update each track's row as it moves through the pipeline.
 
 | # | Track Title | Artist | Album / EP | Status | DistroKid Ready | Missing | Legal | Notes |
 |---|-------------|--------|------------|--------|-----------------|---------|-------|-------|
-| 1 | *(Track 1 title)* | DJ Zynrose | *(album name)* | draft | no | WAV, cover art, metadata, ISRC | needs-review | Add details |
-| 2 | *(Track 2 title)* | DJ Zynrose | *(album name)* | draft | no | WAV, cover art, metadata, ISRC | needs-review | Add details |
-| 3 | *(Track 3 title)* | DJ Zynrose | *(album name)* | draft | no | WAV, cover art, metadata, ISRC | needs-review | Add details |
+| 1 | *(Track 1 title)* | DJ Zynrose | *(album name)* | draft | no | WAV, cover art, metadata | needs-review | Add details |
+| 2 | *(Track 2 title)* | DJ Zynrose | *(album name)* | draft | no | WAV, cover art, metadata | needs-review | Add details |
+| 3 | *(Track 3 title)* | DJ Zynrose | *(album name)* | draft | no | WAV, cover art, metadata | needs-review | Add details |
 
 > **Instructions:** Replace placeholder rows with real track data. Add rows as needed.
 
