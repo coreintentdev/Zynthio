@@ -131,3 +131,10 @@ Thumbs.db
 *.swo
 *~
 .idea/
+
+# Audio master files (large binaries — store externally or use git-lfs)
+audio/*.wav
+audio/*.flac
+audio/*.aif
+audio/*.aiff
+audio/*.mp3
