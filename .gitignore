@@ -131,6 +131,7 @@ Thumbs.db
 *.swo
 *~
 .idea/
+.vscode/
 
 # Audio master files (large binaries — store externally or use git-lfs)
 audio/*.wav
