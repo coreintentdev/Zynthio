@@ -3,7 +3,7 @@
 **Artist:** DJ Zynrose (Corey McIvor)  
 **Distributor:** DistroKid  
 **Jurisdiction:** New Zealand  
-**Last updated:** 2026-04-18
+**Last updated:** 2026-04-20
 
 ---
 
@@ -64,6 +64,7 @@ Use one copy of this checklist per release. Mark each item `[x]` when complete.
 - [ ] Tidal selected
 - [ ] Deezer selected
 - [ ] TikTok / Instagram / Facebook (social platforms) — confirm opt-in
+- [ ] Bandcamp (manual upload — not via DistroKid; set NZD pricing)
 - [ ] Territory: Worldwide (default) unless geo-restricted
 
 ### 6. Splits & Royalties

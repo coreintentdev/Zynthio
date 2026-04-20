@@ -3,7 +3,7 @@
 **Artist:** DJ Zynrose (Corey McIvor)  
 **Platform brand:** SongPal  
 **Jurisdiction:** New Zealand  
-**Last updated:** 2026-04-18
+**Last updated:** 2026-04-20
 
 ---
 
@@ -98,6 +98,13 @@
 - Create original content using the track — tutorials, behind-the-scenes, duet-bait prompts
 - Use trending sounds + original sound strategy together
 
+### Bandcamp
+- Upload manually (Bandcamp not in DistroKid delivery)
+- Set price: NZD 2.00 minimum / name-your-price for early releases
+- Tag genres accurately — Bandcamp discovery is tag-driven
+- Enable "send to Bandcamp" for fans via HyperFollow link
+- Bandcamp Friday (first Friday of each month) — release or discount timed to this
+
 ---
 
 ## 4. Press & Blog Outreach
@@ -106,6 +113,13 @@
 - Send one-paragraph pitch + streaming link (Spotify / SoundCloud unlisted) + cover art + bio
 - Lead time: 2–3 weeks before release
 - Do not send mass-blast emails — personalise each pitch
+
+### NZ-Specific Targets
+- **Rip It Up / Audioculture** — NZ music history + new releases
+- **The Wireless (RNZ)** — digital-first NZ music coverage
+- **NZ Musician** — industry trades, gear, production focus
+- **Flicks / Stuff Entertainment** — broader NZ arts/culture for crossover
+- **SoundSpheremag** (international) — electronic/ambient focus, accepts NZ acts
 
 ---
 
