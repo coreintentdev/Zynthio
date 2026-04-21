@@ -139,3 +139,9 @@ audio/*.flac
 audio/*.aif
 audio/*.aiff
 audio/*.mp3
+
+# Video assets (large binaries — store externally or use git-lfs)
+video/*.mp4
+video/*.mov
+video/*.avi
+video/*.mkv
