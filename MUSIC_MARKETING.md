@@ -3,7 +3,7 @@
 **Artist:** DJ Zynrose (Corey McIvor)  
 **Platform brand:** SongPal  
 **Jurisdiction:** New Zealand  
-**Last updated:** 2026-04-22
+**Last updated:** 2026-04-23
 
 ---
 
