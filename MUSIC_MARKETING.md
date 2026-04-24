@@ -3,7 +3,7 @@
 **Artist:** DJ Zynrose (Corey McIvor)  
 **Platform brand:** SongPal  
 **Jurisdiction:** New Zealand  
-**Last updated:** 2026-04-23
+**Last updated:** 2026-04-24
 
 ---
 
@@ -104,6 +104,16 @@
 - Tag genres accurately — Bandcamp discovery is tag-driven
 - Enable "send to Bandcamp" for fans via HyperFollow link
 - Bandcamp Friday (first Friday of each month) — release or discount timed to this
+
+### SoundCloud
+- Upload simultaneously with or just before DSP release (SoundCloud is not in DistroKid delivery — manual upload)
+- Set track as **public** with free download enabled for non-commercial / promo tracks
+- Tag accurately: genre, mood, BPM — SoundCloud search is tag-driven
+- Enable **Reposts** — reach out to SoundCloud DJ/producer pages for repost chains in the electronic niche
+- Add buy link pointing to DistroKid HyperFollow in the track description
+- **SoundCloud Next Pro**: at ~1 000+ plays consider upgrading for monetisation and detailed analytics
+- Use SoundCloud **Spotlight** to pin the latest single to the top of your profile
+- Set waveform comment milestones (listeners can comment at timestamps) — encourages community engagement
 
 ---
 

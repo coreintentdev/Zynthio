@@ -140,6 +140,14 @@ audio/*.aif
 audio/*.aiff
 audio/*.mp3
 
+# Artwork binaries (can exceed 5 MB — store externally or use git-lfs)
+artwork/*.jpg
+artwork/*.jpeg
+artwork/*.png
+artwork/*.psd
+artwork/*.tif
+artwork/*.tiff
+
 # Video assets (large binaries — store externally or use git-lfs)
 video/*.mp4
 video/*.mov

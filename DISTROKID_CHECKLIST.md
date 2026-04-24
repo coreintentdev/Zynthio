@@ -3,7 +3,7 @@
 **Artist:** DJ Zynrose (Corey McIvor)  
 **Distributor:** DistroKid  
 **Jurisdiction:** New Zealand  
-**Last updated:** 2026-04-23
+**Last updated:** 2026-04-24
 
 ---
 
@@ -78,6 +78,9 @@ Use one copy of this checklist per release. Mark each item `[x]` when complete.
 - [ ] Spotify for Artists pitch submitted (≥ 7 days before release)
 - [ ] Apple Music for Artists connect confirmed
 - [ ] Pre-save link created (optional: DistroKid HyperFollow or Submithub)
+- [ ] Spotify Canvas prepared: `video/TRK-XXX_[Title]_CANVAS.mp4` (1080×1920, 3–8 s seamless loop, H.264, no text/logos)
+- [ ] Spotify Clips prepared: `video/TRK-XXX_[Title]_CLIP.mp4` (1080×1920, ≤ 30 s, uploaded via Spotify for Artists post-release)
+- [ ] YouTube Shorts clip prepared: `video/TRK-XXX_[Title]_SHORTS.mp4` (1080×1920, ≤ 60 s, for release-day upload)
 
 ---
 
