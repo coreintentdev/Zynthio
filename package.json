@@ -5,5 +5,8 @@
   "description": "Zynthio.ai — Glass Box AI Trading Platform landing page and waitlist",
   "scripts": {
     "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
