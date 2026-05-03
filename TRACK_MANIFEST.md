@@ -4,7 +4,7 @@
 **Platform brand:** SongPal  
 **Distributor:** DistroKid  
 **Jurisdiction:** New Zealand  
-**Last updated:** 2026-05-02  
+**Last updated:** 2026-05-03  
 **Status legend:** `draft` / `mixed` / `mastered` / `released`  
 **DistroKid ready:** yes / no + blocking items listed
 

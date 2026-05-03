@@ -3,7 +3,7 @@
 **Artist:** DJ Zynrose (Corey McIvor)  
 **Distributor:** DistroKid  
 **Jurisdiction:** New Zealand  
-**Last updated:** 2026-05-02
+**Last updated:** 2026-05-03
 
 ---
 
@@ -67,13 +67,20 @@ Use one copy of this checklist per release. Mark each item `[x]` when complete.
 - [ ] Bandcamp (manual upload — not via DistroKid; set NZD pricing)
 - [ ] Territory: Worldwide (default) unless geo-restricted
 
-### 6. Splits & Royalties
+### 6. YouTube Content ID
+
+- [ ] Content ID policy chosen: **Monetize** (recommended — ads run, earnings flow to DistroKid account) / Block / Track
+- [ ] Policy applied consistently across all territories
+- [ ] Note: if the track contains ANY third-party samples (even cleared), set to **Track** until legal status confirmed — a wrongful Block claim can trigger disputes
+- [ ] Verify Content ID is not blocking your own official YouTube upload (whitelist your channel in DistroKid settings)
+
+### 7. Splits & Royalties
 
 - [ ] Collaborator splits set in DistroKid (if applicable)
 - [ ] Publishing / songwriter share allocated correctly
 - [ ] Bank/payment details current in DistroKid account
 
-### 7. Pre-Release
+### 8. Pre-Release
 
 - [ ] Spotify for Artists pitch submitted (≥ 7 days before release)
 - [ ] Apple Music for Artists connect confirmed
