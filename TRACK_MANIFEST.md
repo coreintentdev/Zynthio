@@ -4,7 +4,7 @@
 **Platform brand:** SongPal  
 **Distributor:** DistroKid  
 **Jurisdiction:** New Zealand  
-**Last updated:** 2026-05-06  
+**Last updated:** 2026-05-07  
 **Status legend:** `draft` / `mixed` / `mastered` / `released`  
 **DistroKid ready:** yes / no + blocking items listed
 
@@ -37,7 +37,7 @@ Copy the template block below and fill in all fields. Do not mark DistroKid-read
 
 ## Track Registry
 
-_No tracks registered yet. Repo audited 2026-05-06 — no audio, lyric, or artwork files found. Add entries using the template above when tracks are ready for pipeline._
+_No tracks registered yet. Repo audited 2026-05-07 — no audio, lyric, or artwork files found. Add entries using the template above when tracks are ready for pipeline._
 
 ---
 
