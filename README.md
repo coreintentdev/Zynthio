@@ -44,6 +44,28 @@ See [.env.example](.env.example) for the full template.
 | [coreintentai](https://github.com/coreintentdev/coreintentai) | AI intelligence layer — multi-model orchestration (Claude, Grok, Perplexity) |
 | [Zynthio](https://github.com/coreintentdev/Zynthio) | This repo — zynthio.ai landing + waitlist |
 
+## Music Pipeline — DJ Zynrose / SongPal
+
+This repo also hosts the music production pipeline for Corey McIvor's artist alias **DJ Zynrose**, distributed under the **SongPal** audio platform brand via DistroKid (NZ jurisdiction).
+
+| Document | Purpose |
+|----------|---------|
+| [TRACK_MANIFEST.md](TRACK_MANIFEST.md) | Master track registry — status, DistroKid readiness, legal clearance |
+| [DISTROKID_CHECKLIST.md](DISTROKID_CHECKLIST.md) | Per-release upload checklist (audio, artwork, metadata, stores) |
+| [MUSIC_MARKETING.md](MUSIC_MARKETING.md) | Playlist strategy, social media release plan, platform optimisation |
+| [RELEASE_CALENDAR.md](RELEASE_CALENDAR.md) | Release schedule and run-sheet template |
+
+Asset directories (binary files excluded from git — store externally or use Git LFS):
+
+```
+audio/    — WAV/FLAC masters
+artwork/  — Cover art (3000×3000 px JPG/PNG)
+lyrics/   — Plain-text lyric files (UTF-8, LRC timestamps when available)
+video/    — Spotify Canvas, YouTube Shorts, Reels clips
+```
+
+---
+
 ## Philosophy
 
 > MAXIMIZING ALPHA. MINIMIZING TRUST.
