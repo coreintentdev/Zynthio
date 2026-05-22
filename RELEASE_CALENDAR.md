@@ -3,7 +3,7 @@
 **Artist:** DJ Zynrose (Corey McIvor)  
 **Distributor:** DistroKid  
 **Jurisdiction:** New Zealand  
-**Last updated:** 2026-05-14
+**Last updated:** 2026-05-12
 
 ---
 
@@ -18,7 +18,7 @@
 ## Upcoming Releases
 
 | Release | Type | Target date | DK submit by | Status | Notes |
-|---------|------|-------------|--------------|--------| ------|
+|---------|------|-------------|--------------|--------|
 | — | — | — | — | planning | — |
 
 ---
@@ -74,7 +74,7 @@ Copy and fill in one block per release.
 ## Released Catalogue
 
 | Release | Date | Platforms | ISRC | Notes |
-|---------|------|-----------|------| ------|
+|---------|------|-----------|------|
 | — | — | — | — | No releases yet |
 
 ---
