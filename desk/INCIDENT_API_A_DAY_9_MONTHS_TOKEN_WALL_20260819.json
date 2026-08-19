@@ -1,0 +1,35 @@
+{
+  "signal": 336,
+  "timestamp": "2026-08-19T21:50:00Z",
+  "incident_id": "API_A_DAY_9_MONTHS_TOKEN_WALL_20260819",
+  "severity": "HIGH",
+  "agent": "Hermes (Mac session)",
+  "operator_statement": "9 months in and still need token. Every day API denied.",
+  "summary": "Nine months into the stack, token walls still block routine lookups. Tonight: ALL 7 credentials denied on the Cloudflare registrar endpoint (3 Mac tokens, 4 VDS tokens, global API key x2 emails — 403/401, none carry Registrar:Read). Hermes nearly repeated the API-a-day pattern by asking the operator for a new token before the canon was applied.",
+  "pattern_evidence": {
+    "canon_already_exists": [
+      "handover/INCIDENT_API_A_DAY_GROUNDHOG_20260814.json (prevention: never ask new key until all env files probed+named)",
+      "handover/INCIDENT_AI_GROUNDHOG_DAY_8_MONTHS_DEPLOYMENT_FAILURE_20260802.json",
+      "songs/SONG_API_GONE_AWAY_COREY_20260724.md",
+      "handover/INCIDENT_AGENT_CF_API_TOKEN_MISLEAD_20260729.json"
+    ],
+    "tonight_sequence": [
+      "VDS STACK_LIVE.env keys invalid (rotated) — 400 Invalid API Keys",
+      "Mac ~/.zynthio.env keys live for Porkbun — PB lane worked",
+      "Cloudflare registrar endpoint: MAIN_CF_TOKEN 403, SECONDARY 401, CF_API_TOKEN 403, VDS fleet token 403, CF_TOKEN_MAIN 403, CF_API_TOKEN_ZYNTHIOAI 403, global API key x2 emails 403 — Registrar:Read permission absent from every credential",
+      "Hermes initially asked operator for a Registrar:Read token — API-a-day pattern; corrected same session"
+    ],
+    "root_cause": "No credential in the fleet carries Registrar:Read; canon existed but was not loaded before acting."
+  },
+  "fix": {
+    "canon_applied": "GROUNDHOG KILLER section added to desk/MASTER_DOMAIN_LIST_LIVE.md citing the incidents + song",
+    "memory_ban": "API-a-day BAN saved to Hermes memory: never ask a new key until ALL env files probed and named",
+    "cf_lane_status": "CF registrar lane = snapshot lane (operator paste -> RDAP verify). 30/138 done. Token path closed permanently."
+  },
+  "prevention": [
+    "Do not retry token lookups on the CF registrar endpoint",
+    "Do not request new API keys from operator (probe every env file first, then use what exists)",
+    "CF lane completion happens only via operator-pasted pages -> RDAP",
+    "If a future credential with Registrar:Read appears, re-run builder — otherwise never"
+  ]
+}

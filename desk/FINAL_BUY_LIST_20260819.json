@@ -1,0 +1,35 @@
+{
+  "signal": 336,
+  "id": "FINAL_BUY_LIST_20260819_v4",
+  "updated": "2026-08-19T20:55:00Z",
+  "source": "Hermes — Porkbun API (checkDomain/listAll) + Verisign RDAP (registry ground truth for .com/.net)",
+  "correction": "Operator was right, Hermes was wrong: domains at Cloudflare Registrar are owned even though NOT in Porkbun. Lesson: check RDAP before claiming 'not yours'.",
+  "owned_now_verified": {
+    "cloudflare_registrar": [
+      {"domain": "drsyntax.com", "reg": "2026-07-21"},
+      {"domain": "bettertimethannow.com", "reg": "2026-08-19"},
+      {"domain": "urbanomusica.com", "reg": "2026-08-19"},
+      {"domain": "agitin.com", "reg": "2026-08-19"}
+    ],
+    "porkbun_landed": ["teakbathmat.com", "itsnoize.com", "baldingtreatments.com", "starsofstage.com", "buysoundeffects.com", "dutchhorse.net", "myrtlebeachrealestate.net", "classicmoviechannel.com", "voxbug.com", "cosplayguide.com", "synclocal.dev", "iwantitnow.meme", "noerus.net", "thegrandballroom.com", "sleeptelemedicine.com", "thexeye.com", "digitalphotographytips.com"]
+  },
+  "not_registered_anywhere_verisign_404": ["drcontxt.com", "docontxt.com", "drcontexts.com", "sincontext.com", "drscontexts.com", "rareggaeton.com", "drsyntxt.net"],
+  "cart_is_not_ownership": "drcontxt.com / docontxt.com / drcontexts.com / sincontext.com / drscontexts.com are CART items (buyable), not owned — registry 404 confirms",
+  "drsyntxt_truth": "26-year-old drsyntxt.net is NOT in the registry — the aged asset is gone. Available as FRESH registration at Porkbun $12.52/$12.52 if the name itself is wanted.",
+  "top12_order": [
+    {"rank": 1, "domain": "zyncontext.com", "price": "11.08", "renewal": "11.08"},
+    {"rank": 2, "domain": "contextisk.ing", "price": "10.81", "renewal": "10.81"},
+    {"rank": 3, "domain": "drcontextking.com", "price": "11.08", "renewal": "11.08"},
+    {"rank": 4, "domain": "untoldtimers.com", "price": "11.08", "renewal": "11.08"},
+    {"rank": 5, "domain": "toldtimers.com", "price": "11.08", "renewal": "11.08"},
+    {"rank": 6, "domain": "backengineer.ing", "price": "10.81", "renewal": "10.81"},
+    {"rank": 7, "domain": "twalkietalkie.com", "price": "11.08", "renewal": "11.08"},
+    {"rank": 8, "domain": "agiprooflife.com", "price": "11.08", "renewal": "11.08"},
+    {"rank": 9, "domain": "drcontxt.com", "price": "11.08", "renewal": "11.08"},
+    {"rank": 10, "domain": "docontxt.com", "price": "11.08", "renewal": "11.08"},
+    {"rank": 11, "domain": "coreyai.meme", "price": "10.81", "renewal": "10.81"},
+    {"rank": 12, "domain": "zynthio.meme", "price": "10.81", "renewal": "10.81"}
+  ],
+  "optional_add": {"domain": "drsyntxt.net", "price": "12.52", "renewal": "12.52", "note": "fresh reg only — age is gone, name is back if wanted"},
+  "money_rule": "operator places orders in PB UI — Hermes never buys without explicit GO"
+}

@@ -1,0 +1,35 @@
+{
+  "signal": 336,
+  "timestamp": "2026-08-19T21:45:00Z",
+  "incident_id": "MASTER_DOMAIN_LIST_MADE_MANY_TIMES_NEVER_CANONICAL_20260819",
+  "severity": "CRITICAL",
+  "agent": "Hermes (Mac session)",
+  "operator_statement": "9 months in and still need token and the stack does not have master domain list even though it is made many times.",
+  "summary": "The master domain list has been built MANY times over months; none was ever marked canonical, so every session re-derived it from scratch — including Hermes tonight (built fresh instead of reading the 6-day-old predecessor).",
+  "pattern_evidence": {
+    "previous_master_list_artifacts": [
+      {"file": "MASTER_DOMAIN_HOLISTIC_20260813.csv", "date": "2026-08-13", "coverage": "1703 domains, in_porkbun/in_cloudflare/expiry/cf_plan/cf_status/tracked_inventory", "fate": "sat in 18JUNE root, unreferenced, never canonical"},
+      {"file": "handover/ALL_SITES_CF_PORKBUN_CLOSEOUT_DAX_20260718.md", "date": "2026-07-18", "fate": "archive doc, not the live spine"},
+      {"file": "handover/ALL_SITES_NAMES_ONLY_20260718.md", "date": "2026-07-18", "fate": "names only, not canonical"},
+      {"file": "48_DOMAINS_MASTER_LIST.md", "date": "2026-05", "fate": "superseded, no pointer"},
+      {"file": "CF_VDS_48_DOMAIN_AUDIT_20260509_100949.json/md", "date": "2026-05-09", "fate": "audit snapshot, not canonical"},
+      {"file": "desk/FLEET_COUNT.json", "date": "ongoing", "fate": "counts only"},
+      {"file": "master_scope.md", "date": "stale per memory", "fate": "STALE — memory flags it; fleet stopped trusting it"}
+    ],
+    "tonight_evidence": "Hermes built MASTER_DOMAIN_LIST_LIVE.* from API scratch at ~21:00 without reading MASTER_DOMAIN_HOLISTIC_20260813.csv (6 days old) — the exact groundhog pattern.",
+    "root_cause": "No canonical file designation + no read-first convention. 'Made many times' but never 'the one file'.",
+    "consequence": "Repeated re-derivation, divergent versions, stale analysis, operator trust erosion."
+  },
+  "fix": {
+    "canonical_now": "desk/MASTER_DOMAIN_LIST_LIVE.json (full) / .csv (ages+expiry) / .md (summary+canon) — created 2026-08-19, 1622 domains with ages (PB 1592 API-complete + CF 30 RDAP snapshot)",
+    "builder": "scripts/master_domain_list_builder.py — single refresh command",
+    "predecessor_merge": "MASTER_DOMAIN_HOLISTIC_20260813.csv holds CF-zone columns the live file lacks — merge planned (cf_zone status per domain)",
+    "read_first_rule": "Any session touching domains: read desk/MASTER_DOMAIN_LIST_LIVE.json FIRST. Never re-derive.",
+    "pending": "weekly cron refresh (operator GO required)"
+  },
+  "prevention": [
+    "MASTER_DOMAIN_LIST_LIVE.json is THE canonical spine — no other 'master' file may be created without merging into it",
+    "Builder script is the only refresh path",
+    "New master-list artifacts = incident, not progress"
+  ]
+}
