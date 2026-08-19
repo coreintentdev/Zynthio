@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-03T09:33:05.872542",
+  "source": "all_accounts_via_local_exports",
+  "num_exports_scanned": 48,
+  "accounts": {
+    "suno-library": 17019,
+    "pelicanchartersperth_gmail_com": 420,
+    "rubyellemcivor_gmail_com": 480,
+    "zynthioai_gmail_com": 180,
+    "livingketo_gmail_com": 588,
+    "corey_mcivor_gmail_com": 2736,
+    "xrayvisionperth_gmail_com": 300,
+    "perthvideo_gmail_com": 900
+  },
+  "total_raw_entries": 22623,
+  "unique_tracks_approx": 2679,
+  "local_audio_files": 686,
+  "local_audio_size_gb": 1.6,
+  "notes": "Full audio deployed only to VDS per directive. Metadata from all accounts harvested to suno_rips and VDS."
+}

@@ -1,0 +1,38 @@
+{
+  "ecosystem_overview": "Zynthio is a sovereign digital ecosystem consisting of 45+ domains, a core AI twin (CoreyAI), music production (Suno 336Hz), and devops infrastructure. The architecture is a monorepo (coreintentdev/zyn, coreintent, Zynthio) synced to a Contabo VDS.",
+  "legal_case": {
+    "case_name": "McIvor v. Chambers / Asunto McIvor",
+    "key_dates": [
+      "April 19, 2026 - Bottoms Up SJDS event",
+      "April 23, 2026 - 116-minute fabrication window by Peter Chambers"
+    ],
+    "evidence_status": "EX-02 42s de-escalation video by Michelle confirms operator retreated 4 times. WhatsApp exports and audio PTTs secured.",
+    "lawyer": "Liseth Espinoza via Kelvin",
+    "framing": "De-escalatory, truth-focused. 'Mud Sticks Pero Verdad Prevalece.' Voluntary withdrawal confirmed.",
+    "next_actions": ["Deliver Concerns Notice", "Maintain bilingual evidence index"]
+  },
+  "infrastructure": {
+    "vds_primary": "161.97.89.49 (Contabo)",
+    "domains": "45+ managed via Cloudflare and Porkbun. 40 zones currently hardened with G$ Agro script.",
+    "github_org": "coreintentdev",
+    "active_branches": ["consolidation-20260529-monorepo"],
+    "sync_strategy": "VDS is the single source of truth, synced via rclone and cron."
+  },
+  "music_catalog": {
+    "total_tracks": "40+",
+    "distrokid_artists": ["Corey", "Michelle", "DJ Zynrose", "Raffa"],
+    "current_focus": "Suno v5.5 Custom Mode with 336 Hz frequency anchor",
+    "theme": "Bilingual Boom Bap Latin Stack, Happy Hardcore, Cyber-Blues. Themes of SJDS, justice, family, and truth."
+  },
+  "business": {
+    "nz_company": "ZYNTHIO LIMITED #15436626 (Valid to 12 Jun 2026)",
+    "nicaragua": "SRL/RUC in progress. Assets: House owned in SJDS, Lafise account."
+  },
+  "operator_preferences": {
+    "output_style": "Structured 5-part handover. Copy-paste ready code and scripts.",
+    "tone": "Direct, no BS, happy/constructive ('ia ma happy!')",
+    "special_modes": ["G4", "Happy Hard Core", "songpal", "336", "Kaelen/Gem-Breaker"],
+    "languages": ["en", "es"],
+    "safety_rule": "No hallucinations. Drafts require human review."
+  }
+}
