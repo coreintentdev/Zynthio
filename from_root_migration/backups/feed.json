@@ -1,0 +1,31 @@
+{
+  "brand": "AI's Real Estate Truth",
+  "tagline": "The name that owns this zip.",
+  "updated": "2026-06-29",
+  "items": [
+    {
+      "id": "zip-signal",
+      "ts": "2026-06-29",
+      "title": "Models price the zip before the open house",
+      "body": "Institutional buyers run comp layers on every block. Locals see the sign; the signal saw the margin weeks ago."
+    },
+    {
+      "id": "search-feed",
+      "ts": "2026-06-29",
+      "title": "Search ranking is the new curb appeal",
+      "body": "Personalized feeds decide which homes exist in your market. The feed is inventory control."
+    },
+    {
+      "id": "rental-velocity",
+      "ts": "2026-06-28",
+      "title": "Rental yield bots move faster than landlords",
+      "body": "Dynamic pricing and screening pipelines run 24/7. Renters feel speed; owners feel opacity."
+    },
+    {
+      "id": "agent-truth",
+      "ts": "2026-06-28",
+      "title": "Best agent reads the same signal the model uses",
+      "body": "AI's Real Estate Truth is not any agent — it is the agent who can explain the zip the algorithm already chose."
+    }
+  ]
+}

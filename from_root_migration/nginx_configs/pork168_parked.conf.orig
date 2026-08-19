@@ -1,0 +1,1680 @@
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name 336.video www.336.video;
+    root /var/www/336.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name 808s.video www.808s.video;
+    root /var/www/808s.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name abrolhos.boats www.abrolhos.boats;
+    root /var/www/abrolhos.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name abrolhos.pics www.abrolhos.pics;
+    root /var/www/abrolhos.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name abuse.love www.abuse.love;
+    root /var/www/abuse.love;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name abuse.quest www.abuse.quest;
+    root /var/www/abuse.quest;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name abused.cyou www.abused.cyou;
+    root /var/www/abused.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name abuser.help www.abuser.help;
+    root /var/www/abuser.help;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name afterthat.cyou www.afterthat.cyou;
+    root /var/www/afterthat.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name afterthis.cyou www.afterthis.cyou;
+    root /var/www/afterthis.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name aiabuse.app www.aiabuse.app;
+    root /var/www/aiabuse.app;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name aiabuse.help www.aiabuse.help;
+    root /var/www/aiabuse.help;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name aiabuse.quest www.aiabuse.quest;
+    root /var/www/aiabuse.quest;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ais.video www.ais.video;
+    root /var/www/ais.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name approving.you www.approving.you;
+    root /var/www/approving.you;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name aurevoir.cyou www.aurevoir.cyou;
+    root /var/www/aurevoir.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name beat.ceo www.beat.ceo;
+    root /var/www/beat.ceo;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name beat.pics www.beat.pics;
+    root /var/www/beat.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name beats.moi www.beats.moi;
+    root /var/www/beats.moi;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name beatsme.cyou www.beatsme.cyou;
+    root /var/www/beatsme.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name beatsmoi.cyou www.beatsmoi.cyou;
+    root /var/www/beatsmoi.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name bluff.cyou www.bluff.cyou;
+    root /var/www/bluff.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name boat.news www.boat.news;
+    root /var/www/boat.news;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name bookings.boats www.bookings.boats;
+    root /var/www/bookings.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name bucks.boats www.bucks.boats;
+    root /var/www/bucks.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name busyas.cyou www.busyas.cyou;
+    root /var/www/busyas.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name canelled.cyou www.canelled.cyou;
+    root /var/www/canelled.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name canwe.cyou www.canwe.cyou;
+    root /var/www/canwe.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name carnac.boats www.carnac.boats;
+    root /var/www/carnac.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name carnac.pics www.carnac.pics;
+    root /var/www/carnac.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name catchyoulater.cyou www.catchyoulater.cyou;
+    root /var/www/catchyoulater.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name catchyouontheflipside.cyou www.catchyouontheflipside.cyou;
+    root /var/www/catchyouontheflipside.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name checkyoulater.cyou www.checkyoulater.cyou;
+    root /var/www/checkyoulater.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cheerio.cyou www.cheerio.cyou;
+    root /var/www/cheerio.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name chillin.video www.chillin.video;
+    root /var/www/chillin.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name chilling.video www.chilling.video;
+    root /var/www/chilling.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cli.video www.cli.video;
+    root /var/www/cli.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name clis.video www.clis.video;
+    root /var/www/clis.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name coders.pics www.coders.pics;
+    root /var/www/coders.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name compare.dog www.compare.dog;
+    root /var/www/compare.dog;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name compare.fitness www.compare.fitness;
+    root /var/www/compare.fitness;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name compare.wang www.compare.wang;
+    root /var/www/compare.wang;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name completed.cyou www.completed.cyou;
+    root /var/www/completed.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name confirmed.cyou www.confirmed.cyou;
+    root /var/www/confirmed.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name confirming.cyou www.confirming.cyou;
+    root /var/www/confirming.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cons.video www.cons.video;
+    root /var/www/cons.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cores.video www.cores.video;
+    root /var/www/cores.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name corey.video www.corey.video;
+    root /var/www/corey.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name crying.cyou www.crying.cyou;
+    root /var/www/crying.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cuteas.cyou www.cuteas.cyou;
+    root /var/www/cuteas.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cuthen.cyou www.cuthen.cyou;
+    root /var/www/cuthen.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cuwhenic.you www.cuwhenic.you;
+    root /var/www/cuwhenic.you;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cyalater.cyou www.cyalater.cyou;
+    root /var/www/cyalater.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cyou.help www.cyou.help;
+    root /var/www/cyou.help;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name cyou.video www.cyou.video;
+    root /var/www/cyou.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name discoversanjuandelsur.com www.discoversanjuandelsur.com;
+    root /var/www/discoversanjuandelsur.com;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name dubsteps.video www.dubsteps.video;
+    root /var/www/dubsteps.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name feelingyou.cyou www.feelingyou.cyou;
+    root /var/www/feelingyou.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name forsure.cyou www.forsure.cyou;
+    root /var/www/forsure.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name gotta.video www.gotta.video;
+    root /var/www/gotta.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name gottarun.cyou www.gottarun.cyou;
+    root /var/www/gottarun.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name handled.cyou www.handled.cyou;
+    root /var/www/handled.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name hastalavista.cyou www.hastalavista.cyou;
+    root /var/www/hastalavista.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name hens.boats www.hens.boats;
+    root /var/www/hens.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name hiphops.video www.hiphops.video;
+    root /var/www/hiphops.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name hustling.cyou www.hustling.cyou;
+    root /var/www/hustling.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name icall.cyou www.icall.cyou;
+    root /var/www/icall.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name icwhyi.cyou www.icwhyi.cyou;
+    root /var/www/icwhyi.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name icyuo.wiki www.icyuo.wiki;
+    root /var/www/icyuo.wiki;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name illin.video www.illin.video;
+    root /var/www/illin.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name imout.cyou www.imout.cyou;
+    root /var/www/imout.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name included.cyou www.included.cyou;
+    root /var/www/included.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name indies.video www.indies.video;
+    root /var/www/indies.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ineedto.cyou www.ineedto.cyou;
+    root /var/www/ineedto.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name live-aboard.boats www.live-aboard.boats;
+    root /var/www/live-aboard.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name liveaboard.pics www.liveaboard.pics;
+    root /var/www/liveaboard.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name liveaboard.wiki www.liveaboard.wiki;
+    root /var/www/liveaboard.wiki;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name loloud.cyou www.loloud.cyou;
+    root /var/www/loloud.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name lookafteryourself.cyou www.lookafteryourself.cyou;
+    root /var/www/lookafteryourself.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name metals.video www.metals.video;
+    root /var/www/metals.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name montebello.boats www.montebello.boats;
+    root /var/www/montebello.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name montebello.pics www.montebello.pics;
+    root /var/www/montebello.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name mymusic.video www.mymusic.video;
+    root /var/www/mymusic.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.dating www.news.dating;
+    root /var/www/news.dating;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.rich www.news.rich;
+    root /var/www/news.rich;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.video www.news.video;
+    root /var/www/news.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.watches www.news.watches;
+    root /var/www/news.watches;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name nica.video www.nica.video;
+    root /var/www/nica.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name nogo.cyou www.nogo.cyou;
+    root /var/www/nogo.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name nogo.my www.nogo.my;
+    root /var/www/nogo.my;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name notforyou.cyou www.notforyou.cyou;
+    root /var/www/notforyou.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name nothanks.cyou www.nothanks.cyou;
+    root /var/www/nothanks.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name notlong.cyou www.notlong.cyou;
+    root /var/www/notlong.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name noway.cyou www.noway.cyou;
+    root /var/www/noway.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name okiwill.cyou www.okiwill.cyou;
+    root /var/www/okiwill.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name oklater.cyou www.oklater.cyou;
+    root /var/www/oklater.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pal.army www.pal.army;
+    root /var/www/pal.army;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pal.video www.pal.video;
+    root /var/www/pal.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pals.video www.pals.video;
+    root /var/www/pals.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name peaceout.cyou www.peaceout.cyou;
+    root /var/www/peaceout.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pelican.boats www.pelican.boats;
+    root /var/www/pelican.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pelicancharters.boats www.pelicancharters.boats;
+    root /var/www/pelicancharters.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name perth.boats www.perth.boats;
+    root /var/www/perth.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name perth.pics www.perth.pics;
+    root /var/www/perth.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name phonk.video www.phonk.video;
+    root /var/www/phonk.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pigsmightfly.cyou www.pigsmightfly.cyou;
+    root /var/www/pigsmightfly.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name raps.video www.raps.video;
+    root /var/www/raps.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name reggaetons.video www.reggaetons.video;
+    root /var/www/reggaetons.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name resolved.cyou www.resolved.cyou;
+    root /var/www/resolved.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name rips.video www.rips.video;
+    root /var/www/rips.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name rocker.video www.rocker.video;
+    root /var/www/rocker.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name rottnest.boats www.rottnest.boats;
+    root /var/www/rottnest.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name rottnest.pics www.rottnest.pics;
+    root /var/www/rottnest.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name sayonara.cyou www.sayonara.cyou;
+    root /var/www/sayonara.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name seeyoulater.cyou www.seeyoulater.cyou;
+    root /var/www/seeyoulater.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name singitback.cyou www.singitback.cyou;
+    root /var/www/singitback.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name smelloulater.cyou www.smelloulater.cyou;
+    root /var/www/smelloulater.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name startingnow.cyou www.startingnow.cyou;
+    root /var/www/startingnow.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name staycool.cyou www.staycool.cyou;
+    root /var/www/staycool.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name stems.video www.stems.video;
+    root /var/www/stems.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name swanriver.boats www.swanriver.boats;
+    root /var/www/swanriver.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name swanriver.pics www.swanriver.pics;
+    root /var/www/swanriver.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name talktoyoulater.cyou www.talktoyoulater.cyou;
+    root /var/www/talktoyoulater.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name text2song.cyou www.text2song.cyou;
+    root /var/www/text2song.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name textgo.video www.textgo.video;
+    root /var/www/textgo.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name textyou.cyou www.textyou.cyou;
+    root /var/www/textyou.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name tony.video www.tony.video;
+    root /var/www/tony.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name toodles.cyou www.toodles.cyou;
+    root /var/www/toodles.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name tracks.video www.tracks.video;
+    root /var/www/tracks.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name trap.video www.trap.video;
+    root /var/www/trap.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name untilnexttime.cyou www.untilnexttime.cyou;
+    root /var/www/untilnexttime.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name untilthen.cyou www.untilthen.cyou;
+    root /var/www/untilthen.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name urbano.video www.urbano.video;
+    root /var/www/urbano.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name vibing.cyou www.vibing.cyou;
+    root /var/www/vibing.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name video.rich www.video.rich;
+    root /var/www/video.rich;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name vidz.video www.vidz.video;
+    root /var/www/vidz.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name westernaustralia.pics www.westernaustralia.pics;
+    root /var/www/westernaustralia.pics;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name wheni.cyou www.wheni.cyou;
+    root /var/www/wheni.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name why.bingo www.why.bingo;
+    root /var/www/why.bingo;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name why.ceo www.why.ceo;
+    root /var/www/why.ceo;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name why.contact www.why.contact;
+    root /var/www/why.contact;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name why.doctor www.why.doctor;
+    root /var/www/why.doctor;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name why.moi www.why.moi;
+    root /var/www/why.moi;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name why.ski www.why.ski;
+    root /var/www/why.ski;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name whyai.cyou www.whyai.cyou;
+    root /var/www/whyai.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name whymoi.cyou www.whymoi.cyou;
+    root /var/www/whymoi.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name yatchs.video www.yatchs.video;
+    root /var/www/yatchs.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.beauty www.ynot.beauty;
+    root /var/www/ynot.beauty;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.boats www.ynot.boats;
+    root /var/www/ynot.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.courses www.ynot.courses;
+    root /var/www/ynot.courses;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.cyou www.ynot.cyou;
+    root /var/www/ynot.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.dance www.ynot.dance;
+    root /var/www/ynot.dance;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.gold www.ynot.gold;
+    root /var/www/ynot.gold;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.guru www.ynot.guru;
+    root /var/www/ynot.guru;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.hair www.ynot.hair;
+    root /var/www/ynot.hair;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.lat www.ynot.lat;
+    root /var/www/ynot.lat;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.makeup www.ynot.makeup;
+    root /var/www/ynot.makeup;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.quest www.ynot.quest;
+    root /var/www/ynot.quest;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.skin www.ynot.skin;
+    root /var/www/ynot.skin;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.surf www.ynot.surf;
+    root /var/www/ynot.surf;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.video www.ynot.video;
+    root /var/www/ynot.video;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.watch www.ynot.watch;
+    root /var/www/ynot.watch;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.wine www.ynot.wine;
+    root /var/www/ynot.wine;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.xin www.ynot.xin;
+    root /var/www/ynot.xin;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ynot.yachts www.ynot.yachts;
+    root /var/www/ynot.yachts;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name your.engineering www.your.engineering;
+    root /var/www/your.engineering;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name your.fish www.your.fish;
+    root /var/www/your.fish;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name your.hockey www.your.hockey;
+    root /var/www/your.hockey;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}

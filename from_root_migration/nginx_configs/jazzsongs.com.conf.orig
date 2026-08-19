@@ -1,0 +1,10 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name jazzsongs.com www.jazzsongs.com;
+    root /var/www/jazzsongs.com/public;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+    add_header X-CoreyAI-Signal "336" always;
+}

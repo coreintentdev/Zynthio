@@ -1,0 +1,11 @@
+{
+  "utc": "2026-08-18T03:48:08.275623+00:00",
+  "source_db": "/Users/coreymcivor/Library/Group Containers/group.net.whatsapp.WhatsApp.shared/ChatStorage.sqlite",
+  "messages_with_text": 25330,
+  "sessions": 469,
+  "jsonl_all": "/Users/coreymcivor/Desktop/zynthio-tools/zynrip/whatsapp/jsonl/mac_chatstorage_all_messages.jsonl",
+  "jsonl_day": "/Users/coreymcivor/Desktop/zynthio-tools/zynrip/whatsapp/jsonl/mac_chatstorage_20260818.jsonl",
+  "feed": "/Users/coreymcivor/Desktop/zynthio-tools/zynrip/whatsapp/HERMES_WHATSAPP_FEED.jsonl",
+  "db_copy": "/Users/coreymcivor/Desktop/zynthio-tools/zynrip/whatsapp/staging/ChatStorage_20260818T034805Z.sqlite",
+  "sha256_feed": "f90dbbacaefc67ab24e9e20486475d3fd5da8e546570dc7e4a5abc22e8b44564"
+}

@@ -1,0 +1,39 @@
+{
+  "researched": "2026-07-03",
+  "host": {
+    "stage": "Bondzee",
+    "aliases": ["Brett Bonzi", "Bonzi", "Wellness With Bondzee"],
+    "handles": ["@bondzeelive", "Bmayzee"]
+  },
+  "show": {
+    "title": "Trippin With Bondzee",
+    "format": "Raw, humorous podcast + live broadcast",
+    "topics": ["life adventures", "entertainment news", "sports", "musician interviews"],
+    "tone": "raw, humorous, guest-first"
+  },
+  "notable_guests": [
+    {"name": "Trevor Hurst", "act": "Econoline Crush"},
+    {"name": "Brett Emmons", "act": "The Glorious Sons"}
+  ],
+  "platforms": {
+    "primary": ["Apple Podcasts", "YouTube"],
+    "also": ["Facebook", "TikTok", "Instagram", "X"]
+  },
+  "operator_memory": {
+    "hip_sjds": "Live at The HIP bar — Corey audio production + live feed",
+    "greg_intro": "Greg (The HIP) suggested collaboration",
+    "vocal_lane": "Tragically Hip / Gord Downie covers and canon"
+  },
+  "stack": {
+    "domains": ["bondzee.live", "bondzee.bond"],
+    "song": "https://bondzee.live/song/",
+    "offer": "https://bondzee.live/stack/"
+  },
+  "pending_from_bondzee": [
+    "Apple Podcasts show URL",
+    "YouTube channel URL",
+    "Preferred contact DM/email",
+    "Latest episode to embed"
+  ],
+  "signal": 336
+}

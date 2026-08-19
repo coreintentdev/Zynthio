@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name songpal.click www.songpal.click;
+    root /var/www/songpal_click/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

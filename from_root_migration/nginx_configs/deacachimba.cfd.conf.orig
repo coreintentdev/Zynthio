@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name deacachimba.cfd www.deacachimba.cfd;
+    root /var/www/deacachimba_cfd/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

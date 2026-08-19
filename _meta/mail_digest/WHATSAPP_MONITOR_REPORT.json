@@ -1,0 +1,92 @@
+{
+  "signal": 336,
+  "timestamp": "2026-08-19T12:30:01.298406",
+  "monitor_status": "automated",
+  "sync_status": {
+    "status": "stale",
+    "last_sync": "2026-08-18T18:16:30.868694",
+    "time_diff_hours": 20.225119499166667,
+    "latest_file": "mac_extract_20260818T161358Z.json"
+  },
+  "whatsapp_data": {
+    "status": "success",
+    "latest_extract": "mac_extract_20260818T161358Z.json",
+    "extract_timestamp": "2026-08-18T16:14:03.205140+00:00",
+    "total_messages": 25330,
+    "sessions": 469,
+    "messages_with_text": 25330,
+    "source_db": "/Users/coreymcivor/Library/Group Containers/group.net.whatsapp.WhatsApp.shared/ChatStorage.sqlite"
+  },
+  "recent_messages": [
+    {
+      "signal": 336,
+      "source_platform": "mac_whatsapp_chatstorage",
+      "thread": "Homemade coconut milk \ud83c\udf34\ud83e\udd65",
+      "thread_jid": "120363028124873009@g.us",
+      "timestamp": "2022-11-04T22:10:55+00:00",
+      "sender": "IAA=",
+      "is_from_me": false,
+      "message": "50586046511@s.whatsapp.net",
+      "message_type": 6,
+      "msg_pk": 475,
+      "extracted_utc": "2026-08-18T16:13:58.903731+00:00"
+    },
+    {
+      "signal": 336,
+      "source_platform": "mac_whatsapp_chatstorage",
+      "thread": "Managua",
+      "thread_jid": "120363029087189093@g.us",
+      "timestamp": "2022-11-29T22:47:09+00:00",
+      "sender": "IAA=",
+      "is_from_me": false,
+      "message": "50586046511@s.whatsapp.net",
+      "message_type": 6,
+      "msg_pk": 252,
+      "extracted_utc": "2026-08-18T16:13:58.904246+00:00"
+    },
+    {
+      "signal": 336,
+      "source_platform": "mac_whatsapp_chatstorage",
+      "thread": "Diner",
+      "thread_jid": "120363046706562524@g.us",
+      "timestamp": "2022-12-17T01:01:55+00:00",
+      "sender": "IAA=",
+      "is_from_me": false,
+      "message": "50586046511@s.whatsapp.net",
+      "message_type": 6,
+      "msg_pk": 286,
+      "extracted_utc": "2026-08-18T16:13:58.904495+00:00"
+    },
+    {
+      "signal": 336,
+      "source_platform": "mac_whatsapp_chatstorage",
+      "thread": "Corey Mcivor Fast Pack SJDS",
+      "thread_jid": "120363285223532968@g.us",
+      "timestamp": "2024-05-29T18:52:50+00:00",
+      "sender": "IAA=",
+      "is_from_me": false,
+      "message": "50586046511@s.whatsapp.net",
+      "message_type": 6,
+      "msg_pk": 399,
+      "extracted_utc": "2026-08-18T16:13:58.904649+00:00"
+    },
+    {
+      "signal": 336,
+      "source_platform": "mac_whatsapp_chatstorage",
+      "thread": "\u202a+1\u00a0(416)\u00a0220\u20113978\u202c",
+      "thread_jid": "14162203978@s.whatsapp.net",
+      "timestamp": "2024-10-11T18:33:02+00:00",
+      "sender": "ME",
+      "is_from_me": true,
+      "message": "No time wasted. See you soon.",
+      "message_type": 0,
+      "msg_pk": 296,
+      "extracted_utc": "2026-08-18T16:13:58.904752+00:00"
+    }
+  ],
+  "recommendations": [
+    "WhatsApp monitoring operational via Mac sync",
+    "Messages extracted from Mac ChatStorage.sqlite",
+    "Ensure Mac WhatsApp sync runs regularly for real-time data"
+  ]
+}

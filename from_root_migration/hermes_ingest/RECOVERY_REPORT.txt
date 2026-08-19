@@ -1,0 +1,88 @@
+# RECOVERY_REPORT
+# Pack: incident_pack_20260806T230058Z
+# Generated: 2026-08-06
+
+================================================================================
+PURPOSE
+================================================================================
+Recover operator state after context loss for mesh phones, Contabo fleet,
+Proton bulk store, and custom-model / RunPod track without re-deriving from chat.
+
+================================================================================
+WHAT IS HEALTHY
+================================================================================
+- VDS 5.189.143.170 SSH with ~/.ssh/zynrose: healthy at last probe
+- Headscale control plane: nodes list works; Mac + VDS online on 100.64.0.0/10
+- Proton rclone remote "proton:": 1 TiB quota, ~977 GiB free (Mac + VDS)
+- Contabo billing presence of VPS20 + VPS30 + VDS (panel paste)
+- Custom-model design order recorded: retrieval/memory first, LoRA second
+- Exact RunPod smoke procedure written (no multi-choice forks)
+
+================================================================================
+WHAT IS DEGRADED / DOWN
+================================================================================
+- Phones not on Headscale (OPEN INC-20260806-01)
+- Note9 Tailscale installed but VPN interface absent (no tun0)
+- A07 last seen on Gmail mesh 100.83.250.30 when USB-connected
+- VPS30: network reachable, auth broken from Mac keys
+- VPS20: SSH not reachable (timeout)
+- Cloudzy 104.194.156.109: dead legacy — do not recover onto it
+- Mac disk ~16GiB free: cannot stage large corpora
+- VDS disk ~34GiB free: hot only, not bulk archive
+- RunPod smoke: not verified complete
+
+================================================================================
+RECOVERY PROCEDURES (SHORT)
+================================================================================
+
+R1 — Verify Headscale after phone join
+  adb devices -l
+  adb shell 'ip -4 addr show tun0'
+  ssh -i ~/.ssh/zynrose root@5.189.143.170 'timeout 12 headscale nodes list'
+  PASS: phone IP 100.64.x AND new node row under user zynthio
+
+R2 — Mint new preauth if keys expired
+  ssh -i ~/.ssh/zynrose root@5.189.143.170 \
+    'timeout 15 headscale preauthkeys create -u 1 --reusable --expiration 48h'
+  Server URL always: https://headscale.kamals.pro
+
+R3 — Unlock Contabo VPS workers
+  Panel → VPS30 84.247.137.105 → VNC or password reset → add zynrose.pub
+  Panel → VPS20 161.97.89.49 → firewall/SSH enable
+  Then: nproc; free -h; df -h /; cat /etc/os-release
+
+R4 — Proton bulk path
+  rclone about proton:
+  rclone mkdir proton:zyn-brain-raw
+  # export Takeout/chats to proton — not to Mac Data volume
+
+R5 — RunPod smoke recovery
+  Follow HANDOVER exact path only:
+  volume zyn-brain-vol 100G → RTX 4090 Secure same DC → runpod/pytorch
+  → train_smoke.py → expect SMOKE_OK /workspace/zyn-train/runs/v0_smoke/adapter
+  → Stop pod
+
+R6 — Restore this pack on VDS (optional)
+  scp -i ~/.ssh/zynrose -r \
+    /Users/coreymcivor/Desktop/zynthio-tools/handovers/incident_pack_20260806T230058Z \
+    root@5.189.143.170:/root/zynthio/handovers/
+
+================================================================================
+DO NOT
+================================================================================
+- Treat Cloudzy as third VPS or restore primary stack there
+- Upgrade Contabo VPS20 without explicit operator pay approval (panel showed large proration)
+- Claim phone Headscale join done without nodes list + tun0 evidence
+- Claim RunPod smoke done without SMOKE_OK line
+- Stage multi-GB Takeout on Mac with ~16GiB free
+- Use -u zynthio for headscale preauthkeys (must be -u 1)
+
+================================================================================
+CHECKSUMS
+================================================================================
+See CHECKSUMS.sha256 in this directory. Verify:
+  cd <this_pack_dir> && shasum -a 256 -c CHECKSUMS.sha256
+
+================================================================================
+END RECOVERY_REPORT
+================================================================================

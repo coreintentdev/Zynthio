@@ -1,0 +1,11 @@
+{
+  "path": "VDS_INTERNAL_SELF_CHECK",
+  "timestamp": "2026-08-16T22:16:01Z",
+  "disk_status_percent": 92,
+  "load_average": "1.74%",
+  "memory_usage_percent": 21,
+  "signal_type": "internal_state",
+  "check_type": "scheduled",
+  "signal": "336",
+  "vds_is_boss": true
+}

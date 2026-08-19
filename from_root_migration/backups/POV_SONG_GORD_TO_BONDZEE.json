@@ -1,0 +1,21 @@
+{
+  "title": "The Room Keeps The Name",
+  "subtitle": "POV letter — Canadian rock elder voice → Bondzee",
+  "for": "Bondzee · Trippin With Bondzee",
+  "from_pov": "Gord Downie lane (original lyrics — tribute spirit, not impersonation or Hip catalog)",
+  "purpose": "Suggest he take the ZYNTHIO recording artist gig — bondzee.live + bondzee.bond",
+  "operator": "Corey James McIvor · ZYNTHIO™",
+  "dated": "2026-07-03",
+  "signal": 336,
+  "suno": {
+    "style_prompt": "Canadian rock bar-room live, mid-tempo 108 BPM, gritty poetic male vocal in the spirit of classic Kingston rock — warm Hammond organ, clean overdriven guitar, live drums with room ambience, bass forward, anthemic chorus. Sounds like a packed lake-town bar at last call. Emotional, conversational, not arena bombast. No rap. No EDM.",
+    "title": "The Room Keeps The Name",
+    "tags": "canadian rock, live bar, poetic male vocal, Hammond, anthemic chorus, 336 Hz finish",
+    "exclude": "trap, autotune heavy, EDM drop, generic hip-hop loop"
+  },
+  "lyrics": "[Verse 1]\nI heard you hold the note like it's somebody's real name\nSan Juan heat, HIP bar wood, Corey on the feed and the faders sane\nYou sang the Hip till the coast forgot where Buffalo starts\n#811 on your chest, truth parked in both your hearts\n\n[Pre-Chorus]\nGreg already nodded — that's half the prayer done\nTwo doors open wide and neither one on loan from anyone\n\n[Chorus]\nTake the gig, Bondzee — the room keeps the name\nbondzee.live for the lightning, bondzee.bond for the flame\nTrippin needs a homestead, not a link that disappears\nType your prompts, keep your masters, stack the honest years\nTake the gig — the feed was live, the mix was true\nThey're not renting your story; they built the stage for you\n\n[Verse 2]\nVoice actor, painter, dad — don't let 'em flatten that line\nYour manager's got enough roads; give 'em one lane that aligns\nSongPal when you're ready, Suno when the midnight bends\nEarn from the ideas you type, not whatever trend pretends\n\n[Bridge]\nI know the northern way — you work the room, you feed the guest\nCanadian grit in Nicaragua sand — that's not a joke, that's blessed\n336 humming low in the floorboards where the good amps sleep\nCall Corey if it fits you — twenty minutes, nothing cheap\n\n[Chorus]\nTake the gig, Bondzee — the room keeps the name\nbondzee.live for the lightning, bondzee.bond for the flame\nTrippin needs a homestead, not a link that disappears\nType your prompts, keep your masters, stack the honest years\n\n[Outro]\nThe mansion's watched, the mansion's loud — sing anyway\nOpen bondzee.live/stack/ when the morning finds its way",
+  "send_with": {
+    "urls": ["https://bondzee.live/song/", "https://bondzee.live/stack/"],
+    "attach": "MP3 after Suno generation — drop path in song/index.html audio src"
+  }
+}

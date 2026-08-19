@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name teak.pics www.teak.pics;
+    root /var/www/teak.pics;
+    index index.html index.htm;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}

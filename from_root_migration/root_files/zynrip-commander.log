@@ -1,0 +1,8 @@
+2026-06-27 11:13:03 | [WARN] VDS host not set — update MASTER_CONFIG['vds_host'] with new VDS IP
+2026-06-27 11:13:03 | [WARN] External drive: /Volumes/ORICO — NOT mounted
+2026-06-27 11:13:03 | [INFO] Log: /root/zynrip-commander.log
+2026-06-27 11:13:03 | [INFO] Manifests: /root/zynrip_manifests
+2026-06-29 10:56:52 | [WARN] VDS host not set — update MASTER_CONFIG['vds_host'] with new VDS IP
+2026-06-29 10:56:52 | [WARN] External drive: /Volumes/ORICO — NOT mounted
+2026-06-29 10:56:52 | [INFO] Log: /root/zynrip-commander.log
+2026-06-29 10:56:52 | [INFO] Manifests: /root/zynrip_manifests

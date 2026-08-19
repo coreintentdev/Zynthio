@@ -1,0 +1,6 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name zynthio.net www.zynthio.net;
+    return 444;
+}

@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name server.courses www.server.courses;
+    root /var/www/server_courses/public;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}

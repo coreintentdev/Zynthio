@@ -1,0 +1,174 @@
+# HANDOVER_FULL
+# Pack: incident_pack_20260806T230058Z
+# Generated: 2026-08-06 (local) / 20260806T230058Z (UTC stamp)
+# Operator: Corey (master) | Hermes = VDS boss | Grok = executor
+# Scope: multi-incident session carry-forward (mesh phones, Contabo fleet, custom model / RunPod)
+
+================================================================================
+INCIDENT REGISTER
+================================================================================
+
+ID: INC-20260806-01
+Title: Phone Headscale join incomplete
+Date: 2026-08-06
+Status: OPEN
+
+ID: INC-20260806-02
+Title: Contabo VPS SSH access gaps (VPS20 timeout, VPS30 auth denied)
+Date: 2026-08-06
+Status: OPEN
+
+ID: INC-20260806-03
+Title: Custom model build — design locked, RunPod smoke not verified
+Date: 2026-08-06
+Status: RECOVERY
+Notes: Architecture approved as memory/retrieval first then LoRA; exact RunPod path issued; no evidence smoke completed.
+
+ID: INC-20260806-04
+Title: Cloudzy legacy host not usable as third VPS
+Date: 2026-08-06
+Status: CLOSED
+Evidence: SSH unreachable; docs mark legacy CF_OLD_VPS 104.194.156.109; Contabo panel shows two VPS + VDS only.
+
+ID: INC-20260806-05
+Title: Mac system volume near full (staging risk)
+Date: 2026-08-06
+Status: OPEN
+Evidence: Data volume ~16GiB free / ~97% used.
+
+================================================================================
+TRUTHS ONLY (verified this session unless marked panel/doc)
+================================================================================
+
+--- Identity / mesh ---
+- Mac Headscale: online as lilroblox-gamer / 100.64.0.1
+- VDS Headscale: zynthio-vds-7372 / 100.64.0.2 (public 5.189.143.170)
+- Windows Headscale node: rubymcivor / 100.64.0.3 offline at last list
+- Headscale user: zynthio (users list ID=1)
+- Headscale control URL: https://headscale.kamals.pro
+- Preauth create CLI requires numeric user: headscale preauthkeys create -u 1 --reusable --expiration 48h
+- Android: one Tailscale account active at a time
+
+--- USB phones (last probes) ---
+- SM-A075M (A07 / user "A09") serial R8YYA1L86WB: was on USB earlier; tun0 100.83.250.30 = Gmail mesh, NOT Headscale
+- SM-N960U Note9 serial 534e4b3338353498 "Corey's Galaxy Note9": USB later session; Tailscale app installed 1.98.8; NO tun0; WiFi 192.168.6.17; Tailscale activity foregrounded
+- Headscale nodes list after polls: still only Mac, VDS, Windows — no phone nodes
+- Preauth keys created this session (may still be valid if unused/unexpired):
+  - A07 era: hskey-auth-LCOOaBnUUtYR-IoEMJIjqMFB-ALO_J5Kfu-Oui1wfcT6RvQxr5ClF8gBGPoDPJIm5psZ7pQTWA5ie
+  - Note9 era: hskey-auth-DdN20jaIxk5y-pDVyeNxrPAkvyg4yTjfhz96HcgelhPJ3Aeo01Jz4WIwBDsOzbgYSoeGvUUixqPbB
+  - Older A07 key also pushed: hskey-auth-0hkOjq6q4JBy-FxX0k-UgiU8Ke7-rayCe9EzuwcVBcj72u6L2ZqlC0rKMvqgz3r8Julun7x1k0AKM
+- Files pushed to phones Download/: HEADSCALE_* walk/key texts; full UI join not automatable via adb Compose
+
+--- Contabo / fleet ---
+LIVE SSH (zynrose → 5.189.143.170):
+  Host: zynthio-vds-7372
+  CPU: 6 vCPU AMD EPYC 7282 guest
+  RAM: 24Gi total (~7–8Gi available at probe)
+  Disk: ~180G disk, root ext4 ~174G, ~140G used, ~34G free (81%)
+  OS: Ubuntu 24.04.4 LTS
+  Uptime: ~31–32 days
+  IPs: 5.189.143.170, 100.64.0.2, docker0, IPv6 2a02:c207:2321:7372::1
+
+Contabo panel (operator paste — not re-logged):
+  Cloud VPS 20 NVMe: 161.97.89.49 | 6 cores | 12GB | 100GB NVMe | 300 Mbit/s | Ubuntu 24.04 | Hub Europe | ~$7/mo
+  Cloud VPS 30 NVMe: 84.247.137.105 | Ubuntu 24.04 | Hub Europe | ~$13.20/mo
+  Upgrade UI for VPS20 showed proration language ($256.19) — no upgrade executed by agent
+
+SSH probes:
+  84.247.137.105:22 open; all tried keys + historical VPS password → Permission denied
+  161.97.89.49:22 timeout / filtered
+  104.194.156.109 Cloudzy: unreachable (legacy)
+
+Local aliases (.zshrc):
+  vps → root@161.97.89.49 password auth (historical)
+  vds → root@5.189.143.170 key ~/.ssh/zynrose (and ~/.ssh/zynrose path variants)
+  CF_OLD_VPS=104.194.156.109 in ~/.zynthio.env
+
+--- Proton Drive ---
+- rclone remote "proton:" (Mac and VDS)
+- Total: 1 TiB | Used: ~46.732 GiB | Free: ~977.268 GiB
+- Proton Drive.app installed; Finder CloudStorage mount not present as primary path
+- Mac Data volume: ~16GiB free — unsuitable for large Takeout staging
+
+--- Custom model / RunPod ---
+Design truths agreed in session:
+  - All data sources in scope (Google history + AI chats/builds)
+  - Behavior: logical; no emotional abuse; no assumed emotional DRM
+  - Serve: API-hosted primary + redundancy; free on operator sites within reason + CLI path
+  - Build assist: Contabo VPS+VDS for ingest/filter/index; not Cloudzy
+  - Order: memory/retrieval brain first; LoRA phase for behavior only
+  - RunPod: GPU train/serve; Contabo not upgraded for GPU
+
+Exact RunPod path issued (operator not confirmed complete):
+  1) Pods only (not Serverless first)
+  2) Network volume name: zyn-brain-vol | 100 GB | mount /workspace
+  3) GPU: RTX 4090 24GB Secure same DC as volume
+  4) Template: official runpod/pytorch CUDA 12
+  5) Ports: 22, 8888, 8000
+  6) Env: HF_HOME=/workspace/hf-cache, HF_TOKEN, PIP_ROOT_USER_ACTION=ignore
+  7) Tree under /workspace/zyn-brain and /workspace/zyn-train (fixed paths)
+  8) Base model: Qwen/Qwen2.5-7B-Instruct
+  9) Smoke: train_smoke.py max_steps 60 → adapter path /workspace/zyn-train/runs/v0_smoke/adapter
+  10) Stop pod after smoke
+
+--- SSH / keys known ---
+- VDS works: ~/.ssh/zynrose
+- VPS30: no working key from Mac keyring tried this session
+- Cloudzy key exists (~/.ssh/cloudzy_vds) but host unreachable
+- Do not paste passwords into new chats; historical VPS password referenced in .zshrc only
+
+================================================================================
+CONFIRMED BLOCKERS
+================================================================================
+
+B1. No phone on Headscale — requires hands-on Tailscale logout (Gmail) + custom server + auth key on device UI.
+B2. Note9: VPN not up (no tun0) despite Tailscale installed.
+B3. VPS 30 SSH auth denied — cannot live-spec or use for ingest until Contabo password reset or key inject (VNC).
+B4. VPS 20 SSH timeout — cannot live-spec or use until port 22 allowed or VNC path.
+B5. VDS only ~34G free — cannot hold full 30y Takeout; Proton required for bulk.
+B6. Mac ~16G free — cannot stage large exports locally.
+B7. RunPod smoke success not evidenced (no SMOKE_OK log captured in this session).
+B8. Full automation of Tailscale Android custom-server login blocked (Compose UI).
+
+================================================================================
+PENDING DECISIONS
+================================================================================
+
+D1. Operator completes Headscale join on Note9 and/or A07 using latest preauth; then request "check".
+D2. Contabo: reset root access for 84.247.137.105 and open SSH for 161.97.89.49 (or document VNC-only).
+D3. Confirm whether Cloud VPS 30 panel line shows exact cores/RAM/disk (replace plan-class guess).
+D4. RunPod: execute exact smoke path; reply "smoke ok" only with adapter path evidence.
+D5. Contabo upgrade of VPS20: NOT approved; $256 proration was panel text only — no action.
+D6. When to start full Takeout export to Proton (operator schedule).
+D7. Whether free-site AI rate limits / which domains first for public free plane.
+
+================================================================================
+NEXT ACTIONS (ordered)
+================================================================================
+
+N1. Operator: Note9 Tailscale → log out Gmail if present → server https://headscale.kamals.pro → paste latest Note9 preauth → VPN ON → say "check".
+N2. Agent on "check": adb tun0 IP; headscale nodes list; expect 100.64.x new node.
+N3. Operator Contabo panel: VNC or password reset for VPS30 84.247.137.105; inject ~/.ssh/zynrose.pub; re-probe nproc/free/df.
+N4. Operator Contabo: allow SSH or fix firewall on VPS20 161.97.89.49; re-probe.
+N5. Operator RunPod: execute exact path in last "be exact" message only (4090 + zyn-brain-vol + train_smoke.py); stop pod; report SMOKE_OK line.
+N6. After smoke: filtered chat pack to /workspace/zyn-train/datasets (not raw Takeout); real train config single command (next pack block).
+N7. Start Google Takeout + AI chat exports → rclone to proton: (not Mac disk).
+N8. Optional: scp this pack to VDS /root/zynthio/handovers/
+
+================================================================================
+RECOVERY POINTERS
+================================================================================
+
+- This pack directory: Desktop/zynthio-tools/handovers/incident_pack_20260806T230058Z/
+- VDS SSH: ssh -i ~/.ssh/zynrose root@5.189.143.170
+- Headscale nodes: ssh ... 'timeout 12 headscale nodes list'
+- Preauth create: ssh ... 'timeout 15 headscale preauthkeys create -u 1 --reusable --expiration 48h'
+- Proton capacity: rclone about proton:
+- Phone serials: adb devices -l
+- Session compaction: ~/.grok/sessions/ (prior conversation segments; do not treat as sole SoT)
+- SITE_LIVE_TRUTH doctrine remains: HTTP 200 alone ≠ live; content placeholders = offline
+- Dual mesh: Gmail Tailscale vs Headscale; one Android profile at a time
+
+================================================================================
+END HANDOVER_FULL
+================================================================================

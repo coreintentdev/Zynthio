@@ -1,0 +1,10 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name newsbytheminute.com www.newsbytheminute.com;
+    root /var/www/newsbytheminute.com;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    location = /feed.xml { add_header Content-Type application/rss+xml; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}

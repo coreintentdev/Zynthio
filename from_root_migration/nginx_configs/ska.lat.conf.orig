@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ska.lat www.ska.lat;
+    root /var/www/ska_lat/public;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}

@@ -1,0 +1,160 @@
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name blckgold.com www.blckgold.com;
+    root /var/www/blckgold.com;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name bytheminute.news www.bytheminute.news;
+    root /var/www/bytheminute.news;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name bytheminutenews.boats www.bytheminutenews.boats;
+    root /var/www/bytheminutenews.boats;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name bytheminutenews.cyou www.bytheminutenews.cyou;
+    root /var/www/bytheminutenews.cyou;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name bytheminutenews.xyz www.bytheminutenews.xyz;
+    root /var/www/bytheminutenews.xyz;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name clearstreamchurch.com www.clearstreamchurch.com;
+    root /var/www/clearstreamchurch.com;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name dlog.black www.dlog.black;
+    root /var/www/dlog.black;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name musicclothes.com www.musicclothes.com;
+    root /var/www/musicclothes.com;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name musicclothes.online www.musicclothes.online;
+    root /var/www/musicclothes.online;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name musicclothes.shop www.musicclothes.shop;
+    root /var/www/musicclothes.shop;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.xn--5tzm5g www.news.xn--5tzm5g;
+    root /var/www/news.xn--5tzm5g;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.xn--6frz82g www.news.xn--6frz82g;
+    root /var/www/news.xn--6frz82g;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.xn--czrs0t www.news.xn--czrs0t;
+    root /var/www/news.xn--czrs0t;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.xn--fjq720a www.news.xn--fjq720a;
+    root /var/www/news.xn--fjq720a;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.xn--unup4y www.news.xn--unup4y;
+    root /var/www/news.xn--unup4y;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name news.xn--vhquv www.news.xn--vhquv;
+    root /var/www/news.xn--vhquv;
+    index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}

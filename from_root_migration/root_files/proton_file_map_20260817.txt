@@ -1,0 +1,20 @@
+PROTON DRIVE FILE MAP - 2026-08-17
+======================
+
+=== ZYNTHIO-TOOLS RELATED ===
+VDS /root/zynthio-tools: 38GB
+Proton zynthio-tools: 298MB (OUTDATED - only bondzee.live)
+
+=== OTHER ZYNTHIO DIRECTORIES ===
+          -1 2026-08-02 04:08:01        -1 Zynthio
+          -1 2026-07-31 05:32:46        -1 Zynthio_CRITICAL_20260730
+          -1 2026-07-30 01:07:25        -1 zynthio-tools
+          -1 2026-08-05 06:54:01        -1 zynthio_backup
+          -1 2026-08-08 02:22:13        -1 zynthio_deliver_20260808
+          -1 2026-07-31 05:39:11        -1 zynthio_drive_EMERGENCY_20260730
+          -1 2026-08-12 16:19:04        -1 zynthio_gdrive_master
+          -1 2026-08-06 15:48:29        -1 zynthio_ingest
+          -1 2026-07-31 05:33:34        -1 zynthio_manifests_CRITICAL_20260730
+          -1 2026-08-14 09:39:38        -1 zynthio_tools
+          -1 2026-08-12 15:40:31        -1 zynthio_vds_backups
+          -1 2026-07-01 14:18:12        -1 zynthio_vds_distillates

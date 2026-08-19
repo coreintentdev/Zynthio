@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name gottalotta.xyz www.gottalotta.xyz;
+    root /var/www/gottalotta_xyz/public;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

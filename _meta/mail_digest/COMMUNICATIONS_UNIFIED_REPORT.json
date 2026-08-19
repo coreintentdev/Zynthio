@@ -1,0 +1,12 @@
+{
+  "signal": 336,
+  "timestamp": "2026-08-19T12:30:01.376120",
+  "monitor_type": "unified_communications",
+  "proton_status": "success",
+  "whatsapp_status": "success",
+  "overall_status": "operational",
+  "proton_emails": 0,
+  "proton_method": "tutanota_fallback",
+  "whatsapp_messages": 25330,
+  "whatsapp_sync": "stale"
+}

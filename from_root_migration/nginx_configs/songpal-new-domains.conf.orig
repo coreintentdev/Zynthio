@@ -1,0 +1,12 @@
+server {
+    listen 80;
+    listen [::]:80;
+    include /etc/nginx/snippets/songpal-rafa-api.conf;
+    server_name songpal.cyou www.songpal.cyou songpal.me www.songpal.me songpal.studio www.songpal.studio;
+    root /var/www/songpal.ai;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

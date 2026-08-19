@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name cyour.best www.cyour.best;
+    root /var/www/cyour_best/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

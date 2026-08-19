@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name pickleball.radio.fm www.pickleball.radio.fm;
+    root /var/www/pickleball_radio_fm/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

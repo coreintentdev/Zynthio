@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pigs.lat www.pigs.lat zynrip.me www.zynrip.me;
+    root /var/www/zynthio-orchestra/public;
+    index index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

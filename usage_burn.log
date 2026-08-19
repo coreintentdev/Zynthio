@@ -1,0 +1,17 @@
+=== usage_burn 2026-08-17 17:00:20 ===
+Query: Read /root/.hermes/context/INCIDENTS_REGISTER_20260812.md and 
+/root/.hermes/context/NOTES_R1.md. Write a compact weekly digest (top wins, open
+blockers, next actions) to /root/.hermes/context/WEEKLY_DIGEST_20260817.md. Keep
+under 60 lines.
+Initializing agent...
+Failed to initialize agent: Model zynthio-twin-7b:latest has a context window of
+32,768 tokens, which is below the minimum 64,000 required by Hermes Agent.  
+Choose a model with at least 64K context.  If your server reports a window 
+smaller than the model's true window, set model.context_length in config.yaml to
+the real value (this must be at least 64K).
+
+Goodbye! ⚕
+deepseek: FAILED no digest
+kits: no key in env
+vulavula: no key in env
+=== end ===

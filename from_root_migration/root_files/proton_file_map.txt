@@ -1,0 +1,70 @@
+PROTON DRIVE FILE MAP - 2026-08-17
+======================
+          -1 2026-07-31 05:38:29        -1 26May_EMERGENCY_20260730
+          -1 2026-07-31 05:31:18        -1 GoogleDrive_EMERGENCY_BACKUP_20260730
+          -1 2026-07-31 05:37:53        -1 GoogleDrive_EMERGENCY_TEXT_20260730
+          -1 2026-07-31 23:23:35        -1 GooglePhotosMigration
+          -1 2026-07-31 05:31:53        -1 GooglePhotos_EMERGENCY_20260730
+          -1 2026-07-31 05:33:08        -1 Handover_Connections_20260730
+          -1 2026-08-11 03:29:51        -1 KELVIN
+          -1 2026-07-23 16:15:34        -1 PB2026
+          -1 2026-08-01 14:13:41        -1 ProtonMigration
+          -1 2026-08-12 20:27:04        -1 RAFA
+          -1 2026-07-31 05:39:51        -1 Takeout2_Local_EMERGENCY_20260730
+          -1 2026-08-02 04:08:01        -1 Zynthio
+          -1 2026-07-31 05:32:46        -1 Zynthio_CRITICAL_20260730
+          -1 2026-08-07 13:14:52        -1 from-dropbox
+          -1 2026-08-05 13:48:20        -1 from_dropbox_tmp
+          -1 2026-08-14 09:39:29        -1 gdrive_emergency
+          -1 2026-08-14 09:39:31        -1 gdrive_text
+          -1 2026-07-20 04:35:52        -1 git_bundles
+          -1 2026-07-01 14:36:00        -1 google_exit_mirror
+          -1 2026-08-14 09:39:06        -1 google_photos_migration
+          -1 2026-08-14 09:39:07        -1 handover
+          -1 2026-08-16 18:39:55        -1 level_six_20260816
+          -1 2026-08-07 13:36:51        -1 mac-local
+          -1 2026-08-07 08:00:37        -1 mac-recent-2d-20260807
+          -1 2026-08-16 01:47:57        -1 mac_music_backup_20260815
+          -1 2026-08-06 18:17:39        -1 macbook
+          -1 2026-08-15 16:29:44        -1 music_stack_gen_20260815
+          -1 2026-07-30 02:02:41        -1 my-files
+          -1 2026-08-07 08:22:13        -1 netleaders-drive
+          -1 2026-08-16 18:59:47        -1 night_batch_20260816
+          -1 2026-07-18 01:25:56        -1 offload_gdrive_20260717
+          -1 2026-07-18 01:46:08        -1 offload_gphotos_20260717
+          -1 2026-07-20 04:03:38        -1 offload_photos_local_20260720
+          -1 2026-08-16 05:03:10        -1 orico_vault_20260816
+          -1 2026-08-14 09:39:09        -1 pb2026
+          -1 2026-08-16 23:35:10        -1 pcworkspace_20260816
+          -1 2026-08-16 18:39:58        -1 songpal_gal_20260816
+          -1 2026-08-16 11:01:14        -1 suno_all_accounts_20260816
+          -1 2026-08-02 20:15:09        -1 suno_library_backup_20260802
+          -1 2026-08-14 09:39:07        -1 takeout2
+          -1 2026-08-14 09:55:45        -1 vds_offload_20260814
+          -1 2026-07-30 01:07:25        -1 zynthio-tools
+          -1 2026-08-05 06:54:01        -1 zynthio_backup
+          -1 2026-08-08 02:22:13        -1 zynthio_deliver_20260808
+          -1 2026-07-31 05:39:11        -1 zynthio_drive_EMERGENCY_20260730
+          -1 2026-08-12 16:19:04        -1 zynthio_gdrive_master
+          -1 2026-08-06 15:48:29        -1 zynthio_ingest
+          -1 2026-07-31 05:33:34        -1 zynthio_manifests_CRITICAL_20260730
+          -1 2026-08-14 09:39:38        -1 zynthio_tools
+          -1 2026-08-12 15:40:31        -1 zynthio_vds_backups
+          -1 2026-07-01 14:18:12        -1 zynthio_vds_distillates
+
+=== ZYNTHIO-TOOLS RELATED DIRECTORIES ===
+Total objects: 99
+Total objects: 99
+Total objects: 1.615k (1615)
+Total objects: 4.804k (4804)
+=== zynthio_deliver ===
+=== zynthio_ingest ===
+Total objects: 191
+=== zynthio_gdrive_master ===
+Total objects: 4.355k (4355)
+=== zynthio_vds_backups ===
+Total objects: 24.555k (24555)
+=== mac-local ===
+Total objects: 125
+=== mac-recent-2d-20260807 ===
+Total objects: 1.781k (1781)

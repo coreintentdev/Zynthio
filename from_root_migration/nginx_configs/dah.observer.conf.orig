@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name dah.observer www.dah.observer;
+    root /var/www/dah_observer/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

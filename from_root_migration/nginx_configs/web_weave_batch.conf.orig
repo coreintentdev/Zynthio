@@ -1,0 +1,120 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncyourfile.com www.syncyourfile.com;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncyourfile.online www.syncyourfile.online;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncyourfile.xyz www.syncyourfile.xyz;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncs.cyou www.syncs.cyou;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncyourfile.fyi www.syncyourfile.fyi;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncyourfile.top www.syncyourfile.top;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncyourfile.help www.syncyourfile.help;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncyourfile.wiki www.syncyourfile.wiki;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncyourfile.cloud www.syncyourfile.cloud;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name syncyourfile.gripe www.syncyourfile.gripe;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestatebot.com www.airealestatebot.com;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestate.bot www.airealestate.bot;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestatebot.xyz www.airealestatebot.xyz;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestatebot.cyou www.airealestatebot.cyou;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestatebot.homes www.airealestatebot.homes;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestatebot.shop www.airealestatebot.shop;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestatebot.wiki www.airealestatebot.wiki;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestatebot.pro www.airealestatebot.pro;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestate.space www.airealestate.space;
+    return 444;
+}
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestate.cyou www.airealestate.cyou;
+    return 444;
+}

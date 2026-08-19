@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name newsvideos.xyz www.newsvideos.xyz;
+    root /var/www/newsvideos_xyz/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

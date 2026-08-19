@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name silver.enterprises www.silver.enterprises;
+    root /var/www/silver_enterprises/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

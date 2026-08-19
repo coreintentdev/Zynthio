@@ -1,0 +1,1969 @@
+{
+  "signal": 336,
+  "doctrine": "VDS-first live queue \u2014 hermes ingest appends only",
+  "build_order": [
+    {
+      "task": "Secure domain: holisticli.dev",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-19T05:00:01.264065"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-19T05:00:01.287429"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": false,
+      "timing": "now",
+      "trident_score": 0.857,
+      "scored_at": "2026-08-19T05:00:01.296073"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-18T05:00:01.727767"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-18T05:00:01.738393"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": false,
+      "timing": "now",
+      "trident_score": 0.857,
+      "scored_at": "2026-08-18T05:00:01.746077"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T21:33:29.364348"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T21:33:29.369642"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": false,
+      "timing": "now",
+      "trident_score": 0.857,
+      "scored_at": "2026-08-17T21:33:29.375384"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T20:58:31.209961"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T20:58:31.215086"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": false,
+      "timing": "now",
+      "trident_score": 0.857,
+      "scored_at": "2026-08-17T20:58:31.219853"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T20:49:12.661012"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T20:49:12.666077"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": false,
+      "timing": "now",
+      "trident_score": 0.857,
+      "scored_at": "2026-08-17T20:49:12.671348"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T20:29:31.825768"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T20:29:31.831108"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": false,
+      "timing": "now",
+      "trident_score": 0.857,
+      "scored_at": "2026-08-17T20:29:31.835953"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T14:22:46.508385"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T14:22:46.513439"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": false,
+      "timing": "now",
+      "trident_score": 0.857,
+      "scored_at": "2026-08-17T14:22:46.519214"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T14:22:23.200717"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": true,
+      "timing": "now",
+      "trident_score": 0.943,
+      "scored_at": "2026-08-17T14:22:23.205479"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "source": "corey_direct",
+      "cluster": "creative",
+      "priority": 0,
+      "urgency": "urgent",
+      "resource_cost": "medium",
+      "is_new": false,
+      "timing": "now",
+      "trident_score": 0.857,
+      "scored_at": "2026-08-17T14:22:23.211118"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "priority": 0,
+      "cluster": "creative",
+      "description": "Corey's stated TARGET DIRECTION: \"Holistic AI\" dev platform. Embodies the holistic approach (one master scope, not fragments) as the brand. Status: desired direction / target brand.",
+      "source": "COREY_CREATIVE_LEDGER.md",
+      "added_at": "2026-08-17T13:50:58.425303Z"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "priority": 0,
+      "cluster": "creative",
+      "description": "Corey PURCHASING (in progress). Ties to digital-twin concept (\"that's on me\" = the twin is Corey). Domain acquired for the master scope, not a standalone launch.",
+      "source": "COREY_CREATIVE_LEDGER.md",
+      "added_at": "2026-08-17T13:50:58.425321Z"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "priority": 0,
+      "cluster": "creative",
+      "description": "Advance coreyai digital twin model with persistent context",
+      "source": "COREY_CREATIVE_LEDGER.md",
+      "added_at": "2026-08-17T13:50:58.425499Z"
+    },
+    {
+      "task": "Add VPS nodes to Tailscale mesh",
+      "priority": 1,
+      "cluster": "infra",
+      "description": "VPS nodes not registered in headscale - need to install/configure tailscale on each VPS and auth to headscale",
+      "vps_nodes": [
+        {
+          "name": "VPS1 Contabo",
+          "ip": "84.247.137.105",
+          "status": "ONLINE via SSH",
+          "action": "Install/configure tailscale, auth to headscale"
+        },
+        {
+          "name": "VPS2 Contabo",
+          "ip": "161.97.89.49",
+          "status": "ONLINE (ping works) but SSH port 22 CLOSED (UFW drop)",
+          "action": "Access via Contabo console to enable SSH, then install/configure tailscale"
+        },
+        {
+          "name": "VPS3 Cloudzy",
+          "ip": "104.194.156.109",
+          "status": "OFFLINE via SSH (no route)",
+          "action": "Recover credentials first, then install/configure tailscale"
+        }
+      ],
+      "steps": [
+        "SSH to VPS1 (84.247.137.105) - install/configure tailscale",
+        "Access VPS2 (161.97.89.49) via Contabo console to enable SSH (UFW allows port 22)",
+        "SSH to VPS2 (161.97.89.49) - install/configure tailscale",
+        "Access Cloudzy (104.194.156.109) via console to recover credentials/payment",
+        "SSH to Cloudzy (104.194.156.109) - install/configure tailscale",
+        "Auth each VPS to headscale: tailscale up --login-server=http://5.189.143.170:8080"
+      ],
+      "headscale_status": "VDS headscale running at 5.189.143.170:8080",
+      "current_mesh_nodes": 7,
+      "vps_nodes_on_mesh": 0,
+      "signal": 336,
+      "added_at": "2026-08-17T01:19:03.806611+00:00",
+      "evidence": {
+        "vps1_ping": "ONLINE (0% packet loss)",
+        "vps2_ping": "ONLINE (0% packet loss)",
+        "vps1_ssh": "Port 22 OPEN - SSH working",
+        "vps2_ssh": "Port 22 CLOSED - UFW drop blocking SSH",
+        "root_cause": "UFW firewall blocking port 22 on VPS2"
+      },
+      "updated_at": "2026-08-17T01:24:17.488656+00:00"
+    }
+  ],
+  "hermes_ingest": [
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Point retirementvillas DNS to VDS",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:16:31Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_024612.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Point retirementvillas DNS to VDS",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:16:38Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_025612.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:16:45Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_030612.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:16:51Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_031612.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:16:57Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_032612.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:17:04Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_033612.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:17:10Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_034612.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check trigger type and threshold",
+          "priority": 3,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:17:18Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_035612.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:17:24Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_040612.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-18T22:17:32Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_041613.json"
+    },
+    {
+      "summary": "Payment issues and security alerts",
+      "actions": [
+        {
+          "task": "Investigate and resolve payment issues with Atlassian and Canva",
+          "priority": 1,
+          "cluster": "money"
+        },
+        {
+          "task": "Verify and process payment for HeyGen Technology Inc.",
+          "priority": 2,
+          "cluster": "money"
+        },
+        {
+          "task": "Address security alert from Google regarding corey.mcivor@gmail.com",
+          "priority": 3,
+          "cluster": "client"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:15:29Z",
+      "source_path": "/root/zynthio/_meta/mail_digest/HERMES_MAIL_BRIEF_latest.md"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:15:37Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_042613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:15:44Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_043613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:15:50Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_044613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:15:56Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_045613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:16:03Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_050613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:16:09Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_051613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check trigger type and threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:16:17Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_052613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check trigger type and threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:16:25Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_053613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:16:31Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_054613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:16:38Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_055613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Point retirementvillas DNS to VDS",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:16:45Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_060613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:16:52Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_061613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:17:00Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_062613.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger configuration",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:17:08Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_063614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check trigger type",
+          "priority": 3,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:17:15Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_064614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Check VDS usage and adjust if needed",
+          "priority": 1,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:17:22Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_065614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Check VDS usage and adjust if necessary",
+          "priority": 1,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:17:30Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_070614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review and adjust VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:17:36Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_071614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T04:17:44Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_072614.json"
+    },
+    {
+      "summary": "Email digest updates and urgent tasks",
+      "actions": [
+        {
+          "task": "Verify IPONZ tax invoice",
+          "priority": 2,
+          "cluster": "money"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:15:50Z",
+      "source_path": "/root/zynthio/_meta/mail_digest/HERMES_MAIL_BRIEF_latest.md"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:15:58Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_073614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:16:06Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_074614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:16:12Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_075614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 3,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:16:19Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_080614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:16:26Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_081614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:16:34Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_082614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:16:40Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_083614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:16:47Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_084614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Point retirementvillas DNS to VDS",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:16:54Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_085614.json"
+    },
+    {
+      "summary": "Critical percentage check triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:17:01Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_090614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 3,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:17:09Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_091614.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review and adjust VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:17:15Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_092615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check trigger type and threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:17:23Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_093615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Check VDS usage and adjust if needed",
+          "priority": 1,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:17:30Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_094615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review and adjust VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:17:37Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_095615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:17:44Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_100615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:17:51Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_101615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:17:58Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_102615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 3,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T10:18:06Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_103615.json"
+    }
+  ],
+  "master_doc_read_order": [
+    "/root/zynthio/HERMES_FEED_LIVE.md",
+    "/root/zynthio/STACK_TRUTH.md",
+    "/root/zynthio/master_scope.md",
+    "/root/zynthio/desk/FLEET_COUNT.json",
+    "/root/zynthio/desk/DOMAIN_MASTER.md",
+    "/root/zynthio/desk/PENDING_AFTERMARKET.json",
+    "/root/zynthio/COREY_DESK.json",
+    "/root/zynthio/OPEN_ASKS_LIVE.json",
+    "/root/zynthio/OPERATOR_TRUTH_LIVE.json",
+    "/root/zynthio/OPERATOR_TODO_LIVE.json",
+    "/root/zynthio/START_HERE_AGENT.md"
+  ],
+  "master_doc_status": [
+    {
+      "path": "/root/zynthio/OPERATOR_TRUTH_LIVE.json",
+      "status": "OK",
+      "mtime": "2026-08-19T10:15:01Z",
+      "bytes": 4913
+    },
+    {
+      "path": "/root/zynthio/OPERATOR_TODO_LIVE.json",
+      "status": "OK",
+      "mtime": "2026-08-19T10:15:01Z",
+      "bytes": 355
+    },
+    {
+      "path": "/root/zynthio/master_scope.md",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/STACK_TRUTH.md",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/START_HERE_AGENT.md",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/HERMES_FEED_LIVE.md",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/HERMES_FEED_LIVE.json",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/desk/HERMES_FEED_LIVE.md",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/desk/FLEET_COUNT.json",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/desk/PENDING_AFTERMARKET.json",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/desk/DOMAIN_MASTER.md",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/desk/INDEX.json",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/desk/ONG_KEEP.md",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/COREY_DESK.json",
+      "status": "MISSING"
+    },
+    {
+      "path": "/root/zynthio/OPEN_ASKS_LIVE.json",
+      "status": "MISSING"
+    }
+  ],
+  "master_doc_refreshed": "2026-08-19T10:15:01Z",
+  "truth_as_of": "2026-08-19T10:15:01Z",
+  "truth_summary": "MONEY P0 (1): Hostinger US$19.49 PENDING on Wise card 4509. VDS billing watch runs every 15m. Corey must cancel PayPal Hostinger + hPanel auto-renew.",
+  "hermes_ingest_updated": "2026-08-19T10:18:06Z",
+  "hermes_suggested_tasks": [
+    {
+      "task": "Secure domain: thatsonme.com",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T21:33:29.369642"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T21:33:29.364348"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.857,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T20:58:31.219853"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T20:58:31.215086"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T20:58:31.209961"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.857,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T20:49:12.671348"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T20:49:12.666077"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T20:49:12.661012"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.857,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T20:29:31.835953"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T20:29:31.831108"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T20:29:31.825768"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.857,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T14:22:46.519214"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T14:22:46.513439"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T14:22:46.508385"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.857,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T14:22:23.211118"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T14:22:23.205479"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "priority": "P0",
+      "cluster": "creative",
+      "trident_score": 0.943,
+      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T14:22:23.200717"
+    },
+    {
+      "task": "Continue digital twin development (336 signal)",
+      "priority": 0,
+      "cluster": "creative",
+      "from": "CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T13:50:58.425499Z"
+    },
+    {
+      "task": "Secure domain: thatsonme.com",
+      "priority": 0,
+      "cluster": "creative",
+      "from": "CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T13:50:58.425321Z"
+    },
+    {
+      "task": "Secure domain: holisticli.dev",
+      "priority": 0,
+      "cluster": "creative",
+      "from": "CREATIVE_PRIORITY_OVERRIDE",
+      "added": "2026-08-17T13:50:58.425303Z"
+    },
+    {
+      "task": "1. Billing failed: Notification from Bybit about a 100% cashback offer on subscriptions.",
+      "priority": 5,
+      "cluster": "infra",
+      "from": "HERMES_MAIL_BRIEF_latest.md",
+      "added": "2026-08-16T22:15:24Z"
+    },
+    {
+      "task": "2. Security alert: Multiple security alerts from Google, GitHub, and Proton regarding Corey's email accounts.",
+      "priority": 5,
+      "cluster": "infra",
+      "from": "HERMES_MAIL_BRIEF_latest.md",
+      "added": "2026-08-16T22:15:24Z"
+    },
+    {
+      "task": "3. Account access disabled: Action Required email from U.S Bank regarding an account access issue.",
+      "priority": 5,
+      "cluster": "infra",
+      "from": "HERMES_MAIL_BRIEF_latest.md",
+      "added": "2026-08-16T22:15:24Z"
+    },
+    {
+      "task": "4. Sudo email verification code: Two sudo email verification codes from GitHub for coreymc_tuta@tutanota.com.",
+      "priority": 5,
+      "cluster": "infra",
+      "from": "HERMES_MAIL_BRIEF_latest.md",
+      "added": "2026-08-16T22:15:24Z"
+    },
+    {
+      "task": "5. Security alert: Another security alert from Google regarding Corey's Gmail account.",
+      "priority": 5,
+      "cluster": "infra",
+      "from": "HERMES_MAIL_BRIEF_latest.md",
+      "added": "2026-08-16T22:15:24Z"
+    },
+    {
+      "task": "MONEY OUT**",
+      "priority": 5,
+      "cluster": "infra",
+      "from": "HERMES_MAIL_BRIEF_latest.md",
+      "added": "2026-08-16T22:15:24Z"
+    },
+    {
+      "task": "1. Bybit cashback offer (receipt)",
+      "priority": 5,
+      "cluster": "infra",
+      "from": "HERMES_MAIL_BRIEF_latest.md",
+      "added": "2026-08-16T22:15:24Z"
+    },
+    {
+      "task": "2. U.S Bank account access issue (action required)",
+      "priority": 5,
+      "cluster": "infra",
+      "from": "HERMES_MAIL_BRIEF_latest.md",
+      "added": "2026-08-16T22:15:24Z"
+    },
+    {
+      "task": "Check VDS capacity",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:15:31Z"
+    },
+    {
+      "task": "Review trigger threshold",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-16T22:15:31Z"
+    },
+    {
+      "task": "Review VDS capacity",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:15:38Z"
+    },
+    {
+      "task": "Check trigger type and threshold",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-16T22:15:38Z"
+    },
+    {
+      "task": "Review and adjust VDS capacity",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:15:45Z"
+    },
+    {
+      "task": "Cancel Hostinger auto-renew",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-16T22:15:52Z"
+    },
+    {
+      "task": "Point retirementvillas DNS to VDS",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-16T22:15:59Z"
+    },
+    {
+      "task": "Check VDS health",
+      "priority": 2,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:16:20Z"
+    },
+    {
+      "task": "Verify Overwatcher connection",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-16T22:16:20Z"
+    },
+    {
+      "task": "Check VDS usage",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:16:30Z"
+    },
+    {
+      "task": "Review VDS configuration",
+      "priority": 2,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:16:30Z"
+    },
+    {
+      "task": "Verify DNS resolution",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-16T22:16:30Z"
+    },
+    {
+      "task": "Monitor VDS performance",
+      "priority": 4,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:16:30Z"
+    },
+    {
+      "task": "Check VDS disk status",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:16:52Z"
+    },
+    {
+      "task": "Verify VDS load average",
+      "priority": 2,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:16:52Z"
+    },
+    {
+      "task": "Monitor VDS memory usage",
+      "priority": 3,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:16:52Z"
+    },
+    {
+      "task": "Monitor VDS capacity",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:17:13Z"
+    },
+    {
+      "task": "Updated HERMES WhatsApp feed",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-16T22:17:35Z"
+    },
+    {
+      "task": "Copied WhatsApp database",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:17:35Z"
+    },
+    {
+      "task": "Loaded JSONL files",
+      "priority": 4,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-16T22:17:35Z"
+    },
+    {
+      "task": "Processed 25330 messages",
+      "priority": 5,
+      "cluster": "music",
+      "from": null,
+      "added": "2026-08-16T22:17:35Z"
+    },
+    {
+      "task": "Investigate and resolve Notion payment failed issue",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T01:19:30Z"
+    },
+    {
+      "task": "Renew 250GB Cloud Storage subscription with Drive Alert",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T01:19:30Z"
+    },
+    {
+      "task": "Address GitHub billing issue",
+      "priority": 4,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T01:19:30Z"
+    },
+    {
+      "task": "Check VDS usage patterns",
+      "priority": 2,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-17T01:20:23Z"
+    },
+    {
+      "task": "Check scheduled tasks",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T01:20:51Z"
+    },
+    {
+      "task": "Renew 250GB Cloud Storage Subscription",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T04:15:26Z"
+    },
+    {
+      "task": "Notify team of critical alert",
+      "priority": 3,
+      "cluster": "client",
+      "from": null,
+      "added": "2026-08-17T04:15:34Z"
+    },
+    {
+      "task": "Review and adjust VDS resources",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-17T04:15:54Z"
+    },
+    {
+      "task": "Notify team of critical capacity level",
+      "priority": 3,
+      "cluster": "client",
+      "from": null,
+      "added": "2026-08-17T04:15:54Z"
+    },
+    {
+      "task": "Check Point retirementvillas DNS to VDS",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T04:16:09Z"
+    },
+    {
+      "task": "Check trigger type and signal",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T04:16:35Z"
+    },
+    {
+      "task": "Review scheduled percentage check",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T04:17:03Z"
+    },
+    {
+      "task": "Check VDS status",
+      "priority": 2,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-17T04:17:36Z"
+    },
+    {
+      "task": "Investigate and resolve billing issue with File Manager",
+      "priority": 1,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T10:15:27Z"
+    },
+    {
+      "task": "Update personal access token on GitHub before expiration",
+      "priority": 2,
+      "cluster": "music",
+      "from": null,
+      "added": "2026-08-17T10:15:27Z"
+    },
+    {
+      "task": "Address data protection disabled alert from Alert Service",
+      "priority": 3,
+      "cluster": "client",
+      "from": null,
+      "added": "2026-08-17T10:15:27Z"
+    },
+    {
+      "task": "Check trigger type",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T10:15:43Z"
+    },
+    {
+      "task": "Verify signal value",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T10:15:43Z"
+    },
+    {
+      "task": "Notify team",
+      "priority": 4,
+      "cluster": "client",
+      "from": null,
+      "added": "2026-08-17T10:15:43Z"
+    },
+    {
+      "task": "Investigate cause",
+      "priority": 5,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T10:15:43Z"
+    },
+    {
+      "task": "Review VDS usage",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-17T10:16:13Z"
+    },
+    {
+      "task": "Check capacity utilization",
+      "priority": 2,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-17T10:16:13Z"
+    },
+    {
+      "task": "Adjust scheduling",
+      "priority": 4,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T10:16:13Z"
+    },
+    {
+      "task": "Verify DNS configuration",
+      "priority": 5,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T10:16:13Z"
+    },
+    {
+      "task": "Check DNS configuration",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T10:17:20Z"
+    },
+    {
+      "task": "Investigate and resolve failed payments to HeyGen Technology Inc.",
+      "priority": 1,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-17T16:15:43Z"
+    },
+    {
+      "task": "Reset GitHub password and complete sudo email verification",
+      "priority": 2,
+      "cluster": "client",
+      "from": null,
+      "added": "2026-08-17T16:15:43Z"
+    },
+    {
+      "task": "Check LiveAvatar subscription status and resolve any issues",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T16:15:43Z"
+    },
+    {
+      "task": "Check VDS usage and adjust as needed",
+      "priority": 1,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-17T16:16:23Z"
+    },
+    {
+      "task": "Validate coreintent.dev to renew SSL certificates with Cloudflare.",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-17T22:15:24Z"
+    },
+    {
+      "task": "Update Payment to Restore 250GB Cloud Storage with System Administrator at vcslotoplay.com.",
+      "priority": 3,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-17T22:15:24Z"
+    },
+    {
+      "task": "Review American Express dispute alert",
+      "priority": 1,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-18T04:15:26Z"
+    },
+    {
+      "task": "Check AWS account status",
+      "priority": 2,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-18T04:15:26Z"
+    },
+    {
+      "task": "Verify Cloudflare invoice",
+      "priority": 3,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-18T04:15:26Z"
+    },
+    {
+      "task": "Pay QuickBooks subscription payment due on May 8, 2026",
+      "priority": 1,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-18T10:15:27Z"
+    },
+    {
+      "task": "Investigate and resolve Cursor payment failure issue",
+      "priority": 2,
+      "cluster": "client",
+      "from": null,
+      "added": "2026-08-18T10:15:27Z"
+    },
+    {
+      "task": "Review and respond to Google security alerts",
+      "priority": 3,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-18T10:15:27Z"
+    },
+    {
+      "task": "Investigate VDS capacity",
+      "priority": 1,
+      "cluster": "infra",
+      "from": null,
+      "added": "2026-08-18T10:17:35Z"
+    },
+    {
+      "task": "Process payment for KLING AI ($80.96)",
+      "priority": 1,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-18T16:15:29Z"
+    },
+    {
+      "task": "Address security alerts from Google",
+      "priority": 2,
+      "cluster": "security",
+      "from": null,
+      "added": "2026-08-18T16:15:29Z"
+    },
+    {
+      "task": "Review and respond to Canva's notification regarding failed payment",
+      "priority": 3,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-18T16:15:29Z"
+    },
+    {
+      "task": "Check VDS usage and adjust if necessary",
+      "priority": 1,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-18T16:17:21Z"
+    },
+    {
+      "task": "Investigate failed payment to HeyGen Tech Inc.",
+      "priority": 2,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-18T22:15:25Z"
+    },
+    {
+      "task": "Address security alerts from Google for corey.mcivor@gmail.com",
+      "priority": 3,
+      "cluster": "client",
+      "from": null,
+      "added": "2026-08-18T22:15:25Z"
+    },
+    {
+      "task": "Resolve LiveAvatar subscription issue and confirm receipt of payment",
+      "priority": 1,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-18T22:15:25Z"
+    },
+    {
+      "task": "Investigate and resolve payment issues with Atlassian and Canva",
+      "priority": 1,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-19T04:15:29Z"
+    },
+    {
+      "task": "Verify and process payment for HeyGen Technology Inc.",
+      "priority": 2,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-19T04:15:29Z"
+    },
+    {
+      "task": "Address security alert from Google regarding corey.mcivor@gmail.com",
+      "priority": 3,
+      "cluster": "client",
+      "from": null,
+      "added": "2026-08-19T04:15:29Z"
+    },
+    {
+      "task": "Review trigger configuration",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-19T04:17:08Z"
+    },
+    {
+      "task": "Check VDS usage and adjust if needed",
+      "priority": 1,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-19T04:17:22Z"
+    },
+    {
+      "task": "Verify IPONZ tax invoice",
+      "priority": 2,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-19T10:15:50Z"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "updated": "2026-08-19T12:00:02Z",
+  "mp3_on_vds": 0,
+  "transcripts_done": 0,
+  "mp3_expected": 36,
+  "transcribe_running": false,
+  "sites": {
+    "bondzee.live": "live",
+    "oneminutelate.com": "live",
+    "bondzee.world": "live"
+  }
+}

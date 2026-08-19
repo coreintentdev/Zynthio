@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name mynew.video www.mynew.video;
+    root /var/www/mynew_video/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

@@ -1,0 +1,20 @@
+{
+  "signal": 336,
+  "timestamp": "2026-08-19T12:30:01.247062",
+  "monitor_status": "automated",
+  "bridge_status": {
+    "status": "activating",
+    "recoverable": false
+  },
+  "email_data": {
+    "status": "success",
+    "method": "tutanota_fallback",
+    "proton_emails": 0,
+    "timestamp": "2026-08-19T12:30:01.253902"
+  },
+  "recommendations": [
+    "Proton Bridge broken on VDS (headless Qt issues)",
+    "Using Tutanota fallback - Proton notifications forwarded there",
+    "Consider setting up Proton API for direct access"
+  ]
+}

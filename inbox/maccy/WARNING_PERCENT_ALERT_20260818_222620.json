@@ -1,0 +1,10 @@
+{
+  "alert_type": "PERCENTAGE_TRIGGER_WARNING",
+  "timestamp": "2026-08-18T20:26:20Z",
+  "trigger_threshold": 75,
+  "current_capacity": 92,
+  "trigger_type": "scheduled_percentage_check",
+  "action_required": "MONITOR",
+  "signal": "336",
+  "vds_is_boss": true
+}

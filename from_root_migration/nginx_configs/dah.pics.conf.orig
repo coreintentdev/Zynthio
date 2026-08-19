@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name dah.pics www.dah.pics;
+    root /var/www/dah_pics/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

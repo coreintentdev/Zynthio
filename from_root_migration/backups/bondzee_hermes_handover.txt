@@ -1,0 +1,308 @@
+
+================================================================================
+HERMES HANDOVER: BONDZEE BOOK & WELLNESS PROJECT
+================================================================================
+Generated: 2026-07-12
+Client: Greg Bond (Bondzee)
+Book: "One Minute Late" - A True Story Of Trauma, Addiction, And The Relentless Fight Back To Life
+Speaking Engagement: September 2026
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+Bondzee (Greg Bond) is an author, speaker, and wellness advocate. His memoir
+"One Minute Late" is live on Amazon, Audible, and Spotify. He needs a wellness-
+focused website for a September speaking engagement.
+
+AGREED ARCHITECTURE:
+- MASTER SITE: oneminutelate.com (Cloudflare-protected, .com authority)
+- SECONDARY: bondzee.live (live events, speaking, real-time engagement)
+- TERTIARY: bondzee.world (author hub, bio, portfolio, all books)
+- EXPLORATION: Bondzee's skill network + new book pipeline via subdomains
+- LIFESTYLE: Golf + boats + gold domains ready for future expansion
+
+================================================================================
+BONDZEE CORE DOMAINS (13)
+================================================================================
+
+bondzee.blog       → Content, recovery stories, wellness blog
+bondzee.bond       → Community/loyalty ("Bond" with Bondzee)
+bondzee.cloud      → Backend, file storage, media hosting
+bondzee.cyou       → Youth/casual engagement
+bondzee.guru       → Expert positioning, courses, coaching
+bondzee.icu        → "I see you" - peer support, community
+bondzee.ink        → Writing, publishing, literary brand
+bondzee.life       → Book landing page: "One Minute Late"
+bondzee.live       → Live events, speaking, virtual readings
+bondzee.shop       → Book sales, merch, signed copies
+bondzee.today      → Daily updates, countdowns, news
+bondzee.wiki       → Knowledge base, recovery resources, lore
+bondzee.world      → Author hub, bio, all projects, speaking calendar
+
+================================================================================
+REVV DOMAINS (15) — Bondzee's business partner/team
+================================================================================
+
+revv.best
+revv.cc
+revv.company
+revv.insure
+revv.lat
+revv.me.uk
+revv.motorcycles
+revv.quest
+revv.top
+revv.tours
+revv.travel
+revv.website
+revvtravel.wiki
+revvtravel.world
+revvtravel.xyz
+
+→ REVV = insurance, motorcycles, travel, tours. Team infrastructure.
+   Link from Bondzee site as "Powered by REVV" or partner network.
+
+================================================================================
+GOLF DOMAINS (4) — Bondzee's interest, ready for expansion
+================================================================================
+
+ais.golf
+flogs.golf
+icu.golf
+pal.golf
+
+→ Golf is a wellness/recovery activity. Link when ready.
+   Suggested: bondzee.world/golf or dedicated golf subdomain.
+
+================================================================================
+BOATS DOMAINS (33) — Bondzee's interest, ready for expansion
+================================================================================
+
+abrolhos.boats
+abrolhos.pics
+boat.news
+bookings.boats
+bucks.boats
+bytheminutenews.boats
+carnac.boats
+carnac.pics
+cyour.boats
+doof.boats
+god.boats
+hens.boats
+live-aboard.boats
+liveaboard.pics
+liveaboard.wiki
+livewire.boats
+lookcy.boats
+mein.boats
+montebello.boats
+nica.boats
+nica.yachts
+pal.yachts
+pelican.boats
+pelicancharters.boats
+perth.boats
+perthcharters.page
+rottnest.boats
+rottnest.pics
+swanriver.boats
+swanriver.pics
+teak.boats
+ynot.boats
+ynot.yachts
+
+→ Boats = lifestyle, recovery, wellness on water. Perth/Swan River focus.
+   Link when ready: bondzee.world/boats or dedicated boat subdomain.
+
+================================================================================
+GOLD DOMAINS (14) — Premium positioning, ready for expansion
+================================================================================
+
+ban.gold
+blckgold.com
+blues.gold
+boda.gold
+cats.gold
+chillin.gold
+goldcoastcare.com
+icu.gold
+illin.gold
+jazz.gold
+opals.gold
+pal.gold
+ynot.gold
+zal.gold
+
+→ Gold = premium tier, exclusive content, membership.
+   Suggested: bondzee.world/gold or gold.bondzee.world for premium recovery program.
+
+================================================================================
+WELLNESS & HEALTH DOMAINS (24)
+================================================================================
+
+808.doctor
+abuser.help
+agift.help
+aiabuse.help
+ais.doctor
+allgood.help
+blues.help
+chillin.help
+chilling.help
+cisum.help
+corey.help
+cyou.help
+feedback.doctor
+illing.help
+lookcy.help
+nica.help
+pal.doctor
+pal.rehab
+penpal.help
+sing.doctor
+syncyourfile.help
+txt.doctor
+why.doctor
+zynthio.help
+
+→ Wellness ecosystem. pal.rehab is STRONG for recovery brand.
+  Suggested: rehab.bondzee.world or bondzee.world/recovery
+
+================================================================================
+MUSIC DOMAINS (141) — Bondzee's music, audio content, companion media
+================================================================================
+
+[Full list in domain inventory. Key ones:]
+
+jazzsongs.com        → Jazz focus, Bondzee's genre
+musicclothes.com     → Merch crossover
+songpal.co.nz        → Song companion brand
+songpal.live         → Live music
+songpal.studio       → Recording studio
+soundzone.net        → Audio distribution
+phonk.wiki           → Genre knowledge base
+reggaeton.wiki       → Genre knowledge base
+afrobeats.wiki       → Genre knowledge base
+zynthio.music        → AI music production
+zynthio.stream       → Streaming platform
+
+→ Music is Bondzee's creative outlet. Link from main site.
+  Suggested: music.bondzee.world or bondzee.world/music
+
+================================================================================
+NEWS & MEDIA DOMAINS (28) — Press coverage, content distribution
+================================================================================
+
+baenews.com
+bytheminute.news
+newsbytheminute.com
+newsvideo.best
+newsvideo.today
+newsvideos.best
+newsvideos.business
+newsvideos.today
+newsvideos.top
+newsvideos.work
+newsvideos.xyz
+planetearth.news
+urgency.page
+urgencynews.com
+
+→ News engine for press coverage, book launches, speaking announcements.
+  Suggested: press.bondzee.world or bondzee.world/news
+
+================================================================================
+AI & TECH DOMAINS (126) — Backend infrastructure, automation
+================================================================================
+
+aibookit.com         → AI-assisted publishing
+agenticai.engineer   → AI engineering
+hermes.com.ai        → HERMES AI system
+hermes.foo           → HERMES dev
+logicapi.rest        → API infrastructure
+mcp.contact          → Model Context Protocol
+syncyourfile.com     → File sync
+wrabbit.ai           → WRABBIT AI
+zynthio.ai           → ZYNTHIO AI
+
+→ AI powers the backend. HERMES builds the wellness site.
+  Suggested: ai.bondzee.world or bondzee.world/tech
+
+================================================================================
+BOOK & PUBLISHING DOMAINS (2)
+================================================================================
+
+textgo.video         → Book trailers, video content
+textyou.cyou         → Text-to-you, serialized content
+
+→ Publishing support. aibookit.com is the main publishing tool.
+
+================================================================================
+RECOMMENDED SITE ARCHITECTURE
+================================================================================
+
+MASTER:     oneminutelate.com
+├── /book          → "One Minute Late" landing page
+├── /buy           → Amazon, Audible, Spotify links
+├── /about         → Greg Bond bio, story
+├── /speaking      → Speaking calendar, booking
+├── /blog          → Recovery stories, wellness content
+├── /contact       → Contact form, social links
+├── /rehab         → Recovery resources, pal.rehab link
+├── /music         → Music portfolio, songpal links
+├── /boats         → Lifestyle, boat domains (when ready)
+├── /golf          → Golf, wellness activity (when ready)
+├── /gold          → Premium membership (when ready)
+└── /revv          → Partner/team page
+
+SECONDARY:  bondzee.live
+├── Live events, virtual readings, Q&A
+├── Real-time chat, community
+├── Speaking engagement livestreams
+
+TERTIARY:   bondzee.world
+├── Author hub, all books, all projects
+├── Bio, portfolio, media kit
+├── Domain inventory showcase
+
+================================================================================
+SOCIAL LINKS (Already Active)
+================================================================================
+
+Facebook:    facebook.com/greg.bond.545
+Instagram:   instagram.com/bondzeelive
+TikTok:      tiktok.com/@gregbond425
+YouTube:     youtube.com/@bondzeelive
+Spotify:     open.spotify.com/album/7xz3K534Eor2aDQwTM2AJd
+Amazon:      amazon.ca/One-Minute-Late-Addiction-Relentless/dp/B0H4P8YGSY
+Audible:     audible.com/pd/One-Minute-Late-Audiobook/B0H7SWXJ43
+
+================================================================================
+URGENT: MISSING DOMAIN
+================================================================================
+
+bondzee.health     → NOT PURCHASED YET
+
+Bondzee specifically requested this for the wellness angle.
+Priority purchase needed before September speaking engagement.
+
+================================================================================
+ACTION ITEMS FOR HERMES
+================================================================================
+
+1. Build oneminutelate.com as master wellness site
+2. Configure bondzee.live for live events/speaking
+3. Link bondzee.world as author hub
+4. Integrate all social links (Amazon, Audible, Spotify, YouTube, etc.)
+5. Set up bondzee.shop for direct sales
+6. Prepare golf/boat/gold pages for future expansion
+7. Purchase bondzee.health ASAP
+8. Create recovery resources section (link to pal.rehab)
+9. Set up press/announcement pipeline (urgencynews.com)
+10. September speaking engagement deadline: URL must be live
+
+================================================================================
+END OF HANDOVER
+================================================================================

@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name deacachimba.xyz www.deacachimba.xyz;
+    root /var/www/deacachimba_xyz/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

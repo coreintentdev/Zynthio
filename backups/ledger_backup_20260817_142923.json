@@ -1,0 +1,236 @@
+{
+  "timestamp": "20260817_142923",
+  "backup_type": "full_ledger_backup",
+  "tables": {
+    "ledger_entries": {
+      "columns": [
+        "id",
+        "timestamp",
+        "signal",
+        "entry_type",
+        "entry_data",
+        "signature",
+        "status",
+        "validator"
+      ],
+      "rows": [
+        {
+          "id": 1,
+          "timestamp": "2026-08-17 14:21:09",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"low\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 1.0, \"scored_at\": \"2026-08-17T14:21:09.279630\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 2,
+          "timestamp": "2026-08-17 14:21:09",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Check VDS capacity\", \"source\": \"infra_alert\", \"cluster\": \"infra\", \"priority\": 1, \"urgency\": \"normal\", \"resource_cost\": \"low\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.629, \"scored_at\": \"2026-08-17T14:21:09.289395\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 3,
+          "timestamp": "2026-08-17 14:22:08",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"cluster\": \"creative\", \"priority\": 0, \"destructive\": false}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 4,
+          "timestamp": "2026-08-17 14:22:08",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Delete all logs\", \"cluster\": \"infra\", \"priority\": 0, \"destructive\": true, \"corey_approval\": false}, \"result\": {\"allowed\": false, \"violations\": [{\"policy\": \"creative_override\", \"reason\": \"Infrastructure tasks cannot have P0 priority - creative tasks must override\"}, {\"policy\": \"no_destructive_without_approval\", \"reason\": \"Destructive operations require explicit Corey approval\"}], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 5,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:23.200717\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 6,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:23.200717\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 7,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:23.205479\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 8,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:23.205479\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 9,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-17T14:22:23.211118\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 10,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:46.508385\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 11,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:46.508385\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 12,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:46.513439\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 13,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:46.513439\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 14,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-17T14:22:46.519214\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        }
+      ]
+    },
+    "twin_states": {
+      "columns": [
+        "id",
+        "twin_name",
+        "service_node",
+        "state_snapshot",
+        "last_updated",
+        "version"
+      ],
+      "rows": [
+        {
+          "id": 1,
+          "twin_name": "corey_twin_336",
+          "service_node": "VDS",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"main_twin\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        },
+        {
+          "id": 2,
+          "twin_name": "vds_twin_boss",
+          "service_node": "VDS",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"authority\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        },
+        {
+          "id": 3,
+          "twin_name": "mac_twin_ingest",
+          "service_node": "Mac",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"ingest_pipe\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        },
+        {
+          "id": 4,
+          "twin_name": "creative_twin",
+          "service_node": "VDS",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"creative_processor\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        },
+        {
+          "id": 5,
+          "twin_name": "infra_twin",
+          "service_node": "VDS",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"infra_monitor\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        }
+      ]
+    },
+    "governance_proposals": {
+      "columns": [
+        "id",
+        "proposal_type",
+        "proposer",
+        "proposal_data",
+        "votes",
+        "status",
+        "created_at",
+        "closed_at"
+      ],
+      "rows": [
+        {
+          "id": 1,
+          "proposal_type": "governance_bootstrap",
+          "proposer": "Corey",
+          "proposal_data": "{\"action\": \"Initialize ATLAS-style governance\"}",
+          "votes": "[]",
+          "status": "accepted",
+          "created_at": "2026-08-17 14:20:40",
+          "closed_at": null
+        }
+      ]
+    }
+  }
+}

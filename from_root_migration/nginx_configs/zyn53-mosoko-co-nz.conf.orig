@@ -1,0 +1,8 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name mosoko.co.nz www.mosoko.co.nz;
+    root /var/www/html;
+    index index.html;
+    location / { try_files $uri $uri/ =404; }
+}

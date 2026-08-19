@@ -1,0 +1,138 @@
+{
+  "signal": 336,
+  "as_of": "2026-08-19T12:00:04Z",
+  "agent_law": [
+    "READ /root/zynthio/OPERATOR_TRUTH_LIVE.json BEFORE any plan or done claim",
+    "FORBIDDEN: done/shipped/live without http_public proof in this file",
+    "FORBIDDEN: cite http_vds alone \u2014 that is nginx only, not the internet",
+    "FORBIDDEN: rediscover 18JUNE notes as new \u2014 check hermes_ingest processed keys",
+    "DROPPED *.env in 18JUNE/ \u2192 run mapped script same session",
+    "Corey does not remember \u2014 OPERATOR_TRUTH_LIVE.json remembers",
+    "Park page HTTP 200 \u2260 money lane live"
+  ],
+  "honest_summary": "ALERT: 0 DNS_BLEED + 1 PUBLIC_DOWN in check set. http_vds alone is NOT live. Fix DNS/SSL before any done claim.",
+  "http_vds": {
+    "musicclothes.com": 200,
+    "records.wiki": 200,
+    "3d.codes": 301,
+    "retirementvillas.com": 200,
+    "blckgold.com": 200,
+    "boda.gold": 200,
+    "zynthio.wiki": 200,
+    "lookcy.com": 200
+  },
+  "http_public": {
+    "musicclothes.com": {
+      "code": 200,
+      "dns_a": [
+        "104.21.83.117",
+        "172.67.175.143"
+      ],
+      "status": "PUBLIC_OK",
+      "error": null
+    },
+    "records.wiki": {
+      "code": 200,
+      "dns_a": [
+        "188.114.96.3",
+        "188.114.97.3"
+      ],
+      "status": "PUBLIC_OK",
+      "error": null
+    },
+    "3d.codes": {
+      "code": 200,
+      "dns_a": [
+        "5.189.143.170"
+      ],
+      "status": "PUBLIC_OK",
+      "error": null
+    },
+    "retirementvillas.com": {
+      "code": 403,
+      "dns_a": [
+        "188.114.97.3",
+        "188.114.96.3"
+      ],
+      "status": "DOWN",
+      "error": null
+    },
+    "blckgold.com": {
+      "code": 200,
+      "dns_a": [
+        "172.67.140.238",
+        "104.21.27.24"
+      ],
+      "status": "PUBLIC_OK",
+      "error": null
+    },
+    "boda.gold": {
+      "code": 200,
+      "dns_a": [
+        "172.67.163.74",
+        "104.21.34.168"
+      ],
+      "status": "PUBLIC_OK",
+      "error": null
+    },
+    "zynthio.wiki": {
+      "code": 200,
+      "dns_a": [
+        "188.114.97.3",
+        "188.114.96.3"
+      ],
+      "status": "PUBLIC_OK",
+      "error": null
+    },
+    "lookcy.com": {
+      "code": 200,
+      "dns_a": [
+        "188.114.96.3",
+        "188.114.97.3"
+      ],
+      "status": "PUBLIC_OK",
+      "error": null
+    }
+  },
+  "public_bleed": [],
+  "public_down": [
+    "retirementvillas.com"
+  ],
+  "money_lanes": {
+    "musicclothes": {
+      "page": true,
+      "checkout": false,
+      "printify_sales_channel": "disconnected",
+      "status": "PAGE_ONLY"
+    },
+    "retirementvillas": {
+      "vds_page": true,
+      "public_dns": "OPEN",
+      "status": "PAGE_ONLY"
+    },
+    "printify": {
+      "token_on_vds": true,
+      "sales_channel": "disconnected",
+      "status": "FULFILLMENT_ONLY"
+    }
+  },
+  "secrets_dir": "/opt/zynthio/secrets",
+  "secrets_dir_exists": true,
+  "secrets_present": [
+    "printify.env"
+  ],
+  "disk_used_pct": "86%",
+  "hermes_ingest_tail": [
+    "[2026-08-19T10:17:37Z] processing CRITICAL_PERCENT_ALERT_20260818_100615.json",
+    "[2026-08-19T10:17:44Z] processing CRITICAL_PERCENT_ALERT_20260818_101615.json",
+    "[2026-08-19T10:17:51Z] processing CRITICAL_PERCENT_ALERT_20260818_102615.json",
+    "[2026-08-19T10:17:58Z] processing CRITICAL_PERCENT_ALERT_20260818_103615.json",
+    "[2026-08-19T10:18:06Z] done processed=20 queue=/root/zynthio/BUILD_STACK_QUEUE_LIVE.json"
+  ],
+  "queue_hermes_suggestions": 100,
+  "queue_build_order": 28,
+  "drop_file_actions": {
+    "18JUNE/printify.env": "python3 printify_bootstrap.py && deploy_pilot_musicclothes.sh",
+    "18JUNE/stripe.env": "wire musicclothes Stripe Payment Link + webhook"
+  }
+}

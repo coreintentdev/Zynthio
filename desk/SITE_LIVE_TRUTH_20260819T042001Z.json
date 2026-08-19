@@ -1,0 +1,24 @@
+{
+  "id": "SITE_LIVE_TRUTH",
+  "ts": "2026-08-19T04:20:16.236954+00:00",
+  "signal": 336,
+  "doctrine": "HTTP 200 + Reserved/placeholder is NOT a live site",
+  "counts": {
+    "total_site_dirs": 1478,
+    "live_real": 801,
+    "placeholder_200": 670,
+    "missing_index": 7,
+    "offline_for_health": 677
+  },
+  "truth": {
+    "live_means": "index.html exists AND is not Reserved/park/coming-soon/empty stub",
+    "placeholder_means": "200-capable but product lie \u2014 count as offline for health",
+    "http_200_alone": "NOT a live check"
+  },
+  "lists": {
+    "live_real": "SITES_LIVE_REAL_LATEST.txt",
+    "placeholder": "SITES_PLACEHOLDER_200_LATEST.txt",
+    "missing": "SITES_MISSING_INDEX_LATEST.txt"
+  },
+  "severity": "critical"
+}

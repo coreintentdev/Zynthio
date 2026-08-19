@@ -1,0 +1,35 @@
+{
+  "signal": 336,
+  "generated_at": "2026-08-19T12:00:02Z",
+  "p0_count": 1,
+  "alerts": [
+    {
+      "id": "WISE-HOSTINGER-PENDING",
+      "severity": "P0",
+      "title": "Hostinger US$19.49 PENDING on Wise card 4509",
+      "deadline": "2026-07-22",
+      "days_until": -28,
+      "action": "PayPal \u2192 Automatic payments \u2192 HOSTINGER \u2192 Cancel NOW. hPanel auto-renew OFF.",
+      "detail": "Txn 4057843133. Auto-return if unclaimed by 2026-07-22."
+    },
+    {
+      "id": "SJDS-MIRROR-IN-PROGRESS",
+      "severity": "P1",
+      "title": "Natalie staging mirror still running \u2014 send her link when complete",
+      "deadline": null,
+      "days_until": null,
+      "action": "Send Natalie: https://preview.sjds.casa/",
+      "detail": "mirror status: running or not started"
+    },
+    {
+      "id": "EMAIL-INGEST-BLOCKED",
+      "severity": "P1",
+      "title": "VDS cannot read Gmail \u2014 email billing alerts blind",
+      "deadline": null,
+      "days_until": null,
+      "action": "Add GMAIL_IMAP_APP_PASSWORD to /root/.zynthio.env (mail_env_template.sh)",
+      "detail": "This file-based watch runs without Gmail. Email ingest still needs app password."
+    }
+  ],
+  "operator_view": "https://operator-view.coreyai.ai/ or VDS /var/www/operator-view/"
+}

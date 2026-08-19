@@ -1,0 +1,24 @@
+{
+  "signal": 336,
+  "updated": "2026-08-19T11:38:16.705566+00:00",
+  "timers": {
+    "mail_autopilot": true,
+    "billing_ingest": true
+  },
+  "services": {
+    "proton_bridge_local_1143": true,
+    "proton_bridge_remote": true,
+    "proton_bridge_host": "100.64.0.1"
+  },
+  "credentials": {
+    "gmail_imap": false,
+    "proton_bridge_imap": true,
+    "proton_account_login": true
+  },
+  "digest_latest": "/root/zynthio/_meta/mail_digest/EMAIL_DIGEST_latest.md",
+  "digest_mtime": 1787139380.414875,
+  "last_autopilot_run": "2026-08-19T11:38:16.276646+00:00",
+  "blockers": [
+    "GMAIL_IMAP_APP_PASSWORD missing \u2014 Google App Password \u2192 /root/.zynthio.env"
+  ]
+}

@@ -1,0 +1,7 @@
+OPERATOR BILLING ALERT — Signal 336
+Generated: 2026-08-16T21:45:01.540710+00:00
+
+ACTION REQUIRED (VDS proactive watch — not waiting for you to ask):
+
+P0 WISE-HOSTINGER-PENDING: Hostinger US$19.49 PENDING on Wise card 4509 (-25 days) deadline=2026-07-22
+   → PayPal → Automatic payments → HOSTINGER → Cancel NOW. hPanel auto-renew OFF.

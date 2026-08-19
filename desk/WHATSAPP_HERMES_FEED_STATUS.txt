@@ -1,0 +1,1 @@
+WhatsApp Mac ChatStorage feed lines=25330 path=/root/zynthio/inbox/whatsapp/mac_chatstorage_all_messages.jsonl updated=2026-08-18T16:16:34Z

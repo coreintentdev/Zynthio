@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name gottalotta.wiki www.gottalotta.wiki;
+    root /var/www/gottalotta_wiki/public;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

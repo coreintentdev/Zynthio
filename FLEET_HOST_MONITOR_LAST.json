@@ -1,0 +1,42 @@
+{
+  "signal": 336,
+  "as_of": "2026-08-19T12:00:02Z",
+  "hosts": [
+    {
+      "id": "vds-gamma",
+      "url": "http://5.189.143.170/",
+      "http": 200,
+      "ok": true,
+      "err": null
+    },
+    {
+      "id": "vds-preview-natalie",
+      "url": "https://preview.sjds.casa/api/health",
+      "http": 0,
+      "ok": false,
+      "err": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "id": "vds-preview-stats",
+      "url": "https://preview.sjds.casa/api/stats",
+      "http": 0,
+      "ok": false,
+      "err": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "id": "contabo-primary",
+      "url": "http://161.97.89.49/",
+      "http": 200,
+      "ok": true,
+      "err": null
+    },
+    {
+      "id": "dallas-delta",
+      "url": "http://172.86.88.55/",
+      "http": 200,
+      "ok": true,
+      "err": null
+    }
+  ],
+  "pass": true
+}

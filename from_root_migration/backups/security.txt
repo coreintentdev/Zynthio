@@ -1,0 +1,5 @@
+Contact: mailto:security@discoversanjuandelsur.com
+Contact: mailto:natalie.sullivan@discoversjds.com
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en, es
+Canonical: https://discoversanjuandelsur.com/.well-known/security.txt

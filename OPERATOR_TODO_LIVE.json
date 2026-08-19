@@ -1,0 +1,15 @@
+{
+  "signal": 336,
+  "p0_open": [
+    {
+      "id": "WISE-HOSTINGER-PENDING",
+      "task": "PayPal \u2192 Automatic payments \u2192 HOSTINGER \u2192 Cancel NOW. hPanel auto-renew OFF.",
+      "status": "open",
+      "owner": "operator",
+      "deadline": "2026-07-22"
+    }
+  ],
+  "p1_open": [],
+  "done_recent": [],
+  "updated": "2026-08-19T12:00:02Z"
+}

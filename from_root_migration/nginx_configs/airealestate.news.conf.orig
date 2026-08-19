@@ -1,0 +1,22 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name airealestate.news www.airealestate.news;
+    root /var/www/airealestate.news;
+    index index.html;
+
+    location /api/v1/translate {
+        proxy_pass http://127.0.0.1:8011/api/v1/translate;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        add_header Access-Control-Allow-Origin "*" always;
+    }
+
+    location = /feed.json {
+        add_header Content-Type application/json;
+        add_header Cache-Control "no-cache";
+    }
+
+    location / { try_files $uri $uri/ /index.html; }
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}

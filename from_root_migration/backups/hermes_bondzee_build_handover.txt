@@ -1,0 +1,293 @@
+
+================================================================================
+HERMES BUILD HANDOVER — BONDZEE WELLNESS PROJECT
+================================================================================
+Date: 2026-07-12
+Status: READY TO BUILD
+
+CLIENT: Greg Bond (Bondzee)
+BOOK: "One Minute Late" — memoir, trauma/addiction/recovery
+SPEAKING: September 2026 (needs URL ASAP)
+
+================================================================================
+ARCHITECTURE (AGREED)
+================================================================================
+
+MASTER:     oneminutelate.com     → Wellness hub, book landing, speaking
+SECONDARY:  bondzee.live           → Live events, real-time engagement  
+TERTIARY:   bondzee.world          → Author portfolio, all projects
+
+FUTURE:     bondzee.health         → NOT YET PURCHASED (priority buy)
+
+================================================================================
+BONDZEE CORE DOMAINS (OWNED — 13)
+================================================================================
+
+bondzee.blog       → Recovery blog, wellness content
+bondzee.bond       → Community/loyalty program
+bondzee.cloud      → Media hosting, file storage
+bondzee.cyou       → Youth/casual engagement
+bondzee.guru       → Expert courses, coaching
+bondzee.icu        → "I see you" peer support
+bondzee.ink        → Writing, literary brand
+bondzee.life       → "One Minute Late" book page
+bondzee.live       → LIVE EVENTS, speaking, readings
+bondzee.shop       → Book sales, merch
+bondzee.today      → Daily updates, countdowns
+bondzee.wiki       → Recovery resources, knowledge base
+bondzee.world      → AUTHOR HUB, bio, all books, calendar
+
+================================================================================
+ONEMINUTELATE.COM — MASTER SITE MAP
+================================================================================
+
+/                  → Hero: book cover, tagline, CTA buttons
+/book              → "One Minute Late" synopsis, reviews, trailer
+/buy               → Amazon | Audible | Spotify purchase links
+/about             → Greg Bond bio, the "one minute" story
+/speaking          → Speaking calendar, booking form, testimonials
+/blog              → Recovery stories, wellness articles (pull from bondzee.blog)
+/rehab             → Recovery resources, links to pal.rehab
+/music             → Bondzee's music portfolio (pull from songpal domains)
+/wellness          → Wellness programs, fitness, sobriety content
+/contact           → Contact form, social links, newsletter signup
+
+FOOTER LINKS:
+→ Golf (ais.golf, flogs.golf, icu.golf, pal.gold) — placeholder pages
+→ Boats (boat.news, perth.boats, swanriver.boats, etc.) — placeholder pages
+→ Gold (blckgold.com, opals.gold, pal.gold, etc.) — placeholder pages
+→ REVV (revv.travel, revv.motorcycles, revv.insure) — partner page
+
+================================================================================
+BONDZEE.LIVE — LIVE EVENTS SITE MAP
+================================================================================
+
+/                  → Upcoming live events, speaking dates
+/stream            → Livestream embed, virtual readings
+/community         → Real-time chat, peer support forum
+/replay            → Past event recordings
+/booking           → Speaking booking form
+
+================================================================================
+BONDZEE.WORLD — AUTHOR HUB SITE MAP
+================================================================================
+
+/                  → Author bio, headshot, mission statement
+/books             → All books: "One Minute Late" + future titles
+/media             → Press kit, photos, bio PDF, headshots
+/speaking          → Full speaking history, testimonials, topics
+/domains           → Domain portfolio showcase (all owned domains)
+/music             → Full music catalog, streaming links
+/contact           → Management contact, press inquiries
+
+================================================================================
+SOCIAL & SALES LINKS (MUST INTEGRATE)
+================================================================================
+
+Amazon (Kindle/Print):  https://www.amazon.ca/One-Minute-Late-Addiction-Relentless/dp/B0H4P8YGSY
+Audible (Audiobook):    https://www.audible.com/pd/One-Minute-Late-Audiobook/B0H7SWXJ43
+Spotify:                https://open.spotify.com/album/7xz3K534Eor2aDQwTM2AJd
+YouTube:                https://www.youtube.com/@bondzeelive
+Instagram:              https://www.instagram.com/bondzeelive/
+TikTok:                 https://www.tiktok.com/@gregbond425
+Facebook:               https://www.facebook.com/greg.bond.545
+
+================================================================================
+GOLF DOMAINS (4) — Ready for expansion
+================================================================================
+ais.golf
+flogs.golf
+icu.golf
+pal.gold
+
+→ Suggested: oneminutelate.com/golf or golf.bondzee.world
+→ Bondzee plays golf as wellness activity
+
+================================================================================
+BOAT DOMAINS (33) — Ready for expansion
+================================================================================
+
+boat.news
+bookings.boats
+liveaboard.wiki
+live-aboard.boats
+perth.boats
+perthcharters.page
+swanriver.boats
+swanriver.pics
+rottnest.boats
+rottnest.pics
+carnac.boats
+carnac.pics
+abrolhos.boats
+abrolhos.pics
+pelican.boats
+pelicancharters.boats
+montebello.boats
+montebello.pics
+teak.boats
+ynot.boats
+ynot.yachts
+pal.yachts
+nica.boats
+nica.yachts
+livewire.boats
+lookcy.boats
+mein.boats
+cyour.boats
+doof.boats
+god.boats
+bucks.boats
+hens.boats
+
+→ Suggested: oneminutelate.com/boats or boats.bondzee.world
+→ Bondzee likes boats, Perth/Swan River focus
+
+================================================================================
+GOLD DOMAINS (14) — Premium tier, ready for expansion
+================================================================================
+
+blckgold.com
+opals.gold
+pal.gold
+chillin.gold
+jazz.gold
+blues.gold
+boda.gold
+cats.gold
+ban.gold
+icu.gold
+illin.gold
+ynot.gold
+zal.gold
+goldcoastcare.com
+
+→ Suggested: oneminutelate.com/gold or gold.bondzee.world
+→ Premium membership, exclusive recovery program
+
+================================================================================
+REVV PARTNER DOMAINS (15) — Team/business link
+================================================================================
+
+revv.best
+revv.cc
+revv.company
+revv.insure
+revv.lat
+revv.me.uk
+revv.motorcycles
+revv.quest
+revv.top
+revv.tours
+revv.travel
+revv.website
+revvtravel.wiki
+revvtravel.world
+revvtravel.xyz
+
+→ Link from Bondzee site as "Powered by REVV" or partner network
+→ Insurance, motorcycles, travel, tours
+
+================================================================================
+WELLNESS & RECOVERY DOMAINS (24) — Content pipeline
+================================================================================
+
+pal.rehab          → STRONG: recovery/rehab brand
+ais.doctor
+feedback.doctor
+sing.doctor
+txt.doctor
+why.doctor
+808.doctor
+abuser.help
+aiabuse.help
+agift.help
+allgood.help
+blues.help
+chillin.help
+chilling.help
+cisum.help
+corey.help
+cyou.help
+illing.help
+lookcy.help
+nica.help
+penpal.help
+syncyourfile.help
+zynthio.help
+
+→ Use for recovery resource links, support network
+
+================================================================================
+MUSIC DOMAINS (Key ones) — Bondzee's creative outlet
+================================================================================
+
+jazzsongs.com
+musicclothes.com
+songpal.co.nz
+songpal.live
+songpal.studio
+soundzone.net
+zynthio.music
+zynthio.stream
+phonk.wiki
+reggaeton.wiki
+afrobeats.wiki
+
+→ Link from main site: music.bondzee.world or bondzee.world/music
+
+================================================================================
+NEWS & PRESS DOMAINS (Key ones) — Announcements
+================================================================================
+
+baenews.com
+bytheminute.news
+newsbytheminute.com
+urgencynews.com
+urgency.page
+
+→ Use for press releases, book launch announcements, speaking news
+
+================================================================================
+AI & TECH DOMAINS (Key ones) — Backend infrastructure
+================================================================================
+
+aibookit.com          → AI-assisted publishing
+hermes.com.ai         → HERMES AI system
+hermes.foo            → HERMES dev
+wrabbit.ai            → WRABBIT AI
+zynthio.ai            → ZYNTHIO AI
+syncyourfile.com      → File sync
+mcp.contact           → Model Context Protocol
+
+→ HERMES builds the site. These power the backend.
+
+================================================================================
+URGENT ACTION ITEMS
+================================================================================
+
+[ ] 1. Build oneminutelate.com master site
+[ ] 2. Configure bondzee.live for live events
+[ ] 3. Set up bondzee.world as author hub
+[ ] 4. Integrate ALL social + sales links
+[ ] 5. Set up bondzee.shop for direct sales
+[ ] 6. Create placeholder pages for golf/boats/gold
+[ ] 7. PURCHASE bondzee.health (Bondzee specifically wants this)
+[ ] 8. Link pal.rehab for recovery resources
+[ ] 9. Set up press pipeline (urgencynews.com)
+[ ] 10. DEADLINE: September 2026 speaking engagement
+
+================================================================================
+DESIGN NOTES
+================================================================================
+
+- Wellness focus: calming colors, recovery imagery, hope/renewal theme
+- Book cover: train tracks, dark/gritty → light/redemption arc
+- Tone: raw, authentic, inspiring, not corporate
+- Mobile-first: speaking audience will check on phones
+- Fast load: Cloudflare already configured on oneminutelate.com
+- SEO: "One Minute Late", "Greg Bond", "addiction recovery memoir"
+
+================================================================================
+END OF HANDOVER — BUILD WHEN READY
+================================================================================

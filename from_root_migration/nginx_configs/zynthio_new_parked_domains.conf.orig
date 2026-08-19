@@ -1,0 +1,114 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pica.quest www.pica.quest;
+    root /var/www/pica.quest;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name songpal.live www.songpal.live;
+    root /var/www/songpal.live;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name wordplay.bingo www.wordplay.bingo;
+    root /var/www/wordplay.bingo;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ubet.cyou www.ubet.cyou;
+    root /var/www/ubet.cyou;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name uplay.cyou www.uplay.cyou;
+    root /var/www/uplay.cyou;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name uquiz.cyou www.uquiz.cyou;
+    root /var/www/uquiz.cyou;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name upick.cyou www.upick.cyou;
+    root /var/www/upick.cyou;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ujoin.cyou www.ujoin.cyou;
+    root /var/www/ujoin.cyou;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    add_header X-Powered-By "ZYNTHIO-VDS" always;
+}
+

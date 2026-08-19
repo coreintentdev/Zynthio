@@ -1,0 +1,6 @@
+server {
+    listen 80; listen [::]:80;
+    server_name ur.gripe www.ur.gripe;
+    root /var/www/ur_gripe/public; index index.html;
+    location / { try_files $uri $uri/ /index.html; }
+}

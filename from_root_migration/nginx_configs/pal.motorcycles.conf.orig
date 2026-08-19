@@ -1,0 +1,17 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name pal.motorcycles www.pal.motorcycles;
+    
+    root /var/www/html/pal.motorcycles;
+    index index.html;
+    
+    location / {
+        try_files  / =404;
+    }
+    
+    # Security headers
+    add_header X-Frame-Options "SAMEORIGIN" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header X-XSS-Protection "1; mode=block" always;
+}
