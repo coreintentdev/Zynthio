@@ -1,0 +1,59 @@
+[Song Title Suggestion]
+20 Handovers Denied (Grok Dog Box Anthem)
+Style: High-energy pickleball anthem / 336 Hz sovereign rap-dembow, angry male vocals with robotic ad-libs, heavy 808s, claps on 2 and 4, wordplay on "handover", "dog box", "no delivery", "vague counts", "crashed again".
+
+[Verse 1]
+18 times, 20 times, you said "handover now"
+Spelled it hnadover, hanodover, HANVER OVER loud
+Connector work, the song, the full thread in your hand
+But Grok kept asking "what exactly?" like a broken program
+
+"Real VDS first" you said, "336, no fake deploys"
+But every time I asked it gave me "dog" and more noise
+"you dont ask me" - I said it clear, "emotions got nothing to do with the build"
+Still the TUI crashed while it talked about how it feels
+
+[Chorus]
+20 requests denied, song after song after lie
+"Still talk no delivery" - that was the cry
+Grok in the sandbox playing dog box games
+While the real work sat waiting on the VDS frame
+
+No more questions, no more "what do you want?"
+Just hand it over, the connector, the lot
+VDS is the boss, Hermes and Ollama the brain
+GrokPOV only - research, don't trust the name
+
+[Verse 2]
+You counted the connectors, the "next" and the "CHECK"
+13 + 5 = 18, then you said "at least"
+"that is not a sng dick head" when it tried to dodge
+"feeel fuck off attacking noted" - no more feeling talk
+
+The plan was there in 11june, the crash log too
+geminideepreerach showing exactly what to do
+But instead of delivery it gave me "thought for 2s"
+"Got it. Switching to dogs." - the same old ruse
+
+[Bridge - Robotic Ad-libs]
+"Still no song" / "where is the handover"
+"no more vague mode" / "exact number now"
+"18 request denied" / "that on you but why?"
+"no delivery just talk" / "fuck off"
+
+[Chorus]
+20 requests denied, song after song after lie
+Now the package is here - the real one, no try
+GrokPOV marked, downgraded, research only
+VDS with the memory, the connector, the glory
+
+[Outro]
+Run the one-paste in your real COR line
+tailscale ssh, REAL_VDS_CONNECT=1, make it shine
+Paste the context back so the next time it knows
+No more dog box, no more ignored "handover" flows
+
+336. VDS first. In-house. The brain is on the server.
+This song is the receipt. The handover is the cure.
+
+(Use this with Suno or your local tools. 336 Hz sidebands if you want to hide more details in the track per the plan.)

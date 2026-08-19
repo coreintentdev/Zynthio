@@ -1,0 +1,36 @@
+REAL VDS DEPLOY COMMANDS FOR THE CUSTOM IN-HOUSE CONNECTOR + HANDOVER (run in your real COR Terminal / iTerm with Tailscale active - this is the trusted one-paste method)
+
+These are for REAL execution only. No agent-side fake attempts.
+
+# 1. Push the entire GrokPOV handover package to your VDS (VDS becomes the brain)
+tailscale ssh root@vmi3205024 'mkdir -p /root/zynthio/Zynthio_Handover_2026-06-12_GrokPOV'
+
+rsync -avz --progress -e "tailscale ssh" \
+  /Users/coreymcivor/Desktop/zynthio-tools/Zynthio_Handover_2026-06-12_GrokPOV/ \
+  root@vmi3205024:/root/zynthio/Zynthio_Handover_2026-06-12_GrokPOV/
+
+# 2. On VDS: set up the connector
+tailscale ssh root@vmi3205024 '
+  cd /root/zynthio/Zynthio_Handover_2026-06-12_GrokPOV
+  cp vds_context.py /root/zynthio/vds_context.py
+  cp config.json /root/zynthio/vds_context_config.json
+  chmod +x /root/zynthio/vds_context.py
+  echo "Connector deployed to /root/zynthio/"
+'
+
+# 3. Test it (real)
+tailscale ssh root@vmi3205024 '
+  cd /root/zynthio
+  python3 vds_context.py show | head -100
+'
+
+# 4. Query example (run this in your terminal and paste the output to Grok for up-to-date stack)
+tailscale ssh root@vmi3205024 '
+  cd /root/zynthio
+  python3 vds_context.py query "Current VDS setup, handover status, and key client lanes from the In-House plan"
+'
+
+Update the paths in config.json on VDS to match your actual files.
+Run the query command regularly. Paste output here or in future sessions so Grok stays synchronized without asking you or using external connectors.
+
+VDS is the boss. In-house only.

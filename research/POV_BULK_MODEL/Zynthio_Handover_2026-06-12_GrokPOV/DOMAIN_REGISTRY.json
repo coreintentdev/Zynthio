@@ -1,0 +1,195 @@
+{
+  "last_updated": "2026-06-12",
+  "source": "User-provided authoritative current portfolio - GrokPOV research only. Do not use as source of truth. Cross-verify with registrar and Porkbun API.",
+  "total_domains": 28,
+  "note": "Grok previously missed wrabbit.app and this full current list in prior registry work. This is the live data as of now. Incorporate into VDS context system, client lanes per In-House Plan, and 53-domain matrix (this may be the recent/expanded subset).",
+  "domains": [
+    {
+      "domain": "wrabbit.app",
+      "expiration_date": "2027-03-29",
+      "days_remaining": "290 d",
+      "tld": "app",
+      "hsts_preloaded": true,
+      "notes": "HSTS preloaded secure application. Likely wrabbit client lane or related."
+    },
+    {
+      "domain": "wrabbit.click",
+      "expiration_date": "2027-03-29",
+      "days_remaining": "290 d",
+      "tld": "click"
+    },
+    {
+      "domain": "zynthio.io",
+      "expiration_date": "2027-03-30",
+      "days_remaining": "291 d",
+      "tld": "io"
+    },
+    {
+      "domain": "mosoko.io",
+      "expiration_date": "2027-03-30",
+      "days_remaining": "291 d",
+      "tld": "io"
+    },
+    {
+      "domain": "singpal.io",
+      "expiration_date": "2027-03-30",
+      "days_remaining": "291 d",
+      "tld": "io"
+    },
+    {
+      "domain": "rhrhmn.io",
+      "expiration_date": "2027-03-30",
+      "days_remaining": "291 d",
+      "tld": "io"
+    },
+    {
+      "domain": "336.life",
+      "expiration_date": "2027-03-30",
+      "days_remaining": "291 d",
+      "tld": "life",
+      "notes": "Acoustic payload / 336 steganography per plan."
+    },
+    {
+      "domain": "336.locker",
+      "expiration_date": "2027-03-30",
+      "days_remaining": "291 d",
+      "tld": "locker",
+      "notes": "Acoustic payload / 336 steganography per plan."
+    },
+    {
+      "domain": "336.pics",
+      "expiration_date": "2027-03-30",
+      "days_remaining": "291 d",
+      "tld": "pics"
+    },
+    {
+      "domain": "livewire.boats",
+      "expiration_date": "2027-03-31",
+      "days_remaining": "292 d",
+      "tld": "boats"
+    },
+    {
+      "domain": "songpal.co.nz",
+      "expiration_date": "2027-04-03",
+      "days_remaining": "294 d",
+      "tld": "co.nz"
+    },
+    {
+      "domain": "mosoko.co.nz",
+      "expiration_date": "2027-04-03",
+      "days_remaining": "294 d",
+      "tld": "co.nz"
+    },
+    {
+      "domain": "kervalon.co.nz",
+      "expiration_date": "2027-04-03",
+      "days_remaining": "294 d",
+      "tld": "co.nz"
+    },
+    {
+      "domain": "kamals.pro",
+      "expiration_date": "2027-05-19",
+      "days_remaining": "341 d",
+      "tld": "pro",
+      "notes": "Specific identity/client asset per plan."
+    },
+    {
+      "domain": "pickleball.music",
+      "expiration_date": "2027-05-30",
+      "days_remaining": "352 d",
+      "tld": "music",
+      "notes": "Niche identity asset. Pickleball client lane."
+    },
+    {
+      "domain": "pickleball.contact",
+      "expiration_date": "2027-05-30",
+      "days_remaining": "352 d",
+      "tld": "contact"
+    },
+    {
+      "domain": "nicapickleball.com",
+      "expiration_date": "2027-05-30",
+      "days_remaining": "352 d",
+      "tld": "com",
+      "notes": "Primary client landing zone per plan."
+    },
+    {
+      "domain": "pickleball.srl",
+      "expiration_date": "2027-05-30",
+      "days_remaining": "352 d",
+      "tld": "srl"
+    },
+    {
+      "domain": "rappal.app",
+      "expiration_date": "2027-06-11",
+      "days_remaining": "364 d",
+      "tld": "app",
+      "hsts_preloaded": true,
+      "notes": "HSTS preloaded secure application. Event-specific / rappal client."
+    },
+    {
+      "domain": "pal.rip",
+      "expiration_date": "2027-06-11",
+      "days_remaining": "364 d",
+      "tld": "rip",
+      "notes": "Micro-service endpoint."
+    },
+    {
+      "domain": "zynrip.app",
+      "expiration_date": "2027-06-11",
+      "days_remaining": "364 d",
+      "tld": "app",
+      "hsts_preloaded": true,
+      "notes": "HSTS preloaded secure application. Zynrip related."
+    },
+    {
+      "domain": "pal.dance",
+      "expiration_date": "2027-06-11",
+      "days_remaining": "364 d",
+      "tld": "dance",
+      "notes": "Event-specific asset."
+    },
+    {
+      "domain": "pal.lat",
+      "expiration_date": "2027-06-11",
+      "days_remaining": "364 d",
+      "tld": "lat",
+      "notes": "Niche identity / regional targeting."
+    },
+    {
+      "domain": "coreintent.dev",
+      "expiration_date": "2028-01-05",
+      "days_remaining": "1 yr 207 d",
+      "tld": "dev",
+      "hsts_preloaded": true,
+      "notes": "HSTS preloaded development/staging."
+    },
+    {
+      "domain": "wrabbit.ai",
+      "expiration_date": "2028-03-29",
+      "days_remaining": "1 yr 291 d",
+      "tld": "ai"
+    },
+    {
+      "domain": "rhrhmn.ai",
+      "expiration_date": "2028-03-30",
+      "days_remaining": "1 yr 292 d",
+      "tld": "ai"
+    },
+    {
+      "domain": "zynthio.co.nz",
+      "expiration_date": "2028-04-03",
+      "days_remaining": "1 yr 295 d",
+      "tld": "co.nz"
+    },
+    {
+      "domain": "zynthio.ai",
+      "expiration_date": "2030-01-11",
+      "days_remaining": "3 yr 214 d",
+      "tld": "ai",
+      "notes": "Core commercial routing hub per plan."
+    }
+  ],
+  "plan_references": "See In-House Deployment and Operational Plan.txt for client lane mappings (Corey, Michelle, Pickleball, Taxi, Chas, Rafa, Wesley, Greybis etc.), HSTS preloaded namespaces (.app .dev), and full 53-domain matrix strategy. This list appears to be the current paid/expanded portfolio or key active set. Map to /var/www/html/ subdirs on VDS (e.g. wrabbit-xxx, pickle-xxx). Use Porkbun MCP for direct DNS to VDS IP (no Cloudflare).",
+  "action_items": "1. Add this JSON to VDS /root/zynthio/DOMAIN_REGISTRY.json. 2. Update vds_context watch_paths to include it. 3. Use for real payload SCP / rsync to VDS client lanes. 4. Set renewal reminders 30-60 days out. 5. For HSTS domains, ensure full native hosting on VDS with certbot."
+}

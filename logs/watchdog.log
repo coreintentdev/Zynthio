@@ -694,3 +694,11 @@ creative_priority_override: ✓ HEALTHY - Process healthy
   'timestamp': datetime.utcnow().isoformat()
 Watchdog Health Check Results:
 creative_priority_override: ✓ HEALTHY - Process healthy
+/root/zynthio/governance/process_watchdog.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  time_since_run = (datetime.utcnow() - last_modified).total_seconds()
+/root/zynthio/governance/process_watchdog.py:104: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'timestamp': datetime.utcnow().isoformat()
+/root/zynthio/governance/process_watchdog.py:89: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'timestamp': datetime.utcnow().isoformat()
+Watchdog Health Check Results:
+creative_priority_override: ✓ HEALTHY - Process healthy

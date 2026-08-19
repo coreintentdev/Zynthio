@@ -1,0 +1,11 @@
+{
+  "watch_paths": [
+    "/root/zynthio/DOMAIN_REGISTRY.json",
+    "/root/zynthio/memory.md",
+    "/root/zynthio/Zynthio_Handover*",
+    "/root/zynthio/vds_context",
+    "/root/zynthio/install_superpowers_vds.sh",
+    "/root/zynthio/push_to_vds_336.sh"
+  ],
+  "description": "VDS Context System v1 - In-house only. VDS is the brain and memory. GrokPOV research material only. Do not trust as source of truth."
+}
