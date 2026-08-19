@@ -119,7 +119,7 @@ def get_source_paths() -> dict:
         },
         "zynrip": {
             "label": "ZYNRIP Prior Harvests",
-            "paths": [HOME / "zynrip_temp", HOME / "Desktop" / "zynthio-tools", HOME / "zynthio-tools"],
+            "paths": [HOME / "zynrip_temp", HOME / "zynthio", HOME / "zynthio" / "desk", HOME / "zynthio" / "research", HOME / "zynthio" / "seamstress"],
             "patterns": ["*.md", "ZYNRIP_*.md", "ALPHA*.md", "*.json"],
         },
         "web_status_snapshots": {
@@ -367,6 +367,22 @@ def weave_threads(scan_report: dict) -> dict:
                 threads = parse_grok_export(fp)
                 for t in threads: t["source"] = str(fp)
                 all_threads.extend(threads)
+            elif source_key == "zynrip":
+                for it in source_data["items"]:
+                    fp = it["path"]
+                    if fp.suffix in (".md", ".txt"):
+                        try:
+                            txt = fp.read_text(encoding="utf-8", errors="replace")
+                        except Exception:
+                            continue
+                        if len(txt.strip()) < 40:
+                            continue
+                        all_threads.append({
+                            "platform": "ZYNRIP", "title": fp.stem,
+                            "date": __import__("datetime").datetime.fromtimestamp(fp.stat().st_mtime).strftime("%Y-%m-%d"),
+                            "messages": [{"role": "assistant", "content": txt}],
+                            "source": str(fp), "sha256": hashlib.sha256(fp.read_bytes()).hexdigest()[:16],
+                        })
             elif source_key == "cursor":
                 try:
                     cursor_docs.append({
