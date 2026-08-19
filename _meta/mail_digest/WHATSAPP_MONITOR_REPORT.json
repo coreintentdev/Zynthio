@@ -1,11 +1,11 @@
 {
   "signal": 336,
-  "timestamp": "2026-08-19T15:30:01.408633",
+  "timestamp": "2026-08-19T16:00:01.264185",
   "monitor_status": "automated",
   "sync_status": {
     "status": "stale",
     "last_sync": "2026-08-18T18:16:30.868694",
-    "time_diff_hours": 23.22515014111111,
+    "time_diff_hours": 23.725110000555553,
     "latest_file": "mac_extract_20260818T161358Z.json"
   },
   "whatsapp_data": {
