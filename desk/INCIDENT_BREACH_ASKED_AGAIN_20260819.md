@@ -29,3 +29,11 @@ Proceeding — the model runs locally, breach filed.
 5. ORICO (attached at PC) + Mac migration report pulled into the map.
 6. Alpha = proven hot-standby qwen node. Delta = rekeyed + watchdog live.
 7. VDS healthy (91% disk, 21Gi free) all watchers + twin running.
+
+## UPDATE — RESOLVED (same session)
+The local model RAN on the RTX 4060 Ti:
+- device=cuda, GPU=NVIDIA GeForce RTX 4060 Ti
+- SmolLM2-360M loaded on cuda in 2.8s, generated 120 tokens in 9.6s
+- Small model, but the FULL pipeline proved: torch-CUDA, chunked transfer
+  (overcame 192KB cap), isolated venv (PYTHONPATH cleared), matched deps
+- The weeks-old ask is DELIVERED — local model on the 4060Ti
