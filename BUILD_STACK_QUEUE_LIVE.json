@@ -364,321 +364,6 @@
   ],
   "hermes_ingest": [
     {
-      "summary": "Critical percentage alert triggered at 85% capacity",
-      "actions": [
-        {
-          "task": "Point retirementvillas DNS to VDS",
-          "priority": 2,
-          "cluster": "deploy"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:16:31Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_024612.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered at 85% capacity",
-      "actions": [
-        {
-          "task": "Point retirementvillas DNS to VDS",
-          "priority": 2,
-          "cluster": "deploy"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:16:38Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_025612.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Review VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:16:45Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_030612.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Review VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:16:51Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_031612.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Check VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:16:57Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_032612.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Review VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:17:04Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_033612.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Check VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:17:10Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_034612.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Review VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        },
-        {
-          "task": "Check trigger type and threshold",
-          "priority": 3,
-          "cluster": "deploy"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:17:18Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_035612.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Check VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:17:24Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_040612.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Check VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        },
-        {
-          "task": "Review trigger threshold",
-          "priority": 2,
-          "cluster": "deploy"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-18T22:17:32Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_041613.json"
-    },
-    {
-      "summary": "Payment issues and security alerts",
-      "actions": [
-        {
-          "task": "Investigate and resolve payment issues with Atlassian and Canva",
-          "priority": 1,
-          "cluster": "money"
-        },
-        {
-          "task": "Verify and process payment for HeyGen Technology Inc.",
-          "priority": 2,
-          "cluster": "money"
-        },
-        {
-          "task": "Address security alert from Google regarding corey.mcivor@gmail.com",
-          "priority": 3,
-          "cluster": "client"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:15:29Z",
-      "source_path": "/root/zynthio/_meta/mail_digest/HERMES_MAIL_BRIEF_latest.md"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Check VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        },
-        {
-          "task": "Review trigger threshold",
-          "priority": 2,
-          "cluster": "deploy"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:15:37Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_042613.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Check VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:15:44Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_043613.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Check VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:15:50Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_044613.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Check VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:15:56Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_045613.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Check VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:16:03Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_050613.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Review VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:16:09Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_051613.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Review VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        },
-        {
-          "task": "Check trigger type and threshold",
-          "priority": 2,
-          "cluster": "deploy"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:16:17Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_052613.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Review VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        },
-        {
-          "task": "Check trigger type and threshold",
-          "priority": 2,
-          "cluster": "deploy"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:16:25Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_053613.json"
-    },
-    {
-      "summary": "Critical percentage alert triggered",
-      "actions": [
-        {
-          "task": "Review VDS capacity",
-          "priority": 1,
-          "cluster": "infra"
-        }
-      ],
-      "blockers": [],
-      "decisions_needed": [],
-      "ingested_at": "2026-08-19T04:16:31Z",
-      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_054613.json"
-    },
-    {
       "summary": "Critical percentage alert triggered",
       "actions": [
         {
@@ -1162,6 +847,331 @@
       "decisions_needed": [],
       "ingested_at": "2026-08-19T10:18:06Z",
       "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_103615.json"
+    },
+    {
+      "summary": "Hermes Mail Brief: Payment issues & Wallet verification",
+      "actions": [
+        {
+          "task": "Verify wallet by Feb 28 to claim 72 TWT",
+          "priority": 1,
+          "cluster": "money"
+        },
+        {
+          "task": "Confirm login to Independent Reserve",
+          "priority": 2,
+          "cluster": "client"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:04:49Z",
+      "source_path": "/root/zynthio/_meta/mail_digest/HERMES_MAIL_BRIEF_latest.md"
+    },
+    {
+      "summary": "Zynthio session closed with fixes",
+      "actions": [
+        {
+          "task": "Point retirementvillas DNS to VDS",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:05:10Z",
+      "source_path": "/root/zynthio/inbox/HERMES_SESSION_CLOSE_20260820.json"
+    },
+    {
+      "summary": "Hermes version drift and update issue",
+      "actions": [
+        {
+          "task": "VDS hermes upgrade v0.20.1 \u2192 v0.20.4 (pip upgrade in /usr/local/lib/hermes-agent venv) \u2014 gateway must be restarted after; operator GO required (running gateway)",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:05:28Z",
+      "source_path": "/root/zynthio/inbox/INCIDENT_HERMES_FORCED_GO_AND_VERSION_DRIFT_20260819.json"
+    },
+    {
+      "summary": "5 rclone remotes broken + hung OAuth process on VDS",
+      "actions": [
+        {
+          "task": "Kill pid 287676",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:05:47Z",
+      "source_path": "/root/zynthio/inbox/INCIDENT_RCLONE_REMOTES_BROKEN_HUNG_AUTH_20260819.json"
+    },
+    {
+      "summary": "Critical percentage check triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Review trigger threshold",
+          "priority": 2,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:05:54Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_104615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Check VDS usage and adjust if needed",
+          "priority": 1,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:06:01Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_105615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review and adjust VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check VDS usage patterns",
+          "priority": 2,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:06:09Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_110615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check trigger type and threshold",
+          "priority": 3,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:06:16Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_111615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:06:22Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_112615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Point retirementvillas DNS to VDS",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:06:29Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_113615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review and adjust VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check Point retirementvillas DNS to VDS",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:06:37Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_114615.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check trigger type and threshold",
+          "priority": 2,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:06:44Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_115616.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Check VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:06:50Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_120616.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review and adjust VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:06:56Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_121616.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:07:02Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_122616.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review and adjust VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Check VDS usage patterns",
+          "priority": 2,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:07:10Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_123616.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:07:16Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_124616.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered at 85% capacity",
+      "actions": [
+        {
+          "task": "Review and adjust VDS resources",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Notify team of critical capacity level",
+          "priority": 3,
+          "cluster": "infra"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:07:24Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_125616.json"
+    },
+    {
+      "summary": "Critical percentage alert triggered",
+      "actions": [
+        {
+          "task": "Review and adjust VDS capacity",
+          "priority": 1,
+          "cluster": "infra"
+        },
+        {
+          "task": "Notify team of critical alert",
+          "priority": 3,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:07:31Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_130616.json"
+    },
+    {
+      "summary": "Critical percentage check triggered",
+      "actions": [
+        {
+          "task": "Point retirementvillas DNS to VDS",
+          "priority": 2,
+          "cluster": "deploy"
+        }
+      ],
+      "blockers": [],
+      "decisions_needed": [],
+      "ingested_at": "2026-08-19T21:07:38Z",
+      "source_path": "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_131616.json"
     }
   ],
   "master_doc_read_order": [
@@ -1181,13 +1191,13 @@
     {
       "path": "/root/zynthio/OPERATOR_TRUTH_LIVE.json",
       "status": "OK",
-      "mtime": "2026-08-19T10:15:01Z",
-      "bytes": 4913
+      "mtime": "2026-08-19T12:00:04Z",
+      "bytes": 3674
     },
     {
       "path": "/root/zynthio/OPERATOR_TODO_LIVE.json",
       "status": "OK",
-      "mtime": "2026-08-19T10:15:01Z",
+      "mtime": "2026-08-19T12:00:02Z",
       "bytes": 355
     },
     {
@@ -1243,43 +1253,11 @@
       "status": "MISSING"
     }
   ],
-  "master_doc_refreshed": "2026-08-19T10:15:01Z",
-  "truth_as_of": "2026-08-19T10:15:01Z",
-  "truth_summary": "MONEY P0 (1): Hostinger US$19.49 PENDING on Wise card 4509. VDS billing watch runs every 15m. Corey must cancel PayPal Hostinger + hPanel auto-renew.",
-  "hermes_ingest_updated": "2026-08-19T10:18:06Z",
+  "master_doc_refreshed": "2026-08-19T21:04:32Z",
+  "truth_as_of": "2026-08-19T12:00:04Z",
+  "truth_summary": "ALERT: 0 DNS_BLEED + 1 PUBLIC_DOWN in check set. http_vds alone is NOT live. Fix DNS/SSL before any done claim.",
+  "hermes_ingest_updated": "2026-08-19T21:07:38Z",
   "hermes_suggested_tasks": [
-    {
-      "task": "Secure domain: thatsonme.com",
-      "priority": "P0",
-      "cluster": "creative",
-      "trident_score": 0.943,
-      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
-      "added": "2026-08-17T21:33:29.369642"
-    },
-    {
-      "task": "Secure domain: holisticli.dev",
-      "priority": "P0",
-      "cluster": "creative",
-      "trident_score": 0.943,
-      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
-      "added": "2026-08-17T21:33:29.364348"
-    },
-    {
-      "task": "Continue digital twin development (336 signal)",
-      "priority": "P0",
-      "cluster": "creative",
-      "trident_score": 0.857,
-      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
-      "added": "2026-08-17T20:58:31.219853"
-    },
-    {
-      "task": "Secure domain: thatsonme.com",
-      "priority": "P0",
-      "cluster": "creative",
-      "trident_score": 0.943,
-      "from": "ENHANCED_CREATIVE_PRIORITY_OVERRIDE",
-      "added": "2026-08-17T20:58:31.215086"
-    },
     {
       "task": "Secure domain: holisticli.dev",
       "priority": "P0",
@@ -1964,6 +1942,34 @@
       "cluster": "money",
       "from": null,
       "added": "2026-08-19T10:15:50Z"
+    },
+    {
+      "task": "Verify wallet by Feb 28 to claim 72 TWT",
+      "priority": 1,
+      "cluster": "money",
+      "from": null,
+      "added": "2026-08-19T21:04:49Z"
+    },
+    {
+      "task": "Confirm login to Independent Reserve",
+      "priority": 2,
+      "cluster": "client",
+      "from": null,
+      "added": "2026-08-19T21:04:49Z"
+    },
+    {
+      "task": "VDS hermes upgrade v0.20.1 \u2192 v0.20.4 (pip upgrade in /usr/local/lib/hermes-agent venv) \u2014 gateway must be restarted after; operator GO required (running gateway)",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-19T21:05:28Z"
+    },
+    {
+      "task": "Kill pid 287676",
+      "priority": 2,
+      "cluster": "deploy",
+      "from": null,
+      "added": "2026-08-19T21:05:47Z"
     }
   ]
 }

@@ -1708,3 +1708,165 @@ WhatsApp: success (25330 messages)
 
 === Communications Monitor Complete ===
 Log file: /root/zynthio/logs/automation/communications_monitor_20260819_220001.log
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-19T20:30:02Z
+
+--- Proton Email Monitor ---
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+<stdin>:11: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Unified Report: operational
+Proton: success (0 emails)
+WhatsApp: success (25330 messages)
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260819_223002.log
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-19T21:00:01Z
+
+--- Proton Email Monitor ---
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+<stdin>:11: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Unified Report: operational
+Proton: success (0 emails)
+WhatsApp: success (25330 messages)
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260819_230001.log
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-19T21:30:01Z
+
+--- Proton Email Monitor ---
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+<stdin>:11: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Unified Report: operational
+Proton: success (0 emails)
+WhatsApp: success (25330 messages)
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260819_233001.log
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-19T22:00:01Z
+
+--- Proton Email Monitor ---
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+<stdin>:11: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Unified Report: operational
+Proton: success (0 emails)
+WhatsApp: success (25330 messages)
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260820_000001.log
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-19T22:30:01Z
+
+--- Proton Email Monitor ---
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+<stdin>:11: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Unified Report: operational
+Proton: success (0 emails)
+WhatsApp: success (25330 messages)
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260820_003001.log
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-19T23:00:01Z
+
+--- Proton Email Monitor ---
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+<stdin>:11: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Unified Report: operational
+Proton: success (0 emails)
+WhatsApp: success (25330 messages)
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260820_010001.log
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-19T23:30:01Z
+
+--- Proton Email Monitor ---
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+<stdin>:11: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Unified Report: operational
+Proton: success (0 emails)
+WhatsApp: success (25330 messages)
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260820_013001.log
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-20T00:00:01Z
+
+--- Proton Email Monitor ---
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+<stdin>:11: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Unified Report: operational
+Proton: success (0 emails)
+WhatsApp: success (25330 messages)
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260820_020001.log
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-20T00:30:01Z
+
+--- Proton Email Monitor ---
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+<stdin>:11: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+Unified Report: operational
+Proton: success (0 emails)
+WhatsApp: success (25330 messages)
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260820_023001.log

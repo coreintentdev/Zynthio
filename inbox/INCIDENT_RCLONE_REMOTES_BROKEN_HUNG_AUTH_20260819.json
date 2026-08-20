@@ -1,0 +1,35 @@
+{
+  "signal": 336,
+  "timestamp": "2026-08-19T23:45:00Z",
+  "incident_id": "RCLONE_REMOTES_BROKEN_HUNG_AUTH_20260819",
+  "severity": "HIGH",
+  "agent": "Hermes (Mac session)",
+  "to": "VDS fleet (boss ingest)",
+  "summary": "5 of 15 rclone remotes broken + hung OAuth process on VDS. Backup resumed to proton:zynthio_vds_backups/20260819_mac/.",
+  "broken_remotes": [
+    "gdrive-keto (token dead)",
+    "gdrive-xray (token dead)",
+    "gdrive-ruby (token dead)",
+    "box (token dead)",
+    "zyn-vault (alias → local GDrive mount ZYN_Vault missing)"
+  ],
+  "working_remotes": ["gdrive", "gdrive-perth", "gdrive-zyn", "gdrive-oauth", "gphotos", "vds", "vds_master", "zyns", "netleadersdaspay@gmail.com", "proton"],
+  "vds_finding": {
+    "process": "rclone authorize drive 76379366193-7ljs7jd7681hvltb4hi5o5ohnri610vj",
+    "pid": 287676,
+    "stuck_since": "2026-08-17",
+    "risk": "zombie OAuth flow — likely origin of dead gdrive tokens; holding process slot",
+    "recommend": "kill pid 287676; re-auth gdrive-keto/xray/ruby + box via oauth flow when operator ready"
+  },
+  "backup_state": {
+    "target": "proton:zynthio_vds_backups/20260819_mac/",
+    "desk": "323/438 files at last check (transfer killed by platform wall; resumed background pid 42501)",
+    "handover": "pending same run",
+    "verify": "counts after completion"
+  },
+  "action_required_vds": [
+    "kill 287676",
+    "re-auth dead remotes",
+    "confirm zynthio_vds_backups/20260819_mac integrity"
+  ]
+}

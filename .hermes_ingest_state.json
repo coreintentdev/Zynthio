@@ -1,6 +1,6 @@
 {
   "processed": {
-    "/root/zynthio/_meta/mail_digest/HERMES_MAIL_BRIEF_latest.md": "1787132319",
+    "/root/zynthio/_meta/mail_digest/HERMES_MAIL_BRIEF_latest.md": "1787139496",
     "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260816_234601.json": "1786916761",
     "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260816_235601.json": "1786917361",
     "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260817_000601.json": "1786917961",
@@ -226,6 +226,25 @@
     "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_100615.json": "1787040375",
     "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_101615.json": "1787040975",
     "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_102615.json": "1787041575",
-    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_103615.json": "1787042175"
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_103615.json": "1787042175",
+    "/root/zynthio/inbox/HERMES_SESSION_CLOSE_20260820.json": "1787172037",
+    "/root/zynthio/inbox/INCIDENT_HERMES_FORCED_GO_AND_VERSION_DRIFT_20260819.json": "1787173330",
+    "/root/zynthio/inbox/INCIDENT_RCLONE_REMOTES_BROKEN_HUNG_AUTH_20260819.json": "1787170649",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_104615.json": "1787042775",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_105615.json": "1787043375",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_110615.json": "1787043975",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_111615.json": "1787044575",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_112615.json": "1787045175",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_113615.json": "1787045775",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_114615.json": "1787046375",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_115616.json": "1787046976",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_120616.json": "1787047576",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_121616.json": "1787048176",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_122616.json": "1787048776",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_123616.json": "1787049376",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_124616.json": "1787049976",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_125616.json": "1787050576",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_130616.json": "1787051176",
+    "/root/zynthio/inbox/maccy/CRITICAL_PERCENT_ALERT_20260818_131616.json": "1787051776"
   }
 }

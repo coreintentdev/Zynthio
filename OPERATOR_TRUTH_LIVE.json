@@ -1,6 +1,6 @@
 {
   "signal": 336,
-  "as_of": "2026-08-19T12:00:04Z",
+  "as_of": "2026-08-19T21:45:03Z",
   "agent_law": [
     "READ /root/zynthio/OPERATOR_TRUTH_LIVE.json BEFORE any plan or done claim",
     "FORBIDDEN: done/shipped/live without http_public proof in this file",
@@ -25,8 +25,8 @@
     "musicclothes.com": {
       "code": 200,
       "dns_a": [
-        "104.21.83.117",
-        "172.67.175.143"
+        "172.67.175.143",
+        "104.21.83.117"
       ],
       "status": "PUBLIC_OK",
       "error": null
@@ -34,8 +34,8 @@
     "records.wiki": {
       "code": 200,
       "dns_a": [
-        "188.114.96.3",
-        "188.114.97.3"
+        "188.114.97.3",
+        "188.114.96.3"
       ],
       "status": "PUBLIC_OK",
       "error": null
@@ -51,8 +51,8 @@
     "retirementvillas.com": {
       "code": 403,
       "dns_a": [
-        "188.114.97.3",
-        "188.114.96.3"
+        "188.114.96.3",
+        "188.114.97.3"
       ],
       "status": "DOWN",
       "error": null
@@ -78,8 +78,8 @@
     "zynthio.wiki": {
       "code": 200,
       "dns_a": [
-        "188.114.97.3",
-        "188.114.96.3"
+        "188.114.96.3",
+        "188.114.97.3"
       ],
       "status": "PUBLIC_OK",
       "error": null
@@ -121,13 +121,13 @@
   "secrets_present": [
     "printify.env"
   ],
-  "disk_used_pct": "86%",
+  "disk_used_pct": "93%",
   "hermes_ingest_tail": [
-    "[2026-08-19T10:17:37Z] processing CRITICAL_PERCENT_ALERT_20260818_100615.json",
-    "[2026-08-19T10:17:44Z] processing CRITICAL_PERCENT_ALERT_20260818_101615.json",
-    "[2026-08-19T10:17:51Z] processing CRITICAL_PERCENT_ALERT_20260818_102615.json",
-    "[2026-08-19T10:17:58Z] processing CRITICAL_PERCENT_ALERT_20260818_103615.json",
-    "[2026-08-19T10:18:06Z] done processed=20 queue=/root/zynthio/BUILD_STACK_QUEUE_LIVE.json"
+    "[2026-08-19T21:07:10Z] processing CRITICAL_PERCENT_ALERT_20260818_124616.json",
+    "[2026-08-19T21:07:16Z] processing CRITICAL_PERCENT_ALERT_20260818_125616.json",
+    "[2026-08-19T21:07:24Z] processing CRITICAL_PERCENT_ALERT_20260818_130616.json",
+    "[2026-08-19T21:07:31Z] processing CRITICAL_PERCENT_ALERT_20260818_131616.json",
+    "[2026-08-19T21:07:38Z] done processed=20 queue=/root/zynthio/BUILD_STACK_QUEUE_LIVE.json"
   ],
   "queue_hermes_suggestions": 100,
   "queue_build_order": 28,

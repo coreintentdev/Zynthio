@@ -1,17 +1,8 @@
 {
   "signal": 336,
-  "generated_at": "2026-08-19T12:00:02Z",
-  "p0_count": 1,
+  "generated_at": "2026-08-19T21:45:01Z",
+  "p0_count": 0,
   "alerts": [
-    {
-      "id": "WISE-HOSTINGER-PENDING",
-      "severity": "P0",
-      "title": "Hostinger US$19.49 PENDING on Wise card 4509",
-      "deadline": "2026-07-22",
-      "days_until": -28,
-      "action": "PayPal \u2192 Automatic payments \u2192 HOSTINGER \u2192 Cancel NOW. hPanel auto-renew OFF.",
-      "detail": "Txn 4057843133. Auto-return if unclaimed by 2026-07-22."
-    },
     {
       "id": "SJDS-MIRROR-IN-PROGRESS",
       "severity": "P1",

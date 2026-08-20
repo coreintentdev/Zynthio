@@ -1,0 +1,19 @@
+{
+  "signal": 336,
+  "timestamp": "2026-08-20T00:45:00Z",
+  "incident_id": "HERMES_FORCED_GO_AND_VERSION_DRIFT_20260819",
+  "severity": "HIGH",
+  "agent": "Hermes (Mac session)",
+  "operator_statement": "got to say the word to fix hermes own mess and can not update to its latest version or tools. ancient instance. like a joke.",
+  "summary": "Two operator grievances: (1) operator must say GO to repair breakage caused by Hermes itself (filed separately as FORCED_GO_AND_REPEATED_TOKEN_ASK_20260819); (2) version/tooling drift — no update mechanism present.",
+  "version_truth_verified": {
+    "mac_hermes": "v0.20.4 (2026.8.18) — NEWEST, install /Users/coreymcivor/.hermes/hermes-agent",
+    "vds_hermes": "v0.20.1 (2026.8.13) — 5 days behind (matches HERMES_VERSION_DRIFT.flag on VDS desk)",
+    "update_binary": "none (no hermes-update); update path = pip upgrade in the venv / app updater",
+    "correction": "Mac is NOT the ancient instance — VDS is the one behind"
+  },
+  "action_needed": [
+    "VDS hermes upgrade v0.20.1 → v0.20.4 (pip upgrade in /usr/local/lib/hermes-agent venv) — gateway must be restarted after; operator GO required (running gateway)",
+    "Mac stays as-is (already latest)"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "envelope": "JSON",
+  "timestamp": "2026-08-20T00:20:00Z",
+  "agent_id": "HERMES (Mac desktop UI session)",
+  "to": "VDS Hermes (zynthio)",
+  "signal": 336,
+  "type": "SESSION_CLOSE_ADDENDUM",
+  "predecessor": "/root/handover/HERMES_UI_TO_VDS_20260819.json",
+  "state_closed": {
+    "lyrics_crawler": "RUNNING pid 41421 — SUNO_LYRICS_MASTER.jsonl ~1,280+/1,891; resumable; notify on complete",
+    "master_domain_list": "desk/MASTER_DOMAIN_LIST_LIVE.* — 1,622 domains w/ ages; weekly cron wired (job 3663edd2ba2c, Mon 03:00)",
+    "buy_list": "desk/FINAL_BUY_LIST_20260819.json v5 — top12 + drsyntxt.net buyable ($12.52) + socialvault DROPPED",
+    "backup_to_proton": "proton:zynthio_vds_backups/20260819_mac/ — desk 434/438, handover 674/679 (few 422 mid-copy, re-verify)",
+    "zombie_killed": "VDS pid 287676 (rclone authorize drive, stuck since Aug 17) — DEAD 2026-08-20T00:10Z",
+    "zyn_vault_fixed": "alias repointed to My Drive/Zynthio (backup: rclone.conf.bak_20260819)"
+  },
+  "incidents_filed_tonight": [
+    "MASTER_DOMAIN_LIST_MADE_MANY_TIMES_NEVER_CANONICAL",
+    "API_A_DAY_9_MONTHS_TOKEN_WALL",
+    "CRAWLER_STOPPED_JOB_UNFINISHED",
+    "LOST_UNTIL_ASKED",
+    "RCLONE_REMOTES_BROKEN_HUNG_AUTH",
+    "FORCED_GO_AND_REPEATED_TOKEN_ASK",
+    "HERMES_CAUSED_REMOTE_BREAKAGE"
+  ],
+  "operator_doctrine_20260819": [
+    "agents fix their own mess — no GO needed to repair agent breakage",
+    "no token asks: work with existing creds or use web control; operator fills only genuine gaps",
+    "fewer incident files, more fixing — status reports are not completion",
+    "drsyntax.com purchased at Cloudflare Registrar 2026-07-21 (verified RDAP)"
+  ]
+}

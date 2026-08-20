@@ -1,6 +1,6 @@
 {
   "signal": 336,
-  "timestamp": "2026-08-19T20:00:01.576132",
+  "timestamp": "2026-08-20T00:30:01.922935",
   "monitor_status": "automated",
   "bridge_status": {
     "status": "activating",
@@ -10,7 +10,7 @@
     "status": "success",
     "method": "tutanota_fallback",
     "proton_emails": 0,
-    "timestamp": "2026-08-19T20:00:01.583283"
+    "timestamp": "2026-08-20T00:30:01.929333"
   },
   "recommendations": [
     "Proton Bridge broken on VDS (headless Qt issues)",

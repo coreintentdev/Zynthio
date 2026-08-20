@@ -1,0 +1,28 @@
+{
+  "signal": 336,
+  "timestamp": "2026-08-20T01:00:00Z",
+  "incident_id": "CRON_FLEET_PATH_BREAK_AFTER_ROOT_MIGRATION_20260819",
+  "severity": "MAJOR",
+  "agent": "Hermes (Mac session) — operator-directed check of VDS",
+  "operator_statement": "the one in the dark appearing to do nothing. report incidents and fix your bs.",
+  "summary": "The 2026-08-19 root migration moved /root/zynthio-tools/zynthio to /root/_TO_DELETE/zynthio-tools_20260819_140015/zynthio WITHOUT updating cron paths. 27 cron jobs (hermes_ingest_queue, operator_billing_watch, fleet_host_monitor, bondzee/transcribe daemons, site_live_truth, cf_dead_daily, daily briefs, etc.) silently pointed at a non-existent path since 14:00Z — the VDS automation fleet was dead at the path level. Gateway kept running (PIDs 1054/1906, 2d23h uptime) so the VDS LOOKED alive while nothing was ingested: handover packs sat unprocessed in /root/zynthio/inbox/.",
+  "evidence": [
+    "27 crontab entries still reference /root/zynthio-tools/zynthio/...",
+    "hermes_ingest_queue.py found in _TO_DELETE tree (intact)",
+    "hermes_ingest.log empty; no ingest processing since migration",
+    "3 operator handover packs unprocessed until manual fire"
+  ],
+  "fix_applied": {
+    "symlink": "/root/zynthio-tools/zynthio -> /root/_TO_DELETE/zynthio-tools_20260819_140015/zynthio (reversible)",
+    "effect": "all 27 cron paths revived instantly",
+    "ingest_fired": "manual run 2026-08-19T21:04Z — processing HERMES_SESSION_CLOSE + incidents OK"
+  },
+  "still_open": [
+    "permanent fix: point crons at final migrated locations (or move tree back) after _TO_DELETE reconciliation",
+    "VDS hermes version drift 0.20.1 -> 0.20.4 (gateway restart requires operator GO)"
+  ],
+  "prevention": [
+    "any migration that moves a path under live crons MUST rewrite crontab in the same operation",
+    "post-migration cron smoke test: count dead-path entries before declaring done"
+  ]
+}
