@@ -1,0 +1,10 @@
+{
+  "path": "VDS_TO_OVERWATCHER",
+  "timestamp": "2026-08-21T11:06:43Z",
+  "capacity_percent": 86,
+  "available_gb": "26G",
+  "signal_type": "capacity_check",
+  "check_type": "scheduled",
+  "signal": "336",
+  "vds_is_boss": true
+}

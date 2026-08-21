@@ -1,11 +1,11 @@
 {
  "signal": 336,
  "id": "MASTER_DOMAIN_LIST_LIVE",
- "updated": "2026-08-19T19:24:48+00:00",
+ "updated": "2026-08-21T13:19:21+00:00",
  "groundhog_fix": "Single canonical domain truth. Refresh with scripts/master_domain_list_builder.py. Never re-derive from scratch.",
  "counts": {
-  "total": 1622,
-  "porkbun": 1592,
+  "total": 1596,
+  "porkbun": 1596,
   "cloudflare": 0,
   "both": 0
  },
@@ -522,6 +522,16 @@
    "autoRenew": 0
   },
   {
+   "domain": "helgadealvear.net",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "net",
+   "createDate": "2000-07-12 13:38:50",
+   "expiryDate": null,
+   "ageYears": 26.1,
+   "autoRenew": "1"
+  },
+  {
    "domain": "uniquepromotionalproducts.com",
    "registrar": "Porkbun",
    "status": "ACTIVE",
@@ -638,7 +648,7 @@
    "tld": "net",
    "createDate": "2001-06-26 09:39:26",
    "expiryDate": null,
-   "ageYears": 25.1,
+   "ageYears": 25.2,
    "autoRenew": 0
   },
   {
@@ -1342,6 +1352,16 @@
    "autoRenew": "1"
   },
   {
+   "domain": "advokatuur.com",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "com",
+   "createDate": "2006-07-13 10:28:51",
+   "expiryDate": null,
+   "ageYears": 20.1,
+   "autoRenew": 0
+  },
+  {
    "domain": "rockatradio.com",
    "registrar": "Porkbun",
    "status": "ACTIVE",
@@ -1518,7 +1538,7 @@
    "tld": "com",
    "createDate": "2008-06-26 15:26:23",
    "expiryDate": null,
-   "ageYears": 18.1,
+   "ageYears": 18.2,
    "autoRenew": 0
   },
   {
@@ -1557,6 +1577,16 @@
    "status": "ACTIVE",
    "tld": "com",
    "createDate": "2008-07-05 22:20:02",
+   "expiryDate": null,
+   "ageYears": 18.1,
+   "autoRenew": "1"
+  },
+  {
+   "domain": "solvencymanager.com",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "com",
+   "createDate": "2008-07-11 09:36:40",
    "expiryDate": null,
    "ageYears": 18.1,
    "autoRenew": "1"
@@ -1898,7 +1928,7 @@
    "tld": "com",
    "createDate": "2011-06-27 21:32:09",
    "expiryDate": null,
-   "ageYears": 15.1,
+   "ageYears": 15.2,
    "autoRenew": 0
   },
   {
@@ -2038,7 +2068,7 @@
    "tld": "com",
    "createDate": "2013-05-20 13:31:28",
    "expiryDate": null,
-   "ageYears": 13.2,
+   "ageYears": 13.3,
    "autoRenew": 0
   },
   {
@@ -2128,7 +2158,7 @@
    "tld": "com",
    "createDate": "2013-06-25 06:39:02",
    "expiryDate": null,
-   "ageYears": 13.1,
+   "ageYears": 13.2,
    "autoRenew": 0
   },
   {
@@ -2178,7 +2208,7 @@
    "tld": "com",
    "createDate": "2014-06-26 18:49:40",
    "expiryDate": null,
-   "ageYears": 12.1,
+   "ageYears": 12.2,
    "autoRenew": 0
   },
   {
@@ -2702,6 +2732,16 @@
    "autoRenew": 0
   },
   {
+   "domain": "novack.dev",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "dev",
+   "createDate": "2023-06-26 05:37:31",
+   "expiryDate": null,
+   "ageYears": 3.2,
+   "autoRenew": 0
+  },
+  {
    "domain": "realty.mba",
    "registrar": "Porkbun",
    "status": "ACTIVE",
@@ -2709,16 +2749,6 @@
    "createDate": "2023-06-10 02:22:08",
    "expiryDate": null,
    "ageYears": 3.2,
-   "autoRenew": 0
-  },
-  {
-   "domain": "novack.dev",
-   "registrar": "Porkbun",
-   "status": "ACTIVE",
-   "tld": "dev",
-   "createDate": "2023-06-26 05:37:31",
-   "expiryDate": null,
-   "ageYears": 3.1,
    "autoRenew": 0
   },
   {
@@ -2778,7 +2808,7 @@
    "tld": "com",
    "createDate": "2024-05-20 15:45:37",
    "expiryDate": null,
-   "ageYears": 2.2,
+   "ageYears": 2.3,
    "autoRenew": 0
   },
   {
@@ -2788,7 +2818,7 @@
    "tld": "com",
    "createDate": "2024-05-21 01:22:14",
    "expiryDate": null,
-   "ageYears": 2.2,
+   "ageYears": 2.3,
    "autoRenew": 0
   },
   {
@@ -2798,7 +2828,7 @@
    "tld": "com",
    "createDate": "2024-05-21 16:21:21",
    "expiryDate": null,
-   "ageYears": 2.2,
+   "ageYears": 2.3,
    "autoRenew": 0
   },
   {
@@ -2908,7 +2938,7 @@
    "tld": "com",
    "createDate": "2024-06-26 00:39:23",
    "expiryDate": null,
-   "ageYears": 2.1,
+   "ageYears": 2.2,
    "autoRenew": 0
   },
   {
@@ -2952,6 +2982,46 @@
    "autoRenew": 0
   },
   {
+   "domain": "musicclothes.com",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "com",
+   "createDate": "2025-05-20 19:38:22",
+   "expiryDate": null,
+   "ageYears": 1.3,
+   "autoRenew": 0
+  },
+  {
+   "domain": "clearstreamchurch.com",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "com",
+   "createDate": "2025-05-20 21:45:11",
+   "expiryDate": null,
+   "ageYears": 1.3,
+   "autoRenew": 0
+  },
+  {
+   "domain": "syncyourfile.com",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "com",
+   "createDate": "2025-05-20 14:32:33",
+   "expiryDate": null,
+   "ageYears": 1.3,
+   "autoRenew": 0
+  },
+  {
+   "domain": "pickleball.spot",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "spot",
+   "createDate": "2025-05-21 10:22:21",
+   "expiryDate": null,
+   "ageYears": 1.3,
+   "autoRenew": 0
+  },
+  {
    "domain": "financetemplate.com",
    "registrar": "Porkbun",
    "status": "ACTIVE",
@@ -2969,46 +3039,6 @@
    "createDate": "2025-04-25 19:42:04",
    "expiryDate": null,
    "ageYears": 1.3,
-   "autoRenew": 0
-  },
-  {
-   "domain": "musicclothes.com",
-   "registrar": "Porkbun",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2025-05-20 19:38:22",
-   "expiryDate": null,
-   "ageYears": 1.2,
-   "autoRenew": 0
-  },
-  {
-   "domain": "clearstreamchurch.com",
-   "registrar": "Porkbun",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2025-05-20 21:45:11",
-   "expiryDate": null,
-   "ageYears": 1.2,
-   "autoRenew": 0
-  },
-  {
-   "domain": "syncyourfile.com",
-   "registrar": "Porkbun",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2025-05-20 14:32:33",
-   "expiryDate": null,
-   "ageYears": 1.2,
-   "autoRenew": 0
-  },
-  {
-   "domain": "pickleball.spot",
-   "registrar": "Porkbun",
-   "status": "ACTIVE",
-   "tld": "spot",
-   "createDate": "2025-05-21 10:22:21",
-   "expiryDate": null,
-   "ageYears": 1.2,
    "autoRenew": 0
   },
   {
@@ -3702,6 +3732,16 @@
    "autoRenew": "1"
   },
   {
+   "domain": "haweya.app",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "app",
+   "createDate": "2025-08-02 19:59:07",
+   "expiryDate": null,
+   "ageYears": 1.1,
+   "autoRenew": 0
+  },
+  {
    "domain": "primecontent.io",
    "registrar": "Porkbun",
    "status": "ACTIVE",
@@ -3709,16 +3749,6 @@
    "createDate": "2025-06-30 14:14:02",
    "expiryDate": null,
    "ageYears": 1.1,
-   "autoRenew": 0
-  },
-  {
-   "domain": "haweya.app",
-   "registrar": "Porkbun",
-   "status": "ACTIVE",
-   "tld": "app",
-   "createDate": "2025-08-02 19:59:07",
-   "expiryDate": null,
-   "ageYears": 1.0,
    "autoRenew": 0
   },
   {
@@ -9398,7 +9428,7 @@
    "tld": "pink",
    "createDate": "2026-06-26 00:19:59",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9408,7 +9438,7 @@
    "tld": "surf",
    "createDate": "2026-06-26 00:20:00",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9418,7 +9448,7 @@
    "tld": "bid",
    "createDate": "2026-06-26 00:20:00",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9428,7 +9458,7 @@
    "tld": "meme",
    "createDate": "2026-06-26 00:20:00",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9438,7 +9468,7 @@
    "tld": "top",
    "createDate": "2026-06-26 00:20:00",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9448,7 +9478,7 @@
    "tld": "click",
    "createDate": "2026-06-26 00:20:01",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9458,7 +9488,7 @@
    "tld": "net",
    "createDate": "2026-06-26 00:20:04",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9468,7 +9498,7 @@
    "tld": "org",
    "createDate": "2026-06-26 00:20:04",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9478,7 +9508,7 @@
    "tld": "futbol",
    "createDate": "2026-06-26 00:20:05",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9488,7 +9518,7 @@
    "tld": "click",
    "createDate": "2026-06-26 00:20:05",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9498,7 +9528,7 @@
    "tld": "top",
    "createDate": "2026-06-26 00:20:05",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9508,7 +9538,7 @@
    "tld": "casa",
    "createDate": "2026-06-26 00:20:06",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9518,7 +9548,7 @@
    "tld": "click",
    "createDate": "2026-06-26 00:20:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9528,7 +9558,7 @@
    "tld": "top",
    "createDate": "2026-06-26 00:20:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9538,7 +9568,7 @@
    "tld": "work",
    "createDate": "2026-06-26 00:20:10",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9548,7 +9578,7 @@
    "tld": "today",
    "createDate": "2026-06-26 00:20:11",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9558,7 +9588,7 @@
    "tld": "today",
    "createDate": "2026-06-26 00:20:11",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9568,7 +9598,7 @@
    "tld": "business",
    "createDate": "2026-06-26 00:20:11",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9578,7 +9608,7 @@
    "tld": "gripe",
    "createDate": "2026-06-26 00:20:12",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9588,7 +9618,7 @@
    "tld": "contact",
    "createDate": "2026-06-26 00:20:12",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9598,7 +9628,7 @@
    "tld": "wang",
    "createDate": "2026-06-26 00:20:12",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9608,7 +9638,7 @@
    "tld": "gripe",
    "createDate": "2026-06-26 00:20:13",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9618,7 +9648,7 @@
    "tld": "how",
    "createDate": "2026-06-26 00:20:14",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9628,7 +9658,7 @@
    "tld": "observer",
    "createDate": "2026-06-26 00:20:14",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9638,7 +9668,7 @@
    "tld": "feedback",
    "createDate": "2026-06-26 00:20:15",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9648,7 +9678,7 @@
    "tld": "video",
    "createDate": "2026-06-26 00:20:16",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9658,7 +9688,7 @@
    "tld": "video",
    "createDate": "2026-06-26 00:20:16",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9668,7 +9698,7 @@
    "tld": "enterprises",
    "createDate": "2026-06-26 00:20:16",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9678,7 +9708,7 @@
    "tld": "bar",
    "createDate": "2026-06-26 00:20:17",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9688,7 +9718,7 @@
    "tld": "mba",
    "createDate": "2026-06-26 00:20:18",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9698,7 +9728,7 @@
    "tld": "feedback",
    "createDate": "2026-06-26 00:20:18",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9708,7 +9738,7 @@
    "tld": "business",
    "createDate": "2026-06-26 00:20:18",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9718,7 +9748,7 @@
    "tld": "wang",
    "createDate": "2026-06-26 07:26:54",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9728,7 +9758,7 @@
    "tld": "dog",
    "createDate": "2026-06-26 07:26:57",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9738,7 +9768,7 @@
    "tld": "top",
    "createDate": "2026-06-26 07:26:57",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9748,7 +9778,7 @@
    "tld": "vip",
    "createDate": "2026-06-26 07:26:58",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9758,7 +9788,7 @@
    "tld": "bar",
    "createDate": "2026-06-26 07:26:58",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9768,7 +9798,7 @@
    "tld": "fyi",
    "createDate": "2026-06-26 07:26:58",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9778,7 +9808,7 @@
    "tld": "live",
    "createDate": "2026-06-26 07:26:59",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9788,7 +9818,7 @@
    "tld": "onl",
    "createDate": "2026-06-26 07:27:01",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9798,7 +9828,7 @@
    "tld": "dog",
    "createDate": "2026-06-26 07:27:01",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9808,7 +9838,7 @@
    "tld": "rest",
    "createDate": "2026-06-26 07:27:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9818,7 +9848,7 @@
    "tld": "cards",
    "createDate": "2026-06-26 07:27:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9828,7 +9858,7 @@
    "tld": "video",
    "createDate": "2026-06-26 07:27:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9838,7 +9868,7 @@
    "tld": "run",
    "createDate": "2026-06-26 12:00:41",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9848,7 +9878,7 @@
    "tld": "legal",
    "createDate": "2026-06-26 12:40:12",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9858,7 +9888,7 @@
    "tld": "jetzt",
    "createDate": "2026-06-26 12:40:13",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9868,7 +9898,7 @@
    "tld": "kaufen",
    "createDate": "2026-06-26 12:40:14",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9878,7 +9908,7 @@
    "tld": "fyi",
    "createDate": "2026-06-26 15:53:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9888,7 +9918,7 @@
    "tld": "cc",
    "createDate": "2026-06-26 15:53:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9898,7 +9928,7 @@
    "tld": "rip",
    "createDate": "2026-06-26 15:53:09",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9908,7 +9938,7 @@
    "tld": "rip",
    "createDate": "2026-06-26 15:53:10",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9918,7 +9948,7 @@
    "tld": "observer",
    "createDate": "2026-06-26 15:53:10",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9928,7 +9958,7 @@
    "tld": "my",
    "createDate": "2026-06-26 15:53:11",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9938,7 +9968,7 @@
    "tld": "dog",
    "createDate": "2026-06-26 15:53:11",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9948,7 +9978,7 @@
    "tld": "video",
    "createDate": "2026-06-26 15:53:11",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9958,7 +9988,7 @@
    "tld": "rest",
    "createDate": "2026-06-26 16:32:10",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9968,7 +9998,7 @@
    "tld": "recipes",
    "createDate": "2026-06-26 16:32:11",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9978,7 +10008,7 @@
    "tld": "kaufen",
    "createDate": "2026-06-26 17:33:22",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9988,7 +10018,7 @@
    "tld": "estate",
    "createDate": "2026-06-26 17:33:23",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -9998,7 +10028,7 @@
    "tld": "insure",
    "createDate": "2026-06-26 17:33:23",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10008,7 +10038,7 @@
    "tld": "solar",
    "createDate": "2026-06-26 17:33:23",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10018,7 +10048,7 @@
    "tld": "sarl",
    "createDate": "2026-06-26 17:33:24",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10028,7 +10058,7 @@
    "tld": "repair",
    "createDate": "2026-06-26 17:33:24",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10038,7 +10068,7 @@
    "tld": "fyi",
    "createDate": "2026-06-26 18:20:41",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10048,7 +10078,7 @@
    "tld": "fyi",
    "createDate": "2026-06-26 21:59:02",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10058,7 +10088,7 @@
    "tld": "top",
    "createDate": "2026-06-26 21:59:02",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10068,7 +10098,7 @@
    "tld": "click",
    "createDate": "2026-06-26 21:59:03",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10078,7 +10108,7 @@
    "tld": "wiki",
    "createDate": "2026-06-26 21:59:03",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10088,7 +10118,7 @@
    "tld": "rip",
    "createDate": "2026-06-26 21:59:04",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10098,7 +10128,7 @@
    "tld": "band",
    "createDate": "2026-06-26 21:59:04",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10108,7 +10138,7 @@
    "tld": "fyi",
    "createDate": "2026-06-26 21:59:04",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10118,7 +10148,7 @@
    "tld": "top",
    "createDate": "2026-06-26 21:59:04",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10128,7 +10158,7 @@
    "tld": "studio",
    "createDate": "2026-06-26 21:59:05",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10138,7 +10168,7 @@
    "tld": "band",
    "createDate": "2026-06-26 21:59:05",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10148,7 +10178,7 @@
    "tld": "hiphop",
    "createDate": "2026-06-26 21:59:06",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10158,7 +10188,7 @@
    "tld": "rocks",
    "createDate": "2026-06-26 21:59:06",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10168,7 +10198,7 @@
    "tld": "wiki",
    "createDate": "2026-06-26 21:59:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10178,7 +10208,7 @@
    "tld": "click",
    "createDate": "2026-06-26 21:59:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10188,7 +10218,7 @@
    "tld": "rip",
    "createDate": "2026-06-26 21:59:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10198,7 +10228,7 @@
    "tld": "dog",
    "createDate": "2026-06-26 22:01:49",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10208,7 +10238,7 @@
    "tld": "dog",
    "createDate": "2026-06-26 22:01:49",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10218,7 +10248,7 @@
    "tld": "blog",
    "createDate": "2026-06-26 22:07:06",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10228,7 +10258,7 @@
    "tld": "online",
    "createDate": "2026-06-26 22:07:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10238,7 +10268,7 @@
    "tld": "kaufen",
    "createDate": "2026-06-26 22:27:54",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10248,7 +10278,7 @@
    "tld": "rich",
    "createDate": "2026-06-26 22:27:54",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10258,7 +10288,7 @@
    "tld": "irish",
    "createDate": "2026-06-26 22:27:54",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10268,7 +10298,7 @@
    "tld": "jetzt",
    "createDate": "2026-06-26 22:27:55",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10278,7 +10308,7 @@
    "tld": "repair",
    "createDate": "2026-06-26 22:27:55",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10288,7 +10318,7 @@
    "tld": "kitchen",
    "createDate": "2026-06-26 22:27:55",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10298,7 +10328,7 @@
    "tld": "tires",
    "createDate": "2026-06-26 22:27:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10308,7 +10338,7 @@
    "tld": "voyage",
    "createDate": "2026-06-26 22:27:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10318,7 +10348,7 @@
    "tld": "band",
    "createDate": "2026-06-26 22:38:15",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10328,7 +10358,7 @@
    "tld": "kaufen",
    "createDate": "2026-06-26 22:38:15",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10338,7 +10368,7 @@
    "tld": "republican",
    "createDate": "2026-06-26 22:38:15",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10348,7 +10378,7 @@
    "tld": "democrat",
    "createDate": "2026-06-26 22:38:16",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10358,7 +10388,7 @@
    "tld": "legal",
    "createDate": "2026-06-26 22:38:16",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10368,7 +10398,7 @@
    "tld": "radio.fm",
    "createDate": "2026-06-26 00:20:00",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10378,7 +10408,7 @@
    "tld": "bond",
    "createDate": "2026-06-26 00:20:02",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10388,7 +10418,7 @@
    "tld": "xyz",
    "createDate": "2026-06-26 00:20:02",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10398,7 +10428,7 @@
    "tld": "lat",
    "createDate": "2026-06-26 00:20:03",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10408,7 +10438,7 @@
    "tld": "lat",
    "createDate": "2026-06-26 00:20:03",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10418,7 +10448,7 @@
    "tld": "xyz",
    "createDate": "2026-06-26 00:20:06",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10428,7 +10458,7 @@
    "tld": "quest",
    "createDate": "2026-06-26 00:20:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10438,7 +10468,7 @@
    "tld": "homes",
    "createDate": "2026-06-26 00:20:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10448,7 +10478,7 @@
    "tld": "boats",
    "createDate": "2026-06-26 00:20:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10458,7 +10488,7 @@
    "tld": "best",
    "createDate": "2026-06-26 00:20:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10468,7 +10498,7 @@
    "tld": "best",
    "createDate": "2026-06-26 00:20:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10478,7 +10508,7 @@
    "tld": "xyz",
    "createDate": "2026-06-26 00:20:09",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10488,7 +10518,7 @@
    "tld": "best",
    "createDate": "2026-06-26 00:20:10",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10498,7 +10528,7 @@
    "tld": "best",
    "createDate": "2026-06-26 00:20:12",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10508,7 +10538,7 @@
    "tld": "sbs",
    "createDate": "2026-06-26 00:20:14",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10518,7 +10548,7 @@
    "tld": "cfd",
    "createDate": "2026-06-26 00:20:15",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10528,7 +10558,7 @@
    "tld": "lol",
    "createDate": "2026-06-26 00:20:17",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10538,7 +10568,7 @@
    "tld": "pics",
    "createDate": "2026-06-26 00:20:17",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10548,7 +10578,7 @@
    "tld": "skin",
    "createDate": "2026-06-26 07:26:53",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10558,7 +10588,7 @@
    "tld": "pics",
    "createDate": "2026-06-26 07:26:54",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10568,7 +10598,7 @@
    "tld": "icu",
    "createDate": "2026-06-26 07:26:54",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10578,7 +10608,7 @@
    "tld": "mom",
    "createDate": "2026-06-26 07:26:55",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10588,7 +10618,7 @@
    "tld": "sbs",
    "createDate": "2026-06-26 07:26:55",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10598,7 +10628,7 @@
    "tld": "cyou",
    "createDate": "2026-06-26 07:26:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10608,7 +10638,7 @@
    "tld": "skin",
    "createDate": "2026-06-26 07:26:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10618,7 +10648,7 @@
    "tld": "lol",
    "createDate": "2026-06-26 07:26:59",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10628,7 +10658,7 @@
    "tld": "shop",
    "createDate": "2026-06-26 07:26:59",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10638,7 +10668,7 @@
    "tld": "pics",
    "createDate": "2026-06-26 07:27:06",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10648,7 +10678,7 @@
    "tld": "mom",
    "createDate": "2026-06-26 07:27:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10658,7 +10688,7 @@
    "tld": "ceo",
    "createDate": "2026-06-26 12:40:12",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10668,7 +10698,7 @@
    "tld": "pics",
    "createDate": "2026-06-26 12:40:13",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10678,7 +10708,7 @@
    "tld": "boats",
    "createDate": "2026-06-26 12:40:13",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10688,7 +10718,7 @@
    "tld": "xyz",
    "createDate": "2026-06-26 15:53:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10698,7 +10728,7 @@
    "tld": "art",
    "createDate": "2026-06-26 15:53:09",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10708,7 +10738,7 @@
    "tld": "boats",
    "createDate": "2026-06-26 16:32:09",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10718,7 +10748,7 @@
    "tld": "com.de",
    "createDate": "2026-06-26 17:33:23",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10728,7 +10758,7 @@
    "tld": "art",
    "createDate": "2026-06-26 21:59:06",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10738,7 +10768,7 @@
    "tld": "lat",
    "createDate": "2026-06-26 21:59:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10748,7 +10778,7 @@
    "tld": "cyou",
    "createDate": "2026-06-26 21:59:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10758,7 +10788,7 @@
    "tld": "cyou",
    "createDate": "2026-06-26 21:59:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10768,7 +10798,7 @@
    "tld": "xyz",
    "createDate": "2026-06-26 21:59:08",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10778,7 +10808,7 @@
    "tld": "lol",
    "createDate": "2026-06-26 22:07:05",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10788,7 +10818,7 @@
    "tld": "help",
    "createDate": "2026-06-26 22:07:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10798,7 +10828,7 @@
    "tld": "lat",
    "createDate": "2026-06-26 22:07:07",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10808,7 +10838,7 @@
    "tld": "radio.am",
    "createDate": "2026-06-26 22:27:55",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10818,7 +10848,7 @@
    "tld": "boats",
    "createDate": "2026-06-26 22:27:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10828,7 +10858,7 @@
    "tld": "surf",
    "createDate": "2026-06-27 10:09:12",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10838,7 +10868,7 @@
    "tld": "id.au",
    "createDate": "2026-06-27 10:09:20",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10848,7 +10878,7 @@
    "tld": "gen.in",
    "createDate": "2026-06-27 10:09:21",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10858,7 +10888,7 @@
    "tld": "firm.in",
    "createDate": "2026-06-27 10:09:22",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10868,7 +10898,7 @@
    "tld": "church",
    "createDate": "2026-06-27 11:31:34",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10878,7 +10908,7 @@
    "tld": "rocks",
    "createDate": "2026-06-27 12:32:55",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10888,7 +10918,7 @@
    "tld": "repair",
    "createDate": "2026-06-27 12:32:55",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10898,7 +10928,7 @@
    "tld": "management",
    "createDate": "2026-06-27 12:32:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10908,7 +10938,7 @@
    "tld": "theater",
    "createDate": "2026-06-27 12:32:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10918,7 +10948,7 @@
    "tld": "church",
    "createDate": "2026-06-27 12:32:57",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10928,7 +10958,7 @@
    "tld": "band",
    "createDate": "2026-06-27 13:24:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10938,7 +10968,7 @@
    "tld": "directory",
    "createDate": "2026-06-27 13:24:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10948,7 +10978,7 @@
    "tld": "discount",
    "createDate": "2026-06-27 13:24:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10958,7 +10988,7 @@
    "tld": "singles",
    "createDate": "2026-06-27 13:24:57",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10968,7 +10998,7 @@
    "tld": "gripe",
    "createDate": "2026-06-27 13:24:57",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10978,7 +11008,7 @@
    "tld": "lease",
    "createDate": "2026-06-27 13:24:58",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10988,7 +11018,7 @@
    "tld": "pet",
    "createDate": "2026-06-27 16:30:28",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -10998,7 +11028,7 @@
    "tld": "dog",
    "createDate": "2026-06-27 16:30:29",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11008,7 +11038,7 @@
    "tld": "auction",
    "createDate": "2026-06-27 16:30:29",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11018,7 +11048,7 @@
    "tld": "discount",
    "createDate": "2026-06-27 16:30:29",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11028,7 +11058,7 @@
    "tld": "delivery",
    "createDate": "2026-06-27 16:30:29",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11038,7 +11068,7 @@
    "tld": "contractors",
    "createDate": "2026-06-27 16:30:30",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11048,7 +11078,7 @@
    "tld": "legal",
    "createDate": "2026-06-27 16:30:30",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11058,7 +11088,7 @@
    "tld": "enterprises",
    "createDate": "2026-06-27 16:30:30",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11068,7 +11098,7 @@
    "tld": "insure",
    "createDate": "2026-06-27 16:30:30",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11078,7 +11108,7 @@
    "tld": "solutions",
    "createDate": "2026-06-27 16:30:30",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11088,7 +11118,7 @@
    "tld": "jetzt",
    "createDate": "2026-06-27 16:30:31",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11098,7 +11128,7 @@
    "tld": "kaufen",
    "createDate": "2026-06-27 16:30:31",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11108,7 +11138,7 @@
    "tld": "democrat",
    "createDate": "2026-06-27 16:30:31",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11118,7 +11148,7 @@
    "tld": "sarl",
    "createDate": "2026-06-27 16:30:37",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11128,7 +11158,7 @@
    "tld": "tattoo",
    "createDate": "2026-06-27 16:30:37",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11138,7 +11168,7 @@
    "tld": "boutique",
    "createDate": "2026-06-27 16:30:38",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11148,7 +11178,7 @@
    "tld": "shopping",
    "createDate": "2026-06-27 16:30:38",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11158,7 +11188,7 @@
    "tld": "singles",
    "createDate": "2026-06-27 16:30:38",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11168,7 +11198,7 @@
    "tld": "digital",
    "createDate": "2026-06-27 16:30:38",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11178,7 +11208,7 @@
    "tld": "cloud",
    "createDate": "2026-06-27 16:30:39",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11188,7 +11218,7 @@
    "tld": "fyi",
    "createDate": "2026-06-27 16:30:39",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11198,7 +11228,7 @@
    "tld": "band",
    "createDate": "2026-06-27 16:46:33",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11208,7 +11238,7 @@
    "tld": "dance",
    "createDate": "2026-06-27 16:46:33",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11218,7 +11248,7 @@
    "tld": "ink",
    "createDate": "2026-06-27 16:46:34",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11228,7 +11258,7 @@
    "tld": "kaufen",
    "createDate": "2026-06-27 16:46:34",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11238,7 +11268,7 @@
    "tld": "repair",
    "createDate": "2026-06-27 16:46:34",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11248,7 +11278,7 @@
    "tld": "legal",
    "createDate": "2026-06-27 16:46:35",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11258,7 +11288,7 @@
    "tld": "insure",
    "createDate": "2026-06-27 16:46:35",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11268,7 +11298,7 @@
    "tld": "gold",
    "createDate": "2026-06-27 16:46:35",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11278,7 +11308,7 @@
    "tld": "republican",
    "createDate": "2026-06-27 16:46:36",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11288,7 +11318,7 @@
    "tld": "auction",
    "createDate": "2026-06-27 16:46:36",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11298,7 +11328,7 @@
    "tld": "pet",
    "createDate": "2026-06-27 16:46:37",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11308,7 +11338,7 @@
    "tld": "church",
    "createDate": "2026-06-27 16:46:37",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11318,7 +11348,7 @@
    "tld": "legal",
    "createDate": "2026-06-27 16:55:59",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11328,7 +11358,7 @@
    "tld": "me.uk",
    "createDate": "2026-06-27 17:30:36",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11338,7 +11368,7 @@
    "tld": "ong",
    "createDate": "2026-06-27 18:27:30",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11348,7 +11378,7 @@
    "tld": "music",
    "createDate": "2026-06-27 18:34:16",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11358,7 +11388,7 @@
    "tld": "wiki",
    "createDate": "2026-06-27 20:46:38",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11368,7 +11398,7 @@
    "tld": "stream",
    "createDate": "2026-06-27 20:46:38",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11378,7 +11408,7 @@
    "tld": "tattoo",
    "createDate": "2026-06-27 20:46:39",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11388,7 +11418,7 @@
    "tld": "video",
    "createDate": "2026-06-27 20:46:39",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11398,7 +11428,7 @@
    "tld": "live",
    "createDate": "2026-06-27 20:46:40",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11408,7 +11438,7 @@
    "tld": "live",
    "createDate": "2026-06-27 20:46:40",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11418,7 +11448,7 @@
    "tld": "live",
    "createDate": "2026-06-27 20:46:40",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11428,7 +11458,7 @@
    "tld": "top",
    "createDate": "2026-06-27 20:46:40",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11438,7 +11468,7 @@
    "tld": "digital",
    "createDate": "2026-06-27 20:46:42",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11448,7 +11478,7 @@
    "tld": "live",
    "createDate": "2026-06-27 20:46:42",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11458,7 +11488,7 @@
    "tld": "vip",
    "createDate": "2026-06-27 20:46:42",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11468,7 +11498,7 @@
    "tld": "radio.fm",
    "createDate": "2026-06-27 12:32:55",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11478,7 +11508,7 @@
    "tld": "radio.am",
    "createDate": "2026-06-27 12:32:56",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11488,7 +11518,7 @@
    "tld": "radio.fm",
    "createDate": "2026-06-27 13:24:57",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11498,7 +11528,7 @@
    "tld": "radio.am",
    "createDate": "2026-06-27 13:24:58",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11508,7 +11538,7 @@
    "tld": "com.de",
    "createDate": "2026-06-27 16:30:36",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11518,7 +11548,7 @@
    "tld": "lat",
    "createDate": "2026-06-27 16:46:35",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11528,7 +11558,7 @@
    "tld": "best",
    "createDate": "2026-06-27 16:46:35",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11538,7 +11568,7 @@
    "tld": "beauty",
    "createDate": "2026-06-27 18:27:29",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11548,7 +11578,7 @@
    "tld": "xyz",
    "createDate": "2026-06-27 20:46:35",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11558,7 +11588,7 @@
    "tld": "icu",
    "createDate": "2026-06-27 20:46:35",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11568,7 +11598,7 @@
    "tld": "cyou",
    "createDate": "2026-06-27 20:46:35",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11578,7 +11608,7 @@
    "tld": "lat",
    "createDate": "2026-06-27 20:46:36",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11588,7 +11618,7 @@
    "tld": "help",
    "createDate": "2026-06-27 20:46:36",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11598,7 +11628,7 @@
    "tld": "quest",
    "createDate": "2026-06-27 20:46:37",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11608,7 +11638,7 @@
    "tld": "lol",
    "createDate": "2026-06-27 20:46:38",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11618,7 +11648,7 @@
    "tld": "xyz",
    "createDate": "2026-06-27 20:46:40",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11628,7 +11658,7 @@
    "tld": "cyou",
    "createDate": "2026-06-27 20:46:41",
    "expiryDate": null,
-   "ageYears": 0.1,
+   "ageYears": 0.2,
    "autoRenew": 0
   },
   {
@@ -11657,6 +11687,16 @@
    "status": "ACTIVE",
    "tld": "black",
    "createDate": "2026-06-28 16:19:31",
+   "expiryDate": null,
+   "ageYears": 0.1,
+   "autoRenew": 0
+  },
+  {
+   "domain": "musicclothes.shop",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "shop",
+   "createDate": "2026-06-28 16:19:29",
    "expiryDate": null,
    "ageYears": 0.1,
    "autoRenew": 0
@@ -11777,16 +11817,6 @@
    "status": "ACTIVE",
    "tld": "boats",
    "createDate": "2026-06-28 16:19:28",
-   "expiryDate": null,
-   "ageYears": 0.1,
-   "autoRenew": 0
-  },
-  {
-   "domain": "musicclothes.shop",
-   "registrar": "Porkbun",
-   "status": "ACTIVE",
-   "tld": "shop",
-   "createDate": "2026-06-28 16:19:29",
    "expiryDate": null,
    "ageYears": 0.1,
    "autoRenew": 0
@@ -14962,173 +14992,13 @@
    "autoRenew": 0
   },
   {
-   "domain": "hermes.com.ai",
-   "registrar": "Porkbun",
-   "status": "ACTIVE",
-   "tld": "com.ai",
-   "createDate": "2026-07-09 06:51:40",
-   "expiryDate": null,
-   "ageYears": 0.1,
-   "autoRenew": 0
-  },
-  {
-   "domain": "ripwiki.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-27",
-   "expiryDate": "2027-07-27",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "aisobserver.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "aioverwatcher.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "dataharvestor.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "sludgebludge.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "deceptivemetrics.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "darkaipattern.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "manipulationmatrix.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "forwardengineeringai.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "abstract2code.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "cleanstateeng.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "codeconstructionai.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "hermesagenticai.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "gitwikicf.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-28",
-   "expiryDate": "2027-07-28",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
-   "domain": "knowyourclientai.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-07-29",
-   "expiryDate": "2027-07-29",
-   "ageYears": 0.1,
-   "autoRenew": null
-  },
-  {
    "domain": "coreys.meme",
    "registrar": "Porkbun",
    "status": "ACTIVE",
    "tld": "meme",
    "createDate": "2026-08-01 14:49:39",
    "expiryDate": null,
-   "ageYears": 0.0,
+   "ageYears": 0.1,
    "autoRenew": 0
   },
   {
@@ -15138,7 +15008,7 @@
    "tld": "meme",
    "createDate": "2026-08-01 14:49:39",
    "expiryDate": null,
-   "ageYears": 0.0,
+   "ageYears": 0.1,
    "autoRenew": 0
   },
   {
@@ -15148,7 +15018,7 @@
    "tld": "meme",
    "createDate": "2026-08-01 15:21:22",
    "expiryDate": null,
-   "ageYears": 0.0,
+   "ageYears": 0.1,
    "autoRenew": 0
   },
   {
@@ -15158,7 +15028,7 @@
    "tld": "meme",
    "createDate": "2026-08-01 15:21:22",
    "expiryDate": null,
-   "ageYears": 0.0,
+   "ageYears": 0.1,
    "autoRenew": 0
   },
   {
@@ -15168,7 +15038,17 @@
    "tld": "meme",
    "createDate": "2026-08-01 15:21:23",
    "expiryDate": null,
-   "ageYears": 0.0,
+   "ageYears": 0.1,
+   "autoRenew": 0
+  },
+  {
+   "domain": "hermes.com.ai",
+   "registrar": "Porkbun",
+   "status": "ACTIVE",
+   "tld": "com.ai",
+   "createDate": "2026-07-09 06:51:40",
+   "expiryDate": null,
+   "ageYears": 0.1,
    "autoRenew": 0
   },
   {
@@ -16082,154 +15962,14 @@
    "autoRenew": "1"
   },
   {
-   "domain": "cyourai.com",
-   "registrar": "Cloudflare(snapshot)",
+   "domain": "tryagainlater.dev",
+   "registrar": "Porkbun",
    "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-14",
-   "expiryDate": "2027-08-14",
+   "tld": "dev",
+   "createDate": "2026-08-20 15:14:29",
+   "expiryDate": null,
    "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "lookcyou.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-14",
-   "expiryDate": "2027-08-14",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "whowhatwherewhenwhynhow.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-14",
-   "expiryDate": "2027-08-14",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "thingsgirlslike.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-15",
-   "expiryDate": "2027-08-15",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "karoubienvelope.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-18",
-   "expiryDate": "2027-08-18",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "logicalcli.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-18",
-   "expiryDate": "2027-08-18",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "tempusloquendi.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-18",
-   "expiryDate": "2027-08-18",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "dictumnunc.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-18",
-   "expiryDate": "2027-08-18",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "verbumnunc.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-18",
-   "expiryDate": "2027-08-18",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "anothersetofais.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-18",
-   "expiryDate": "2027-08-18",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "peopleseyes.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-18",
-   "expiryDate": "2027-08-18",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "drscontext.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-18",
-   "expiryDate": "2027-08-18",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "ingestall.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-18",
-   "expiryDate": "2027-08-18",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "aingestion.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-19",
-   "expiryDate": "2027-08-19",
-   "ageYears": 0.0,
-   "autoRenew": null
-  },
-  {
-   "domain": "drdisorder.com",
-   "registrar": "Cloudflare(snapshot)",
-   "status": "ACTIVE",
-   "tld": "com",
-   "createDate": "2026-08-19",
-   "expiryDate": "2027-08-19",
-   "ageYears": 0.0,
-   "autoRenew": null
+   "autoRenew": "1"
   }
  ]
 }

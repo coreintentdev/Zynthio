@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading model...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3584.01it/s]
+Loading index...
+Loaded 5116 documents
+ * Serving Flask app 'search_app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://5.189.143.170:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [20/Aug/2026 22:44:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Aug/2026 22:44:13] "POST /search HTTP/1.1" 200 -

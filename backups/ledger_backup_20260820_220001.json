@@ -1,0 +1,2176 @@
+{
+  "timestamp": "20260820_220001",
+  "backup_type": "full_ledger_backup",
+  "tables": {
+    "ledger_entries": {
+      "columns": [
+        "id",
+        "timestamp",
+        "signal",
+        "entry_type",
+        "entry_data",
+        "signature",
+        "status",
+        "validator"
+      ],
+      "rows": [
+        {
+          "id": 1,
+          "timestamp": "2026-08-17 14:21:09",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"low\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 1.0, \"scored_at\": \"2026-08-17T14:21:09.279630\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 2,
+          "timestamp": "2026-08-17 14:21:09",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Check VDS capacity\", \"source\": \"infra_alert\", \"cluster\": \"infra\", \"priority\": 1, \"urgency\": \"normal\", \"resource_cost\": \"low\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.629, \"scored_at\": \"2026-08-17T14:21:09.289395\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 3,
+          "timestamp": "2026-08-17 14:22:08",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"cluster\": \"creative\", \"priority\": 0, \"destructive\": false}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 4,
+          "timestamp": "2026-08-17 14:22:08",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Delete all logs\", \"cluster\": \"infra\", \"priority\": 0, \"destructive\": true, \"corey_approval\": false}, \"result\": {\"allowed\": false, \"violations\": [{\"policy\": \"creative_override\", \"reason\": \"Infrastructure tasks cannot have P0 priority - creative tasks must override\"}, {\"policy\": \"no_destructive_without_approval\", \"reason\": \"Destructive operations require explicit Corey approval\"}], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 5,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:23.200717\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 6,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:23.200717\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 7,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:23.205479\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 8,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:23.205479\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 9,
+          "timestamp": "2026-08-17 14:22:23",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-17T14:22:23.211118\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 10,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:46.508385\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 11,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:46.508385\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 12,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:46.513439\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 13,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T14:22:46.513439\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 14,
+          "timestamp": "2026-08-17 14:22:46",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-17T14:22:46.519214\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 15,
+          "timestamp": "2026-08-17 14:29:34",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T14:29:34.388618\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 16,
+          "timestamp": "2026-08-17 14:30:04",
+          "signal": 336,
+          "entry_type": "health_report",
+          "entry_data": "{\"health_status\": {\"overall\": \"critical\", \"issues\": [\"High disk usage: 90.7%\"], \"warnings\": [], \"timestamp\": \"2026-08-17T14:30:04.137177\"}, \"resources\": {\"cpu_percent\": 5.0, \"memory_percent\": 10.3, \"disk_percent\": 90.7, \"disk_available_gb\": 16.033100128173828, \"timestamp\": \"2026-08-17T14:30:04.136065\"}, \"components\": {\"database\": {\"exists\": true, \"size_mb\": 0.06640625, \"readable\": true}, \"scripts\": {\"trident_scoring.py\": {\"exists\": true, \"executable\": 0}, \"four_layer_memory.py\": {\"exists\": true, \"executable\": 0}, \"agent_verification.py\": {\"exists\": true, \"executable\": 0}, \"policy_guard.py\": {\"exists\": true, \"executable\": 0}, \"enhanced_creative_priority_override.py\": {\"exists\": true, \"executable\": 0}}, \"backups\": {\"backup_count\": 1, \"latest_backup\": \"ledger_backup_20260817_142923.json\", \"backup_dir_exists\": true}}, \"metrics\": {\"trident_scores\": [0.943, 0.943, 0.857, 0.943, 0.943, 0.857, 1.0, 0.629], \"average_trident_score\": 0.889375, \"agent_trust_scores\": [0.55, 0.65, 0.755], \"average_agent_trust\": 0.6516666666666667, \"recent_policy_violations\": 0}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "HEALTH_MONITOR"
+        },
+        {
+          "id": 17,
+          "timestamp": "2026-08-17 15:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T15:00:01.344695\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 18,
+          "timestamp": "2026-08-17 15:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T15:30:01.475623\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 19,
+          "timestamp": "2026-08-17 16:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T16:00:01.916239\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 20,
+          "timestamp": "2026-08-17 16:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T16:30:01.677255\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 21,
+          "timestamp": "2026-08-17 17:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T17:00:01.326615\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 22,
+          "timestamp": "2026-08-17 17:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T17:30:01.519431\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 23,
+          "timestamp": "2026-08-17 18:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T18:00:02.104754\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 24,
+          "timestamp": "2026-08-17 18:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T18:30:01.574680\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 25,
+          "timestamp": "2026-08-17 19:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T19:00:01.977653\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 26,
+          "timestamp": "2026-08-17 19:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T19:30:01.790559\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 27,
+          "timestamp": "2026-08-17 20:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T20:00:01.935523\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 28,
+          "timestamp": "2026-08-17 20:29:26",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T20:29:26.545957\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 29,
+          "timestamp": "2026-08-17 20:29:31",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:29:31.825768\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 30,
+          "timestamp": "2026-08-17 20:29:31",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:29:31.825768\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 31,
+          "timestamp": "2026-08-17 20:29:31",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:29:31.831108\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 32,
+          "timestamp": "2026-08-17 20:29:31",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:29:31.831108\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 33,
+          "timestamp": "2026-08-17 20:29:31",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-17T20:29:31.835953\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 34,
+          "timestamp": "2026-08-17 20:30:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T20:30:02.011999\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 35,
+          "timestamp": "2026-08-17 20:49:12",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:49:12.661012\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 36,
+          "timestamp": "2026-08-17 20:49:12",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:49:12.661012\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 37,
+          "timestamp": "2026-08-17 20:49:12",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:49:12.666077\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 38,
+          "timestamp": "2026-08-17 20:49:12",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:49:12.666077\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 39,
+          "timestamp": "2026-08-17 20:49:12",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-17T20:49:12.671348\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 40,
+          "timestamp": "2026-08-17 20:58:31",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:58:31.209961\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 41,
+          "timestamp": "2026-08-17 20:58:31",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:58:31.209961\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 42,
+          "timestamp": "2026-08-17 20:58:31",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:58:31.215086\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 43,
+          "timestamp": "2026-08-17 20:58:31",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T20:58:31.215086\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 44,
+          "timestamp": "2026-08-17 20:58:31",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-17T20:58:31.219853\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 45,
+          "timestamp": "2026-08-17 21:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T21:00:01.141787\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 46,
+          "timestamp": "2026-08-17 21:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T21:30:01.899889\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 47,
+          "timestamp": "2026-08-17 21:33:19",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T21:33:19.166642\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 48,
+          "timestamp": "2026-08-17 21:33:29",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T21:33:29.364348\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 49,
+          "timestamp": "2026-08-17 21:33:29",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T21:33:29.364348\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 50,
+          "timestamp": "2026-08-17 21:33:29",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T21:33:29.369642\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 51,
+          "timestamp": "2026-08-17 21:33:29",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-17T21:33:29.369642\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 52,
+          "timestamp": "2026-08-17 21:33:29",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-17T21:33:29.375384\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 53,
+          "timestamp": "2026-08-17 21:38:53",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T21:38:53.762929\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 54,
+          "timestamp": "2026-08-17 21:38:56",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T21:38:56.220792\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 55,
+          "timestamp": "2026-08-17 22:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T22:00:01.749581\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 56,
+          "timestamp": "2026-08-17 22:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T22:30:01.308797\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 57,
+          "timestamp": "2026-08-17 23:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T23:00:01.464677\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 58,
+          "timestamp": "2026-08-17 23:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-17T23:30:01.763339\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 59,
+          "timestamp": "2026-08-18 00:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T00:00:01.707757\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 60,
+          "timestamp": "2026-08-18 00:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T00:30:01.826347\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 61,
+          "timestamp": "2026-08-18 01:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T01:00:01.381114\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 62,
+          "timestamp": "2026-08-18 01:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T01:30:01.382493\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 63,
+          "timestamp": "2026-08-18 02:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T02:00:01.730037\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 64,
+          "timestamp": "2026-08-18 02:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T02:30:01.546733\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 65,
+          "timestamp": "2026-08-18 03:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T03:00:01.818819\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 66,
+          "timestamp": "2026-08-18 03:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T03:30:01.415811\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 67,
+          "timestamp": "2026-08-18 04:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T04:00:01.830674\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 68,
+          "timestamp": "2026-08-18 04:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T04:30:01.830992\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 69,
+          "timestamp": "2026-08-18 05:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T05:00:01.620842\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 70,
+          "timestamp": "2026-08-18 05:00:01",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-18T05:00:01.727767\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 71,
+          "timestamp": "2026-08-18 05:00:01",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-18T05:00:01.727767\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 72,
+          "timestamp": "2026-08-18 05:00:01",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-18T05:00:01.738393\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 73,
+          "timestamp": "2026-08-18 05:00:01",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-18T05:00:01.738393\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 74,
+          "timestamp": "2026-08-18 05:00:01",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-18T05:00:01.746077\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 75,
+          "timestamp": "2026-08-18 05:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T05:30:01.961216\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 76,
+          "timestamp": "2026-08-18 06:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T06:00:01.656401\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 77,
+          "timestamp": "2026-08-18 06:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T06:30:01.289767\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 78,
+          "timestamp": "2026-08-18 07:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T07:00:02.142673\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 79,
+          "timestamp": "2026-08-18 07:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T07:30:01.961732\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 80,
+          "timestamp": "2026-08-18 08:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T08:00:01.169290\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 81,
+          "timestamp": "2026-08-18 08:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T08:30:01.918284\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 82,
+          "timestamp": "2026-08-18 09:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T09:00:01.597683\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 83,
+          "timestamp": "2026-08-18 09:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T09:30:01.441637\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 84,
+          "timestamp": "2026-08-18 10:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T10:00:01.329131\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 85,
+          "timestamp": "2026-08-18 10:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T10:30:01.998501\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 86,
+          "timestamp": "2026-08-18 11:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T11:00:02.117605\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 87,
+          "timestamp": "2026-08-18 11:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T11:30:01.246954\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 88,
+          "timestamp": "2026-08-18 12:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T12:00:02.114221\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 89,
+          "timestamp": "2026-08-18 12:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T12:30:01.164692\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 90,
+          "timestamp": "2026-08-18 13:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T13:00:01.830199\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 91,
+          "timestamp": "2026-08-18 13:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T13:30:01.353211\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 92,
+          "timestamp": "2026-08-18 14:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T14:00:01.358407\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 93,
+          "timestamp": "2026-08-18 14:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T14:30:01.340940\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 94,
+          "timestamp": "2026-08-18 15:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T15:00:02.025107\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 95,
+          "timestamp": "2026-08-18 15:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T15:30:01.836271\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 96,
+          "timestamp": "2026-08-18 16:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T16:00:01.161559\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 97,
+          "timestamp": "2026-08-18 16:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T16:30:01.299539\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 98,
+          "timestamp": "2026-08-18 17:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T17:00:01.931630\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 99,
+          "timestamp": "2026-08-18 17:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T17:30:01.275867\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 100,
+          "timestamp": "2026-08-18 18:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T18:00:02.169475\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 101,
+          "timestamp": "2026-08-18 18:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T18:30:01.817174\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 102,
+          "timestamp": "2026-08-18 19:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T19:00:01.180571\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 103,
+          "timestamp": "2026-08-18 19:30:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T19:30:02.131320\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 104,
+          "timestamp": "2026-08-18 20:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T20:00:01.219003\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 105,
+          "timestamp": "2026-08-18 20:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T20:30:01.968073\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 106,
+          "timestamp": "2026-08-18 21:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T21:00:01.690157\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 107,
+          "timestamp": "2026-08-18 21:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T21:30:01.230104\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 108,
+          "timestamp": "2026-08-18 22:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T22:00:01.248066\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 109,
+          "timestamp": "2026-08-18 22:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T22:30:01.906627\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 110,
+          "timestamp": "2026-08-18 23:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T23:00:01.741333\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 111,
+          "timestamp": "2026-08-18 23:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-18T23:30:01.483404\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 112,
+          "timestamp": "2026-08-19 00:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T00:00:01.270130\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 113,
+          "timestamp": "2026-08-19 00:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T00:30:01.267747\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 114,
+          "timestamp": "2026-08-19 01:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T01:00:01.422612\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 115,
+          "timestamp": "2026-08-19 01:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T01:30:01.283159\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 116,
+          "timestamp": "2026-08-19 02:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T02:00:01.597009\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 117,
+          "timestamp": "2026-08-19 02:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T02:30:01.386508\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 118,
+          "timestamp": "2026-08-19 03:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T03:00:01.337171\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 119,
+          "timestamp": "2026-08-19 03:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T03:30:01.831081\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 120,
+          "timestamp": "2026-08-19 04:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T04:00:01.902786\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 121,
+          "timestamp": "2026-08-19 04:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T04:30:01.679223\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 122,
+          "timestamp": "2026-08-19 05:00:01",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-19T05:00:01.264065\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 123,
+          "timestamp": "2026-08-19 05:00:01",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: holisticli.dev\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-19T05:00:01.264065\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 124,
+          "timestamp": "2026-08-19 05:00:01",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-19T05:00:01.287429\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 125,
+          "timestamp": "2026-08-19 05:00:01",
+          "signal": 336,
+          "entry_type": "policy_check",
+          "entry_data": "{\"operation\": {\"task\": \"Secure domain: thatsonme.com\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": true, \"timing\": \"now\", \"trident_score\": 0.943, \"scored_at\": \"2026-08-19T05:00:01.287429\"}, \"result\": {\"allowed\": true, \"violations\": [], \"warnings\": []}}",
+          "signature": null,
+          "status": "validated",
+          "validator": "POLICY_GUARD"
+        },
+        {
+          "id": 126,
+          "timestamp": "2026-08-19 05:00:01",
+          "signal": 336,
+          "entry_type": "task_scored",
+          "entry_data": "{\"task\": \"Continue digital twin development (336 signal)\", \"source\": \"corey_direct\", \"cluster\": \"creative\", \"priority\": 0, \"urgency\": \"urgent\", \"resource_cost\": \"medium\", \"is_new\": false, \"timing\": \"now\", \"trident_score\": 0.857, \"scored_at\": \"2026-08-19T05:00:01.296073\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "TRIDENT"
+        },
+        {
+          "id": 127,
+          "timestamp": "2026-08-19 05:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T05:00:01.294927\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 128,
+          "timestamp": "2026-08-19 05:30:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T05:30:02.053595\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 129,
+          "timestamp": "2026-08-19 06:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T06:00:01.236372\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 130,
+          "timestamp": "2026-08-19 06:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T06:30:01.319653\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 131,
+          "timestamp": "2026-08-19 07:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T07:00:02.134869\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 132,
+          "timestamp": "2026-08-19 07:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T07:30:01.969810\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 133,
+          "timestamp": "2026-08-19 08:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T08:00:01.432475\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 134,
+          "timestamp": "2026-08-19 08:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T08:30:01.317040\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 135,
+          "timestamp": "2026-08-19 09:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T09:00:01.304460\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 136,
+          "timestamp": "2026-08-19 09:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T09:30:01.728007\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 137,
+          "timestamp": "2026-08-19 10:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T10:00:01.689026\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 138,
+          "timestamp": "2026-08-19 10:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T10:30:01.881261\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 139,
+          "timestamp": "2026-08-19 11:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T11:00:02.062280\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 140,
+          "timestamp": "2026-08-19 11:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T11:30:01.949750\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 141,
+          "timestamp": "2026-08-19 12:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T12:00:02.137563\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 142,
+          "timestamp": "2026-08-19 12:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T12:30:01.217468\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 143,
+          "timestamp": "2026-08-19 13:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T13:00:01.311652\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 144,
+          "timestamp": "2026-08-19 13:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T13:30:01.524871\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 145,
+          "timestamp": "2026-08-19 14:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T14:00:01.447851\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 146,
+          "timestamp": "2026-08-19 14:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T14:30:01.978522\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 147,
+          "timestamp": "2026-08-19 15:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T15:00:01.324623\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 148,
+          "timestamp": "2026-08-19 15:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T15:30:01.339757\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 149,
+          "timestamp": "2026-08-19 16:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T16:00:01.217282\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 150,
+          "timestamp": "2026-08-19 16:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T16:30:01.792410\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 151,
+          "timestamp": "2026-08-19 17:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T17:00:01.277121\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 152,
+          "timestamp": "2026-08-19 17:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T17:30:01.852204\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 153,
+          "timestamp": "2026-08-19 18:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T18:00:01.465755\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 154,
+          "timestamp": "2026-08-19 18:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T18:30:01.856599\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 155,
+          "timestamp": "2026-08-19 19:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T19:00:01.228281\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 156,
+          "timestamp": "2026-08-19 19:30:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T19:30:02.082831\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 157,
+          "timestamp": "2026-08-19 20:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T20:00:01.569446\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 158,
+          "timestamp": "2026-08-19 20:30:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T20:30:02.068104\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 159,
+          "timestamp": "2026-08-19 21:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T21:00:01.309098\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 160,
+          "timestamp": "2026-08-19 21:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T21:30:01.236574\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 161,
+          "timestamp": "2026-08-19 22:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T22:00:01.646448\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 162,
+          "timestamp": "2026-08-19 22:30:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T22:30:02.027091\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 163,
+          "timestamp": "2026-08-19 23:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T23:00:01.438093\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 164,
+          "timestamp": "2026-08-19 23:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-19T23:30:01.726986\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 165,
+          "timestamp": "2026-08-20 00:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T00:00:01.353476\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 166,
+          "timestamp": "2026-08-20 00:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T00:30:01.910924\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 167,
+          "timestamp": "2026-08-20 01:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T01:00:02.067248\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 168,
+          "timestamp": "2026-08-20 01:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T01:30:01.772892\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 169,
+          "timestamp": "2026-08-20 02:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T02:00:02.016073\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 170,
+          "timestamp": "2026-08-20 02:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T02:30:01.184564\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 171,
+          "timestamp": "2026-08-20 03:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T03:00:01.876929\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 172,
+          "timestamp": "2026-08-20 03:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T03:30:01.274800\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 173,
+          "timestamp": "2026-08-20 04:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T04:00:01.201249\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 174,
+          "timestamp": "2026-08-20 04:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T04:30:01.814168\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 175,
+          "timestamp": "2026-08-20 05:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T05:00:01.630021\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 176,
+          "timestamp": "2026-08-20 05:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T05:30:01.533904\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 177,
+          "timestamp": "2026-08-20 06:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T06:00:01.628273\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 178,
+          "timestamp": "2026-08-20 06:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T06:30:01.092015\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 179,
+          "timestamp": "2026-08-20 07:00:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T07:00:02.062642\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 180,
+          "timestamp": "2026-08-20 07:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T07:30:01.611611\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 181,
+          "timestamp": "2026-08-20 08:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T08:00:01.584411\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 182,
+          "timestamp": "2026-08-20 08:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T08:30:01.138637\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 183,
+          "timestamp": "2026-08-20 09:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T09:00:01.865987\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 184,
+          "timestamp": "2026-08-20 09:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T09:30:01.451899\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 185,
+          "timestamp": "2026-08-20 10:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T10:00:01.635998\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 186,
+          "timestamp": "2026-08-20 10:30:02",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T10:30:02.024145\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 187,
+          "timestamp": "2026-08-20 11:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T11:00:01.471329\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 188,
+          "timestamp": "2026-08-20 11:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T11:30:01.217178\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 189,
+          "timestamp": "2026-08-20 12:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T12:00:01.869763\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 190,
+          "timestamp": "2026-08-20 12:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T12:30:01.259413\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 191,
+          "timestamp": "2026-08-20 13:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T13:00:01.568954\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 192,
+          "timestamp": "2026-08-20 13:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T13:30:01.259428\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 193,
+          "timestamp": "2026-08-20 14:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T14:00:01.816329\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 194,
+          "timestamp": "2026-08-20 14:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T14:30:01.200784\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 195,
+          "timestamp": "2026-08-20 15:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T15:00:01.973479\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 196,
+          "timestamp": "2026-08-20 15:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T15:30:01.870975\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 197,
+          "timestamp": "2026-08-20 16:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T16:00:01.915871\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 198,
+          "timestamp": "2026-08-20 16:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T16:30:01.362833\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 199,
+          "timestamp": "2026-08-20 17:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T17:00:01.416734\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 200,
+          "timestamp": "2026-08-20 17:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T17:30:01.740808\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 201,
+          "timestamp": "2026-08-20 18:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T18:00:01.827552\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 202,
+          "timestamp": "2026-08-20 18:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T18:30:01.097332\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 203,
+          "timestamp": "2026-08-20 19:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T19:00:01.919738\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 204,
+          "timestamp": "2026-08-20 19:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T19:30:01.789799\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 205,
+          "timestamp": "2026-08-20 20:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T20:00:01.762492\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 206,
+          "timestamp": "2026-08-20 20:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T20:30:01.369462\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 207,
+          "timestamp": "2026-08-20 21:00:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T21:00:01.649213\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        },
+        {
+          "id": 208,
+          "timestamp": "2026-08-20 21:30:01",
+          "signal": 336,
+          "entry_type": "health_check",
+          "entry_data": "{\"process\": \"creative_priority_override\", \"healthy\": true, \"message\": \"Process healthy\", \"timestamp\": \"2026-08-20T21:30:01.692452\"}",
+          "signature": null,
+          "status": "validated",
+          "validator": "WATCHDOG"
+        }
+      ]
+    },
+    "twin_states": {
+      "columns": [
+        "id",
+        "twin_name",
+        "service_node",
+        "state_snapshot",
+        "last_updated",
+        "version"
+      ],
+      "rows": [
+        {
+          "id": 1,
+          "twin_name": "corey_twin_336",
+          "service_node": "VDS",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"main_twin\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        },
+        {
+          "id": 2,
+          "twin_name": "vds_twin_boss",
+          "service_node": "VDS",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"authority\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        },
+        {
+          "id": 3,
+          "twin_name": "mac_twin_ingest",
+          "service_node": "Mac",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"ingest_pipe\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        },
+        {
+          "id": 4,
+          "twin_name": "creative_twin",
+          "service_node": "VDS",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"creative_processor\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        },
+        {
+          "id": 5,
+          "twin_name": "infra_twin",
+          "service_node": "VDS",
+          "state_snapshot": "{\"signal\": 336, \"status\": \"active\", \"role\": \"infra_monitor\"}",
+          "last_updated": "2026-08-17 14:20:40",
+          "version": 1
+        }
+      ]
+    },
+    "governance_proposals": {
+      "columns": [
+        "id",
+        "proposal_type",
+        "proposer",
+        "proposal_data",
+        "votes",
+        "status",
+        "created_at",
+        "closed_at"
+      ],
+      "rows": [
+        {
+          "id": 1,
+          "proposal_type": "governance_bootstrap",
+          "proposer": "Corey",
+          "proposal_data": "{\"action\": \"Initialize ATLAS-style governance\"}",
+          "votes": "[]",
+          "status": "accepted",
+          "created_at": "2026-08-17 14:20:40",
+          "closed_at": null
+        }
+      ]
+    }
+  }
+}

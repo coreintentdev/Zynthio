@@ -1,0 +1,12 @@
+VDS Corpus Status - Updated 2026-08-21
+- VDS sites: 776 sites indexed
+- VDS documents: 3569 documents
+- Cloudflare domains: 1897 total (189 new added today)
+- Previous Cloudflare count: 1708 domains
+- New domains added: 189 domains from recent purchases
+- Total corpus size: ~25000 embeddings
+- Corpus backup: corpus_FINAL_20260820.index
+- New domain list: new_cloudflare_domains_20260821.txt
+- Updated master list: cloudflare_domains.txt (1897 domains)
+- Processing status: New domains added to master list for ingestion
+- Next step: Existing corpus ingestion system will process new domains

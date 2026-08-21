@@ -1,0 +1,7 @@
+VDS Corpus Status:
+- VDS sites: 776 sites indexed
+- VDS documents: 3569 documents
+- Cloudflare domains: 1198/1708 ingesting
+- Total corpus size: ~25000 embeddings
+- Corpus backup created
+- Porkbun API: 403 error (auth issue)

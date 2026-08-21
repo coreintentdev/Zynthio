@@ -28,3 +28,21 @@ Ledger backup completed: /root/zynthio/backups/ledger_backup_20260819_160001.jso
 /root/zynthio/backups/backup_ledger.py:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
 Ledger backup completed: /root/zynthio/backups/ledger_backup_20260819_220001.json
+/root/zynthio/backups/backup_ledger.py:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+Ledger backup completed: /root/zynthio/backups/ledger_backup_20260820_040001.json
+/root/zynthio/backups/backup_ledger.py:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+Ledger backup completed: /root/zynthio/backups/ledger_backup_20260820_100001.json
+/root/zynthio/backups/backup_ledger.py:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+Ledger backup completed: /root/zynthio/backups/ledger_backup_20260820_160001.json
+/root/zynthio/backups/backup_ledger.py:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+Ledger backup completed: /root/zynthio/backups/ledger_backup_20260820_220001.json
+/root/zynthio/backups/backup_ledger.py:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+Ledger backup completed: /root/zynthio/backups/ledger_backup_20260821_040002.json
+/root/zynthio/backups/backup_ledger.py:8: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+Ledger backup completed: /root/zynthio/backups/ledger_backup_20260821_100001.json

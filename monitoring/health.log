@@ -1,0 +1,2026 @@
+[2026-08-20 22:48:02] Starting health check...
+[2026-08-20 22:48:02] OK: Disk usage at 84%
+[2026-08-20 22:48:02] OK: Memory usage at 11%
+[2026-08-20 22:48:02] OK: nginx is running
+[2026-08-20 22:48:02] CRITICAL: search-app.service is not running
+[2026-08-20 22:48:02] OK: fail2ban is running
+[2026-08-20 22:48:02] OK: hermes-gateway.service is running
+[2026-08-20 22:48:02] OK: Corpus file exists
+[2026-08-20 22:48:02] Health check complete
+[2026-08-20 22:48:38] Starting health check...
+[2026-08-20 22:48:38] OK: Disk usage at 84%
+[2026-08-20 22:48:38] OK: Memory usage at 11%
+[2026-08-20 22:48:38] OK: nginx is running
+[2026-08-20 22:48:38] OK: search-app.service is running
+[2026-08-20 22:48:38] OK: fail2ban is running
+[2026-08-20 22:48:38] OK: hermes-gateway.service is running
+[2026-08-20 22:48:38] OK: Corpus file exists
+[2026-08-20 22:48:38] Health check complete
+[2026-08-20 22:48:44] Starting health check...
+[2026-08-20 22:48:44] OK: Disk usage at 84%
+[2026-08-20 22:48:44] OK: Memory usage at 10%
+[2026-08-20 22:48:44] OK: nginx is running
+[2026-08-20 22:48:44] CRITICAL: search-app.service is not running
+[2026-08-20 22:48:44] OK: fail2ban is running
+[2026-08-20 22:48:44] OK: hermes-gateway.service is running
+[2026-08-20 22:48:44] OK: Corpus file exists
+[2026-08-20 22:48:44] Health check complete
+[2026-08-20 22:50:01] Starting health check...
+[2026-08-20 22:50:01] OK: Disk usage at 84%
+[2026-08-20 22:50:01] OK: Memory usage at 12%
+[2026-08-20 22:50:01] OK: nginx is running
+[2026-08-20 22:50:01] CRITICAL: search-app.service is not running
+[2026-08-20 22:50:01] OK: fail2ban is running
+[2026-08-20 22:50:01] OK: hermes-gateway.service is running
+[2026-08-20 22:50:01] OK: Corpus file exists
+[2026-08-20 22:50:01] Health check complete
+[2026-08-20 22:50:48] Starting health check...
+[2026-08-20 22:50:48] OK: Disk usage at 84%
+[2026-08-20 22:50:48] OK: Memory usage at 13%
+[2026-08-20 22:50:48] OK: nginx is running
+[2026-08-20 22:50:48] OK: search-app.service is running
+[2026-08-20 22:50:48] OK: rag-search.service is running
+[2026-08-20 22:50:48] OK: fail2ban is running
+[2026-08-20 22:50:48] OK: hermes-gateway.service is running
+[2026-08-20 22:50:48] OK: Corpus file exists
+[2026-08-20 22:50:48] Health check complete
+[2026-08-20 22:55:00] Starting health check...
+[2026-08-20 22:55:00] OK: Disk usage at 84%
+[2026-08-20 22:55:00] OK: Memory usage at 12%
+[2026-08-20 22:55:00] OK: nginx is running
+[2026-08-20 22:55:00] OK: search-app.service is running
+[2026-08-20 22:55:00] OK: rag-search.service is running
+[2026-08-20 22:55:00] OK: fail2ban is running
+[2026-08-20 22:55:00] OK: hermes-gateway.service is running
+[2026-08-20 22:55:00] OK: Corpus file exists
+[2026-08-20 22:55:00] Health check complete
+[2026-08-20 23:00:01] Starting health check...
+[2026-08-20 23:00:01] OK: Disk usage at 84%
+[2026-08-20 23:00:01] OK: Memory usage at 13%
+[2026-08-20 23:00:01] OK: nginx is running
+[2026-08-20 23:00:01] OK: search-app.service is running
+[2026-08-20 23:00:01] OK: rag-search.service is running
+[2026-08-20 23:00:01] OK: fail2ban is running
+[2026-08-20 23:00:01] OK: hermes-gateway.service is running
+[2026-08-20 23:00:01] OK: Corpus file exists
+[2026-08-20 23:00:01] Health check complete
+[2026-08-20 23:05:01] Starting health check...
+[2026-08-20 23:05:01] OK: Disk usage at 84%
+[2026-08-20 23:05:01] OK: Memory usage at 12%
+[2026-08-20 23:05:01] OK: nginx is running
+[2026-08-20 23:05:01] CRITICAL: search-app.service is not running
+[2026-08-20 23:05:01] OK: rag-search.service is running
+[2026-08-20 23:05:01] OK: fail2ban is running
+[2026-08-20 23:05:01] OK: hermes-gateway.service is running
+[2026-08-20 23:05:01] OK: Corpus file exists
+[2026-08-20 23:05:01] Health check complete
+[2026-08-20 23:10:01] Starting health check...
+[2026-08-20 23:10:01] OK: Disk usage at 84%
+[2026-08-20 23:10:01] OK: Memory usage at 13%
+[2026-08-20 23:10:01] OK: nginx is running
+[2026-08-20 23:10:01] OK: search-app.service is running
+[2026-08-20 23:10:01] OK: rag-search.service is running
+[2026-08-20 23:10:01] OK: fail2ban is running
+[2026-08-20 23:10:01] OK: hermes-gateway.service is running
+[2026-08-20 23:10:01] OK: Corpus file exists
+[2026-08-20 23:10:01] Health check complete
+[2026-08-20 23:15:01] Starting health check...
+[2026-08-20 23:15:01] OK: Disk usage at 84%
+[2026-08-20 23:15:01] OK: Memory usage at 13%
+[2026-08-20 23:15:01] OK: nginx is running
+[2026-08-20 23:15:01] OK: search-app.service is running
+[2026-08-20 23:15:01] OK: rag-search.service is running
+[2026-08-20 23:15:01] OK: fail2ban is running
+[2026-08-20 23:15:01] OK: hermes-gateway.service is running
+[2026-08-20 23:15:01] OK: Corpus file exists
+[2026-08-20 23:15:01] Health check complete
+[2026-08-20 23:20:00] Starting health check...
+[2026-08-20 23:20:00] OK: Disk usage at 84%
+[2026-08-20 23:20:00] OK: Memory usage at 22%
+[2026-08-20 23:20:00] OK: nginx is running
+[2026-08-20 23:20:00] CRITICAL: search-app.service is not running
+[2026-08-20 23:20:00] OK: rag-search.service is running
+[2026-08-20 23:20:00] OK: fail2ban is running
+[2026-08-20 23:20:00] OK: hermes-gateway.service is running
+[2026-08-20 23:20:00] OK: Corpus file exists
+[2026-08-20 23:20:00] Health check complete
+[2026-08-20 23:25:01] Starting health check...
+[2026-08-20 23:25:01] OK: Disk usage at 84%
+[2026-08-20 23:25:01] OK: Memory usage at 23%
+[2026-08-20 23:25:01] OK: nginx is running
+[2026-08-20 23:25:01] OK: search-app.service is running
+[2026-08-20 23:25:01] OK: rag-search.service is running
+[2026-08-20 23:25:01] OK: fail2ban is running
+[2026-08-20 23:25:01] OK: hermes-gateway.service is running
+[2026-08-20 23:25:01] OK: Corpus file exists
+[2026-08-20 23:25:01] Health check complete
+[2026-08-20 23:30:00] Starting health check...
+[2026-08-20 23:30:00] OK: Disk usage at 84%
+[2026-08-20 23:30:00] OK: Memory usage at 22%
+[2026-08-20 23:30:00] OK: nginx is running
+[2026-08-20 23:30:00] CRITICAL: search-app.service is not running
+[2026-08-20 23:30:00] OK: rag-search.service is running
+[2026-08-20 23:30:00] OK: fail2ban is running
+[2026-08-20 23:30:00] OK: hermes-gateway.service is running
+[2026-08-20 23:30:00] OK: Corpus file exists
+[2026-08-20 23:30:00] Health check complete
+[2026-08-20 23:35:00] Starting health check...
+[2026-08-20 23:35:00] OK: Disk usage at 84%
+[2026-08-20 23:35:00] OK: Memory usage at 22%
+[2026-08-20 23:35:00] OK: nginx is running
+[2026-08-20 23:35:00] CRITICAL: search-app.service is not running
+[2026-08-20 23:35:00] OK: rag-search.service is running
+[2026-08-20 23:35:00] OK: fail2ban is running
+[2026-08-20 23:35:00] OK: hermes-gateway.service is running
+[2026-08-20 23:35:00] OK: Corpus file exists
+[2026-08-20 23:35:00] Health check complete
+[2026-08-20 23:40:00] Starting health check...
+[2026-08-20 23:40:00] OK: Disk usage at 84%
+[2026-08-20 23:40:00] OK: Memory usage at 24%
+[2026-08-20 23:40:00] OK: nginx is running
+[2026-08-20 23:40:00] OK: search-app.service is running
+[2026-08-20 23:40:00] OK: rag-search.service is running
+[2026-08-20 23:40:00] OK: fail2ban is running
+[2026-08-20 23:40:00] OK: hermes-gateway.service is running
+[2026-08-20 23:40:00] OK: Corpus file exists
+[2026-08-20 23:40:00] Health check complete
+[2026-08-20 23:45:01] Starting health check...
+[2026-08-20 23:45:01] OK: Disk usage at 85%
+[2026-08-20 23:45:01] OK: Memory usage at 22%
+[2026-08-20 23:45:01] OK: nginx is running
+[2026-08-20 23:45:01] CRITICAL: search-app.service is not running
+[2026-08-20 23:45:01] OK: rag-search.service is running
+[2026-08-20 23:45:01] OK: fail2ban is running
+[2026-08-20 23:45:01] OK: hermes-gateway.service is running
+[2026-08-20 23:45:01] OK: Corpus file exists
+[2026-08-20 23:45:01] Health check complete
+[2026-08-20 23:50:00] Starting health check...
+[2026-08-20 23:50:00] OK: Disk usage at 85%
+[2026-08-20 23:50:00] OK: Memory usage at 23%
+[2026-08-20 23:50:00] OK: nginx is running
+[2026-08-20 23:50:00] OK: search-app.service is running
+[2026-08-20 23:50:00] OK: rag-search.service is running
+[2026-08-20 23:50:00] OK: fail2ban is running
+[2026-08-20 23:50:00] OK: hermes-gateway.service is running
+[2026-08-20 23:50:00] OK: Corpus file exists
+[2026-08-20 23:50:00] Health check complete
+[2026-08-20 23:55:01] Starting health check...
+[2026-08-20 23:55:01] OK: Disk usage at 85%
+[2026-08-20 23:55:01] OK: Memory usage at 13%
+[2026-08-20 23:55:01] OK: nginx is running
+[2026-08-20 23:55:01] OK: search-app.service is running
+[2026-08-20 23:55:01] OK: rag-search.service is running
+[2026-08-20 23:55:01] OK: fail2ban is running
+[2026-08-20 23:55:01] OK: hermes-gateway.service is running
+[2026-08-20 23:55:01] OK: Corpus file exists
+[2026-08-20 23:55:01] Health check complete
+[2026-08-21 00:00:00] Starting health check...
+[2026-08-21 00:00:00] OK: Disk usage at 85%
+[2026-08-21 00:00:00] OK: Memory usage at 12%
+[2026-08-21 00:00:00] OK: nginx is running
+[2026-08-21 00:00:00] CRITICAL: search-app.service is not running
+[2026-08-21 00:00:00] OK: rag-search.service is running
+[2026-08-21 00:00:00] OK: fail2ban is running
+[2026-08-21 00:00:00] OK: hermes-gateway.service is running
+[2026-08-21 00:00:00] OK: Corpus file exists
+[2026-08-21 00:00:00] Health check complete
+[2026-08-21 00:05:00] Starting health check...
+[2026-08-21 00:05:00] OK: Disk usage at 85%
+[2026-08-21 00:05:00] OK: Memory usage at 12%
+[2026-08-21 00:05:00] OK: nginx is running
+[2026-08-21 00:05:00] OK: search-app.service is running
+[2026-08-21 00:05:00] OK: rag-search.service is running
+[2026-08-21 00:05:00] OK: fail2ban is running
+[2026-08-21 00:05:00] OK: hermes-gateway.service is running
+[2026-08-21 00:05:00] OK: Corpus file exists
+[2026-08-21 00:05:00] Health check complete
+[2026-08-21 00:10:01] Starting health check...
+[2026-08-21 00:10:01] OK: Disk usage at 85%
+[2026-08-21 00:10:01] OK: Memory usage at 13%
+[2026-08-21 00:10:01] OK: nginx is running
+[2026-08-21 00:10:01] OK: search-app.service is running
+[2026-08-21 00:10:01] OK: rag-search.service is running
+[2026-08-21 00:10:01] OK: fail2ban is running
+[2026-08-21 00:10:01] OK: hermes-gateway.service is running
+[2026-08-21 00:10:01] OK: Corpus file exists
+[2026-08-21 00:10:01] Health check complete
+[2026-08-21 00:15:01] Starting health check...
+[2026-08-21 00:15:01] OK: Disk usage at 85%
+[2026-08-21 00:15:01] OK: Memory usage at 13%
+[2026-08-21 00:15:01] OK: nginx is running
+[2026-08-21 00:15:01] OK: search-app.service is running
+[2026-08-21 00:15:01] OK: rag-search.service is running
+[2026-08-21 00:15:01] OK: fail2ban is running
+[2026-08-21 00:15:01] OK: hermes-gateway.service is running
+[2026-08-21 00:15:01] OK: Corpus file exists
+[2026-08-21 00:15:01] Health check complete
+[2026-08-21 00:20:00] Starting health check...
+[2026-08-21 00:20:00] OK: Disk usage at 85%
+[2026-08-21 00:20:00] OK: Memory usage at 12%
+[2026-08-21 00:20:00] OK: nginx is running
+[2026-08-21 00:20:00] CRITICAL: search-app.service is not running
+[2026-08-21 00:20:00] OK: rag-search.service is running
+[2026-08-21 00:20:00] OK: fail2ban is running
+[2026-08-21 00:20:00] OK: hermes-gateway.service is running
+[2026-08-21 00:20:00] OK: Corpus file exists
+[2026-08-21 00:20:00] Health check complete
+[2026-08-21 00:25:01] Starting health check...
+[2026-08-21 00:25:01] OK: Disk usage at 85%
+[2026-08-21 00:25:01] OK: Memory usage at 12%
+[2026-08-21 00:25:01] OK: nginx is running
+[2026-08-21 00:25:01] CRITICAL: search-app.service is not running
+[2026-08-21 00:25:01] OK: rag-search.service is running
+[2026-08-21 00:25:01] OK: fail2ban is running
+[2026-08-21 00:25:01] OK: hermes-gateway.service is running
+[2026-08-21 00:25:01] OK: Corpus file exists
+[2026-08-21 00:25:01] Health check complete
+[2026-08-21 00:30:01] Starting health check...
+[2026-08-21 00:30:01] OK: Disk usage at 85%
+[2026-08-21 00:30:01] OK: Memory usage at 13%
+[2026-08-21 00:30:01] OK: nginx is running
+[2026-08-21 00:30:01] OK: search-app.service is running
+[2026-08-21 00:30:01] OK: rag-search.service is running
+[2026-08-21 00:30:01] OK: fail2ban is running
+[2026-08-21 00:30:01] OK: hermes-gateway.service is running
+[2026-08-21 00:30:01] OK: Corpus file exists
+[2026-08-21 00:30:01] Health check complete
+[2026-08-21 00:35:00] Starting health check...
+[2026-08-21 00:35:00] OK: Disk usage at 85%
+[2026-08-21 00:35:00] OK: Memory usage at 11%
+[2026-08-21 00:35:00] OK: nginx is running
+[2026-08-21 00:35:00] CRITICAL: search-app.service is not running
+[2026-08-21 00:35:00] OK: rag-search.service is running
+[2026-08-21 00:35:00] OK: fail2ban is running
+[2026-08-21 00:35:00] OK: hermes-gateway.service is running
+[2026-08-21 00:35:00] OK: Corpus file exists
+[2026-08-21 00:35:00] Health check complete
+[2026-08-21 00:40:00] Starting health check...
+[2026-08-21 00:40:00] OK: Disk usage at 85%
+[2026-08-21 00:40:00] OK: Memory usage at 12%
+[2026-08-21 00:40:00] OK: nginx is running
+[2026-08-21 00:40:00] OK: search-app.service is running
+[2026-08-21 00:40:00] OK: rag-search.service is running
+[2026-08-21 00:40:00] OK: fail2ban is running
+[2026-08-21 00:40:00] OK: hermes-gateway.service is running
+[2026-08-21 00:40:00] OK: Corpus file exists
+[2026-08-21 00:40:00] Health check complete
+[2026-08-21 00:45:01] Starting health check...
+[2026-08-21 00:45:01] OK: Disk usage at 85%
+[2026-08-21 00:45:01] OK: Memory usage at 13%
+[2026-08-21 00:45:01] OK: nginx is running
+[2026-08-21 00:45:01] OK: search-app.service is running
+[2026-08-21 00:45:01] OK: rag-search.service is running
+[2026-08-21 00:45:01] OK: fail2ban is running
+[2026-08-21 00:45:01] OK: hermes-gateway.service is running
+[2026-08-21 00:45:01] OK: Corpus file exists
+[2026-08-21 00:45:01] Health check complete
+[2026-08-21 00:50:00] Starting health check...
+[2026-08-21 00:50:00] OK: Disk usage at 85%
+[2026-08-21 00:50:00] OK: Memory usage at 12%
+[2026-08-21 00:50:00] OK: nginx is running
+[2026-08-21 00:50:00] CRITICAL: search-app.service is not running
+[2026-08-21 00:50:00] OK: rag-search.service is running
+[2026-08-21 00:50:00] OK: fail2ban is running
+[2026-08-21 00:50:00] OK: hermes-gateway.service is running
+[2026-08-21 00:50:00] OK: Corpus file exists
+[2026-08-21 00:50:00] Health check complete
+[2026-08-21 00:55:00] Starting health check...
+[2026-08-21 00:55:00] OK: Disk usage at 85%
+[2026-08-21 00:55:00] OK: Memory usage at 12%
+[2026-08-21 00:55:00] OK: nginx is running
+[2026-08-21 00:55:00] OK: search-app.service is running
+[2026-08-21 00:55:00] OK: rag-search.service is running
+[2026-08-21 00:55:00] OK: fail2ban is running
+[2026-08-21 00:55:00] OK: hermes-gateway.service is running
+[2026-08-21 00:55:00] OK: Corpus file exists
+[2026-08-21 00:55:00] Health check complete
+[2026-08-21 01:00:00] Starting health check...
+[2026-08-21 01:00:00] OK: Disk usage at 85%
+[2026-08-21 01:00:00] OK: Memory usage at 14%
+[2026-08-21 01:00:00] OK: nginx is running
+[2026-08-21 01:00:00] OK: search-app.service is running
+[2026-08-21 01:00:00] OK: rag-search.service is running
+[2026-08-21 01:00:00] OK: fail2ban is running
+[2026-08-21 01:00:00] OK: hermes-gateway.service is running
+[2026-08-21 01:00:00] OK: Corpus file exists
+[2026-08-21 01:00:00] Health check complete
+[2026-08-21 01:05:01] Starting health check...
+[2026-08-21 01:05:01] OK: Disk usage at 85%
+[2026-08-21 01:05:01] OK: Memory usage at 12%
+[2026-08-21 01:05:01] OK: nginx is running
+[2026-08-21 01:05:01] CRITICAL: search-app.service is not running
+[2026-08-21 01:05:01] OK: rag-search.service is running
+[2026-08-21 01:05:01] OK: fail2ban is running
+[2026-08-21 01:05:01] OK: hermes-gateway.service is running
+[2026-08-21 01:05:01] OK: Corpus file exists
+[2026-08-21 01:05:01] Health check complete
+[2026-08-21 01:10:01] Starting health check...
+[2026-08-21 01:10:01] OK: Disk usage at 85%
+[2026-08-21 01:10:01] OK: Memory usage at 13%
+[2026-08-21 01:10:01] OK: nginx is running
+[2026-08-21 01:10:01] OK: search-app.service is running
+[2026-08-21 01:10:01] OK: rag-search.service is running
+[2026-08-21 01:10:01] OK: fail2ban is running
+[2026-08-21 01:10:01] OK: hermes-gateway.service is running
+[2026-08-21 01:10:01] OK: Corpus file exists
+[2026-08-21 01:10:01] Health check complete
+[2026-08-21 01:15:00] Starting health check...
+[2026-08-21 01:15:00] OK: Disk usage at 85%
+[2026-08-21 01:15:00] OK: Memory usage at 12%
+[2026-08-21 01:15:00] OK: nginx is running
+[2026-08-21 01:15:00] CRITICAL: search-app.service is not running
+[2026-08-21 01:15:00] OK: rag-search.service is running
+[2026-08-21 01:15:00] OK: fail2ban is running
+[2026-08-21 01:15:00] OK: hermes-gateway.service is running
+[2026-08-21 01:15:00] OK: Corpus file exists
+[2026-08-21 01:15:00] Health check complete
+[2026-08-21 01:20:00] Starting health check...
+[2026-08-21 01:20:00] OK: Disk usage at 85%
+[2026-08-21 01:20:00] OK: Memory usage at 12%
+[2026-08-21 01:20:00] OK: nginx is running
+[2026-08-21 01:20:00] CRITICAL: search-app.service is not running
+[2026-08-21 01:20:00] OK: rag-search.service is running
+[2026-08-21 01:20:00] OK: fail2ban is running
+[2026-08-21 01:20:00] OK: hermes-gateway.service is running
+[2026-08-21 01:20:00] OK: Corpus file exists
+[2026-08-21 01:20:00] Health check complete
+[2026-08-21 01:25:01] Starting health check...
+[2026-08-21 01:25:01] OK: Disk usage at 85%
+[2026-08-21 01:25:01] OK: Memory usage at 24%
+[2026-08-21 01:25:01] OK: nginx is running
+[2026-08-21 01:25:01] OK: search-app.service is running
+[2026-08-21 01:25:01] OK: rag-search.service is running
+[2026-08-21 01:25:01] OK: fail2ban is running
+[2026-08-21 01:25:01] OK: hermes-gateway.service is running
+[2026-08-21 01:25:01] OK: Corpus file exists
+[2026-08-21 01:25:01] Health check complete
+[2026-08-21 01:30:01] Starting health check...
+[2026-08-21 01:30:01] OK: Disk usage at 85%
+[2026-08-21 01:30:01] OK: Memory usage at 22%
+[2026-08-21 01:30:01] OK: nginx is running
+[2026-08-21 01:30:01] CRITICAL: search-app.service is not running
+[2026-08-21 01:30:01] OK: rag-search.service is running
+[2026-08-21 01:30:01] OK: fail2ban is running
+[2026-08-21 01:30:01] OK: hermes-gateway.service is running
+[2026-08-21 01:30:01] OK: Corpus file exists
+[2026-08-21 01:30:01] Health check complete
+[2026-08-21 01:35:00] Starting health check...
+[2026-08-21 01:35:00] OK: Disk usage at 85%
+[2026-08-21 01:35:00] OK: Memory usage at 24%
+[2026-08-21 01:35:00] OK: nginx is running
+[2026-08-21 01:35:00] OK: search-app.service is running
+[2026-08-21 01:35:00] OK: rag-search.service is running
+[2026-08-21 01:35:00] OK: fail2ban is running
+[2026-08-21 01:35:00] OK: hermes-gateway.service is running
+[2026-08-21 01:35:00] OK: Corpus file exists
+[2026-08-21 01:35:00] Health check complete
+[2026-08-21 01:40:01] Starting health check...
+[2026-08-21 01:40:01] OK: Disk usage at 85%
+[2026-08-21 01:40:01] OK: Memory usage at 22%
+[2026-08-21 01:40:01] OK: nginx is running
+[2026-08-21 01:40:01] CRITICAL: search-app.service is not running
+[2026-08-21 01:40:01] OK: rag-search.service is running
+[2026-08-21 01:40:01] OK: fail2ban is running
+[2026-08-21 01:40:01] OK: hermes-gateway.service is running
+[2026-08-21 01:40:01] OK: Corpus file exists
+[2026-08-21 01:40:01] Health check complete
+[2026-08-21 01:45:00] Starting health check...
+[2026-08-21 01:45:00] OK: Disk usage at 85%
+[2026-08-21 01:45:00] OK: Memory usage at 22%
+[2026-08-21 01:45:00] OK: nginx is running
+[2026-08-21 01:45:00] OK: search-app.service is running
+[2026-08-21 01:45:00] OK: rag-search.service is running
+[2026-08-21 01:45:00] OK: fail2ban is running
+[2026-08-21 01:45:00] OK: hermes-gateway.service is running
+[2026-08-21 01:45:00] OK: Corpus file exists
+[2026-08-21 01:45:00] Health check complete
+[2026-08-21 01:50:00] Starting health check...
+[2026-08-21 01:50:00] OK: Disk usage at 85%
+[2026-08-21 01:50:00] OK: Memory usage at 24%
+[2026-08-21 01:50:00] OK: nginx is running
+[2026-08-21 01:50:00] OK: search-app.service is running
+[2026-08-21 01:50:00] OK: rag-search.service is running
+[2026-08-21 01:50:00] OK: fail2ban is running
+[2026-08-21 01:50:00] OK: hermes-gateway.service is running
+[2026-08-21 01:50:00] OK: Corpus file exists
+[2026-08-21 01:50:00] Health check complete
+[2026-08-21 01:55:01] Starting health check...
+[2026-08-21 01:55:01] OK: Disk usage at 85%
+[2026-08-21 01:55:01] OK: Memory usage at 13%
+[2026-08-21 01:55:01] OK: nginx is running
+[2026-08-21 01:55:01] OK: search-app.service is running
+[2026-08-21 01:55:01] OK: rag-search.service is running
+[2026-08-21 01:55:01] OK: fail2ban is running
+[2026-08-21 01:55:01] OK: hermes-gateway.service is running
+[2026-08-21 01:55:01] OK: Corpus file exists
+[2026-08-21 01:55:01] Health check complete
+[2026-08-21 02:00:00] Starting health check...
+[2026-08-21 02:00:00] OK: Disk usage at 85%
+[2026-08-21 02:00:00] OK: Memory usage at 12%
+[2026-08-21 02:00:00] OK: nginx is running
+[2026-08-21 02:00:00] CRITICAL: search-app.service is not running
+[2026-08-21 02:00:00] OK: rag-search.service is running
+[2026-08-21 02:00:00] OK: fail2ban is running
+[2026-08-21 02:00:00] OK: hermes-gateway.service is running
+[2026-08-21 02:00:00] OK: Corpus file exists
+[2026-08-21 02:00:00] Health check complete
+[2026-08-21 02:05:01] Starting health check...
+[2026-08-21 02:05:01] OK: Disk usage at 85%
+[2026-08-21 02:05:01] OK: Memory usage at 12%
+[2026-08-21 02:05:01] OK: nginx is running
+[2026-08-21 02:05:01] CRITICAL: search-app.service is not running
+[2026-08-21 02:05:01] OK: rag-search.service is running
+[2026-08-21 02:05:01] OK: fail2ban is running
+[2026-08-21 02:05:01] OK: hermes-gateway.service is running
+[2026-08-21 02:05:01] OK: Corpus file exists
+[2026-08-21 02:05:01] Health check complete
+[2026-08-21 02:10:01] Starting health check...
+[2026-08-21 02:10:01] OK: Disk usage at 85%
+[2026-08-21 02:10:01] OK: Memory usage at 13%
+[2026-08-21 02:10:01] OK: nginx is running
+[2026-08-21 02:10:01] OK: search-app.service is running
+[2026-08-21 02:10:01] OK: rag-search.service is running
+[2026-08-21 02:10:01] OK: fail2ban is running
+[2026-08-21 02:10:01] OK: hermes-gateway.service is running
+[2026-08-21 02:10:01] OK: Corpus file exists
+[2026-08-21 02:10:01] Health check complete
+[2026-08-21 02:15:01] Starting health check...
+[2026-08-21 02:15:01] OK: Disk usage at 85%
+[2026-08-21 02:15:01] OK: Memory usage at 24%
+[2026-08-21 02:15:01] OK: nginx is running
+[2026-08-21 02:15:01] OK: search-app.service is running
+[2026-08-21 02:15:01] OK: rag-search.service is running
+[2026-08-21 02:15:01] OK: fail2ban is running
+[2026-08-21 02:15:01] OK: hermes-gateway.service is running
+[2026-08-21 02:15:01] OK: Corpus file exists
+[2026-08-21 02:15:01] Health check complete
+[2026-08-21 02:20:01] Starting health check...
+[2026-08-21 02:20:01] OK: Disk usage at 85%
+[2026-08-21 02:20:01] OK: Memory usage at 24%
+[2026-08-21 02:20:01] OK: nginx is running
+[2026-08-21 02:20:01] OK: search-app.service is running
+[2026-08-21 02:20:01] OK: rag-search.service is running
+[2026-08-21 02:20:01] OK: fail2ban is running
+[2026-08-21 02:20:01] OK: hermes-gateway.service is running
+[2026-08-21 02:20:01] OK: Corpus file exists
+[2026-08-21 02:20:01] Health check complete
+[2026-08-21 02:25:01] Starting health check...
+[2026-08-21 02:25:01] OK: Disk usage at 85%
+[2026-08-21 02:25:01] OK: Memory usage at 22%
+[2026-08-21 02:25:01] OK: nginx is running
+[2026-08-21 02:25:01] CRITICAL: search-app.service is not running
+[2026-08-21 02:25:01] OK: rag-search.service is running
+[2026-08-21 02:25:01] OK: fail2ban is running
+[2026-08-21 02:25:01] OK: hermes-gateway.service is running
+[2026-08-21 02:25:01] OK: Corpus file exists
+[2026-08-21 02:25:01] Health check complete
+[2026-08-21 02:30:01] Starting health check...
+[2026-08-21 02:30:01] OK: Disk usage at 85%
+[2026-08-21 02:30:01] OK: Memory usage at 22%
+[2026-08-21 02:30:01] OK: nginx is running
+[2026-08-21 02:30:01] CRITICAL: search-app.service is not running
+[2026-08-21 02:30:01] OK: rag-search.service is running
+[2026-08-21 02:30:01] OK: fail2ban is running
+[2026-08-21 02:30:01] OK: hermes-gateway.service is running
+[2026-08-21 02:30:01] OK: Corpus file exists
+[2026-08-21 02:30:01] Health check complete
+[2026-08-21 02:35:01] Starting health check...
+[2026-08-21 02:35:01] OK: Disk usage at 85%
+[2026-08-21 02:35:01] OK: Memory usage at 24%
+[2026-08-21 02:35:01] OK: nginx is running
+[2026-08-21 02:35:01] OK: search-app.service is running
+[2026-08-21 02:35:01] OK: rag-search.service is running
+[2026-08-21 02:35:01] OK: fail2ban is running
+[2026-08-21 02:35:01] OK: hermes-gateway.service is running
+[2026-08-21 02:35:01] OK: Corpus file exists
+[2026-08-21 02:35:01] Health check complete
+[2026-08-21 02:40:00] Starting health check...
+[2026-08-21 02:40:00] OK: Disk usage at 85%
+[2026-08-21 02:40:00] OK: Memory usage at 22%
+[2026-08-21 02:40:00] OK: nginx is running
+[2026-08-21 02:40:00] CRITICAL: search-app.service is not running
+[2026-08-21 02:40:00] OK: rag-search.service is running
+[2026-08-21 02:40:00] OK: fail2ban is running
+[2026-08-21 02:40:00] OK: hermes-gateway.service is running
+[2026-08-21 02:40:00] OK: Corpus file exists
+[2026-08-21 02:40:00] Health check complete
+[2026-08-21 02:45:01] Starting health check...
+[2026-08-21 02:45:01] OK: Disk usage at 85%
+[2026-08-21 02:45:01] OK: Memory usage at 24%
+[2026-08-21 02:45:01] OK: nginx is running
+[2026-08-21 02:45:01] OK: search-app.service is running
+[2026-08-21 02:45:01] OK: rag-search.service is running
+[2026-08-21 02:45:01] OK: fail2ban is running
+[2026-08-21 02:45:01] OK: hermes-gateway.service is running
+[2026-08-21 02:45:01] OK: Corpus file exists
+[2026-08-21 02:45:01] Health check complete
+[2026-08-21 02:50:01] Starting health check...
+[2026-08-21 02:50:01] OK: Disk usage at 85%
+[2026-08-21 02:50:01] OK: Memory usage at 13%
+[2026-08-21 02:50:01] OK: nginx is running
+[2026-08-21 02:50:01] OK: search-app.service is running
+[2026-08-21 02:50:01] OK: rag-search.service is running
+[2026-08-21 02:50:01] OK: fail2ban is running
+[2026-08-21 02:50:01] OK: hermes-gateway.service is running
+[2026-08-21 02:50:01] OK: Corpus file exists
+[2026-08-21 02:50:01] Health check complete
+[2026-08-21 02:55:00] Starting health check...
+[2026-08-21 02:55:00] OK: Disk usage at 85%
+[2026-08-21 02:55:00] OK: Memory usage at 12%
+[2026-08-21 02:55:00] OK: nginx is running
+[2026-08-21 02:55:00] CRITICAL: search-app.service is not running
+[2026-08-21 02:55:00] OK: rag-search.service is running
+[2026-08-21 02:55:00] OK: fail2ban is running
+[2026-08-21 02:55:00] OK: hermes-gateway.service is running
+[2026-08-21 02:55:00] OK: Corpus file exists
+[2026-08-21 02:55:00] Health check complete
+[2026-08-21 03:00:00] Starting health check...
+[2026-08-21 03:00:00] OK: Disk usage at 85%
+[2026-08-21 03:00:00] OK: Memory usage at 12%
+[2026-08-21 03:00:00] OK: nginx is running
+[2026-08-21 03:00:00] OK: search-app.service is running
+[2026-08-21 03:00:00] OK: rag-search.service is running
+[2026-08-21 03:00:00] OK: fail2ban is running
+[2026-08-21 03:00:00] OK: hermes-gateway.service is running
+[2026-08-21 03:00:00] OK: Corpus file exists
+[2026-08-21 03:00:00] Health check complete
+[2026-08-21 03:05:00] Starting health check...
+[2026-08-21 03:05:00] OK: Disk usage at 85%
+[2026-08-21 03:05:00] OK: Memory usage at 14%
+[2026-08-21 03:05:00] OK: nginx is running
+[2026-08-21 03:05:00] OK: search-app.service is running
+[2026-08-21 03:05:00] OK: rag-search.service is running
+[2026-08-21 03:05:00] OK: fail2ban is running
+[2026-08-21 03:05:00] OK: hermes-gateway.service is running
+[2026-08-21 03:05:00] OK: Corpus file exists
+[2026-08-21 03:05:00] Health check complete
+[2026-08-21 03:10:01] Starting health check...
+[2026-08-21 03:10:01] OK: Disk usage at 85%
+[2026-08-21 03:10:01] OK: Memory usage at 12%
+[2026-08-21 03:10:01] OK: nginx is running
+[2026-08-21 03:10:01] CRITICAL: search-app.service is not running
+[2026-08-21 03:10:01] OK: rag-search.service is running
+[2026-08-21 03:10:01] OK: fail2ban is running
+[2026-08-21 03:10:01] OK: hermes-gateway.service is running
+[2026-08-21 03:10:01] OK: Corpus file exists
+[2026-08-21 03:10:01] Health check complete
+[2026-08-21 03:15:01] Starting health check...
+[2026-08-21 03:15:01] OK: Disk usage at 85%
+[2026-08-21 03:15:01] OK: Memory usage at 13%
+[2026-08-21 03:15:01] OK: nginx is running
+[2026-08-21 03:15:01] OK: search-app.service is running
+[2026-08-21 03:15:01] OK: rag-search.service is running
+[2026-08-21 03:15:01] OK: fail2ban is running
+[2026-08-21 03:15:01] OK: hermes-gateway.service is running
+[2026-08-21 03:15:01] OK: Corpus file exists
+[2026-08-21 03:15:01] Health check complete
+[2026-08-21 03:20:00] Starting health check...
+[2026-08-21 03:20:00] OK: Disk usage at 85%
+[2026-08-21 03:20:00] OK: Memory usage at 14%
+[2026-08-21 03:20:00] OK: nginx is running
+[2026-08-21 03:20:00] OK: search-app.service is running
+[2026-08-21 03:20:00] OK: rag-search.service is running
+[2026-08-21 03:20:00] OK: fail2ban is running
+[2026-08-21 03:20:00] OK: hermes-gateway.service is running
+[2026-08-21 03:20:00] OK: Corpus file exists
+[2026-08-21 03:20:00] Health check complete
+[2026-08-21 03:25:01] Starting health check...
+[2026-08-21 03:25:01] OK: Disk usage at 85%
+[2026-08-21 03:25:01] OK: Memory usage at 23%
+[2026-08-21 03:25:01] OK: nginx is running
+[2026-08-21 03:25:01] OK: search-app.service is running
+[2026-08-21 03:25:01] OK: rag-search.service is running
+[2026-08-21 03:25:01] OK: fail2ban is running
+[2026-08-21 03:25:01] OK: hermes-gateway.service is running
+[2026-08-21 03:25:01] OK: Corpus file exists
+[2026-08-21 03:25:01] Health check complete
+[2026-08-21 03:30:00] Starting health check...
+[2026-08-21 03:30:00] OK: Disk usage at 85%
+[2026-08-21 03:30:00] OK: Memory usage at 22%
+[2026-08-21 03:30:00] OK: nginx is running
+[2026-08-21 03:30:00] OK: search-app.service is running
+[2026-08-21 03:30:00] OK: rag-search.service is running
+[2026-08-21 03:30:00] OK: fail2ban is running
+[2026-08-21 03:30:00] OK: hermes-gateway.service is running
+[2026-08-21 03:30:00] OK: Corpus file exists
+[2026-08-21 03:30:00] Health check complete
+[2026-08-21 03:35:00] Starting health check...
+[2026-08-21 03:35:00] OK: Disk usage at 85%
+[2026-08-21 03:35:00] OK: Memory usage at 24%
+[2026-08-21 03:35:00] OK: nginx is running
+[2026-08-21 03:35:00] OK: search-app.service is running
+[2026-08-21 03:35:00] OK: rag-search.service is running
+[2026-08-21 03:35:00] OK: fail2ban is running
+[2026-08-21 03:35:00] OK: hermes-gateway.service is running
+[2026-08-21 03:35:00] OK: Corpus file exists
+[2026-08-21 03:35:00] Health check complete
+[2026-08-21 03:40:01] Starting health check...
+[2026-08-21 03:40:01] OK: Disk usage at 85%
+[2026-08-21 03:40:01] OK: Memory usage at 22%
+[2026-08-21 03:40:01] OK: nginx is running
+[2026-08-21 03:40:01] CRITICAL: search-app.service is not running
+[2026-08-21 03:40:01] OK: rag-search.service is running
+[2026-08-21 03:40:01] OK: fail2ban is running
+[2026-08-21 03:40:01] OK: hermes-gateway.service is running
+[2026-08-21 03:40:01] OK: Corpus file exists
+[2026-08-21 03:40:01] Health check complete
+[2026-08-21 03:45:01] Starting health check...
+[2026-08-21 03:45:01] OK: Disk usage at 85%
+[2026-08-21 03:45:01] OK: Memory usage at 24%
+[2026-08-21 03:45:01] OK: nginx is running
+[2026-08-21 03:45:01] OK: search-app.service is running
+[2026-08-21 03:45:01] OK: rag-search.service is running
+[2026-08-21 03:45:01] OK: fail2ban is running
+[2026-08-21 03:45:01] OK: hermes-gateway.service is running
+[2026-08-21 03:45:01] OK: Corpus file exists
+[2026-08-21 03:45:01] Health check complete
+[2026-08-21 03:50:00] Starting health check...
+[2026-08-21 03:50:00] OK: Disk usage at 85%
+[2026-08-21 03:50:00] OK: Memory usage at 24%
+[2026-08-21 03:50:00] OK: nginx is running
+[2026-08-21 03:50:00] OK: search-app.service is running
+[2026-08-21 03:50:00] OK: rag-search.service is running
+[2026-08-21 03:50:00] OK: fail2ban is running
+[2026-08-21 03:50:00] OK: hermes-gateway.service is running
+[2026-08-21 03:50:00] OK: Corpus file exists
+[2026-08-21 03:50:00] Health check complete
+[2026-08-21 03:55:00] Starting health check...
+[2026-08-21 03:55:00] OK: Disk usage at 85%
+[2026-08-21 03:55:00] OK: Memory usage at 22%
+[2026-08-21 03:55:00] OK: nginx is running
+[2026-08-21 03:55:00] CRITICAL: search-app.service is not running
+[2026-08-21 03:55:00] OK: rag-search.service is running
+[2026-08-21 03:55:00] OK: fail2ban is running
+[2026-08-21 03:55:00] OK: hermes-gateway.service is running
+[2026-08-21 03:55:00] OK: Corpus file exists
+[2026-08-21 03:55:00] Health check complete
+[2026-08-21 04:00:01] Starting health check...
+[2026-08-21 04:00:01] OK: Disk usage at 85%
+[2026-08-21 04:00:01] OK: Memory usage at 14%
+[2026-08-21 04:00:01] OK: nginx is running
+[2026-08-21 04:00:01] OK: search-app.service is running
+[2026-08-21 04:00:01] OK: rag-search.service is running
+[2026-08-21 04:00:01] OK: fail2ban is running
+[2026-08-21 04:00:01] OK: hermes-gateway.service is running
+[2026-08-21 04:00:01] OK: Corpus file exists
+[2026-08-21 04:00:01] Health check complete
+[2026-08-21 04:05:01] Starting health check...
+[2026-08-21 04:05:01] OK: Disk usage at 85%
+[2026-08-21 04:05:01] OK: Memory usage at 13%
+[2026-08-21 04:05:01] OK: nginx is running
+[2026-08-21 04:05:01] OK: search-app.service is running
+[2026-08-21 04:05:01] OK: rag-search.service is running
+[2026-08-21 04:05:01] OK: fail2ban is running
+[2026-08-21 04:05:01] OK: hermes-gateway.service is running
+[2026-08-21 04:05:01] OK: Corpus file exists
+[2026-08-21 04:05:01] Health check complete
+[2026-08-21 04:10:00] Starting health check...
+[2026-08-21 04:10:00] OK: Disk usage at 85%
+[2026-08-21 04:10:00] OK: Memory usage at 12%
+[2026-08-21 04:10:00] OK: nginx is running
+[2026-08-21 04:10:00] CRITICAL: search-app.service is not running
+[2026-08-21 04:10:00] OK: rag-search.service is running
+[2026-08-21 04:10:00] OK: fail2ban is running
+[2026-08-21 04:10:00] OK: hermes-gateway.service is running
+[2026-08-21 04:10:00] OK: Corpus file exists
+[2026-08-21 04:10:00] Health check complete
+[2026-08-21 04:15:00] Starting health check...
+[2026-08-21 04:15:00] OK: Disk usage at 85%
+[2026-08-21 04:15:00] OK: Memory usage at 12%
+[2026-08-21 04:15:00] OK: nginx is running
+[2026-08-21 04:15:00] CRITICAL: search-app.service is not running
+[2026-08-21 04:15:00] OK: rag-search.service is running
+[2026-08-21 04:15:00] OK: fail2ban is running
+[2026-08-21 04:15:00] OK: hermes-gateway.service is running
+[2026-08-21 04:15:00] OK: Corpus file exists
+[2026-08-21 04:15:00] Health check complete
+[2026-08-21 04:20:01] Starting health check...
+[2026-08-21 04:20:01] OK: Disk usage at 85%
+[2026-08-21 04:20:01] OK: Memory usage at 14%
+[2026-08-21 04:20:01] OK: nginx is running
+[2026-08-21 04:20:01] OK: search-app.service is running
+[2026-08-21 04:20:01] OK: rag-search.service is running
+[2026-08-21 04:20:01] OK: fail2ban is running
+[2026-08-21 04:20:01] OK: hermes-gateway.service is running
+[2026-08-21 04:20:01] OK: Corpus file exists
+[2026-08-21 04:20:01] Health check complete
+[2026-08-21 04:25:00] Starting health check...
+[2026-08-21 04:25:00] OK: Disk usage at 85%
+[2026-08-21 04:25:00] OK: Memory usage at 12%
+[2026-08-21 04:25:00] OK: nginx is running
+[2026-08-21 04:25:00] CRITICAL: search-app.service is not running
+[2026-08-21 04:25:00] OK: rag-search.service is running
+[2026-08-21 04:25:00] OK: fail2ban is running
+[2026-08-21 04:25:00] OK: hermes-gateway.service is running
+[2026-08-21 04:25:00] OK: Corpus file exists
+[2026-08-21 04:25:00] Health check complete
+[2026-08-21 04:30:00] Starting health check...
+[2026-08-21 04:30:00] OK: Disk usage at 85%
+[2026-08-21 04:30:00] OK: Memory usage at 12%
+[2026-08-21 04:30:00] OK: nginx is running
+[2026-08-21 04:30:00] CRITICAL: search-app.service is not running
+[2026-08-21 04:30:00] OK: rag-search.service is running
+[2026-08-21 04:30:00] OK: fail2ban is running
+[2026-08-21 04:30:00] OK: hermes-gateway.service is running
+[2026-08-21 04:30:00] OK: Corpus file exists
+[2026-08-21 04:30:00] Health check complete
+[2026-08-21 04:35:00] Starting health check...
+[2026-08-21 04:35:00] OK: Disk usage at 85%
+[2026-08-21 04:35:00] OK: Memory usage at 13%
+[2026-08-21 04:35:00] OK: nginx is running
+[2026-08-21 04:35:00] OK: search-app.service is running
+[2026-08-21 04:35:00] OK: rag-search.service is running
+[2026-08-21 04:35:00] OK: fail2ban is running
+[2026-08-21 04:35:00] OK: hermes-gateway.service is running
+[2026-08-21 04:35:00] OK: Corpus file exists
+[2026-08-21 04:35:00] Health check complete
+[2026-08-21 04:40:00] Starting health check...
+[2026-08-21 04:40:00] OK: Disk usage at 85%
+[2026-08-21 04:40:00] OK: Memory usage at 12%
+[2026-08-21 04:40:00] OK: nginx is running
+[2026-08-21 04:40:00] CRITICAL: search-app.service is not running
+[2026-08-21 04:40:00] OK: rag-search.service is running
+[2026-08-21 04:40:00] OK: fail2ban is running
+[2026-08-21 04:40:00] OK: hermes-gateway.service is running
+[2026-08-21 04:40:00] OK: Corpus file exists
+[2026-08-21 04:40:00] Health check complete
+[2026-08-21 04:45:00] Starting health check...
+[2026-08-21 04:45:00] OK: Disk usage at 85%
+[2026-08-21 04:45:00] OK: Memory usage at 13%
+[2026-08-21 04:45:00] OK: nginx is running
+[2026-08-21 04:45:00] OK: search-app.service is running
+[2026-08-21 04:45:00] OK: rag-search.service is running
+[2026-08-21 04:45:00] OK: fail2ban is running
+[2026-08-21 04:45:00] OK: hermes-gateway.service is running
+[2026-08-21 04:45:00] OK: Corpus file exists
+[2026-08-21 04:45:00] Health check complete
+[2026-08-21 04:50:01] Starting health check...
+[2026-08-21 04:50:01] OK: Disk usage at 85%
+[2026-08-21 04:50:01] OK: Memory usage at 12%
+[2026-08-21 04:50:01] OK: nginx is running
+[2026-08-21 04:50:01] CRITICAL: search-app.service is not running
+[2026-08-21 04:50:01] OK: rag-search.service is running
+[2026-08-21 04:50:01] OK: fail2ban is running
+[2026-08-21 04:50:01] OK: hermes-gateway.service is running
+[2026-08-21 04:50:01] OK: Corpus file exists
+[2026-08-21 04:50:01] Health check complete
+[2026-08-21 04:55:01] Starting health check...
+[2026-08-21 04:55:01] OK: Disk usage at 85%
+[2026-08-21 04:55:01] OK: Memory usage at 12%
+[2026-08-21 04:55:01] OK: nginx is running
+[2026-08-21 04:55:01] CRITICAL: search-app.service is not running
+[2026-08-21 04:55:01] OK: rag-search.service is running
+[2026-08-21 04:55:01] OK: fail2ban is running
+[2026-08-21 04:55:01] OK: hermes-gateway.service is running
+[2026-08-21 04:55:01] OK: Corpus file exists
+[2026-08-21 04:55:01] Health check complete
+[2026-08-21 05:00:00] Starting health check...
+[2026-08-21 05:00:00] OK: Disk usage at 85%
+[2026-08-21 05:00:00] OK: Memory usage at 13%
+[2026-08-21 05:00:00] OK: nginx is running
+[2026-08-21 05:00:00] OK: search-app.service is running
+[2026-08-21 05:00:00] OK: rag-search.service is running
+[2026-08-21 05:00:00] OK: fail2ban is running
+[2026-08-21 05:00:00] OK: hermes-gateway.service is running
+[2026-08-21 05:00:00] OK: Corpus file exists
+[2026-08-21 05:00:00] Health check complete
+[2026-08-21 05:05:01] Starting health check...
+[2026-08-21 05:05:01] OK: Disk usage at 85%
+[2026-08-21 05:05:01] OK: Memory usage at 12%
+[2026-08-21 05:05:01] OK: nginx is running
+[2026-08-21 05:05:01] CRITICAL: search-app.service is not running
+[2026-08-21 05:05:01] OK: rag-search.service is running
+[2026-08-21 05:05:01] OK: fail2ban is running
+[2026-08-21 05:05:01] OK: hermes-gateway.service is running
+[2026-08-21 05:05:01] OK: Corpus file exists
+[2026-08-21 05:05:01] Health check complete
+[2026-08-21 05:10:01] Starting health check...
+[2026-08-21 05:10:01] OK: Disk usage at 85%
+[2026-08-21 05:10:01] OK: Memory usage at 13%
+[2026-08-21 05:10:01] OK: nginx is running
+[2026-08-21 05:10:01] OK: search-app.service is running
+[2026-08-21 05:10:01] OK: rag-search.service is running
+[2026-08-21 05:10:01] OK: fail2ban is running
+[2026-08-21 05:10:01] OK: hermes-gateway.service is running
+[2026-08-21 05:10:01] OK: Corpus file exists
+[2026-08-21 05:10:01] Health check complete
+[2026-08-21 05:15:00] Starting health check...
+[2026-08-21 05:15:00] OK: Disk usage at 85%
+[2026-08-21 05:15:00] OK: Memory usage at 12%
+[2026-08-21 05:15:00] OK: nginx is running
+[2026-08-21 05:15:00] CRITICAL: search-app.service is not running
+[2026-08-21 05:15:00] OK: rag-search.service is running
+[2026-08-21 05:15:00] OK: fail2ban is running
+[2026-08-21 05:15:00] OK: hermes-gateway.service is running
+[2026-08-21 05:15:00] OK: Corpus file exists
+[2026-08-21 05:15:00] Health check complete
+[2026-08-21 05:20:00] Starting health check...
+[2026-08-21 05:20:00] OK: Disk usage at 85%
+[2026-08-21 05:20:00] OK: Memory usage at 12%
+[2026-08-21 05:20:00] OK: nginx is running
+[2026-08-21 05:20:00] CRITICAL: search-app.service is not running
+[2026-08-21 05:20:00] OK: rag-search.service is running
+[2026-08-21 05:20:00] OK: fail2ban is running
+[2026-08-21 05:20:00] OK: hermes-gateway.service is running
+[2026-08-21 05:20:00] OK: Corpus file exists
+[2026-08-21 05:20:00] Health check complete
+[2026-08-21 05:25:01] Starting health check...
+[2026-08-21 05:25:01] OK: Disk usage at 85%
+[2026-08-21 05:25:01] OK: Memory usage at 13%
+[2026-08-21 05:25:01] OK: nginx is running
+[2026-08-21 05:25:01] OK: search-app.service is running
+[2026-08-21 05:25:01] OK: rag-search.service is running
+[2026-08-21 05:25:01] OK: fail2ban is running
+[2026-08-21 05:25:01] OK: hermes-gateway.service is running
+[2026-08-21 05:25:01] OK: Corpus file exists
+[2026-08-21 05:25:01] Health check complete
+[2026-08-21 05:30:01] Starting health check...
+[2026-08-21 05:30:01] OK: Disk usage at 85%
+[2026-08-21 05:30:01] OK: Memory usage at 22%
+[2026-08-21 05:30:01] OK: nginx is running
+[2026-08-21 05:30:01] CRITICAL: search-app.service is not running
+[2026-08-21 05:30:01] OK: rag-search.service is running
+[2026-08-21 05:30:01] OK: fail2ban is running
+[2026-08-21 05:30:01] OK: hermes-gateway.service is running
+[2026-08-21 05:30:01] OK: Corpus file exists
+[2026-08-21 05:30:01] Health check complete
+[2026-08-21 05:35:00] Starting health check...
+[2026-08-21 05:35:00] OK: Disk usage at 85%
+[2026-08-21 05:35:00] OK: Memory usage at 24%
+[2026-08-21 05:35:00] OK: nginx is running
+[2026-08-21 05:35:00] OK: search-app.service is running
+[2026-08-21 05:35:00] OK: rag-search.service is running
+[2026-08-21 05:35:00] OK: fail2ban is running
+[2026-08-21 05:35:00] OK: hermes-gateway.service is running
+[2026-08-21 05:35:00] OK: Corpus file exists
+[2026-08-21 05:35:00] Health check complete
+[2026-08-21 05:40:01] Starting health check...
+[2026-08-21 05:40:01] OK: Disk usage at 85%
+[2026-08-21 05:40:01] OK: Memory usage at 22%
+[2026-08-21 05:40:01] OK: nginx is running
+[2026-08-21 05:40:01] CRITICAL: search-app.service is not running
+[2026-08-21 05:40:01] OK: rag-search.service is running
+[2026-08-21 05:40:01] OK: fail2ban is running
+[2026-08-21 05:40:01] OK: hermes-gateway.service is running
+[2026-08-21 05:40:01] OK: Corpus file exists
+[2026-08-21 05:40:01] Health check complete
+[2026-08-21 05:45:01] Starting health check...
+[2026-08-21 05:45:01] OK: Disk usage at 85%
+[2026-08-21 05:45:01] OK: Memory usage at 23%
+[2026-08-21 05:45:01] OK: nginx is running
+[2026-08-21 05:45:01] OK: search-app.service is running
+[2026-08-21 05:45:01] OK: rag-search.service is running
+[2026-08-21 05:45:01] OK: fail2ban is running
+[2026-08-21 05:45:01] OK: hermes-gateway.service is running
+[2026-08-21 05:45:01] OK: Corpus file exists
+[2026-08-21 05:45:01] Health check complete
+[2026-08-21 05:50:00] Starting health check...
+[2026-08-21 05:50:00] OK: Disk usage at 85%
+[2026-08-21 05:50:00] OK: Memory usage at 24%
+[2026-08-21 05:50:00] OK: nginx is running
+[2026-08-21 05:50:00] OK: search-app.service is running
+[2026-08-21 05:50:00] OK: rag-search.service is running
+[2026-08-21 05:50:00] OK: fail2ban is running
+[2026-08-21 05:50:00] OK: hermes-gateway.service is running
+[2026-08-21 05:50:00] OK: Corpus file exists
+[2026-08-21 05:50:00] Health check complete
+[2026-08-21 05:55:01] Starting health check...
+[2026-08-21 05:55:01] OK: Disk usage at 85%
+[2026-08-21 05:55:01] OK: Memory usage at 22%
+[2026-08-21 05:55:01] OK: nginx is running
+[2026-08-21 05:55:01] CRITICAL: search-app.service is not running
+[2026-08-21 05:55:01] OK: rag-search.service is running
+[2026-08-21 05:55:01] OK: fail2ban is running
+[2026-08-21 05:55:01] OK: hermes-gateway.service is running
+[2026-08-21 05:55:01] OK: Corpus file exists
+[2026-08-21 05:55:01] Health check complete
+[2026-08-21 06:00:02] Starting health check...
+[2026-08-21 06:00:02] OK: Disk usage at 85%
+[2026-08-21 06:00:02] OK: Memory usage at 22%
+[2026-08-21 06:00:02] OK: nginx is running
+[2026-08-21 06:00:02] CRITICAL: search-app.service is not running
+[2026-08-21 06:00:02] OK: rag-search.service is running
+[2026-08-21 06:00:02] OK: fail2ban is running
+[2026-08-21 06:00:02] OK: hermes-gateway.service is running
+[2026-08-21 06:00:02] OK: Corpus file exists
+[2026-08-21 06:00:02] Health check complete
+[2026-08-21 06:05:01] Starting health check...
+[2026-08-21 06:05:01] OK: Disk usage at 85%
+[2026-08-21 06:05:01] OK: Memory usage at 13%
+[2026-08-21 06:05:01] OK: nginx is running
+[2026-08-21 06:05:01] OK: search-app.service is running
+[2026-08-21 06:05:01] OK: rag-search.service is running
+[2026-08-21 06:05:01] OK: fail2ban is running
+[2026-08-21 06:05:01] OK: hermes-gateway.service is running
+[2026-08-21 06:05:01] OK: Corpus file exists
+[2026-08-21 06:05:01] Health check complete
+[2026-08-21 06:10:01] Starting health check...
+[2026-08-21 06:10:01] OK: Disk usage at 85%
+[2026-08-21 06:10:01] OK: Memory usage at 12%
+[2026-08-21 06:10:01] OK: nginx is running
+[2026-08-21 06:10:01] CRITICAL: search-app.service is not running
+[2026-08-21 06:10:01] OK: rag-search.service is running
+[2026-08-21 06:10:01] OK: fail2ban is running
+[2026-08-21 06:10:01] OK: hermes-gateway.service is running
+[2026-08-21 06:10:01] OK: Corpus file exists
+[2026-08-21 06:10:01] Health check complete
+[2026-08-21 06:15:00] Starting health check...
+[2026-08-21 06:15:00] OK: Disk usage at 85%
+[2026-08-21 06:15:00] OK: Memory usage at 12%
+[2026-08-21 06:15:00] OK: nginx is running
+[2026-08-21 06:15:00] CRITICAL: search-app.service is not running
+[2026-08-21 06:15:00] OK: rag-search.service is running
+[2026-08-21 06:15:00] OK: fail2ban is running
+[2026-08-21 06:15:00] OK: hermes-gateway.service is running
+[2026-08-21 06:15:00] OK: Corpus file exists
+[2026-08-21 06:15:00] Health check complete
+[2026-08-21 06:20:00] Starting health check...
+[2026-08-21 06:20:00] OK: Disk usage at 85%
+[2026-08-21 06:20:00] OK: Memory usage at 14%
+[2026-08-21 06:20:00] OK: nginx is running
+[2026-08-21 06:20:00] OK: search-app.service is running
+[2026-08-21 06:20:00] OK: rag-search.service is running
+[2026-08-21 06:20:00] OK: fail2ban is running
+[2026-08-21 06:20:00] OK: hermes-gateway.service is running
+[2026-08-21 06:20:00] OK: Corpus file exists
+[2026-08-21 06:20:00] Health check complete
+[2026-08-21 06:25:01] Starting health check...
+[2026-08-21 06:25:01] OK: Disk usage at 85%
+[2026-08-21 06:25:01] OK: Memory usage at 12%
+[2026-08-21 06:25:01] OK: nginx is running
+[2026-08-21 06:25:01] CRITICAL: search-app.service is not running
+[2026-08-21 06:25:01] OK: rag-search.service is running
+[2026-08-21 06:25:01] OK: fail2ban is running
+[2026-08-21 06:25:01] OK: hermes-gateway.service is running
+[2026-08-21 06:25:01] OK: Corpus file exists
+[2026-08-21 06:25:01] Health check complete
+[2026-08-21 06:30:00] Starting health check...
+[2026-08-21 06:30:00] OK: Disk usage at 85%
+[2026-08-21 06:30:00] OK: Memory usage at 12%
+[2026-08-21 06:30:00] OK: nginx is running
+[2026-08-21 06:30:00] OK: search-app.service is running
+[2026-08-21 06:30:00] OK: rag-search.service is running
+[2026-08-21 06:30:00] OK: fail2ban is running
+[2026-08-21 06:30:00] OK: hermes-gateway.service is running
+[2026-08-21 06:30:00] OK: Corpus file exists
+[2026-08-21 06:30:00] Health check complete
+[2026-08-21 06:35:00] Starting health check...
+[2026-08-21 06:35:00] OK: Disk usage at 85%
+[2026-08-21 06:35:00] OK: Memory usage at 13%
+[2026-08-21 06:35:00] OK: nginx is running
+[2026-08-21 06:35:00] OK: search-app.service is running
+[2026-08-21 06:35:00] OK: rag-search.service is running
+[2026-08-21 06:35:00] OK: fail2ban is running
+[2026-08-21 06:35:00] OK: hermes-gateway.service is running
+[2026-08-21 06:35:00] OK: Corpus file exists
+[2026-08-21 06:35:00] Health check complete
+[2026-08-21 06:40:01] Starting health check...
+[2026-08-21 06:40:01] OK: Disk usage at 85%
+[2026-08-21 06:40:01] OK: Memory usage at 12%
+[2026-08-21 06:40:01] OK: nginx is running
+[2026-08-21 06:40:01] CRITICAL: search-app.service is not running
+[2026-08-21 06:40:01] OK: rag-search.service is running
+[2026-08-21 06:40:01] OK: fail2ban is running
+[2026-08-21 06:40:01] OK: hermes-gateway.service is running
+[2026-08-21 06:40:01] OK: Corpus file exists
+[2026-08-21 06:40:01] Health check complete
+[2026-08-21 06:45:01] Starting health check...
+[2026-08-21 06:45:01] OK: Disk usage at 85%
+[2026-08-21 06:45:01] OK: Memory usage at 13%
+[2026-08-21 06:45:01] OK: nginx is running
+[2026-08-21 06:45:01] OK: search-app.service is running
+[2026-08-21 06:45:01] OK: rag-search.service is running
+[2026-08-21 06:45:01] OK: fail2ban is running
+[2026-08-21 06:45:01] OK: hermes-gateway.service is running
+[2026-08-21 06:45:01] OK: Corpus file exists
+[2026-08-21 06:45:01] Health check complete
+[2026-08-21 06:50:00] Starting health check...
+[2026-08-21 06:50:00] OK: Disk usage at 85%
+[2026-08-21 06:50:00] OK: Memory usage at 12%
+[2026-08-21 06:50:00] OK: nginx is running
+[2026-08-21 06:50:00] CRITICAL: search-app.service is not running
+[2026-08-21 06:50:00] OK: rag-search.service is running
+[2026-08-21 06:50:00] OK: fail2ban is running
+[2026-08-21 06:50:00] OK: hermes-gateway.service is running
+[2026-08-21 06:50:00] OK: Corpus file exists
+[2026-08-21 06:50:00] Health check complete
+[2026-08-21 06:55:01] Starting health check...
+[2026-08-21 06:55:01] OK: Disk usage at 85%
+[2026-08-21 06:55:01] OK: Memory usage at 13%
+[2026-08-21 06:55:01] OK: nginx is running
+[2026-08-21 06:55:01] OK: search-app.service is running
+[2026-08-21 06:55:01] OK: rag-search.service is running
+[2026-08-21 06:55:01] OK: fail2ban is running
+[2026-08-21 06:55:01] OK: hermes-gateway.service is running
+[2026-08-21 06:55:01] OK: Corpus file exists
+[2026-08-21 06:55:01] Health check complete
+[2026-08-21 07:00:01] Starting health check...
+[2026-08-21 07:00:01] OK: Disk usage at 85%
+[2026-08-21 07:00:01] OK: Memory usage at 14%
+[2026-08-21 07:00:01] OK: nginx is running
+[2026-08-21 07:00:01] OK: search-app.service is running
+[2026-08-21 07:00:01] OK: rag-search.service is running
+[2026-08-21 07:00:01] OK: fail2ban is running
+[2026-08-21 07:00:01] OK: hermes-gateway.service is running
+[2026-08-21 07:00:01] OK: Corpus file exists
+[2026-08-21 07:00:01] Health check complete
+[2026-08-21 07:05:00] Starting health check...
+[2026-08-21 07:05:00] OK: Disk usage at 85%
+[2026-08-21 07:05:00] OK: Memory usage at 12%
+[2026-08-21 07:05:00] OK: nginx is running
+[2026-08-21 07:05:00] CRITICAL: search-app.service is not running
+[2026-08-21 07:05:00] OK: rag-search.service is running
+[2026-08-21 07:05:00] OK: fail2ban is running
+[2026-08-21 07:05:00] OK: hermes-gateway.service is running
+[2026-08-21 07:05:00] OK: Corpus file exists
+[2026-08-21 07:05:00] Health check complete
+[2026-08-21 07:10:00] Starting health check...
+[2026-08-21 07:10:00] OK: Disk usage at 85%
+[2026-08-21 07:10:00] OK: Memory usage at 13%
+[2026-08-21 07:10:00] OK: nginx is running
+[2026-08-21 07:10:00] OK: search-app.service is running
+[2026-08-21 07:10:00] OK: rag-search.service is running
+[2026-08-21 07:10:00] OK: fail2ban is running
+[2026-08-21 07:10:00] OK: hermes-gateway.service is running
+[2026-08-21 07:10:00] OK: Corpus file exists
+[2026-08-21 07:10:00] Health check complete
+[2026-08-21 07:15:01] Starting health check...
+[2026-08-21 07:15:01] OK: Disk usage at 85%
+[2026-08-21 07:15:01] OK: Memory usage at 12%
+[2026-08-21 07:15:01] OK: nginx is running
+[2026-08-21 07:15:01] CRITICAL: search-app.service is not running
+[2026-08-21 07:15:01] OK: rag-search.service is running
+[2026-08-21 07:15:01] OK: fail2ban is running
+[2026-08-21 07:15:01] OK: hermes-gateway.service is running
+[2026-08-21 07:15:01] OK: Corpus file exists
+[2026-08-21 07:15:01] Health check complete
+[2026-08-21 07:20:00] Starting health check...
+[2026-08-21 07:20:00] OK: Disk usage at 85%
+[2026-08-21 07:20:00] OK: Memory usage at 12%
+[2026-08-21 07:20:00] OK: nginx is running
+[2026-08-21 07:20:00] CRITICAL: search-app.service is not running
+[2026-08-21 07:20:00] OK: rag-search.service is running
+[2026-08-21 07:20:00] OK: fail2ban is running
+[2026-08-21 07:20:00] OK: hermes-gateway.service is running
+[2026-08-21 07:20:00] OK: Corpus file exists
+[2026-08-21 07:20:00] Health check complete
+[2026-08-21 07:25:00] Starting health check...
+[2026-08-21 07:25:00] OK: Disk usage at 85%
+[2026-08-21 07:25:00] OK: Memory usage at 14%
+[2026-08-21 07:25:00] OK: nginx is running
+[2026-08-21 07:25:00] OK: search-app.service is running
+[2026-08-21 07:25:00] OK: rag-search.service is running
+[2026-08-21 07:25:00] OK: fail2ban is running
+[2026-08-21 07:25:00] OK: hermes-gateway.service is running
+[2026-08-21 07:25:00] OK: Corpus file exists
+[2026-08-21 07:25:00] Health check complete
+[2026-08-21 07:30:01] Starting health check...
+[2026-08-21 07:30:01] OK: Disk usage at 85%
+[2026-08-21 07:30:01] OK: Memory usage at 12%
+[2026-08-21 07:30:01] OK: nginx is running
+[2026-08-21 07:30:01] CRITICAL: search-app.service is not running
+[2026-08-21 07:30:01] OK: rag-search.service is running
+[2026-08-21 07:30:01] OK: fail2ban is running
+[2026-08-21 07:30:01] OK: hermes-gateway.service is running
+[2026-08-21 07:30:01] OK: Corpus file exists
+[2026-08-21 07:30:01] Health check complete
+[2026-08-21 07:35:01] Starting health check...
+[2026-08-21 07:35:01] OK: Disk usage at 85%
+[2026-08-21 07:35:01] OK: Memory usage at 22%
+[2026-08-21 07:35:01] OK: nginx is running
+[2026-08-21 07:35:01] CRITICAL: search-app.service is not running
+[2026-08-21 07:35:01] OK: rag-search.service is running
+[2026-08-21 07:35:01] OK: fail2ban is running
+[2026-08-21 07:35:01] OK: hermes-gateway.service is running
+[2026-08-21 07:35:01] OK: Corpus file exists
+[2026-08-21 07:35:01] Health check complete
+[2026-08-21 07:40:00] Starting health check...
+[2026-08-21 07:40:00] OK: Disk usage at 85%
+[2026-08-21 07:40:00] OK: Memory usage at 22%
+[2026-08-21 07:40:00] OK: nginx is running
+[2026-08-21 07:40:00] OK: search-app.service is running
+[2026-08-21 07:40:00] OK: rag-search.service is running
+[2026-08-21 07:40:00] OK: fail2ban is running
+[2026-08-21 07:40:00] OK: hermes-gateway.service is running
+[2026-08-21 07:40:00] OK: Corpus file exists
+[2026-08-21 07:40:00] Health check complete
+[2026-08-21 07:45:01] Starting health check...
+[2026-08-21 07:45:01] OK: Disk usage at 85%
+[2026-08-21 07:45:01] OK: Memory usage at 22%
+[2026-08-21 07:45:01] OK: nginx is running
+[2026-08-21 07:45:01] CRITICAL: search-app.service is not running
+[2026-08-21 07:45:01] OK: rag-search.service is running
+[2026-08-21 07:45:01] OK: fail2ban is running
+[2026-08-21 07:45:01] OK: hermes-gateway.service is running
+[2026-08-21 07:45:01] OK: Corpus file exists
+[2026-08-21 07:45:01] Health check complete
+[2026-08-21 07:50:00] Starting health check...
+[2026-08-21 07:50:00] OK: Disk usage at 85%
+[2026-08-21 07:50:00] OK: Memory usage at 22%
+[2026-08-21 07:50:00] OK: nginx is running
+[2026-08-21 07:50:00] CRITICAL: search-app.service is not running
+[2026-08-21 07:50:00] OK: rag-search.service is running
+[2026-08-21 07:50:00] OK: fail2ban is running
+[2026-08-21 07:50:00] OK: hermes-gateway.service is running
+[2026-08-21 07:50:00] OK: Corpus file exists
+[2026-08-21 07:50:00] Health check complete
+[2026-08-21 07:55:00] Starting health check...
+[2026-08-21 07:55:00] OK: Disk usage at 85%
+[2026-08-21 07:55:00] OK: Memory usage at 24%
+[2026-08-21 07:55:00] OK: nginx is running
+[2026-08-21 07:55:00] OK: search-app.service is running
+[2026-08-21 07:55:00] OK: rag-search.service is running
+[2026-08-21 07:55:00] OK: fail2ban is running
+[2026-08-21 07:55:00] OK: hermes-gateway.service is running
+[2026-08-21 07:55:00] OK: Corpus file exists
+[2026-08-21 07:55:00] Health check complete
+[2026-08-21 08:00:00] Starting health check...
+[2026-08-21 08:00:00] OK: Disk usage at 85%
+[2026-08-21 08:00:00] OK: Memory usage at 22%
+[2026-08-21 08:00:00] OK: nginx is running
+[2026-08-21 08:00:00] CRITICAL: search-app.service is not running
+[2026-08-21 08:00:00] OK: rag-search.service is running
+[2026-08-21 08:00:00] OK: fail2ban is running
+[2026-08-21 08:00:00] OK: hermes-gateway.service is running
+[2026-08-21 08:00:00] OK: Corpus file exists
+[2026-08-21 08:00:00] Health check complete
+[2026-08-21 08:05:01] Starting health check...
+[2026-08-21 08:05:01] OK: Disk usage at 85%
+[2026-08-21 08:05:01] OK: Memory usage at 24%
+[2026-08-21 08:05:01] OK: nginx is running
+[2026-08-21 08:05:01] OK: search-app.service is running
+[2026-08-21 08:05:01] OK: rag-search.service is running
+[2026-08-21 08:05:01] OK: fail2ban is running
+[2026-08-21 08:05:01] OK: hermes-gateway.service is running
+[2026-08-21 08:05:01] OK: Corpus file exists
+[2026-08-21 08:05:01] Health check complete
+[2026-08-21 08:10:01] Starting health check...
+[2026-08-21 08:10:01] OK: Disk usage at 85%
+[2026-08-21 08:10:01] OK: Memory usage at 12%
+[2026-08-21 08:10:01] OK: nginx is running
+[2026-08-21 08:10:01] CRITICAL: search-app.service is not running
+[2026-08-21 08:10:01] OK: rag-search.service is running
+[2026-08-21 08:10:01] OK: fail2ban is running
+[2026-08-21 08:10:01] OK: hermes-gateway.service is running
+[2026-08-21 08:10:01] OK: Corpus file exists
+[2026-08-21 08:10:01] Health check complete
+[2026-08-21 08:15:00] Starting health check...
+[2026-08-21 08:15:00] OK: Disk usage at 85%
+[2026-08-21 08:15:00] OK: Memory usage at 12%
+[2026-08-21 08:15:00] OK: nginx is running
+[2026-08-21 08:15:00] CRITICAL: search-app.service is not running
+[2026-08-21 08:15:00] OK: rag-search.service is running
+[2026-08-21 08:15:00] OK: fail2ban is running
+[2026-08-21 08:15:00] OK: hermes-gateway.service is running
+[2026-08-21 08:15:00] OK: Corpus file exists
+[2026-08-21 08:15:00] Health check complete
+[2026-08-21 08:20:01] Starting health check...
+[2026-08-21 08:20:01] OK: Disk usage at 85%
+[2026-08-21 08:20:01] OK: Memory usage at 12%
+[2026-08-21 08:20:01] OK: nginx is running
+[2026-08-21 08:20:01] OK: search-app.service is running
+[2026-08-21 08:20:01] OK: rag-search.service is running
+[2026-08-21 08:20:01] OK: fail2ban is running
+[2026-08-21 08:20:01] OK: hermes-gateway.service is running
+[2026-08-21 08:20:01] OK: Corpus file exists
+[2026-08-21 08:20:01] Health check complete
+[2026-08-21 08:25:00] Starting health check...
+[2026-08-21 08:25:00] OK: Disk usage at 85%
+[2026-08-21 08:25:00] OK: Memory usage at 13%
+[2026-08-21 08:25:00] OK: nginx is running
+[2026-08-21 08:25:00] OK: search-app.service is running
+[2026-08-21 08:25:00] OK: rag-search.service is running
+[2026-08-21 08:25:00] OK: fail2ban is running
+[2026-08-21 08:25:00] OK: hermes-gateway.service is running
+[2026-08-21 08:25:00] OK: Corpus file exists
+[2026-08-21 08:25:00] Health check complete
+[2026-08-21 08:30:01] Starting health check...
+[2026-08-21 08:30:01] OK: Disk usage at 85%
+[2026-08-21 08:30:01] OK: Memory usage at 14%
+[2026-08-21 08:30:01] OK: nginx is running
+[2026-08-21 08:30:01] OK: search-app.service is running
+[2026-08-21 08:30:01] OK: rag-search.service is running
+[2026-08-21 08:30:01] OK: fail2ban is running
+[2026-08-21 08:30:01] OK: hermes-gateway.service is running
+[2026-08-21 08:30:01] OK: Corpus file exists
+[2026-08-21 08:30:01] Health check complete
+[2026-08-21 08:35:00] Starting health check...
+[2026-08-21 08:35:00] OK: Disk usage at 85%
+[2026-08-21 08:35:00] OK: Memory usage at 14%
+[2026-08-21 08:35:00] OK: nginx is running
+[2026-08-21 08:35:00] OK: search-app.service is running
+[2026-08-21 08:35:00] OK: rag-search.service is running
+[2026-08-21 08:35:00] OK: fail2ban is running
+[2026-08-21 08:35:00] OK: hermes-gateway.service is running
+[2026-08-21 08:35:00] OK: Corpus file exists
+[2026-08-21 08:35:00] Health check complete
+[2026-08-21 08:40:01] Starting health check...
+[2026-08-21 08:40:01] OK: Disk usage at 85%
+[2026-08-21 08:40:01] OK: Memory usage at 12%
+[2026-08-21 08:40:01] OK: nginx is running
+[2026-08-21 08:40:01] CRITICAL: search-app.service is not running
+[2026-08-21 08:40:01] OK: rag-search.service is running
+[2026-08-21 08:40:01] OK: fail2ban is running
+[2026-08-21 08:40:01] OK: hermes-gateway.service is running
+[2026-08-21 08:40:01] OK: Corpus file exists
+[2026-08-21 08:40:01] Health check complete
+[2026-08-21 08:45:01] Starting health check...
+[2026-08-21 08:45:01] OK: Disk usage at 85%
+[2026-08-21 08:45:01] OK: Memory usage at 12%
+[2026-08-21 08:45:01] OK: nginx is running
+[2026-08-21 08:45:01] CRITICAL: search-app.service is not running
+[2026-08-21 08:45:01] OK: rag-search.service is running
+[2026-08-21 08:45:01] OK: fail2ban is running
+[2026-08-21 08:45:01] OK: hermes-gateway.service is running
+[2026-08-21 08:45:01] OK: Corpus file exists
+[2026-08-21 08:45:01] Health check complete
+[2026-08-21 08:50:00] Starting health check...
+[2026-08-21 08:50:00] OK: Disk usage at 85%
+[2026-08-21 08:50:00] OK: Memory usage at 13%
+[2026-08-21 08:50:00] OK: nginx is running
+[2026-08-21 08:50:00] OK: search-app.service is running
+[2026-08-21 08:50:00] OK: rag-search.service is running
+[2026-08-21 08:50:00] OK: fail2ban is running
+[2026-08-21 08:50:00] OK: hermes-gateway.service is running
+[2026-08-21 08:50:00] OK: Corpus file exists
+[2026-08-21 08:50:00] Health check complete
+[2026-08-21 08:55:01] Starting health check...
+[2026-08-21 08:55:01] OK: Disk usage at 85%
+[2026-08-21 08:55:01] OK: Memory usage at 13%
+[2026-08-21 08:55:01] OK: nginx is running
+[2026-08-21 08:55:01] OK: search-app.service is running
+[2026-08-21 08:55:01] OK: rag-search.service is running
+[2026-08-21 08:55:01] OK: fail2ban is running
+[2026-08-21 08:55:01] OK: hermes-gateway.service is running
+[2026-08-21 08:55:01] OK: Corpus file exists
+[2026-08-21 08:55:01] Health check complete
+[2026-08-21 09:00:01] Starting health check...
+[2026-08-21 09:00:01] OK: Disk usage at 85%
+[2026-08-21 09:00:01] OK: Memory usage at 12%
+[2026-08-21 09:00:01] OK: nginx is running
+[2026-08-21 09:00:01] CRITICAL: search-app.service is not running
+[2026-08-21 09:00:01] OK: rag-search.service is running
+[2026-08-21 09:00:01] OK: fail2ban is running
+[2026-08-21 09:00:01] OK: hermes-gateway.service is running
+[2026-08-21 09:00:01] OK: Corpus file exists
+[2026-08-21 09:00:01] Health check complete
+[2026-08-21 09:05:00] Starting health check...
+[2026-08-21 09:05:00] OK: Disk usage at 85%
+[2026-08-21 09:05:00] OK: Memory usage at 12%
+[2026-08-21 09:05:00] OK: nginx is running
+[2026-08-21 09:05:00] CRITICAL: search-app.service is not running
+[2026-08-21 09:05:00] OK: rag-search.service is running
+[2026-08-21 09:05:00] OK: fail2ban is running
+[2026-08-21 09:05:00] OK: hermes-gateway.service is running
+[2026-08-21 09:05:00] OK: Corpus file exists
+[2026-08-21 09:05:00] Health check complete
+[2026-08-21 09:10:00] Starting health check...
+[2026-08-21 09:10:00] OK: Disk usage at 85%
+[2026-08-21 09:10:00] OK: Memory usage at 13%
+[2026-08-21 09:10:00] OK: nginx is running
+[2026-08-21 09:10:00] OK: search-app.service is running
+[2026-08-21 09:10:00] OK: rag-search.service is running
+[2026-08-21 09:10:00] OK: fail2ban is running
+[2026-08-21 09:10:00] OK: hermes-gateway.service is running
+[2026-08-21 09:10:00] OK: Corpus file exists
+[2026-08-21 09:10:00] Health check complete
+[2026-08-21 09:15:01] Starting health check...
+[2026-08-21 09:15:01] OK: Disk usage at 85%
+[2026-08-21 09:15:01] OK: Memory usage at 12%
+[2026-08-21 09:15:01] OK: nginx is running
+[2026-08-21 09:15:01] CRITICAL: search-app.service is not running
+[2026-08-21 09:15:01] OK: rag-search.service is running
+[2026-08-21 09:15:01] OK: fail2ban is running
+[2026-08-21 09:15:01] OK: hermes-gateway.service is running
+[2026-08-21 09:15:01] OK: Corpus file exists
+[2026-08-21 09:15:01] Health check complete
+[2026-08-21 09:20:00] Starting health check...
+[2026-08-21 09:20:00] OK: Disk usage at 85%
+[2026-08-21 09:20:00] OK: Memory usage at 13%
+[2026-08-21 09:20:00] OK: nginx is running
+[2026-08-21 09:20:00] OK: search-app.service is running
+[2026-08-21 09:20:00] OK: rag-search.service is running
+[2026-08-21 09:20:00] OK: fail2ban is running
+[2026-08-21 09:20:00] OK: hermes-gateway.service is running
+[2026-08-21 09:20:00] OK: Corpus file exists
+[2026-08-21 09:20:00] Health check complete
+[2026-08-21 09:25:00] Starting health check...
+[2026-08-21 09:25:00] OK: Disk usage at 85%
+[2026-08-21 09:25:00] OK: Memory usage at 12%
+[2026-08-21 09:25:00] OK: nginx is running
+[2026-08-21 09:25:00] CRITICAL: search-app.service is not running
+[2026-08-21 09:25:00] OK: rag-search.service is running
+[2026-08-21 09:25:00] OK: fail2ban is running
+[2026-08-21 09:25:00] OK: hermes-gateway.service is running
+[2026-08-21 09:25:00] OK: Corpus file exists
+[2026-08-21 09:25:00] Health check complete
+[2026-08-21 09:30:01] Starting health check...
+[2026-08-21 09:30:01] OK: Disk usage at 85%
+[2026-08-21 09:30:01] OK: Memory usage at 12%
+[2026-08-21 09:30:01] OK: nginx is running
+[2026-08-21 09:30:01] CRITICAL: search-app.service is not running
+[2026-08-21 09:30:01] OK: rag-search.service is running
+[2026-08-21 09:30:01] OK: fail2ban is running
+[2026-08-21 09:30:01] OK: hermes-gateway.service is running
+[2026-08-21 09:30:01] OK: Corpus file exists
+[2026-08-21 09:30:01] Health check complete
+[2026-08-21 09:35:00] Starting health check...
+[2026-08-21 09:35:00] OK: Disk usage at 85%
+[2026-08-21 09:35:00] OK: Memory usage at 13%
+[2026-08-21 09:35:00] OK: nginx is running
+[2026-08-21 09:35:00] OK: search-app.service is running
+[2026-08-21 09:35:00] OK: rag-search.service is running
+[2026-08-21 09:35:00] OK: fail2ban is running
+[2026-08-21 09:35:00] OK: hermes-gateway.service is running
+[2026-08-21 09:35:00] OK: Corpus file exists
+[2026-08-21 09:35:00] Health check complete
+[2026-08-21 09:40:00] Starting health check...
+[2026-08-21 09:40:00] OK: Disk usage at 85%
+[2026-08-21 09:40:00] OK: Memory usage at 22%
+[2026-08-21 09:40:00] OK: nginx is running
+[2026-08-21 09:40:00] CRITICAL: search-app.service is not running
+[2026-08-21 09:40:00] OK: rag-search.service is running
+[2026-08-21 09:40:00] OK: fail2ban is running
+[2026-08-21 09:40:00] OK: hermes-gateway.service is running
+[2026-08-21 09:40:00] OK: Corpus file exists
+[2026-08-21 09:40:00] Health check complete
+[2026-08-21 09:45:01] Starting health check...
+[2026-08-21 09:45:01] OK: Disk usage at 85%
+[2026-08-21 09:45:01] OK: Memory usage at 23%
+[2026-08-21 09:45:01] OK: nginx is running
+[2026-08-21 09:45:01] OK: search-app.service is running
+[2026-08-21 09:45:01] OK: rag-search.service is running
+[2026-08-21 09:45:01] OK: fail2ban is running
+[2026-08-21 09:45:01] OK: hermes-gateway.service is running
+[2026-08-21 09:45:01] OK: Corpus file exists
+[2026-08-21 09:45:01] Health check complete
+[2026-08-21 09:50:00] Starting health check...
+[2026-08-21 09:50:00] OK: Disk usage at 85%
+[2026-08-21 09:50:00] OK: Memory usage at 22%
+[2026-08-21 09:50:00] OK: nginx is running
+[2026-08-21 09:50:00] CRITICAL: search-app.service is not running
+[2026-08-21 09:50:00] OK: rag-search.service is running
+[2026-08-21 09:50:00] OK: fail2ban is running
+[2026-08-21 09:50:00] OK: hermes-gateway.service is running
+[2026-08-21 09:50:00] OK: Corpus file exists
+[2026-08-21 09:50:00] Health check complete
+[2026-08-21 09:55:00] Starting health check...
+[2026-08-21 09:55:00] OK: Disk usage at 85%
+[2026-08-21 09:55:00] OK: Memory usage at 22%
+[2026-08-21 09:55:00] OK: nginx is running
+[2026-08-21 09:55:00] OK: search-app.service is running
+[2026-08-21 09:55:00] OK: rag-search.service is running
+[2026-08-21 09:55:00] OK: fail2ban is running
+[2026-08-21 09:55:00] OK: hermes-gateway.service is running
+[2026-08-21 09:55:00] OK: Corpus file exists
+[2026-08-21 09:55:00] Health check complete
+[2026-08-21 10:00:01] Starting health check...
+[2026-08-21 10:00:01] OK: Disk usage at 85%
+[2026-08-21 10:00:01] OK: Memory usage at 24%
+[2026-08-21 10:00:01] OK: nginx is running
+[2026-08-21 10:00:01] OK: search-app.service is running
+[2026-08-21 10:00:01] OK: rag-search.service is running
+[2026-08-21 10:00:01] OK: fail2ban is running
+[2026-08-21 10:00:01] OK: hermes-gateway.service is running
+[2026-08-21 10:00:01] OK: Corpus file exists
+[2026-08-21 10:00:01] Health check complete
+[2026-08-21 10:05:00] Starting health check...
+[2026-08-21 10:05:00] OK: Disk usage at 85%
+[2026-08-21 10:05:00] OK: Memory usage at 22%
+[2026-08-21 10:05:00] OK: nginx is running
+[2026-08-21 10:05:00] CRITICAL: search-app.service is not running
+[2026-08-21 10:05:00] OK: rag-search.service is running
+[2026-08-21 10:05:00] OK: fail2ban is running
+[2026-08-21 10:05:00] OK: hermes-gateway.service is running
+[2026-08-21 10:05:00] OK: Corpus file exists
+[2026-08-21 10:05:00] Health check complete
+[2026-08-21 10:10:00] Starting health check...
+[2026-08-21 10:10:00] OK: Disk usage at 85%
+[2026-08-21 10:10:00] OK: Memory usage at 12%
+[2026-08-21 10:10:00] OK: nginx is running
+[2026-08-21 10:10:00] CRITICAL: search-app.service is not running
+[2026-08-21 10:10:00] OK: rag-search.service is running
+[2026-08-21 10:10:00] OK: fail2ban is running
+[2026-08-21 10:10:00] OK: hermes-gateway.service is running
+[2026-08-21 10:10:00] OK: Corpus file exists
+[2026-08-21 10:10:00] Health check complete
+[2026-08-21 10:15:01] Starting health check...
+[2026-08-21 10:15:01] OK: Disk usage at 85%
+[2026-08-21 10:15:01] OK: Memory usage at 12%
+[2026-08-21 10:15:01] OK: nginx is running
+[2026-08-21 10:15:01] OK: search-app.service is running
+[2026-08-21 10:15:01] OK: rag-search.service is running
+[2026-08-21 10:15:01] OK: fail2ban is running
+[2026-08-21 10:15:01] OK: hermes-gateway.service is running
+[2026-08-21 10:15:01] OK: Corpus file exists
+[2026-08-21 10:15:01] Health check complete
+[2026-08-21 10:20:01] Starting health check...
+[2026-08-21 10:20:01] OK: Disk usage at 85%
+[2026-08-21 10:20:01] OK: Memory usage at 13%
+[2026-08-21 10:20:01] OK: nginx is running
+[2026-08-21 10:20:01] OK: search-app.service is running
+[2026-08-21 10:20:01] OK: rag-search.service is running
+[2026-08-21 10:20:01] OK: fail2ban is running
+[2026-08-21 10:20:01] OK: hermes-gateway.service is running
+[2026-08-21 10:20:01] OK: Corpus file exists
+[2026-08-21 10:20:01] Health check complete
+[2026-08-21 10:25:00] Starting health check...
+[2026-08-21 10:25:00] OK: Disk usage at 85%
+[2026-08-21 10:25:00] OK: Memory usage at 12%
+[2026-08-21 10:25:00] OK: nginx is running
+[2026-08-21 10:25:00] CRITICAL: search-app.service is not running
+[2026-08-21 10:25:00] OK: rag-search.service is running
+[2026-08-21 10:25:00] OK: fail2ban is running
+[2026-08-21 10:25:00] OK: hermes-gateway.service is running
+[2026-08-21 10:25:00] OK: Corpus file exists
+[2026-08-21 10:25:00] Health check complete
+[2026-08-21 10:30:00] Starting health check...
+[2026-08-21 10:30:00] OK: Disk usage at 85%
+[2026-08-21 10:30:00] OK: Memory usage at 13%
+[2026-08-21 10:30:00] OK: nginx is running
+[2026-08-21 10:30:00] OK: search-app.service is running
+[2026-08-21 10:30:00] OK: rag-search.service is running
+[2026-08-21 10:30:00] OK: fail2ban is running
+[2026-08-21 10:30:00] OK: hermes-gateway.service is running
+[2026-08-21 10:30:00] OK: Corpus file exists
+[2026-08-21 10:30:00] Health check complete
+[2026-08-21 10:35:00] Starting health check...
+[2026-08-21 10:35:00] OK: Disk usage at 85%
+[2026-08-21 10:35:00] OK: Memory usage at 12%
+[2026-08-21 10:35:00] OK: nginx is running
+[2026-08-21 10:35:00] CRITICAL: search-app.service is not running
+[2026-08-21 10:35:00] OK: rag-search.service is running
+[2026-08-21 10:35:00] OK: fail2ban is running
+[2026-08-21 10:35:00] OK: hermes-gateway.service is running
+[2026-08-21 10:35:00] OK: Corpus file exists
+[2026-08-21 10:35:00] Health check complete
+[2026-08-21 10:40:01] Starting health check...
+[2026-08-21 10:40:01] OK: Disk usage at 85%
+[2026-08-21 10:40:01] OK: Memory usage at 12%
+[2026-08-21 10:40:01] OK: nginx is running
+[2026-08-21 10:40:01] CRITICAL: search-app.service is not running
+[2026-08-21 10:40:01] OK: rag-search.service is running
+[2026-08-21 10:40:01] OK: fail2ban is running
+[2026-08-21 10:40:01] OK: hermes-gateway.service is running
+[2026-08-21 10:40:01] OK: Corpus file exists
+[2026-08-21 10:40:01] Health check complete
+[2026-08-21 10:45:00] Starting health check...
+[2026-08-21 10:45:00] OK: Disk usage at 85%
+[2026-08-21 10:45:00] OK: Memory usage at 14%
+[2026-08-21 10:45:00] OK: nginx is running
+[2026-08-21 10:45:00] OK: search-app.service is running
+[2026-08-21 10:45:00] OK: rag-search.service is running
+[2026-08-21 10:45:00] OK: fail2ban is running
+[2026-08-21 10:45:00] OK: hermes-gateway.service is running
+[2026-08-21 10:45:00] OK: Corpus file exists
+[2026-08-21 10:45:00] Health check complete
+[2026-08-21 10:50:01] Starting health check...
+[2026-08-21 10:50:01] OK: Disk usage at 85%
+[2026-08-21 10:50:01] OK: Memory usage at 12%
+[2026-08-21 10:50:01] OK: nginx is running
+[2026-08-21 10:50:01] CRITICAL: search-app.service is not running
+[2026-08-21 10:50:01] OK: rag-search.service is running
+[2026-08-21 10:50:01] OK: fail2ban is running
+[2026-08-21 10:50:01] OK: hermes-gateway.service is running
+[2026-08-21 10:50:01] OK: Corpus file exists
+[2026-08-21 10:50:01] Health check complete
+[2026-08-21 10:55:00] Starting health check...
+[2026-08-21 10:55:00] OK: Disk usage at 85%
+[2026-08-21 10:55:00] OK: Memory usage at 13%
+[2026-08-21 10:55:00] OK: nginx is running
+[2026-08-21 10:55:00] OK: search-app.service is running
+[2026-08-21 10:55:00] OK: rag-search.service is running
+[2026-08-21 10:55:00] OK: fail2ban is running
+[2026-08-21 10:55:00] OK: hermes-gateway.service is running
+[2026-08-21 10:55:00] OK: Corpus file exists
+[2026-08-21 10:55:00] Health check complete
+[2026-08-21 11:00:01] Starting health check...
+[2026-08-21 11:00:01] OK: Disk usage at 85%
+[2026-08-21 11:00:01] OK: Memory usage at 12%
+[2026-08-21 11:00:01] OK: nginx is running
+[2026-08-21 11:00:01] CRITICAL: search-app.service is not running
+[2026-08-21 11:00:01] OK: rag-search.service is running
+[2026-08-21 11:00:01] OK: fail2ban is running
+[2026-08-21 11:00:01] OK: hermes-gateway.service is running
+[2026-08-21 11:00:01] OK: Corpus file exists
+[2026-08-21 11:00:01] Health check complete
+[2026-08-21 11:05:01] Starting health check...
+[2026-08-21 11:05:01] OK: Disk usage at 85%
+[2026-08-21 11:05:01] OK: Memory usage at 12%
+[2026-08-21 11:05:01] OK: nginx is running
+[2026-08-21 11:05:01] CRITICAL: search-app.service is not running
+[2026-08-21 11:05:01] OK: rag-search.service is running
+[2026-08-21 11:05:01] OK: fail2ban is running
+[2026-08-21 11:05:01] OK: hermes-gateway.service is running
+[2026-08-21 11:05:01] OK: Corpus file exists
+[2026-08-21 11:05:01] Health check complete
+[2026-08-21 11:10:01] Starting health check...
+[2026-08-21 11:10:01] OK: Disk usage at 85%
+[2026-08-21 11:10:01] OK: Memory usage at 14%
+[2026-08-21 11:10:01] OK: nginx is running
+[2026-08-21 11:10:01] OK: search-app.service is running
+[2026-08-21 11:10:01] OK: rag-search.service is running
+[2026-08-21 11:10:01] OK: fail2ban is running
+[2026-08-21 11:10:01] OK: hermes-gateway.service is running
+[2026-08-21 11:10:01] OK: Corpus file exists
+[2026-08-21 11:10:01] Health check complete
+[2026-08-21 11:15:01] Starting health check...
+[2026-08-21 11:15:01] OK: Disk usage at 85%
+[2026-08-21 11:15:01] OK: Memory usage at 12%
+[2026-08-21 11:15:01] OK: nginx is running
+[2026-08-21 11:15:01] CRITICAL: search-app.service is not running
+[2026-08-21 11:15:01] OK: rag-search.service is running
+[2026-08-21 11:15:01] OK: fail2ban is running
+[2026-08-21 11:15:01] OK: hermes-gateway.service is running
+[2026-08-21 11:15:01] OK: Corpus file exists
+[2026-08-21 11:15:01] Health check complete
+[2026-08-21 11:20:00] Starting health check...
+[2026-08-21 11:20:00] OK: Disk usage at 85%
+[2026-08-21 11:20:00] OK: Memory usage at 12%
+[2026-08-21 11:20:00] OK: nginx is running
+[2026-08-21 11:20:00] CRITICAL: search-app.service is not running
+[2026-08-21 11:20:00] OK: rag-search.service is running
+[2026-08-21 11:20:00] OK: fail2ban is running
+[2026-08-21 11:20:00] OK: hermes-gateway.service is running
+[2026-08-21 11:20:00] OK: Corpus file exists
+[2026-08-21 11:20:00] Health check complete
+[2026-08-21 11:25:00] Starting health check...
+[2026-08-21 11:25:00] OK: Disk usage at 85%
+[2026-08-21 11:25:00] OK: Memory usage at 14%
+[2026-08-21 11:25:00] OK: nginx is running
+[2026-08-21 11:25:00] OK: search-app.service is running
+[2026-08-21 11:25:00] OK: rag-search.service is running
+[2026-08-21 11:25:00] OK: fail2ban is running
+[2026-08-21 11:25:00] OK: hermes-gateway.service is running
+[2026-08-21 11:25:00] OK: Corpus file exists
+[2026-08-21 11:25:00] Health check complete
+[2026-08-21 11:30:01] Starting health check...
+[2026-08-21 11:30:01] OK: Disk usage at 85%
+[2026-08-21 11:30:01] OK: Memory usage at 12%
+[2026-08-21 11:30:01] OK: nginx is running
+[2026-08-21 11:30:01] CRITICAL: search-app.service is not running
+[2026-08-21 11:30:01] OK: rag-search.service is running
+[2026-08-21 11:30:01] OK: fail2ban is running
+[2026-08-21 11:30:01] OK: hermes-gateway.service is running
+[2026-08-21 11:30:01] OK: Corpus file exists
+[2026-08-21 11:30:01] Health check complete
+[2026-08-21 11:35:00] Starting health check...
+[2026-08-21 11:35:00] OK: Disk usage at 85%
+[2026-08-21 11:35:00] OK: Memory usage at 12%
+[2026-08-21 11:35:00] OK: nginx is running
+[2026-08-21 11:35:00] OK: search-app.service is running
+[2026-08-21 11:35:00] OK: rag-search.service is running
+[2026-08-21 11:35:00] OK: fail2ban is running
+[2026-08-21 11:35:00] OK: hermes-gateway.service is running
+[2026-08-21 11:35:00] OK: Corpus file exists
+[2026-08-21 11:35:00] Health check complete
+[2026-08-21 11:40:00] Starting health check...
+[2026-08-21 11:40:00] OK: Disk usage at 85%
+[2026-08-21 11:40:00] OK: Memory usage at 24%
+[2026-08-21 11:40:00] OK: nginx is running
+[2026-08-21 11:40:00] OK: search-app.service is running
+[2026-08-21 11:40:00] OK: rag-search.service is running
+[2026-08-21 11:40:00] OK: fail2ban is running
+[2026-08-21 11:40:00] OK: hermes-gateway.service is running
+[2026-08-21 11:40:00] OK: Corpus file exists
+[2026-08-21 11:40:00] Health check complete
+[2026-08-21 11:45:01] Starting health check...
+[2026-08-21 11:45:01] OK: Disk usage at 85%
+[2026-08-21 11:45:01] OK: Memory usage at 22%
+[2026-08-21 11:45:01] OK: nginx is running
+[2026-08-21 11:45:01] CRITICAL: search-app.service is not running
+[2026-08-21 11:45:01] OK: rag-search.service is running
+[2026-08-21 11:45:01] OK: fail2ban is running
+[2026-08-21 11:45:01] OK: hermes-gateway.service is running
+[2026-08-21 11:45:01] OK: Corpus file exists
+[2026-08-21 11:45:01] Health check complete
+[2026-08-21 11:50:00] Starting health check...
+[2026-08-21 11:50:00] OK: Disk usage at 85%
+[2026-08-21 11:50:00] OK: Memory usage at 24%
+[2026-08-21 11:50:00] OK: nginx is running
+[2026-08-21 11:50:00] OK: search-app.service is running
+[2026-08-21 11:50:00] OK: rag-search.service is running
+[2026-08-21 11:50:00] OK: fail2ban is running
+[2026-08-21 11:50:00] OK: hermes-gateway.service is running
+[2026-08-21 11:50:00] OK: Corpus file exists
+[2026-08-21 11:50:00] Health check complete
+[2026-08-21 11:55:01] Starting health check...
+[2026-08-21 11:55:01] OK: Disk usage at 85%
+[2026-08-21 11:55:01] OK: Memory usage at 22%
+[2026-08-21 11:55:01] OK: nginx is running
+[2026-08-21 11:55:01] CRITICAL: search-app.service is not running
+[2026-08-21 11:55:01] OK: rag-search.service is running
+[2026-08-21 11:55:01] OK: fail2ban is running
+[2026-08-21 11:55:01] OK: hermes-gateway.service is running
+[2026-08-21 11:55:01] OK: Corpus file exists
+[2026-08-21 11:55:01] Health check complete
+[2026-08-21 12:00:00] Starting health check...
+[2026-08-21 12:00:00] OK: Disk usage at 85%
+[2026-08-21 12:00:00] OK: Memory usage at 23%
+[2026-08-21 12:00:00] OK: nginx is running
+[2026-08-21 12:00:00] OK: search-app.service is running
+[2026-08-21 12:00:00] OK: rag-search.service is running
+[2026-08-21 12:00:00] OK: fail2ban is running
+[2026-08-21 12:00:00] OK: hermes-gateway.service is running
+[2026-08-21 12:00:00] OK: Corpus file exists
+[2026-08-21 12:00:00] Health check complete
+[2026-08-21 12:05:01] Starting health check...
+[2026-08-21 12:05:01] OK: Disk usage at 85%
+[2026-08-21 12:05:01] OK: Memory usage at 22%
+[2026-08-21 12:05:01] OK: nginx is running
+[2026-08-21 12:05:01] CRITICAL: search-app.service is not running
+[2026-08-21 12:05:01] OK: rag-search.service is running
+[2026-08-21 12:05:01] OK: fail2ban is running
+[2026-08-21 12:05:01] OK: hermes-gateway.service is running
+[2026-08-21 12:05:01] OK: Corpus file exists
+[2026-08-21 12:05:01] Health check complete
+[2026-08-21 12:10:01] Starting health check...
+[2026-08-21 12:10:01] OK: Disk usage at 85%
+[2026-08-21 12:10:01] OK: Memory usage at 22%
+[2026-08-21 12:10:01] OK: nginx is running
+[2026-08-21 12:10:01] CRITICAL: search-app.service is not running
+[2026-08-21 12:10:01] OK: rag-search.service is running
+[2026-08-21 12:10:01] OK: fail2ban is running
+[2026-08-21 12:10:01] OK: hermes-gateway.service is running
+[2026-08-21 12:10:01] OK: Corpus file exists
+[2026-08-21 12:10:01] Health check complete
+[2026-08-21 12:15:00] Starting health check...
+[2026-08-21 12:15:00] OK: Disk usage at 85%
+[2026-08-21 12:15:00] OK: Memory usage at 13%
+[2026-08-21 12:15:00] OK: nginx is running
+[2026-08-21 12:15:00] OK: search-app.service is running
+[2026-08-21 12:15:00] OK: rag-search.service is running
+[2026-08-21 12:15:00] OK: fail2ban is running
+[2026-08-21 12:15:00] OK: hermes-gateway.service is running
+[2026-08-21 12:15:00] OK: Corpus file exists
+[2026-08-21 12:15:00] Health check complete
+[2026-08-21 12:20:01] Starting health check...
+[2026-08-21 12:20:01] OK: Disk usage at 85%
+[2026-08-21 12:20:01] OK: Memory usage at 12%
+[2026-08-21 12:20:01] OK: nginx is running
+[2026-08-21 12:20:01] CRITICAL: search-app.service is not running
+[2026-08-21 12:20:01] OK: rag-search.service is running
+[2026-08-21 12:20:01] OK: fail2ban is running
+[2026-08-21 12:20:01] OK: hermes-gateway.service is running
+[2026-08-21 12:20:01] OK: Corpus file exists
+[2026-08-21 12:20:01] Health check complete
+[2026-08-21 12:25:01] Starting health check...
+[2026-08-21 12:25:01] OK: Disk usage at 85%
+[2026-08-21 12:25:01] OK: Memory usage at 13%
+[2026-08-21 12:25:01] OK: nginx is running
+[2026-08-21 12:25:01] OK: search-app.service is running
+[2026-08-21 12:25:01] OK: rag-search.service is running
+[2026-08-21 12:25:01] OK: fail2ban is running
+[2026-08-21 12:25:01] OK: hermes-gateway.service is running
+[2026-08-21 12:25:01] OK: Corpus file exists
+[2026-08-21 12:25:01] Health check complete
+[2026-08-21 12:30:01] Starting health check...
+[2026-08-21 12:30:01] OK: Disk usage at 86%
+[2026-08-21 12:30:01] OK: Memory usage at 12%
+[2026-08-21 12:30:01] OK: nginx is running
+[2026-08-21 12:30:01] CRITICAL: search-app.service is not running
+[2026-08-21 12:30:01] OK: rag-search.service is running
+[2026-08-21 12:30:01] OK: fail2ban is running
+[2026-08-21 12:30:01] OK: hermes-gateway.service is running
+[2026-08-21 12:30:01] OK: Corpus file exists
+[2026-08-21 12:30:01] Health check complete
+[2026-08-21 12:35:01] Starting health check...
+[2026-08-21 12:35:01] OK: Disk usage at 86%
+[2026-08-21 12:35:01] OK: Memory usage at 12%
+[2026-08-21 12:35:01] OK: nginx is running
+[2026-08-21 12:35:01] CRITICAL: search-app.service is not running
+[2026-08-21 12:35:01] OK: rag-search.service is running
+[2026-08-21 12:35:01] OK: fail2ban is running
+[2026-08-21 12:35:01] OK: hermes-gateway.service is running
+[2026-08-21 12:35:01] OK: Corpus file exists
+[2026-08-21 12:35:01] Health check complete
+[2026-08-21 12:40:01] Starting health check...
+[2026-08-21 12:40:01] OK: Disk usage at 86%
+[2026-08-21 12:40:01] OK: Memory usage at 13%
+[2026-08-21 12:40:01] OK: nginx is running
+[2026-08-21 12:40:01] OK: search-app.service is running
+[2026-08-21 12:40:01] OK: rag-search.service is running
+[2026-08-21 12:40:01] OK: fail2ban is running
+[2026-08-21 12:40:01] OK: hermes-gateway.service is running
+[2026-08-21 12:40:01] OK: Corpus file exists
+[2026-08-21 12:40:01] Health check complete
+[2026-08-21 12:45:01] Starting health check...
+[2026-08-21 12:45:01] OK: Disk usage at 86%
+[2026-08-21 12:45:01] OK: Memory usage at 14%
+[2026-08-21 12:45:01] OK: nginx is running
+[2026-08-21 12:45:01] OK: search-app.service is running
+[2026-08-21 12:45:01] OK: rag-search.service is running
+[2026-08-21 12:45:01] OK: fail2ban is running
+[2026-08-21 12:45:01] OK: hermes-gateway.service is running
+[2026-08-21 12:45:01] OK: Corpus file exists
+[2026-08-21 12:45:01] Health check complete
+[2026-08-21 12:50:00] Starting health check...
+[2026-08-21 12:50:00] OK: Disk usage at 86%
+[2026-08-21 12:50:00] OK: Memory usage at 12%
+[2026-08-21 12:50:00] OK: nginx is running
+[2026-08-21 12:50:00] CRITICAL: search-app.service is not running
+[2026-08-21 12:50:00] OK: rag-search.service is running
+[2026-08-21 12:50:00] OK: fail2ban is running
+[2026-08-21 12:50:00] OK: hermes-gateway.service is running
+[2026-08-21 12:50:00] OK: Corpus file exists
+[2026-08-21 12:50:00] Health check complete
+[2026-08-21 12:55:01] Starting health check...
+[2026-08-21 12:55:01] OK: Disk usage at 86%
+[2026-08-21 12:55:01] OK: Memory usage at 13%
+[2026-08-21 12:55:01] OK: nginx is running
+[2026-08-21 12:55:01] OK: search-app.service is running
+[2026-08-21 12:55:01] OK: rag-search.service is running
+[2026-08-21 12:55:01] OK: fail2ban is running
+[2026-08-21 12:55:01] OK: hermes-gateway.service is running
+[2026-08-21 12:55:01] OK: Corpus file exists
+[2026-08-21 12:55:01] Health check complete
+[2026-08-21 13:00:01] Starting health check...
+[2026-08-21 13:00:01] OK: Disk usage at 86%
+[2026-08-21 13:00:01] OK: Memory usage at 14%
+[2026-08-21 13:00:01] OK: nginx is running
+[2026-08-21 13:00:01] OK: search-app.service is running
+[2026-08-21 13:00:01] OK: rag-search.service is running
+[2026-08-21 13:00:01] OK: fail2ban is running
+[2026-08-21 13:00:01] OK: hermes-gateway.service is running
+[2026-08-21 13:00:01] OK: Corpus file exists
+[2026-08-21 13:00:01] Health check complete
+[2026-08-21 13:05:01] Starting health check...
+[2026-08-21 13:05:01] OK: Disk usage at 86%
+[2026-08-21 13:05:01] OK: Memory usage at 12%
+[2026-08-21 13:05:01] OK: nginx is running
+[2026-08-21 13:05:01] CRITICAL: search-app.service is not running
+[2026-08-21 13:05:01] OK: rag-search.service is running
+[2026-08-21 13:05:01] OK: fail2ban is running
+[2026-08-21 13:05:01] OK: hermes-gateway.service is running
+[2026-08-21 13:05:01] OK: Corpus file exists
+[2026-08-21 13:05:01] Health check complete
+[2026-08-21 13:10:00] Starting health check...
+[2026-08-21 13:10:00] OK: Disk usage at 86%
+[2026-08-21 13:10:00] OK: Memory usage at 13%
+[2026-08-21 13:10:00] OK: nginx is running
+[2026-08-21 13:10:00] OK: search-app.service is running
+[2026-08-21 13:10:00] OK: rag-search.service is running
+[2026-08-21 13:10:00] OK: fail2ban is running
+[2026-08-21 13:10:00] OK: hermes-gateway.service is running
+[2026-08-21 13:10:00] OK: Corpus file exists
+[2026-08-21 13:10:00] Health check complete
+[2026-08-21 13:15:01] Starting health check...
+[2026-08-21 13:15:01] OK: Disk usage at 86%
+[2026-08-21 13:15:01] OK: Memory usage at 12%
+[2026-08-21 13:15:01] OK: nginx is running
+[2026-08-21 13:15:01] CRITICAL: search-app.service is not running
+[2026-08-21 13:15:01] OK: rag-search.service is running
+[2026-08-21 13:15:01] OK: fail2ban is running
+[2026-08-21 13:15:01] OK: hermes-gateway.service is running
+[2026-08-21 13:15:01] OK: Corpus file exists
+[2026-08-21 13:15:01] Health check complete
+[2026-08-21 13:20:00] Starting health check...
+[2026-08-21 13:20:00] OK: Disk usage at 86%
+[2026-08-21 13:20:00] OK: Memory usage at 12%
+[2026-08-21 13:20:00] OK: nginx is running
+[2026-08-21 13:20:00] CRITICAL: search-app.service is not running
+[2026-08-21 13:20:00] OK: rag-search.service is running
+[2026-08-21 13:20:00] OK: fail2ban is running
+[2026-08-21 13:20:00] OK: hermes-gateway.service is running
+[2026-08-21 13:20:00] OK: Corpus file exists
+[2026-08-21 13:20:00] Health check complete
+[2026-08-21 13:25:01] Starting health check...
+[2026-08-21 13:25:01] OK: Disk usage at 86%
+[2026-08-21 13:25:01] OK: Memory usage at 12%
+[2026-08-21 13:25:01] OK: nginx is running
+[2026-08-21 13:25:01] CRITICAL: search-app.service is not running
+[2026-08-21 13:25:01] OK: rag-search.service is running
+[2026-08-21 13:25:01] OK: fail2ban is running
+[2026-08-21 13:25:01] OK: hermes-gateway.service is running
+[2026-08-21 13:25:01] OK: Corpus file exists
+[2026-08-21 13:25:01] Health check complete
+[2026-08-21 13:30:00] Starting health check...
+[2026-08-21 13:30:00] OK: Disk usage at 86%
+[2026-08-21 13:30:00] OK: Memory usage at 13%
+[2026-08-21 13:30:00] OK: nginx is running
+[2026-08-21 13:30:00] OK: search-app.service is running
+[2026-08-21 13:30:00] OK: rag-search.service is running
+[2026-08-21 13:30:00] OK: fail2ban is running
+[2026-08-21 13:30:00] OK: hermes-gateway.service is running
+[2026-08-21 13:30:00] OK: Corpus file exists
+[2026-08-21 13:30:00] Health check complete
+[2026-08-21 13:35:00] Starting health check...
+[2026-08-21 13:35:00] OK: Disk usage at 86%
+[2026-08-21 13:35:00] OK: Memory usage at 12%
+[2026-08-21 13:35:00] OK: nginx is running
+[2026-08-21 13:35:00] CRITICAL: search-app.service is not running
+[2026-08-21 13:35:00] OK: rag-search.service is running
+[2026-08-21 13:35:00] OK: fail2ban is running
+[2026-08-21 13:35:00] OK: hermes-gateway.service is running
+[2026-08-21 13:35:00] OK: Corpus file exists
+[2026-08-21 13:35:00] Health check complete
+[2026-08-21 13:40:01] Starting health check...
+[2026-08-21 13:40:01] OK: Disk usage at 86%
+[2026-08-21 13:40:01] OK: Memory usage at 12%
+[2026-08-21 13:40:01] OK: nginx is running
+[2026-08-21 13:40:01] CRITICAL: search-app.service is not running
+[2026-08-21 13:40:01] OK: rag-search.service is running
+[2026-08-21 13:40:01] OK: fail2ban is running
+[2026-08-21 13:40:01] OK: hermes-gateway.service is running
+[2026-08-21 13:40:01] OK: Corpus file exists
+[2026-08-21 13:40:01] Health check complete
+[2026-08-21 13:45:02] Starting health check...
+[2026-08-21 13:45:02] OK: Disk usage at 86%
+[2026-08-21 13:45:02] OK: Memory usage at 23%
+[2026-08-21 13:45:02] OK: nginx is running
+[2026-08-21 13:45:02] OK: search-app.service is running
+[2026-08-21 13:45:02] OK: rag-search.service is running
+[2026-08-21 13:45:02] OK: fail2ban is running
+[2026-08-21 13:45:02] OK: hermes-gateway.service is running
+[2026-08-21 13:45:02] OK: Corpus file exists
+[2026-08-21 13:45:02] Health check complete
+[2026-08-21 13:50:00] Starting health check...
+[2026-08-21 13:50:00] OK: Disk usage at 86%
+[2026-08-21 13:50:00] OK: Memory usage at 22%
+[2026-08-21 13:50:00] OK: nginx is running
+[2026-08-21 13:50:00] CRITICAL: search-app.service is not running
+[2026-08-21 13:50:00] OK: rag-search.service is running
+[2026-08-21 13:50:00] OK: fail2ban is running
+[2026-08-21 13:50:00] OK: hermes-gateway.service is running
+[2026-08-21 13:50:00] OK: Corpus file exists
+[2026-08-21 13:50:00] Health check complete
+[2026-08-21 13:55:00] Starting health check...
+[2026-08-21 13:55:00] OK: Disk usage at 86%
+[2026-08-21 13:55:00] OK: Memory usage at 23%
+[2026-08-21 13:55:00] OK: nginx is running
+[2026-08-21 13:55:00] OK: search-app.service is running
+[2026-08-21 13:55:00] OK: rag-search.service is running
+[2026-08-21 13:55:00] OK: fail2ban is running
+[2026-08-21 13:55:00] OK: hermes-gateway.service is running
+[2026-08-21 13:55:00] OK: Corpus file exists
+[2026-08-21 13:55:00] Health check complete
+[2026-08-21 14:00:01] Starting health check...
+[2026-08-21 14:00:01] OK: Disk usage at 86%
+[2026-08-21 14:00:01] OK: Memory usage at 22%
+[2026-08-21 14:00:01] OK: nginx is running
+[2026-08-21 14:00:01] CRITICAL: search-app.service is not running
+[2026-08-21 14:00:01] OK: rag-search.service is running
+[2026-08-21 14:00:01] OK: fail2ban is running
+[2026-08-21 14:00:01] OK: hermes-gateway.service is running
+[2026-08-21 14:00:01] OK: Corpus file exists
+[2026-08-21 14:00:01] Health check complete
+[2026-08-21 14:05:00] Starting health check...
+[2026-08-21 14:05:00] OK: Disk usage at 86%
+[2026-08-21 14:05:00] OK: Memory usage at 22%
+[2026-08-21 14:05:00] OK: nginx is running
+[2026-08-21 14:05:00] CRITICAL: search-app.service is not running
+[2026-08-21 14:05:00] OK: rag-search.service is running
+[2026-08-21 14:05:00] OK: fail2ban is running
+[2026-08-21 14:05:00] OK: hermes-gateway.service is running
+[2026-08-21 14:05:00] OK: Corpus file exists
+[2026-08-21 14:05:00] Health check complete
+[2026-08-21 14:10:01] Starting health check...
+[2026-08-21 14:10:01] OK: Disk usage at 86%
+[2026-08-21 14:10:01] OK: Memory usage at 24%
+[2026-08-21 14:10:01] OK: nginx is running
+[2026-08-21 14:10:01] OK: search-app.service is running
+[2026-08-21 14:10:01] OK: rag-search.service is running
+[2026-08-21 14:10:01] OK: fail2ban is running
+[2026-08-21 14:10:01] OK: hermes-gateway.service is running
+[2026-08-21 14:10:01] OK: Corpus file exists
+[2026-08-21 14:10:01] Health check complete
+[2026-08-21 14:15:00] Starting health check...
+[2026-08-21 14:15:00] OK: Disk usage at 86%
+[2026-08-21 14:15:00] OK: Memory usage at 22%
+[2026-08-21 14:15:00] OK: nginx is running
+[2026-08-21 14:15:00] CRITICAL: search-app.service is not running
+[2026-08-21 14:15:00] OK: rag-search.service is running
+[2026-08-21 14:15:00] OK: fail2ban is running
+[2026-08-21 14:15:00] OK: hermes-gateway.service is running
+[2026-08-21 14:15:00] OK: Corpus file exists
+[2026-08-21 14:15:00] Health check complete
+[2026-08-21 14:20:00] Starting health check...
+[2026-08-21 14:20:00] OK: Disk usage at 86%
+[2026-08-21 14:20:00] OK: Memory usage at 12%
+[2026-08-21 14:20:00] OK: nginx is running
+[2026-08-21 14:20:00] CRITICAL: search-app.service is not running
+[2026-08-21 14:20:00] OK: rag-search.service is running
+[2026-08-21 14:20:00] OK: fail2ban is running
+[2026-08-21 14:20:00] OK: hermes-gateway.service is running
+[2026-08-21 14:20:00] OK: Corpus file exists
+[2026-08-21 14:20:00] Health check complete
+[2026-08-21 14:25:01] Starting health check...
+[2026-08-21 14:25:01] OK: Disk usage at 86%
+[2026-08-21 14:25:01] OK: Memory usage at 14%
+[2026-08-21 14:25:01] OK: nginx is running
+[2026-08-21 14:25:01] OK: search-app.service is running
+[2026-08-21 14:25:01] OK: rag-search.service is running
+[2026-08-21 14:25:01] OK: fail2ban is running
+[2026-08-21 14:25:01] OK: hermes-gateway.service is running
+[2026-08-21 14:25:01] OK: Corpus file exists
+[2026-08-21 14:25:01] Health check complete
+[2026-08-21 14:30:01] Starting health check...
+[2026-08-21 14:30:01] OK: Disk usage at 86%
+[2026-08-21 14:30:01] OK: Memory usage at 12%
+[2026-08-21 14:30:01] OK: nginx is running
+[2026-08-21 14:30:01] CRITICAL: search-app.service is not running
+[2026-08-21 14:30:01] OK: rag-search.service is running
+[2026-08-21 14:30:01] OK: fail2ban is running
+[2026-08-21 14:30:01] OK: hermes-gateway.service is running
+[2026-08-21 14:30:01] OK: Corpus file exists
+[2026-08-21 14:30:01] Health check complete
+[2026-08-21 14:35:00] Starting health check...
+[2026-08-21 14:35:00] OK: Disk usage at 86%
+[2026-08-21 14:35:00] OK: Memory usage at 12%
+[2026-08-21 14:35:00] OK: nginx is running
+[2026-08-21 14:35:00] CRITICAL: search-app.service is not running
+[2026-08-21 14:35:00] OK: rag-search.service is running
+[2026-08-21 14:35:00] OK: fail2ban is running
+[2026-08-21 14:35:00] OK: hermes-gateway.service is running
+[2026-08-21 14:35:00] OK: Corpus file exists
+[2026-08-21 14:35:00] Health check complete
+[2026-08-21 14:40:01] Starting health check...
+[2026-08-21 14:40:01] OK: Disk usage at 86%
+[2026-08-21 14:40:01] OK: Memory usage at 13%
+[2026-08-21 14:40:01] OK: nginx is running
+[2026-08-21 14:40:01] OK: search-app.service is running
+[2026-08-21 14:40:01] OK: rag-search.service is running
+[2026-08-21 14:40:01] OK: fail2ban is running
+[2026-08-21 14:40:01] OK: hermes-gateway.service is running
+[2026-08-21 14:40:01] OK: Corpus file exists
+[2026-08-21 14:40:01] Health check complete
+[2026-08-21 14:45:01] Starting health check...
+[2026-08-21 14:45:01] OK: Disk usage at 86%
+[2026-08-21 14:45:01] OK: Memory usage at 14%
+[2026-08-21 14:45:01] OK: nginx is running
+[2026-08-21 14:45:01] OK: search-app.service is running
+[2026-08-21 14:45:01] OK: rag-search.service is running
+[2026-08-21 14:45:01] OK: fail2ban is running
+[2026-08-21 14:45:01] OK: hermes-gateway.service is running
+[2026-08-21 14:45:01] OK: Corpus file exists
+[2026-08-21 14:45:01] Health check complete
+[2026-08-21 14:50:00] Starting health check...
+[2026-08-21 14:50:00] OK: Disk usage at 86%
+[2026-08-21 14:50:00] OK: Memory usage at 12%
+[2026-08-21 14:50:00] OK: nginx is running
+[2026-08-21 14:50:00] CRITICAL: search-app.service is not running
+[2026-08-21 14:50:00] OK: rag-search.service is running
+[2026-08-21 14:50:00] OK: fail2ban is running
+[2026-08-21 14:50:00] OK: hermes-gateway.service is running
+[2026-08-21 14:50:00] OK: Corpus file exists
+[2026-08-21 14:50:00] Health check complete
+[2026-08-21 14:55:01] Starting health check...
+[2026-08-21 14:55:01] OK: Disk usage at 86%
+[2026-08-21 14:55:01] OK: Memory usage at 13%
+[2026-08-21 14:55:01] OK: nginx is running
+[2026-08-21 14:55:01] OK: search-app.service is running
+[2026-08-21 14:55:01] OK: rag-search.service is running
+[2026-08-21 14:55:01] OK: fail2ban is running
+[2026-08-21 14:55:01] OK: hermes-gateway.service is running
+[2026-08-21 14:55:01] OK: Corpus file exists
+[2026-08-21 14:55:01] Health check complete
+[2026-08-21 15:00:01] Starting health check...
+[2026-08-21 15:00:01] OK: Disk usage at 86%
+[2026-08-21 15:00:01] OK: Memory usage at 14%
+[2026-08-21 15:00:01] OK: nginx is running
+[2026-08-21 15:00:01] OK: search-app.service is running
+[2026-08-21 15:00:01] OK: rag-search.service is running
+[2026-08-21 15:00:01] OK: fail2ban is running
+[2026-08-21 15:00:01] OK: hermes-gateway.service is running
+[2026-08-21 15:00:01] OK: Corpus file exists
+[2026-08-21 15:00:01] Health check complete
+[2026-08-21 15:05:00] Starting health check...
+[2026-08-21 15:05:00] OK: Disk usage at 86%
+[2026-08-21 15:05:00] OK: Memory usage at 12%
+[2026-08-21 15:05:00] OK: nginx is running
+[2026-08-21 15:05:00] CRITICAL: search-app.service is not running
+[2026-08-21 15:05:00] OK: rag-search.service is running
+[2026-08-21 15:05:00] OK: fail2ban is running
+[2026-08-21 15:05:00] OK: hermes-gateway.service is running
+[2026-08-21 15:05:00] OK: Corpus file exists
+[2026-08-21 15:05:00] Health check complete
+[2026-08-21 15:10:00] Starting health check...
+[2026-08-21 15:10:00] OK: Disk usage at 87%
+[2026-08-21 15:10:00] OK: Memory usage at 32%
+[2026-08-21 15:10:00] OK: nginx is running
+[2026-08-21 15:10:00] OK: search-app.service is running
+[2026-08-21 15:10:00] OK: rag-search.service is running
+[2026-08-21 15:10:00] OK: fail2ban is running
+[2026-08-21 15:10:00] OK: hermes-gateway.service is running
+[2026-08-21 15:10:00] OK: Corpus file exists
+[2026-08-21 15:10:00] Health check complete
+[2026-08-21 15:15:00] Starting health check...
+[2026-08-21 15:15:00] OK: Disk usage at 88%
+[2026-08-21 15:15:00] OK: Memory usage at 34%
+[2026-08-21 15:15:00] OK: nginx is running
+[2026-08-21 15:15:00] OK: search-app.service is running
+[2026-08-21 15:15:00] OK: rag-search.service is running
+[2026-08-21 15:15:00] OK: fail2ban is running
+[2026-08-21 15:15:00] OK: hermes-gateway.service is running
+[2026-08-21 15:15:00] OK: Corpus file exists
+[2026-08-21 15:15:00] Health check complete
+[2026-08-21 15:20:00] Starting health check...
+[2026-08-21 15:20:00] OK: Disk usage at 88%
+[2026-08-21 15:20:00] OK: Memory usage at 77%
+[2026-08-21 15:20:00] OK: nginx is running
+[2026-08-21 15:20:00] OK: search-app.service is running
+[2026-08-21 15:20:00] OK: rag-search.service is running
+[2026-08-21 15:20:00] OK: fail2ban is running
+[2026-08-21 15:20:00] OK: hermes-gateway.service is running
+[2026-08-21 15:20:00] OK: Corpus file exists
+[2026-08-21 15:20:00] Health check complete

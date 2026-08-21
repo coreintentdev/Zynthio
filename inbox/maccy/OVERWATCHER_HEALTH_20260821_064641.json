@@ -1,0 +1,11 @@
+{
+  "path": "OVERWATCHER_TO_VDS",
+  "timestamp": "2026-08-21T04:46:41Z",
+  "signal_count_last_hour": 0,
+  "latest_signal_file": "",
+  "signal_type": "health_check",
+  "check_type": "scheduled",
+  "overwatcher_status": "ACTIVE",
+  "signal": "336",
+  "vds_is_boss": true
+}

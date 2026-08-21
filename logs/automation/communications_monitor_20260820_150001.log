@@ -1,0 +1,35 @@
+=== Communications Automated Monitor ===
+Signal: 336
+Timestamp: 2026-08-20T13:00:01Z
+
+--- Proton Email Monitor ---
+/root/zynthio/scripts/automation/automated_proton_monitor.py:50: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'timestamp': datetime.utcnow().isoformat(),
+/root/zynthio/scripts/automation/automated_proton_monitor.py:29: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'timestamp': datetime.utcnow().isoformat()
+/root/zynthio/scripts/automation/automated_proton_monitor.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'last_check': datetime.utcnow().isoformat(),
+Proton Email Automated Check
+Signal: 336
+Status: success
+Method: tutanota_fallback
+Proton Emails Found: 0
+Proton Monitor: SUCCESS
+
+--- WhatsApp Monitor ---
+/root/zynthio/scripts/automation/automated_whatsapp_monitor.py:94: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'timestamp': datetime.utcnow().isoformat(),
+/root/zynthio/scripts/automation/automated_whatsapp_monitor.py:110: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  'last_check': datetime.utcnow().isoformat(),
+WhatsApp Automated Check
+Signal: 336
+Status: success
+Total Messages: 25330
+Sync Status: stale
+Last Sync: 2026-08-19T18:38:51.181384
+WhatsApp Monitor: SUCCESS
+
+--- Generating Unified Report ---
+
+=== Communications Monitor Complete ===
+Log file: /root/zynthio/logs/automation/communications_monitor_20260820_150001.log

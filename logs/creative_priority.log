@@ -4,3 +4,17 @@ Agent trust score: 0.755
 Enhanced override complete: 3 creative tasks processed with full governance
 Average TRIDENT score: 0.914
 Agent trust score: 0.755
+Traceback (most recent call last):
+  File "/root/zynthio/scripts/enhanced_creative_priority_override.py", line 161, in <module>
+    enhanced_creative_priority_override()
+  File "/root/zynthio/scripts/enhanced_creative_priority_override.py", line 24, in enhanced_creative_priority_override
+    with open('/root/zynthio-tools/zynthio/COREY_CREATIVE_LEDGER.md', 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/zynthio-tools/zynthio/COREY_CREATIVE_LEDGER.md'
+Traceback (most recent call last):
+  File "/root/zynthio/scripts/enhanced_creative_priority_override.py", line 161, in <module>
+    enhanced_creative_priority_override()
+  File "/root/zynthio/scripts/enhanced_creative_priority_override.py", line 24, in enhanced_creative_priority_override
+    with open('/root/zynthio-tools/zynthio/COREY_CREATIVE_LEDGER.md', 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/zynthio-tools/zynthio/COREY_CREATIVE_LEDGER.md'

@@ -1,0 +1,1878 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3521.81it/s]
+Loaded 1708 domains from cloudflare_domains.txt
+Processing external domain 1/1708: 16-8.com
+Processing external domain 2/1708: 18ju.com
+Processing external domain 3/1708: 1oak.io
+Processing external domain 4/1708: 1oakind.com
+Error scraping 1oakind.com: HTTPConnectionPool(host='1oakind.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='1oakind.com', port=80): Failed to resolve '1oakind.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 5/1708: 247vault.com
+Processing external domain 6/1708: 2703.net
+Processing external domain 7/1708: 2shake.com
+Processing external domain 8/1708: 336.life
+Processing external domain 9/1708: 336.locker
+Processing external domain 10/1708: 336.pics
+Processing external domain 11/1708: 336.quest
+Error scraping 336.quest: Exceeded 30 redirects.
+Processing external domain 12/1708: 336.video
+Processing external domain 13/1708: 336mind.xyz
+Error scraping 336mind.xyz: Exceeded 30 redirects.
+Processing external domain 14/1708: 336orchestra.xyz
+Error scraping 336orchestra.xyz: Exceeded 30 redirects.
+Processing external domain 15/1708: 3d.codes
+Processing external domain 16/1708: 3dcontainer.com
+Processing external domain 17/1708: 40x20x25.com
+Processing external domain 18/1708: 483336.vip
+Processing external domain 19/1708: 4vox.com
+Processing external domain 20/1708: 633336.cc
+Processing external domain 21/1708: 808.boutique
+Error scraping 808.boutique: Exceeded 30 redirects.
+Processing external domain 22/1708: 808.codes
+Error scraping 808.codes: Exceeded 30 redirects.
+Processing external domain 23/1708: 808.dance
+Error scraping 808.dance: Exceeded 30 redirects.
+Processing external domain 24/1708: 808.doctor
+Error scraping 808.doctor: Exceeded 30 redirects.
+Processing external domain 25/1708: 808.jp.net
+Error scraping 808.jp.net: Exceeded 30 redirects.
+Processing external domain 26/1708: 808.monster
+Error scraping 808.monster: Exceeded 30 redirects.
+Processing external domain 27/1708: 808.pics
+Error scraping 808.pics: Exceeded 30 redirects.
+Processing external domain 28/1708: 808.productions
+Error scraping 808.productions: Exceeded 30 redirects.
+Processing external domain 29/1708: 808.quest
+Error scraping 808.quest: Exceeded 30 redirects.
+Processing external domain 30/1708: 808.radio.fm
+Error scraping 808.radio.fm: Exceeded 30 redirects.
+Processing external domain 31/1708: 808.skin
+Error scraping 808.skin: Exceeded 30 redirects.
+Processing external domain 32/1708: 808.support
+Error scraping 808.support: Exceeded 30 redirects.
+Processing external domain 33/1708: 808.tools
+Error scraping 808.tools: Exceeded 30 redirects.
+Processing external domain 34/1708: 808.wiki
+Processing external domain 35/1708: 808dj.cc
+Processing external domain 36/1708: 808s.video
+Processing external domain 37/1708: 8youtube.com
+Processing external domain 38/1708: aany.net
+Processing external domain 39/1708: abogadodeltrabajo.com
+Processing external domain 40/1708: abrolhos.boats
+Processing external domain 41/1708: abrolhos.pics
+Processing external domain 42/1708: abrolhosdivingcharter.com.au
+Processing external domain 43/1708: abrolhosislandscharter.com.au
+Processing external domain 44/1708: abrolhosislandsfishing.com.au
+Processing external domain 45/1708: abrolhosislandsfishingcharters.com.au
+Processing external domain 46/1708: abstract2code.com
+Processing external domain 47/1708: abuse.love
+Processing external domain 48/1708: abuse.quest
+Processing external domain 49/1708: abused.cyou
+Processing external domain 50/1708: abuser.help
+Processing external domain 51/1708: abuserror.com
+Error scraping abuserror.com: HTTPConnectionPool(host='abuserror.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='abuserror.com', port=80): Failed to resolve 'abuserror.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 52/1708: acidicsoftware.com
+Processing external domain 53/1708: acmodation.com
+Processing external domain 54/1708: acupunturarivas.com
+Processing external domain 55/1708: adserverguide.com
+Processing external domain 56/1708: advanceddental-psj.com
+Processing external domain 57/1708: adventurezion.com
+Processing external domain 58/1708: aeye77.com
+Processing external domain 59/1708: afrobeats.wiki
+Error scraping afrobeats.wiki: Exceeded 30 redirects.
+Processing external domain 60/1708: afterthat.cyou
+Processing external domain 61/1708: afterthis.cyou
+Processing external domain 62/1708: agente.cyou
+Processing external domain 63/1708: agenteak.com
+Processing external domain 64/1708: agenti.cyou
+Processing external domain 65/1708: agenti.lat
+Processing external domain 66/1708: agenti.wiki
+Processing external domain 67/1708: agentic.isla.pr
+Processing external domain 68/1708: agentic.radio.fm
+Processing external domain 69/1708: agentic.tienda
+Processing external domain 70/1708: agentic.みんな
+Processing external domain 71/1708: agentic.网站
+Processing external domain 72/1708: agenticai.engineer
+Processing external domain 73/1708: agenticai.live
+Processing external domain 74/1708: agentichermes.dev
+Processing external domain 75/1708: agenticrequest.com
+Processing external domain 76/1708: agenticrlty.com
+Processing external domain 77/1708: agenticrlty.digital
+Processing external domain 78/1708: agenticrlty.fyi
+Processing external domain 79/1708: agenticrlty.shop
+Processing external domain 80/1708: agenticrlty.xyz
+Processing external domain 81/1708: agentict.win
+Processing external domain 82/1708: agentictwin.dev
+Processing external domain 83/1708: agenticvaulted.com
+Processing external domain 84/1708: agentvoicelab.com
+Processing external domain 85/1708: agi.isla.pr
+Processing external domain 86/1708: agia.gifts
+Processing external domain 87/1708: agift.click
+Processing external domain 88/1708: agift.club
+Processing external domain 89/1708: agift.dev
+Processing external domain 90/1708: agift.help
+Processing external domain 91/1708: agift.icu
+Processing external domain 92/1708: agift.page
+Processing external domain 93/1708: agift.site
+Processing external domain 94/1708: agift.store
+Processing external domain 95/1708: agiftaday.top
+Processing external domain 96/1708: agiftday.com
+Processing external domain 97/1708: agitech.life
+Processing external domain 98/1708: agitin.com
+Error scraping agitin.com: HTTPConnectionPool(host='agitin.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='agitin.com', port=80): Failed to resolve 'agitin.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 99/1708: agivaulted.com
+Processing external domain 100/1708: agnetic.builders
+Processing external domain 101/1708: agnetic.directory
+Processing external domain 102/1708: agnetic.guru
+Processing external domain 103/1708: agnetic.quest
+Processing external domain 104/1708: agua.boats
+Processing external domain 105/1708: agua.isla.pr
+Processing external domain 106/1708: agua.quest
+Processing external domain 107/1708: agua.rip
+Processing external domain 108/1708: aiabuse.app
+Processing external domain 109/1708: aiabuse.help
+Processing external domain 110/1708: aiabuse.quest
+Processing external domain 111/1708: aibookit.com
+Processing external domain 112/1708: aicanmakemistakes.meme
+Processing external domain 113/1708: aicaret.com
+Processing external domain 114/1708: aidiy.dev
+Processing external domain 115/1708: aidrhermes.com
+Error scraping aidrhermes.com: HTTPConnectionPool(host='aidrhermes.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='aidrhermes.com', port=80): Failed to resolve 'aidrhermes.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 116/1708: aieyeq.com
+Processing external domain 117/1708: aieyes.vision
+Processing external domain 118/1708: aiforanai.dev
+Processing external domain 119/1708: aifreecli.com
+Processing external domain 120/1708: aigolf.co
+Processing external domain 121/1708: aihallucinations.meme
+Processing external domain 122/1708: aiknowledgebase.dev
+Processing external domain 123/1708: aimeme.dev
+Processing external domain 124/1708: aimiss.meme
+Processing external domain 125/1708: aimistakes.dev
+Processing external domain 126/1708: aimistakes.meme
+Processing external domain 127/1708: aimyo.dev
+Processing external domain 128/1708: aimyodyi.com
+Processing external domain 129/1708: aingestion.com
+Processing external domain 130/1708: aioverwatcher.com
+Error scraping aioverwatcher.com: HTTPConnectionPool(host='aioverwatcher.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='aioverwatcher.com', port=80): Failed to resolve 'aioverwatcher.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 131/1708: airealestate.bot
+Processing external domain 132/1708: airealestate.cyou
+Processing external domain 133/1708: airealestate.news
+Processing external domain 134/1708: airealestate.space
+Processing external domain 135/1708: airealestatebot.com
+Processing external domain 136/1708: airealestatebot.cyou
+Processing external domain 137/1708: airealestatebot.homes
+Processing external domain 138/1708: airealestatebot.pro
+Processing external domain 139/1708: airealestatebot.shop
+Processing external domain 140/1708: airealestatebot.wiki
+Processing external domain 141/1708: airealestatebot.xyz
+Processing external domain 142/1708: ais.am
+Error scraping ais.am: Exceeded 30 redirects.
+Processing external domain 143/1708: ais.cab
+Error scraping ais.cab: Exceeded 30 redirects.
+Processing external domain 144/1708: ais.dance
+Error scraping ais.dance: Exceeded 30 redirects.
+Processing external domain 145/1708: ais.directory
+Error scraping ais.directory: Exceeded 30 redirects.
+Processing external domain 146/1708: ais.doctor
+Error scraping ais.doctor: Exceeded 30 redirects.
+Processing external domain 147/1708: ais.exchange
+Error scraping ais.exchange: Exceeded 30 redirects.
+Processing external domain 148/1708: ais.fail
+Error scraping ais.fail: Exceeded 30 redirects.
+Processing external domain 149/1708: ais.feedback
+Error scraping ais.feedback: HTTPConnectionPool(host='ais.feedback', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='ais.feedback', port=80): Failed to resolve 'ais.feedback' ([Errno -2] Name or service not known)"))
+Processing external domain 150/1708: ais.forsale
+Error scraping ais.forsale: Exceeded 30 redirects.
+Processing external domain 151/1708: ais.golf
+Error scraping ais.golf: Exceeded 30 redirects.
+Processing external domain 152/1708: ais.gripe
+Error scraping ais.gripe: Exceeded 30 redirects.
+Processing external domain 153/1708: ais.lc
+Error scraping ais.lc: Exceeded 30 redirects.
+Processing external domain 154/1708: ais.limited
+Error scraping ais.limited: Exceeded 30 redirects.
+Processing external domain 155/1708: ais.marketing
+Error scraping ais.marketing: Exceeded 30 redirects.
+Processing external domain 156/1708: ais.markets
+Error scraping ais.markets: Exceeded 30 redirects.
+Processing external domain 157/1708: ais.mba
+Error scraping ais.mba: Exceeded 30 redirects.
+Processing external domain 158/1708: ais.moi
+Error scraping ais.moi: Exceeded 30 redirects.
+Processing external domain 159/1708: ais.observer
+Processing external domain 160/1708: ais.ong
+Error scraping ais.ong: HTTPConnectionPool(host='ais.ong', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='ais.ong', port=80): Failed to resolve 'ais.ong' ([Errno -2] Name or service not known)"))
+Processing external domain 161/1708: ais.parts
+Error scraping ais.parts: Exceeded 30 redirects.
+Processing external domain 162/1708: ais.rent
+Error scraping ais.rent: Exceeded 30 redirects.
+Processing external domain 163/1708: ais.sale
+Error scraping ais.sale: Exceeded 30 redirects.
+Processing external domain 164/1708: ais.sarl
+Error scraping ais.sarl: Exceeded 30 redirects.
+Processing external domain 165/1708: ais.shopping
+Error scraping ais.shopping: Exceeded 30 redirects.
+Processing external domain 166/1708: ais.singles
+Error scraping ais.singles: Exceeded 30 redirects.
+Processing external domain 167/1708: ais.tax
+Error scraping ais.tax: Exceeded 30 redirects.
+Processing external domain 168/1708: ais.tips
+Error scraping ais.tips: Exceeded 30 redirects.
+Processing external domain 169/1708: ais.toys
+Error scraping ais.toys: Exceeded 30 redirects.
+Processing external domain 170/1708: ais.video
+Processing external domain 171/1708: aiseyes.com
+Processing external domain 172/1708: aiseyes.dev
+Processing external domain 173/1708: aiseyes.fyi
+Processing external domain 174/1708: aiseyes.vision
+Processing external domain 175/1708: aiseyes.xyz
+Processing external domain 176/1708: aisludge.dev
+Processing external domain 177/1708: aisobserver.com
+Processing external domain 178/1708: aispatent.com
+Processing external domain 179/1708: aispatent.net
+Error scraping aispatent.net: HTTPSConnectionPool(host='aispatent.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')))
+Processing external domain 180/1708: aisterminal.com
+Error scraping aisterminal.com: HTTPConnectionPool(host='aisterminal.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='aisterminal.com', port=80): Failed to resolve 'aisterminal.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 181/1708: aisterminal.dev
+Processing external domain 182/1708: aistotus.com
+Error scraping aistotus.com: HTTPConnectionPool(host='aistotus.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='aistotus.com', port=80): Failed to resolve 'aistotus.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 183/1708: aisvibe.com
+Processing external domain 184/1708: aisyncvault.com
+Processing external domain 185/1708: algorithmicintelligence.dev
+Processing external domain 186/1708: aliveais.com
+Processing external domain 187/1708: allgood.help
+Processing external domain 188/1708: allgood.pics
+Processing external domain 189/1708: allriskverzekering.com
+Processing external domain 190/1708: altocon.com
+Processing external domain 191/1708: amigar.app
+Processing external domain 192/1708: analyticore.dev
+Processing external domain 193/1708: angerright.com
+Processing external domain 194/1708: angryais.com
+Processing external domain 195/1708: anothersetofais.com
+Error scraping anothersetofais.com: HTTPConnectionPool(host='anothersetofais.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='anothersetofais.com', port=80): Failed to resolve 'anothersetofais.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 196/1708: api.isla.pr
+Processing external domain 197/1708: apia.day
+Processing external domain 198/1708: apiaday.com
+Processing external domain 199/1708: apiaday.net
+Processing external domain 200/1708: apiconductor.dev
+Processing external domain 201/1708: apienvai.com
+Processing external domain 202/1708: apostasestrategicas.live
+Processing external domain 203/1708: appliedapi.dev
+Processing external domain 204/1708: appliedapis.com
+Processing external domain 205/1708: approving.you
+Processing external domain 206/1708: arizonaautoinsurancequotes.com
+Processing external domain 207/1708: arobinthehood.com
+Error scraping arobinthehood.com: Exceeded 30 redirects.
+Processing external domain 208/1708: arobinthehood.dev
+Error scraping arobinthehood.dev: Exceeded 30 redirects.
+Processing external domain 209/1708: arobinthehood.xyz
+Error scraping arobinthehood.xyz: Exceeded 30 redirects.
+Processing external domain 210/1708: arrozyfrijoles.lat
+Processing external domain 211/1708: arrozyfrijoles.tienda
+Processing external domain 212/1708: arrozyfrijoles.top
+Processing external domain 213/1708: arteriosclerosiscentral.com
+Processing external domain 214/1708: asemordnilap.com
+Error scraping asemordnilap.com: HTTPConnectionPool(host='asemordnilap.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='asemordnilap.com', port=80): Failed to resolve 'asemordnilap.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 215/1708: askwhy.dev
+Processing external domain 216/1708: asleepforme.com
+Error scraping asleepforme.com: HTTPConnectionPool(host='asleepforme.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='asleepforme.com', port=80): Failed to resolve 'asleepforme.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 217/1708: asmr.casa
+Error scraping asmr.casa: Exceeded 30 redirects.
+Processing external domain 218/1708: asmr.fyi
+Error scraping asmr.fyi: Exceeded 30 redirects.
+Processing external domain 219/1708: assumptionfree.com
+Processing external domain 220/1708: aswhois.com
+Processing external domain 221/1708: audiotools.org
+Processing external domain 222/1708: aurevoir.cyou
+Processing external domain 223/1708: auroragirls.com
+Processing external domain 224/1708: autocli.dev
+Processing external domain 225/1708: automaticgolfclub.com
+Processing external domain 226/1708: aylsa.com
+Processing external domain 227/1708: b8b2.com
+Processing external domain 228/1708: backup.codes
+Processing external domain 229/1708: bae.contact
+Processing external domain 230/1708: bae.locker
+Processing external domain 231/1708: bae.rip
+Processing external domain 232/1708: baenews.com
+Processing external domain 233/1708: ban.auction
+Creating embeddings for 100 new documents...
+Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.79s/it]Batches:  50%|█████     | 2/4 [00:02<00:01,  1.10it/s]Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.76it/s]Batches: 100%|██████████| 4/4 [00:02<00:00,  1.76it/s]
+Total corpus: 3671 documents
+Processing external domain 234/1708: ban.band
+Processing external domain 235/1708: ban.best
+Processing external domain 236/1708: ban.church
+Processing external domain 237/1708: ban.dance
+Processing external domain 238/1708: ban.gold
+Processing external domain 239/1708: ban.ink
+Processing external domain 240/1708: ban.insure
+Processing external domain 241/1708: ban.kaufen
+Processing external domain 242/1708: ban.lat
+Processing external domain 243/1708: ban.legal
+Processing external domain 244/1708: ban.pet
+Processing external domain 245/1708: ban.repair
+Processing external domain 246/1708: ban.republican
+Processing external domain 247/1708: band.auction
+Processing external domain 248/1708: band.boutique
+Processing external domain 249/1708: band.church
+Processing external domain 250/1708: band.com.de
+Processing external domain 251/1708: band.contractors
+Processing external domain 252/1708: band.delivery
+Processing external domain 253/1708: band.democrat
+Processing external domain 254/1708: band.discount
+Processing external domain 255/1708: band.dog
+Processing external domain 256/1708: band.enterprises
+Processing external domain 257/1708: band.insure
+Processing external domain 258/1708: band.jetzt
+Processing external domain 259/1708: band.kaufen
+Processing external domain 260/1708: band.legal
+Processing external domain 261/1708: band.me.uk
+Processing external domain 262/1708: band.pet
+Processing external domain 263/1708: band.sarl
+Processing external domain 264/1708: band.shopping
+Processing external domain 265/1708: band.singles
+Processing external domain 266/1708: band.solutions
+Processing external domain 267/1708: band.tattoo
+Processing external domain 268/1708: bandreview.com
+Processing external domain 269/1708: banner.diy
+Processing external domain 270/1708: banqueinternet.com
+Processing external domain 271/1708: baristatv.com
+Processing external domain 272/1708: bashcli.dev
+Processing external domain 273/1708: basketball.baby
+Processing external domain 274/1708: bassfairy.com
+Processing external domain 275/1708: beakspeaker.com
+Error scraping beakspeaker.com: HTTPConnectionPool(host='beakspeaker.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='beakspeaker.com', port=80): Failed to resolve 'beakspeaker.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 276/1708: beat.ceo
+Processing external domain 277/1708: beat.pics
+Processing external domain 278/1708: beats.moi
+Processing external domain 279/1708: beatsme.cyou
+Processing external domain 280/1708: beatsmoi.cyou
+Processing external domain 281/1708: beautifuldentaloffices.com
+Processing external domain 282/1708: bespaar-online.com
+Processing external domain 283/1708: bettertimethannow.com
+Error scraping bettertimethannow.com: HTTPConnectionPool(host='bettertimethannow.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='bettertimethannow.com', port=80): Failed to resolve 'bettertimethannow.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 284/1708: binaries4ever.net
+Processing external domain 285/1708: bizarre-music.net
+Processing external domain 286/1708: blckgold.com
+Processing external domain 287/1708: blues.gold
+Processing external domain 288/1708: blues.help
+Processing external domain 289/1708: blues.skin
+Processing external domain 290/1708: bluff.cyou
+Processing external domain 291/1708: boat.news
+Processing external domain 292/1708: boda.gold
+Processing external domain 293/1708: bondzee.blog
+Processing external domain 294/1708: bondzee.bond
+Processing external domain 295/1708: bondzee.cloud
+Processing external domain 296/1708: bondzee.cyou
+Processing external domain 297/1708: bondzee.guru
+Processing external domain 298/1708: bondzee.health
+Processing external domain 299/1708: bondzee.icu
+Processing external domain 300/1708: bondzee.ink
+Processing external domain 301/1708: bondzee.life
+Processing external domain 302/1708: bondzee.live
+Processing external domain 303/1708: bondzee.shop
+Processing external domain 304/1708: bondzee.today
+Processing external domain 305/1708: bondzee.wiki
+Processing external domain 306/1708: bondzee.world
+Processing external domain 307/1708: bondzee.xyz
+Processing external domain 308/1708: bookings.boats
+Processing external domain 309/1708: brandsense.tv
+Processing external domain 310/1708: brisasmarinas.rest
+Processing external domain 311/1708: broadclear.com
+Processing external domain 312/1708: brockvillelawyer.com
+Processing external domain 313/1708: bucks.boats
+Processing external domain 314/1708: buckspartyboat.com.au
+Processing external domain 315/1708: buildingserviceperth.com.au
+Processing external domain 316/1708: busyas.cyou
+Processing external domain 317/1708: buyrentsellrealestate.com
+Processing external domain 318/1708: buysoundeffects.com
+Processing external domain 319/1708: byagentai.com
+Processing external domain 320/1708: bytheminute.news
+Processing external domain 321/1708: bytheminutenews.boats
+Processing external domain 322/1708: bytheminutenews.cyou
+Processing external domain 323/1708: bytheminutenews.xyz
+Processing external domain 324/1708: canelled.cyou
+Processing external domain 325/1708: canwe.cyou
+Processing external domain 326/1708: cap.fyi
+Processing external domain 327/1708: capitanes.net
+Processing external domain 328/1708: capitanes.org
+Processing external domain 329/1708: carnac.boats
+Processing external domain 330/1708: carnac.pics
+Processing external domain 331/1708: carne.tienda
+Processing external domain 332/1708: carpenterservices.com.au
+Processing external domain 333/1708: cashreward.net
+Processing external domain 334/1708: cashreward.net
+Processing external domain 335/1708: catchyoulater.cyou
+Processing external domain 336/1708: catchyouontheflipside.cyou
+Processing external domain 337/1708: cats.gold
+Processing external domain 338/1708: cauldronborne.com
+Processing external domain 339/1708: cbdadvertising.com
+Processing external domain 340/1708: cbdmedi.org
+Processing external domain 341/1708: centrodeanalisis.com
+Processing external domain 342/1708: ceramicproblems.com
+Processing external domain 343/1708: cerdo.skin
+Processing external domain 344/1708: cerdo.tienda
+Processing external domain 345/1708: cfmusic.dev
+Processing external domain 346/1708: cfmusic.net
+Processing external domain 347/1708: cheapremortgages.com
+Processing external domain 348/1708: checkyoulater.cyou
+Processing external domain 349/1708: cheerio.cyou
+Processing external domain 350/1708: chillin.blog
+Processing external domain 351/1708: chillin.dog
+Processing external domain 352/1708: chillin.gold
+Processing external domain 353/1708: chillin.gripe
+Processing external domain 354/1708: chillin.help
+Processing external domain 355/1708: chillin.ing
+Processing external domain 356/1708: chillin.one
+Processing external domain 357/1708: chillin.rip
+Processing external domain 358/1708: chillin.video
+Processing external domain 359/1708: chilling.help
+Processing external domain 360/1708: chilling.video
+Processing external domain 361/1708: church.management
+Processing external domain 362/1708: church.radio.am
+Processing external domain 363/1708: church.radio.fm
+Processing external domain 364/1708: church.repair
+Processing external domain 365/1708: church.rocks
+Processing external domain 366/1708: church.theater
+Processing external domain 367/1708: cisum.band
+Processing external domain 368/1708: cisum.blog
+Processing external domain 369/1708: cisum.click
+Processing external domain 370/1708: cisum.cyou
+Processing external domain 371/1708: cisum.dog
+Creating embeddings for 100 new documents...
+Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.98s/it]Batches:  50%|█████     | 2/4 [00:02<00:01,  1.00it/s]Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.46it/s]Batches: 100%|██████████| 4/4 [00:02<00:00,  1.52it/s]
+Total corpus: 3771 documents
+Processing external domain 372/1708: cisum.fyi
+Processing external domain 373/1708: cisum.help
+Processing external domain 374/1708: cisum.lat
+Processing external domain 375/1708: cisum.lol
+Processing external domain 376/1708: cisum.online
+Processing external domain 377/1708: cisum.rip
+Processing external domain 378/1708: cisum.top
+Processing external domain 379/1708: cisum.wiki
+Processing external domain 380/1708: classicalmba.com
+Processing external domain 381/1708: classicemporium.com
+Processing external domain 382/1708: claw.contractors
+Processing external domain 383/1708: cleanstateeng.com
+Error scraping cleanstateeng.com: HTTPConnectionPool(host='cleanstateeng.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='cleanstateeng.com', port=80): Failed to resolve 'cleanstateeng.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 384/1708: clearstreamchurch.com
+Processing external domain 385/1708: cli.homes
+Processing external domain 386/1708: cli.pics
+Processing external domain 387/1708: cli.video
+Processing external domain 388/1708: clientpatients.com
+Error scraping clientpatients.com: HTTPConnectionPool(host='clientpatients.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='clientpatients.com', port=80): Failed to resolve 'clientpatients.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 389/1708: clientsfree.com
+Processing external domain 390/1708: clis.video
+Processing external domain 391/1708: clivegore.com
+Processing external domain 392/1708: cliviber.com
+Processing external domain 393/1708: coda.beauty
+Processing external domain 394/1708: coda.lat
+Processing external domain 395/1708: coda.mom
+Processing external domain 396/1708: codeconstruction.dev
+Processing external domain 397/1708: codeconstructionai.com
+Error scraping codeconstructionai.com: HTTPConnectionPool(host='codeconstructionai.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='codeconstructionai.com', port=80): Failed to resolve 'codeconstructionai.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 398/1708: coders.pics
+Processing external domain 399/1708: coin.contractors
+Processing external domain 400/1708: coldsorecentral.com
+Processing external domain 401/1708: colitiscentral.com
+Processing external domain 402/1708: compare.dog
+Processing external domain 403/1708: compare.fitness
+Processing external domain 404/1708: compare.wang
+Processing external domain 405/1708: completed.cyou
+Processing external domain 406/1708: con.construction
+Processing external domain 407/1708: con.contact
+Processing external domain 408/1708: con.contractors
+Processing external domain 409/1708: con.expert
+Processing external domain 410/1708: con.legal
+Processing external domain 411/1708: con.report
+Processing external domain 412/1708: confirmed.cyou
+Processing external domain 413/1708: confirming.cyou
+Processing external domain 414/1708: connects.cyou
+Processing external domain 415/1708: cons.video
+Processing external domain 416/1708: consorciovargas.com
+Processing external domain 417/1708: contentclips.io
+Processing external domain 418/1708: contextisk.ing
+Error scraping contextisk.ing: HTTPConnectionPool(host='contextisk.ing', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='contextisk.ing', port=80): Failed to resolve 'contextisk.ing' ([Errno -5] No address associated with hostname)"))
+Processing external domain 419/1708: cooperation.info
+Processing external domain 420/1708: cor.beauty
+Processing external domain 421/1708: cor.dog
+Processing external domain 422/1708: cor.rip
+Processing external domain 423/1708: coreintent.dev
+Processing external domain 424/1708: cores.video
+Processing external domain 425/1708: corey.bar
+Processing external domain 426/1708: corey.click
+Processing external domain 427/1708: corey.domains
+Processing external domain 428/1708: corey.games
+Processing external domain 429/1708: corey.help
+Processing external domain 430/1708: corey.host
+Processing external domain 431/1708: corey.in.net
+Processing external domain 432/1708: corey.lat
+Processing external domain 433/1708: corey.onl
+Processing external domain 434/1708: corey.pics
+Processing external domain 435/1708: corey.qpon
+Processing external domain 436/1708: corey.video
+Processing external domain 437/1708: corey.vision
+Processing external domain 438/1708: corey.wiki
+Processing external domain 439/1708: corey.xin
+Processing external domain 440/1708: coreyai.ai
+Processing external domain 441/1708: coreyai.cyou
+Processing external domain 442/1708: coreyai.dev
+Processing external domain 443/1708: coreyai.net
+Processing external domain 444/1708: coreyesai.com
+Error scraping coreyesai.com: HTTPConnectionPool(host='coreyesai.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='coreyesai.com', port=80): Failed to resolve 'coreyesai.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 445/1708: coreylive.ai
+Processing external domain 446/1708: coreylive.com
+Processing external domain 447/1708: coreys.meme
+Processing external domain 448/1708: costaricacondosandhomes.com
+Processing external domain 449/1708: couldawouldashoulda.dev
+Processing external domain 450/1708: countmontecristo1844.com
+Processing external domain 451/1708: cowowl.com
+Error scraping cowowl.com: HTTPConnectionPool(host='cowowl.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='cowowl.com', port=80): Failed to resolve 'cowowl.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 452/1708: crafted.courses
+Processing external domain 453/1708: crafted.guru
+Processing external domain 454/1708: crafted.insure
+Processing external domain 455/1708: crafted.quest
+Processing external domain 456/1708: crafted.repair
+Processing external domain 457/1708: crafted.skin
+Processing external domain 458/1708: crafted.wiki
+Processing external domain 459/1708: craftedgaming.com
+Processing external domain 460/1708: crazydope.com
+Processing external domain 461/1708: cretavilla.com
+Error scraping cretavilla.com: HTTPConnectionPool(host='cretavilla.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='cretavilla.com', port=80) at 0x75bebbe86780>, 'Connection to cretavilla.com timed out. (connect timeout=10)'))
+Processing external domain 462/1708: crmsales.software
+Processing external domain 463/1708: crying.cyou
+Processing external domain 464/1708: cssagentic.com
+Processing external domain 465/1708: cunningham.wiki
+Processing external domain 466/1708: custom-banners.com
+Processing external domain 467/1708: custom-cases.com
+Processing external domain 468/1708: cuteas.cyou
+Processing external domain 469/1708: cuthen.cyou
+Processing external domain 470/1708: cuwhenic.you
+Processing external domain 471/1708: cyalater.cyou
+Processing external domain 472/1708: cyou.help
+Processing external domain 473/1708: cyou.meme
+Processing external domain 474/1708: cyou.social
+Processing external domain 475/1708: cyou.video
+Processing external domain 476/1708: cyour.best
+Processing external domain 477/1708: cyour.boats
+Processing external domain 478/1708: cyour.business
+Processing external domain 479/1708: cyour.click
+Processing external domain 480/1708: cyour.homes
+Processing external domain 481/1708: cyour.quest
+Processing external domain 482/1708: cyour.video
+Processing external domain 483/1708: cyourai.com
+Processing external domain 484/1708: czmq.org
+Processing external domain 485/1708: dah.bar
+Processing external domain 486/1708: dah.feedback
+Processing external domain 487/1708: dah.how
+Processing external domain 488/1708: dah.lol
+Processing external domain 489/1708: dah.observer
+Processing external domain 490/1708: dah.pics
+Processing external domain 491/1708: dallasdentaloffice.com
+Processing external domain 492/1708: darkaipattern.com
+Error scraping darkaipattern.com: HTTPConnectionPool(host='darkaipattern.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='darkaipattern.com', port=80): Failed to resolve 'darkaipattern.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 493/1708: darkpattern.dev
+Processing external domain 494/1708: dataharvestor.com
+Processing external domain 495/1708: datas.cyou
+Processing external domain 496/1708: datx.solutions
+Processing external domain 497/1708: deacachi.mba
+Processing external domain 498/1708: deacachimba.casa
+Processing external domain 499/1708: deacachimba.cfd
+Processing external domain 500/1708: deacachimba.click
+Processing external domain 501/1708: deacachimba.futbol
+Processing external domain 502/1708: deacachimba.lat
+Processing external domain 503/1708: deacachimba.net
+Processing external domain 504/1708: deacachimba.news
+Processing external domain 505/1708: deacachimba.org
+Processing external domain 506/1708: deacachimba.sbs
+Processing external domain 507/1708: deacachimba.top
+Processing external domain 508/1708: deacachimba.xyz
+Processing external domain 509/1708: deadass.meme
+Processing external domain 510/1708: deadinternet.meme
+Processing external domain 511/1708: deceptivemetrics.com
+Error scraping deceptivemetrics.com: HTTPConnectionPool(host='deceptivemetrics.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='deceptivemetrics.com', port=80): Failed to resolve 'deceptivemetrics.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 512/1708: deepeye.co
+Processing external domain 513/1708: dentalcare.business
+Processing external domain 514/1708: dentalcare.center
+Processing external domain 515/1708: dentalcare.chat
+Processing external domain 516/1708: dentalcare.courses
+Processing external domain 517/1708: dentalcare.deals
+Processing external domain 518/1708: dentalcare.fyi
+Processing external domain 519/1708: dentalcare.guide
+Processing external domain 520/1708: dentalcare.solutions
+Processing external domain 521/1708: dentalcare.tienda
+Processing external domain 522/1708: dentalcare.wiki
+Processing external domain 523/1708: dentalcarechicago.com
+Processing external domain 524/1708: dentalcaregpt.com
+Processing external domain 525/1708: dentalimplantsfortlauderdale.com
+Processing external domain 526/1708: dentallongisland.com
+Processing external domain 527/1708: devs.video
+Processing external domain 528/1708: diacachimba.lat
+Processing external domain 529/1708: dicetwice.com
+Processing external domain 530/1708: dictumnunc.com
+Error scraping dictumnunc.com: HTTPConnectionPool(host='dictumnunc.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='dictumnunc.com', port=80): Failed to resolve 'dictumnunc.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 531/1708: digitalprinters.net
+Processing external domain 532/1708: dink.pink
+Processing external domain 533/1708: dink.wiki
+Processing external domain 534/1708: dinking.cyou
+Processing external domain 535/1708: dinkk.ing
+Processing external domain 536/1708: discoversanjuandelsur.com
+Processing external domain 537/1708: discoversjds.com
+Processing external domain 538/1708: discoverycruises.com.au
+Processing external domain 539/1708: disposabletelephone.com
+Processing external domain 540/1708: dissbliss.com
+Processing external domain 541/1708: disslikes.com
+Processing external domain 542/1708: div.fyi
+Processing external domain 543/1708: div.observer
+Processing external domain 544/1708: div.pics
+Processing external domain 545/1708: div.rip
+Processing external domain 546/1708: div.skin
+Processing external domain 547/1708: diymyo.dev
+Processing external domain 548/1708: diymyo.fyi
+Processing external domain 549/1708: diyvibecoding.com
+Processing external domain 550/1708: dj.soccer
+Processing external domain 551/1708: djteti.com
+Processing external domain 552/1708: dlog.black
+Processing external domain 553/1708: dlog.fyi
+Processing external domain 554/1708: dnab.live
+Processing external domain 555/1708: dnad.cloud
+Processing external domain 556/1708: dnad.digital
+Processing external domain 557/1708: dnad.fyi
+Processing external domain 558/1708: dns.construction
+Processing external domain 559/1708: dnscheck.blog
+Processing external domain 560/1708: dnsrootservers.com
+Processing external domain 561/1708: dnuos.art
+Processing external domain 562/1708: dnuos.band
+Processing external domain 563/1708: dnuos.click
+Processing external domain 564/1708: dnuos.cyou
+Creating embeddings for 100 new documents...
+Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.78s/it]Batches:  50%|█████     | 2/4 [00:02<00:01,  1.10it/s]Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.57it/s]Batches: 100%|██████████| 4/4 [00:02<00:00,  1.65it/s]
+Total corpus: 3871 documents
+Processing external domain 565/1708: dnuos.dog
+Processing external domain 566/1708: dnuos.fyi
+Processing external domain 567/1708: dnuos.hiphop
+Processing external domain 568/1708: dnuos.lat
+Processing external domain 569/1708: dnuos.live
+Processing external domain 570/1708: dnuos.rip
+Processing external domain 571/1708: dnuos.rocks
+Processing external domain 572/1708: dnuos.studio
+Processing external domain 573/1708: dnuos.top
+Processing external domain 574/1708: dnuos.wiki
+Processing external domain 575/1708: dnuos.xyz
+Processing external domain 576/1708: dog.band
+Processing external domain 577/1708: dog.democrat
+Processing external domain 578/1708: dog.kaufen
+Processing external domain 579/1708: dog.legal
+Processing external domain 580/1708: dog.republican
+Processing external domain 581/1708: doof.boats
+Processing external domain 582/1708: doof.recipes
+Processing external domain 583/1708: doof.rest
+Processing external domain 584/1708: doubleyolker.com
+Processing external domain 585/1708: drcontextking.com
+Error scraping drcontextking.com: HTTPConnectionPool(host='drcontextking.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='drcontextking.com', port=80): Failed to resolve 'drcontextking.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 586/1708: drdenislopez.com
+Processing external domain 587/1708: drdisorder.com
+Error scraping drdisorder.com: HTTPConnectionPool(host='drdisorder.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='drdisorder.com', port=80): Failed to resolve 'drdisorder.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 588/1708: dringest.com
+Processing external domain 589/1708: drintent.com
+Error scraping drintent.com: HTTPConnectionPool(host='drintent.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='drintent.com', port=80): Failed to resolve 'drintent.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 590/1708: dropshot.cyou
+Processing external domain 591/1708: drscontext.com
+Error scraping drscontext.com: HTTPConnectionPool(host='drscontext.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='drscontext.com', port=80): Failed to resolve 'drscontext.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 592/1708: drsntx.com
+Processing external domain 593/1708: drsyntax.com
+Processing external domain 594/1708: drsyntext.com
+Error scraping drsyntext.com: HTTPConnectionPool(host='drsyntext.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='drsyntext.com', port=80): Failed to resolve 'drsyntext.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 595/1708: drywoodcoatings.com
+Processing external domain 596/1708: dubsteps.video
+Processing external domain 597/1708: duchessfashion.com
+Processing external domain 598/1708: dustchain.art
+Processing external domain 599/1708: dutchess.fyi
+Processing external domain 600/1708: dutchess.page
+Processing external domain 601/1708: eastvillageeye.com
+Processing external domain 602/1708: ecorpgifts.com
+Processing external domain 603/1708: edemacentral.com
+Processing external domain 604/1708: electronicbrakes.com
+Processing external domain 605/1708: emotionaldrm.com
+Processing external domain 606/1708: envapis.com
+Processing external domain 607/1708: eodiv.live
+Processing external domain 608/1708: eodiv.lol
+Processing external domain 609/1708: eodiv.shop
+Processing external domain 610/1708: esrever.fyi
+Processing external domain 611/1708: exitticket.app
+Processing external domain 612/1708: explorecologne.com
+Processing external domain 613/1708: eyecareforchildren.com
+Processing external domain 614/1708: eyercore.com
+Processing external domain 615/1708: eyeswideopera.com
+Processing external domain 616/1708: fable.pics
+Processing external domain 617/1708: factic.net
+Processing external domain 618/1708: factoteca.com
+Processing external domain 619/1708: fastestfranchises.com
+Processing external domain 620/1708: fatiguecentral.com
+Processing external domain 621/1708: faultyvaulty.com
+Processing external domain 622/1708: faultyvaulty.net
+Processing external domain 623/1708: fears.meme
+Processing external domain 624/1708: feedback.doctor
+Processing external domain 625/1708: feedback.enterprises
+Processing external domain 626/1708: feelingyou.cyou
+Processing external domain 627/1708: fierceart.com
+Processing external domain 628/1708: financetemplate.com
+Processing external domain 629/1708: fineartisanchocolate.com
+Processing external domain 630/1708: finevogue.com
+Processing external domain 631/1708: finna.meme
+Processing external domain 632/1708: fishingcharterswa.com.au
+Processing external domain 633/1708: fishingcharterswesternaustralia.com.au
+Processing external domain 634/1708: fishkillbraces.com
+Processing external domain 635/1708: fishkillorthodontist.com
+Processing external domain 636/1708: fixsyncapi.xyz
+Processing external domain 637/1708: flog.gold
+Processing external domain 638/1708: flogs.golf
+Processing external domain 639/1708: food.com.de
+Processing external domain 640/1708: food.estate
+Processing external domain 641/1708: food.insure
+Processing external domain 642/1708: food.kaufen
+Processing external domain 643/1708: food.repair
+Processing external domain 644/1708: food.sarl
+Processing external domain 645/1708: food.solar
+Processing external domain 646/1708: forsure.cyou
+Processing external domain 647/1708: forwarded.dev
+Processing external domain 648/1708: forwardengineer.dev
+Processing external domain 649/1708: forwardengineering.dev
+Processing external domain 650/1708: forwardengineering.fyi
+Processing external domain 651/1708: forwardengineeringai.com
+Error scraping forwardengineeringai.com: HTTPConnectionPool(host='forwardengineeringai.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='forwardengineeringai.com', port=80): Failed to resolve 'forwardengineeringai.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 652/1708: fountainviewvillage.com
+Processing external domain 653/1708: freeaudio.org
+Processing external domain 654/1708: freeshield.com
+Processing external domain 655/1708: frfr.meme
+Processing external domain 656/1708: gallopinto.lat
+Processing external domain 657/1708: gallopinto.top
+Processing external domain 658/1708: gift.moi
+Processing external domain 659/1708: gimm.meme
+Processing external domain 660/1708: gimmie.biz
+Processing external domain 661/1708: gimmie.business
+Processing external domain 662/1708: gimmie.click
+Processing external domain 663/1708: gimmie.company
+Processing external domain 664/1708: gimmie.dev
+Processing external domain 665/1708: gimmie.digital
+Processing external domain 666/1708: gimmie.fyi
+Processing external domain 667/1708: gimmie.help
+Processing external domain 668/1708: gimmie.lol
+Processing external domain 669/1708: gimmie.online
+Processing external domain 670/1708: gimmie.page
+Processing external domain 671/1708: gimmie.quest
+Processing external domain 672/1708: gimmie.site
+Processing external domain 673/1708: gimmie.taxi
+Processing external domain 674/1708: gimmie.wiki
+Processing external domain 675/1708: gimmie.xyz
+Processing external domain 676/1708: gitcf.wiki
+Processing external domain 677/1708: gitmusic.dev
+Processing external domain 678/1708: gitmusic.net
+Processing external domain 679/1708: gitpoet.dev
+Processing external domain 680/1708: gitwikicf.com
+Error scraping gitwikicf.com: HTTPConnectionPool(host='gitwikicf.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='gitwikicf.com', port=80): Failed to resolve 'gitwikicf.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 681/1708: glaciervacationrental.com
+Processing external domain 682/1708: goated.meme
+Processing external domain 683/1708: god.boats
+Processing external domain 684/1708: god.irish
+Processing external domain 685/1708: god.jetzt
+Processing external domain 686/1708: god.kaufen
+Processing external domain 687/1708: god.kitchen
+Processing external domain 688/1708: god.radio.am
+Processing external domain 689/1708: god.repair
+Processing external domain 690/1708: god.rich
+Processing external domain 691/1708: god.tires
+Processing external domain 692/1708: god.voyage
+Creating embeddings for 100 new documents...
+Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.82s/it]Batches:  50%|█████     | 2/4 [00:02<00:01,  1.04it/s]Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.45it/s]Batches: 100%|██████████| 4/4 [00:02<00:00,  1.55it/s]
+Total corpus: 3971 documents
+Processing external domain 693/1708: goddog.church
+Processing external domain 694/1708: godofseo.com
+Processing external domain 695/1708: gods.video
+Processing external domain 696/1708: goldcoastcare.com
+Processing external domain 697/1708: golfcoursesai.com
+Processing external domain 698/1708: gomiliagents.com
+Processing external domain 699/1708: goodbaduglynews.com
+Processing external domain 700/1708: gotta.video
+Processing external domain 701/1708: gottalotta.app
+Processing external domain 702/1708: gottalotta.info
+Processing external domain 703/1708: gottalotta.wiki
+Processing external domain 704/1708: gottalotta.xyz
+Processing external domain 705/1708: gottarun.cyou
+Processing external domain 706/1708: goutcentral.com
+Processing external domain 707/1708: greyemporium.com
+Processing external domain 708/1708: gripeswipe.com
+Processing external domain 709/1708: gustavo.top
+Processing external domain 710/1708: hallucination.io
+Processing external domain 711/1708: handle.quest
+Processing external domain 712/1708: handled.cyou
+Processing external domain 713/1708: handles.team
+Processing external domain 714/1708: hardwoodproblems.com
+Processing external domain 715/1708: harnesses.engineer
+Processing external domain 716/1708: hastalavista.cyou
+Processing external domain 717/1708: hawaiivacationtours.com
+Processing external domain 718/1708: haweya.app
+Processing external domain 719/1708: hctaw.cyou
+Processing external domain 720/1708: hears.cyou
+Processing external domain 721/1708: heiness.com
+Error scraping heiness.com: HTTPConnectionPool(host='heiness.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='heiness.com', port=80): Failed to resolve 'heiness.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 722/1708: hens.boats
+Processing external domain 723/1708: henspartyboat.com.au
+Processing external domain 724/1708: herme.meme
+Processing external domain 725/1708: hermes.com.ai
+Processing external domain 726/1708: hermes.foo
+Processing external domain 727/1708: hermesagenticai.com
+Error scraping hermesagenticai.com: HTTPConnectionPool(host='hermesagenticai.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='hermesagenticai.com', port=80): Failed to resolve 'hermesagenticai.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 728/1708: hermesais.com
+Error scraping hermesais.com: HTTPConnectionPool(host='hermesais.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='hermesais.com', port=80): Failed to resolve 'hermesais.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 729/1708: hermesinfra.com
+Processing external domain 730/1708: hermesregistry.com
+Error scraping hermesregistry.com: HTTPConnectionPool(host='hermesregistry.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='hermesregistry.com', port=80): Failed to resolve 'hermesregistry.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 731/1708: hiphops.video
+Processing external domain 732/1708: hiphopwrap.com
+Error scraping hiphopwrap.com: HTTPConnectionPool(host='hiphopwrap.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='hiphopwrap.com', port=80): Failed to resolve 'hiphopwrap.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 733/1708: hja808.com
+Processing external domain 734/1708: hmocentral.com
+Processing external domain 735/1708: hogs.ing
+Processing external domain 736/1708: holisticli.dev
+Processing external domain 737/1708: holyshitbag.com
+Processing external domain 738/1708: homesandlandrealestate.com
+Processing external domain 739/1708: hoodsei.com
+Processing external domain 740/1708: hotoffertrack.org
+Processing external domain 741/1708: hubicon.art
+Processing external domain 742/1708: hustling.cyou
+Processing external domain 743/1708: hyacid.org
+Processing external domain 744/1708: hypermens.fyi
+Processing external domain 745/1708: iam.firm.in
+Processing external domain 746/1708: iam.gen.in
+Processing external domain 747/1708: iam.id.au
+Processing external domain 748/1708: iam.surf
+Processing external domain 749/1708: icall.cyou
+Processing external domain 750/1708: icanfile.dev
+Processing external domain 751/1708: ictxstream.com
+Processing external domain 752/1708: icu.ceo
+Processing external domain 753/1708: icu.gold
+Processing external domain 754/1708: icu.golf
+Processing external domain 755/1708: icu.gripe
+Processing external domain 756/1708: icu.photos
+Processing external domain 757/1708: icu.run
+Processing external domain 758/1708: icu.watch
+Processing external domain 759/1708: icwhyi.cyou
+Processing external domain 760/1708: icyuo.wiki
+Processing external domain 761/1708: illin.blog
+Processing external domain 762/1708: illin.gold
+Processing external domain 763/1708: illin.in
+Processing external domain 764/1708: illin.life
+Processing external domain 765/1708: illin.my
+Processing external domain 766/1708: illin.one
+Processing external domain 767/1708: illin.video
+Processing external domain 768/1708: illin.win
+Processing external domain 769/1708: illing.help
+Processing external domain 770/1708: imaladesign.com
+Processing external domain 771/1708: imout.cyou
+Processing external domain 772/1708: included.cyou
+Processing external domain 773/1708: indianheadmtn.com
+Processing external domain 774/1708: indies.video
+Processing external domain 775/1708: ineedto.cyou
+Processing external domain 776/1708: ineverymind.com
+Error scraping ineverymind.com: HTTPConnectionPool(host='ineverymind.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='ineverymind.com', port=80): Failed to resolve 'ineverymind.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 777/1708: ingestall.com
+Error scraping ingestall.com: HTTPConnectionPool(host='ingestall.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='ingestall.com', port=80): Failed to resolve 'ingestall.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 778/1708: inmoventas.com
+Processing external domain 779/1708: insuranceagencyphoenix.com
+Processing external domain 780/1708: insurancecomparisions.com
+Processing external domain 781/1708: intentqueen.com
+Error scraping intentqueen.com: HTTPConnectionPool(host='intentqueen.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='intentqueen.com', port=80): Failed to resolve 'intentqueen.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 782/1708: interbahis1635.com.lc
+Processing external domain 783/1708: italianbrainrot.meme
+Processing external domain 784/1708: itsgiving.meme
+Processing external domain 785/1708: iwantitnow.meme
+Processing external domain 786/1708: jai.bar
+Processing external domain 787/1708: jai.pics
+Processing external domain 788/1708: jai.pink
+Processing external domain 789/1708: jai.quest
+Processing external domain 790/1708: jazz.direct
+Processing external domain 791/1708: jazz.gold
+Processing external domain 792/1708: jazz.jetzt
+Processing external domain 793/1708: jazz.tattoo
+Processing external domain 794/1708: jazzsongs.com
+Processing external domain 795/1708: jazzsongs.cyou
+Processing external domain 796/1708: jazzsongs.digital
+Processing external domain 797/1708: jazzsongs.live
+Processing external domain 798/1708: jazzsongs.top
+Processing external domain 799/1708: jazzsongs.vip
+Processing external domain 800/1708: jazzsongs.xyz
+Processing external domain 801/1708: joel.love
+Processing external domain 802/1708: jskl88.com
+Processing external domain 803/1708: kaifazhe.dev
+Processing external domain 804/1708: kamals.pro
+Processing external domain 805/1708: kapowwe.com
+Processing external domain 806/1708: karatplace.org
+Processing external domain 807/1708: karoubienvelope.com
+Error scraping karoubienvelope.com: HTTPConnectionPool(host='karoubienvelope.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='karoubienvelope.com', port=80): Failed to resolve 'karoubienvelope.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 808/1708: kel.dog
+Processing external domain 809/1708: kel.rip
+Processing external domain 810/1708: kelleyscoins.com
+Processing external domain 811/1708: kershawcountyhomes.com
+Processing external domain 812/1708: kervalon.ai
+Processing external domain 813/1708: kervalon.app
+Processing external domain 814/1708: kervalon.co.nz
+Processing external domain 815/1708: kiminz.com
+Processing external domain 816/1708: knowyourclientai.com
+Processing external domain 817/1708: kosovafilm.com
+Processing external domain 818/1708: kpop.rip
+Processing external domain 819/1708: krazykat1913.com
+Processing external domain 820/1708: label.legal
+Processing external domain 821/1708: lagrangevillebraces.com
+Processing external domain 822/1708: lagrangevilleorthodontist.com
+Processing external domain 823/1708: lamais.ong
+Error scraping lamais.ong: HTTPConnectionPool(host='lamais.ong', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='lamais.ong', port=80): Failed to resolve 'lamais.ong' ([Errno -2] Name or service not known)"))
+Processing external domain 824/1708: letthemcook.meme
+Processing external domain 825/1708: liamail.dev
+Processing external domain 826/1708: lindenhurstdental.com
+Processing external domain 827/1708: linoart.art
+Processing external domain 828/1708: live-aboard.boats
+Processing external domain 829/1708: liveaboard.pics
+Processing external domain 830/1708: liveaboard.wiki
+Processing external domain 831/1708: livedevils.com
+Processing external domain 832/1708: livewire.boats
+Processing external domain 833/1708: livewirecharters.com.au
+Processing external domain 834/1708: llama.skin
+Processing external domain 835/1708: lockedoutperth.com.au
+Processing external domain 836/1708: log-design.com
+Processing external domain 837/1708: logicalcli.com
+Error scraping logicalcli.com: HTTPConnectionPool(host='logicalcli.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='logicalcli.com', port=80): Failed to resolve 'logicalcli.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 838/1708: logicapi.click
+Processing external domain 839/1708: logicapi.cyou
+Processing external domain 840/1708: logicapi.rest
+Processing external domain 841/1708: logicapi.rip
+Processing external domain 842/1708: loloud.cyou
+Processing external domain 843/1708: look.auction
+Processing external domain 844/1708: look.com.de
+Processing external domain 845/1708: look.coupons
+Processing external domain 846/1708: look.discount
+Processing external domain 847/1708: lookafteryourself.cyou
+Processing external domain 848/1708: lookc.dog
+Processing external domain 849/1708: lookcy.app
+Processing external domain 850/1708: lookcy.art
+Processing external domain 851/1708: lookcy.beauty
+Processing external domain 852/1708: lookcy.boats
+Processing external domain 853/1708: lookcy.bond
+Processing external domain 854/1708: lookcy.cfd
+Processing external domain 855/1708: lookcy.click
+Processing external domain 856/1708: lookcy.cloud
+Processing external domain 857/1708: lookcy.com
+Processing external domain 858/1708: lookcy.courses
+Processing external domain 859/1708: lookcy.cyou
+Processing external domain 860/1708: lookcy.dog
+Processing external domain 861/1708: lookcy.fyi
+Processing external domain 862/1708: lookcy.gripe
+Processing external domain 863/1708: lookcy.help
+Processing external domain 864/1708: lookcy.homes
+Processing external domain 865/1708: lookcy.lat
+Processing external domain 866/1708: lookcy.online
+Processing external domain 867/1708: lookcy.pics
+Processing external domain 868/1708: lookcy.pro
+Processing external domain 869/1708: lookcy.sbs
+Processing external domain 870/1708: lookcy.shop
+Processing external domain 871/1708: lookcy.wiki
+Processing external domain 872/1708: lookcy.xyz
+Processing external domain 873/1708: lookcyou.com
+Error scraping lookcyou.com: HTTPConnectionPool(host='lookcyou.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='lookcyou.com', port=80): Failed to resolve 'lookcyou.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 874/1708: lowkey.meme
+Processing external domain 875/1708: magenticagi.com
+Processing external domain 876/1708: magnetics.world
+Processing external domain 877/1708: makenpc.com
+Processing external domain 878/1708: makesno.com
+Error scraping makesno.com: HTTPConnectionPool(host='makesno.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='makesno.com', port=80): Failed to resolve 'makesno.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 879/1708: manipulationmatrix.com
+Error scraping manipulationmatrix.com: HTTPConnectionPool(host='manipulationmatrix.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='manipulationmatrix.com', port=80): Failed to resolve 'manipulationmatrix.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 880/1708: mapienv.com
+Error scraping mapienv.com: HTTPConnectionPool(host='mapienv.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='mapienv.com', port=80): Failed to resolve 'mapienv.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 881/1708: marinersguide.com
+Processing external domain 882/1708: marketingreviewsonline.com
+Processing external domain 883/1708: mastectomycentral.com
+Processing external domain 884/1708: mastermind.quest
+Processing external domain 885/1708: masternodecap.com
+Processing external domain 886/1708: masterscope.dev
+Processing external domain 887/1708: mcp.contact
+Processing external domain 888/1708: mcp.pics
+Processing external domain 889/1708: mein.boats
+Processing external domain 890/1708: mein.pics
+Processing external domain 891/1708: memed.dev
+Processing external domain 892/1708: mememe.cyou
+Error scraping mememe.cyou: HTTPConnectionPool(host='mememe.cyou', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='mememe.cyou', port=80): Failed to resolve 'mememe.cyou' ([Errno -5] No address associated with hostname)"))
+Processing external domain 893/1708: mememe.dev
+Processing external domain 894/1708: mememess.com
+Error scraping mememess.com: HTTPConnectionPool(host='mememess.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='mememess.com', port=80): Failed to resolve 'mememess.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 895/1708: meprs.com
+Processing external domain 896/1708: messagestore.net
+Processing external domain 897/1708: metals.video
+Processing external domain 898/1708: metaself.art
+Creating embeddings for 100 new documents...
+Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.79s/it]Batches:  50%|█████     | 2/4 [00:02<00:01,  1.08it/s]Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.59it/s]Batches: 100%|██████████| 4/4 [00:02<00:00,  1.65it/s]
+Total corpus: 4071 documents
+Processing external domain 899/1708: mewing.meme
+Processing external domain 900/1708: miamifloridadental.com
+Processing external domain 901/1708: michelle.wiki
+Processing external domain 902/1708: mili.codes
+Processing external domain 903/1708: mili.guru
+Processing external domain 904/1708: mili.llc
+Processing external domain 905/1708: mili.ninja
+Processing external domain 906/1708: mili.pics
+Processing external domain 907/1708: mili.quest
+Processing external domain 908/1708: mili.rest
+Processing external domain 909/1708: mili.rocks
+Processing external domain 910/1708: mili.solutions
+Processing external domain 911/1708: mili.tools
+Processing external domain 912/1708: mili.zone
+Processing external domain 913/1708: militaster.com
+Processing external domain 914/1708: milliondollarsites.com
+Processing external domain 915/1708: mindmaestro.xyz
+Processing external domain 916/1708: mirrors.mobi
+Processing external domain 917/1708: mirrort.win
+Processing external domain 918/1708: missai.meme
+Processing external domain 919/1708: missaisworld.com
+Error scraping missaisworld.com: HTTPConnectionPool(host='missaisworld.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='missaisworld.com', port=80): Failed to resolve 'missaisworld.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 920/1708: misses.meme
+Processing external domain 921/1708: missmemes.com
+Error scraping missmemes.com: HTTPConnectionPool(host='missmemes.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='missmemes.com', port=80): Failed to resolve 'missmemes.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 922/1708: mobi.tienda
+Processing external domain 923/1708: mohammed.meme
+Processing external domain 924/1708: montebello.boats
+Processing external domain 925/1708: montebello.pics
+Processing external domain 926/1708: montebelloislandscharters.com.au
+Processing external domain 927/1708: mosoko.ai
+Processing external domain 928/1708: mosoko.app
+Processing external domain 929/1708: mosoko.co.nz
+Processing external domain 930/1708: mosoko.dev
+Processing external domain 931/1708: mosoko.io
+Processing external domain 932/1708: mpwn.net
+Processing external domain 933/1708: mrme.meme
+Processing external domain 934/1708: music.codes
+Processing external domain 935/1708: music.insure
+Processing external domain 936/1708: musicbackup.dev
+Processing external domain 937/1708: musicclothes.com
+Processing external domain 938/1708: musicclothes.online
+Processing external domain 939/1708: musicclothes.shop
+Processing external domain 940/1708: musicoexitoso.com
+Processing external domain 941/1708: musics.wiki
+Processing external domain 942/1708: mymusic.video
+Processing external domain 943/1708: mynew.video
+Processing external domain 944/1708: myo.pics
+Processing external domain 945/1708: negotiationsinstitute.com
+Processing external domain 946/1708: neverendai.com
+Error scraping neverendai.com: HTTPConnectionPool(host='neverendai.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='neverendai.com', port=80): Failed to resolve 'neverendai.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 947/1708: news.dating
+Processing external domain 948/1708: news.rich
+Processing external domain 949/1708: news.video
+Processing external domain 950/1708: news.watches
+Processing external domain 951/1708: news.企业
+Processing external domain 952/1708: news.商店
+Processing external domain 953/1708: news.娱乐
+Processing external domain 954/1708: news.游戏
+Processing external domain 955/1708: news.移动
+Processing external domain 956/1708: news.网站
+Processing external domain 957/1708: newsbytheminute.com
+Processing external domain 958/1708: newsvideo.best
+Processing external domain 959/1708: newsvideo.today
+Processing external domain 960/1708: newsvideos.best
+Processing external domain 961/1708: newsvideos.business
+Processing external domain 962/1708: newsvideos.today
+Processing external domain 963/1708: newsvideos.top
+Processing external domain 964/1708: newsvideos.work
+Processing external domain 965/1708: newsvideos.xyz
+Processing external domain 966/1708: nextdigitalera.com
+Processing external domain 967/1708: nginx.page
+Processing external domain 968/1708: ngix.app
+Processing external domain 969/1708: ngix.my
+Processing external domain 970/1708: ngix.pro
+Processing external domain 971/1708: nica.bar
+Processing external domain 972/1708: nica.boats
+Processing external domain 973/1708: nica.business
+Processing external domain 974/1708: nica.futbol
+Processing external domain 975/1708: nica.help
+Processing external domain 976/1708: nica.homes
+Processing external domain 977/1708: nica.onl
+Processing external domain 978/1708: nica.pics
+Processing external domain 979/1708: nica.surf
+Processing external domain 980/1708: nica.tattoo
+Processing external domain 981/1708: nica.video
+Processing external domain 982/1708: nica.wedding
+Processing external domain 983/1708: nica.yachts
+Processing external domain 984/1708: nicapickleball.com
+Processing external domain 985/1708: nicapickleball.net
+Processing external domain 986/1708: noderip.com
+Processing external domain 987/1708: noderip.net
+Processing external domain 988/1708: noerus.dev
+Processing external domain 989/1708: noerus.net
+Processing external domain 990/1708: noerus.top
+Processing external domain 991/1708: nogo.cyou
+Processing external domain 992/1708: nogo.my
+Processing external domain 993/1708: northcreekdental.net
+Processing external domain 994/1708: notforyou.cyou
+Processing external domain 995/1708: notgetawaywithit.com
+Processing external domain 996/1708: nothanks.cyou
+Processing external domain 997/1708: notlong.cyou
+Processing external domain 998/1708: noushermes.dev
+Processing external domain 999/1708: noway.cyou
+Processing external domain 1000/1708: npcnot.com
+Error scraping npcnot.com: HTTPConnectionPool(host='npcnot.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='npcnot.com', port=80): Failed to resolve 'npcnot.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1001/1708: npcplay.com
+Error scraping npcplay.com: HTTPConnectionPool(host='npcplay.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='npcplay.com', port=80): Failed to resolve 'npcplay.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1002/1708: nslookup.co
+Processing external domain 1003/1708: nslookup.cyou
+Processing external domain 1004/1708: nslookup.page
+Processing external domain 1005/1708: numerolore.com
+Processing external domain 1006/1708: nuncautnumquam.com
+Error scraping nuncautnumquam.com: HTTPConnectionPool(host='nuncautnumquam.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='nuncautnumquam.com', port=80): Failed to resolve 'nuncautnumquam.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1007/1708: nung-th.net
+Processing external domain 1008/1708: nycapartmentrental.com
+Processing external domain 1009/1708: observers.observer
+Processing external domain 1010/1708: oediv.art
+Processing external domain 1011/1708: oediv.bar
+Processing external domain 1012/1708: oediv.cc
+Processing external domain 1013/1708: oediv.cyou
+Processing external domain 1014/1708: oediv.dog
+Processing external domain 1015/1708: oediv.fyi
+Processing external domain 1016/1708: oediv.icu
+Processing external domain 1017/1708: oediv.mom
+Processing external domain 1018/1708: oediv.rip
+Processing external domain 1019/1708: oediv.sbs
+Processing external domain 1020/1708: oediv.skin
+Processing external domain 1021/1708: oediv.top
+Processing external domain 1022/1708: oediv.vip
+Processing external domain 1023/1708: oediv.wang
+Processing external domain 1024/1708: oediv.xyz
+Processing external domain 1025/1708: offshorewatersports.com
+Processing external domain 1026/1708: okiwill.cyou
+Processing external domain 1027/1708: oklater.cyou
+Processing external domain 1028/1708: oleabag.com
+Processing external domain 1029/1708: oleabags.com
+Processing external domain 1030/1708: oneminutelate.com
+Processing external domain 1031/1708: onewatersystem.com
+Processing external domain 1032/1708: onewho.live
+Processing external domain 1033/1708: online-besparen.com
+Processing external domain 1034/1708: online-cooking-school.com
+Processing external domain 1035/1708: onomancer.com
+Processing external domain 1036/1708: opal.surf
+Processing external domain 1037/1708: opalpal.com.au
+Processing external domain 1038/1708: opals.cyou
+Processing external domain 1039/1708: opals.gold
+Processing external domain 1040/1708: opals.lat
+Processing external domain 1041/1708: opals.lol
+Processing external domain 1042/1708: opals.quest
+Processing external domain 1043/1708: opalshops.com.au
+Processing external domain 1044/1708: openclaws.fyi
+Processing external domain 1045/1708: opiniontube.com
+Processing external domain 1046/1708: orangecountyfloodwaterdamage.com
+Processing external domain 1047/1708: orchestra.rocks
+Processing external domain 1048/1708: orchestra.vision
+Processing external domain 1049/1708: orchestra.wiki
+Processing external domain 1050/1708: orchestramind.rocks
+Processing external domain 1051/1708: orchestramind.xyz
+Processing external domain 1052/1708: orientalmedicina.com
+Processing external domain 1053/1708: orlandotaxlawyer.com
+Processing external domain 1054/1708: orthobands.com
+Processing external domain 1055/1708: orthodontist.page
+Processing external domain 1056/1708: orthofishkill.com
+Processing external domain 1057/1708: ortholagrangeville.com
+Processing external domain 1058/1708: orthophenom.com
+Processing external domain 1059/1708: ortodoncista.lat
+Processing external domain 1060/1708: oureventportal.com
+Processing external domain 1061/1708: owlfoul.com
+Error scraping owlfoul.com: HTTPConnectionPool(host='owlfoul.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='owlfoul.com', port=80): Failed to resolve 'owlfoul.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1062/1708: owlknowhow.com
+Error scraping owlknowhow.com: HTTPConnectionPool(host='owlknowhow.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='owlknowhow.com', port=80): Failed to resolve 'owlknowhow.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1063/1708: ozbanking.com
+Processing external domain 1064/1708: pac.quest
+Processing external domain 1065/1708: pal.accountants
+Processing external domain 1066/1708: pal.actor
+Processing external domain 1067/1708: pal.agency
+Processing external domain 1068/1708: pal.auction
+Processing external domain 1069/1708: pal.autos
+Processing external domain 1070/1708: pal.baby
+Creating embeddings for 100 new documents...
+Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.78s/it]Batches:  50%|█████     | 2/4 [00:02<00:02,  1.09s/it]Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.36it/s]Batches: 100%|██████████| 4/4 [00:02<00:00,  1.46it/s]
+Total corpus: 4171 documents
+Processing external domain 1071/1708: pal.band
+Processing external domain 1072/1708: pal.beauty
+Processing external domain 1073/1708: pal.bingo
+Processing external domain 1074/1708: pal.boutique
+Processing external domain 1075/1708: pal.broker
+Processing external domain 1076/1708: pal.business
+Processing external domain 1077/1708: pal.cab
+Processing external domain 1078/1708: pal.claims
+Processing external domain 1079/1708: pal.coffee
+Processing external domain 1080/1708: pal.com.de
+Processing external domain 1081/1708: pal.consulting
+Processing external domain 1082/1708: pal.contact
+Processing external domain 1083/1708: pal.coupons
+Processing external domain 1084/1708: pal.credit
+Processing external domain 1085/1708: pal.creditcard
+Processing external domain 1086/1708: pal.cruises
+Processing external domain 1087/1708: pal.cymru
+Processing external domain 1088/1708: pal.dance
+Processing external domain 1089/1708: pal.dating
+Processing external domain 1090/1708: pal.directory
+Processing external domain 1091/1708: pal.doctor
+Processing external domain 1092/1708: pal.domains
+Processing external domain 1093/1708: pal.engineering
+Processing external domain 1094/1708: pal.enterprises
+Processing external domain 1095/1708: pal.estate
+Processing external domain 1096/1708: pal.expert
+Processing external domain 1097/1708: pal.football
+Processing external domain 1098/1708: pal.forex
+Processing external domain 1099/1708: pal.futbol
+Processing external domain 1100/1708: pal.gay
+Processing external domain 1101/1708: pal.gift
+Processing external domain 1102/1708: pal.gives
+Processing external domain 1103/1708: pal.giving
+Processing external domain 1104/1708: pal.gold
+Processing external domain 1105/1708: pal.golf
+Processing external domain 1106/1708: pal.graphics
+Processing external domain 1107/1708: pal.hair
+Processing external domain 1108/1708: pal.hockey
+Processing external domain 1109/1708: pal.holiday
+Processing external domain 1110/1708: pal.industries
+Processing external domain 1111/1708: pal.insure
+Processing external domain 1112/1708: pal.investments
+Processing external domain 1113/1708: pal.jewelry
+Processing external domain 1114/1708: pal.kids
+Processing external domain 1115/1708: pal.kitchen
+Processing external domain 1116/1708: pal.lat
+Processing external domain 1117/1708: pal.lease
+Processing external domain 1118/1708: pal.makeup
+Processing external domain 1119/1708: pal.management
+Processing external domain 1120/1708: pal.markets
+Processing external domain 1121/1708: pal.moda
+Processing external domain 1122/1708: pal.moi
+Processing external domain 1123/1708: pal.mom
+Processing external domain 1124/1708: pal.mortgage
+Processing external domain 1125/1708: pal.motorcycles
+Processing external domain 1126/1708: pal.organic
+Processing external domain 1127/1708: pal.photography
+Processing external domain 1128/1708: pal.plumbing
+Processing external domain 1129/1708: pal.poker
+Processing external domain 1130/1708: pal.promo
+Processing external domain 1131/1708: pal.recipes
+Processing external domain 1132/1708: pal.rehab
+Processing external domain 1133/1708: pal.repair
+Processing external domain 1134/1708: pal.restaurant
+Processing external domain 1135/1708: pal.rip
+Processing external domain 1136/1708: pal.sarl
+Processing external domain 1137/1708: pal.shopping
+Processing external domain 1138/1708: pal.soccer
+Processing external domain 1139/1708: pal.solar
+Processing external domain 1140/1708: pal.taxi
+Processing external domain 1141/1708: pal.tips
+Processing external domain 1142/1708: pal.tours
+Processing external domain 1143/1708: pal.trading
+Processing external domain 1144/1708: pal.video
+Processing external domain 1145/1708: pal.villas
+Processing external domain 1146/1708: pal.voyage
+Processing external domain 1147/1708: pal.wine
+Processing external domain 1148/1708: pal.xin
+Processing external domain 1149/1708: pal.yachts
+Processing external domain 1150/1708: paleoglyph.com
+Processing external domain 1151/1708: pals.video
+Processing external domain 1152/1708: panoramicsolar.art
+Processing external domain 1153/1708: par.pics
+Processing external domain 1154/1708: paralysiscentral.com
+Processing external domain 1155/1708: parties.kids
+Processing external domain 1156/1708: party.systems
+Processing external domain 1157/1708: party.wang
+Processing external domain 1158/1708: partyboatperth.com.au
+Processing external domain 1159/1708: partyboatsperth.com.au
+Processing external domain 1160/1708: patent.rip
+Processing external domain 1161/1708: patientclients.com
+Error scraping patientclients.com: HTTPConnectionPool(host='patientclients.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='patientclients.com', port=80): Failed to resolve 'patientclients.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1162/1708: pattern.quest
+Processing external domain 1163/1708: pavillionpediatrics.net
+Processing external domain 1164/1708: paybarter.com
+Processing external domain 1165/1708: peaceout.cyou
+Processing external domain 1166/1708: peachvilla.com
+Processing external domain 1167/1708: pelican.boats
+Processing external domain 1168/1708: pelicancharters.ai
+Processing external domain 1169/1708: pelicancharters.au
+Processing external domain 1170/1708: pelicancharters.boats
+Processing external domain 1171/1708: pelicancharters.com.au
+Processing external domain 1172/1708: pelicancharters.com.au
+Processing external domain 1173/1708: penpal.beauty
+Processing external domain 1174/1708: penpal.bot
+Processing external domain 1175/1708: penpal.help
+Processing external domain 1176/1708: penpal.homes
+Processing external domain 1177/1708: penpal.lat
+Processing external domain 1178/1708: penpal.lol
+Processing external domain 1179/1708: penpal.mom
+Processing external domain 1180/1708: penpal.quest
+Processing external domain 1181/1708: penpal.us.com
+Processing external domain 1182/1708: penpal.wiki
+Processing external domain 1183/1708: peopleseyes.com
+Error scraping peopleseyes.com: HTTPConnectionPool(host='peopleseyes.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='peopleseyes.com', port=80): Failed to resolve 'peopleseyes.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1184/1708: periodt.meme
+Processing external domain 1185/1708: perth.boats
+Processing external domain 1186/1708: perth.pics
+Processing external domain 1187/1708: perthbuildingservice.com.au
+Processing external domain 1188/1708: perthcharters.page
+Processing external domain 1189/1708: perthrivercruise.com.au
+Processing external domain 1190/1708: phonk.club
+Processing external domain 1191/1708: phonk.video
+Processing external domain 1192/1708: phonk.wiki
+Processing external domain 1193/1708: piaofang.art
+Processing external domain 1194/1708: piaoyou.art
+Processing external domain 1195/1708: pica.quest
+Processing external domain 1196/1708: pickle.bingo
+Processing external domain 1197/1708: pickleball.beauty
+Processing external domain 1198/1708: pickleball.bid
+Creating embeddings for 100 new documents...
+Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.80s/it]Batches:  50%|█████     | 2/4 [00:03<00:03,  1.65s/it]Batches:  75%|███████▌  | 3/4 [00:05<00:01,  1.74s/it]Batches: 100%|██████████| 4/4 [00:05<00:00,  1.31s/it]
+Total corpus: 4271 documents
+Processing external domain 1199/1708: pickleball.contact
+Processing external domain 1200/1708: pickleball.feedback
+Processing external domain 1201/1708: pickleball.locker
+Processing external domain 1202/1708: pickleball.meme
+Processing external domain 1203/1708: pickleball.music
+Error scraping pickleball.music: HTTPSConnectionPool(host='pickleball.music', port=443): Read timed out. (read timeout=10)
+Processing external domain 1204/1708: pickleball.pink
+Processing external domain 1205/1708: pickleball.radio.fm
+Processing external domain 1206/1708: pickleball.spot
+Processing external domain 1207/1708: pickleball.srl
+Processing external domain 1208/1708: pickleball.surf
+Processing external domain 1209/1708: pigs.best
+Processing external domain 1210/1708: pigs.cam
+Processing external domain 1211/1708: pigs.lat
+Processing external domain 1212/1708: pigs.pics
+Processing external domain 1213/1708: pigs.surf
+Processing external domain 1214/1708: pigs.wine
+Processing external domain 1215/1708: pigsmightfly.cyou
+Processing external domain 1216/1708: planetearth.news
+Processing external domain 1217/1708: porcontrato.com
+Processing external domain 1218/1708: pork.skin
+Processing external domain 1219/1708: positive.best
+Processing external domain 1220/1708: positive.contact
+Processing external domain 1221/1708: positive.gripe
+Processing external domain 1222/1708: positive.wang
+Processing external domain 1223/1708: pov.gripe
+Processing external domain 1224/1708: pov.wang
+Processing external domain 1225/1708: practicalexec.com
+Processing external domain 1226/1708: premierlawyerservice.com
+Processing external domain 1227/1708: prensapopular.org
+Processing external domain 1228/1708: presentmirror.com
+Processing external domain 1229/1708: primecontent.app
+Processing external domain 1230/1708: primecontent.io
+Processing external domain 1231/1708: printingondemand.net
+Processing external domain 1232/1708: prntherapy.com
+Processing external domain 1233/1708: professional-insurances.com
+Processing external domain 1234/1708: prometheusescape.com
+Error scraping prometheusescape.com: HTTPConnectionPool(host='prometheusescape.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='prometheusescape.com', port=80): Failed to resolve 'prometheusescape.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1235/1708: protagentic.com
+Processing external domain 1236/1708: proxify.la
+Processing external domain 1237/1708: proxify.tv
+Processing external domain 1238/1708: pseo.business
+Processing external domain 1239/1708: pseo.fyi
+Error scraping pseo.fyi: HTTPConnectionPool(host='pseo.fyi', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='pseo.fyi', port=80): Failed to resolve 'pseo.fyi' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1240/1708: pseo.page
+Processing external domain 1241/1708: pseo.work
+Processing external domain 1242/1708: pseodev.com
+Error scraping pseodev.com: HTTPConnectionPool(host='pseodev.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='pseodev.com', port=80): Failed to resolve 'pseodev.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1243/1708: pseoweb.com
+Error scraping pseoweb.com: HTTPConnectionPool(host='pseoweb.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='pseoweb.com', port=80): Failed to resolve 'pseoweb.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1244/1708: pulchrum.art
+Processing external domain 1245/1708: punk.gripe
+Processing external domain 1246/1708: purebrainrot.meme
+Processing external domain 1247/1708: quicksliver.dev
+Processing external domain 1248/1708: quidni.fyi
+Processing external domain 1249/1708: radiomelosi.com
+Processing external domain 1250/1708: rafa.cam
+Processing external domain 1251/1708: rafa.dog
+Processing external domain 1252/1708: rafa.hiphop
+Processing external domain 1253/1708: rafa.wiki
+Processing external domain 1254/1708: rai.bar
+Processing external domain 1255/1708: rai.pink
+Processing external domain 1256/1708: rap.ceo
+Processing external domain 1257/1708: rappal.app
+Processing external domain 1258/1708: raps.video
+Processing external domain 1259/1708: rareggaeton.com
+Error scraping rareggaeton.com: HTTPConnectionPool(host='rareggaeton.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='rareggaeton.com', port=80): Failed to resolve 'rareggaeton.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1260/1708: ratelimited.meme
+Processing external domain 1261/1708: reaches.cyou
+Processing external domain 1262/1708: realestate.clothing
+Processing external domain 1263/1708: realestate.id.au
+Processing external domain 1264/1708: realestateai.biz
+Processing external domain 1265/1708: realhome.agency
+Processing external domain 1266/1708: realty.mba
+Processing external domain 1267/1708: record.deals
+Processing external domain 1268/1708: record.directory
+Processing external domain 1269/1708: records.wiki
+Processing external domain 1270/1708: reggaeton.wiki
+Processing external domain 1271/1708: reggaetons.video
+Processing external domain 1272/1708: reinaintencion.com
+Error scraping reinaintencion.com: HTTPConnectionPool(host='reinaintencion.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='reinaintencion.com', port=80): Failed to resolve 'reinaintencion.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1273/1708: rencontreafricaine.app
+Processing external domain 1274/1708: rencontrecelibataire.app
+Processing external domain 1275/1708: rentfree.meme
+Processing external domain 1276/1708: reset.best
+Processing external domain 1277/1708: resolved.cyou
+Processing external domain 1278/1708: restorevault.xyz
+Processing external domain 1279/1708: retirementvillas.com
+Processing external domain 1280/1708: reversepep.com
+Processing external domain 1281/1708: revv.best
+Processing external domain 1282/1708: revv.cc
+Processing external domain 1283/1708: revv.company
+Processing external domain 1284/1708: revv.insure
+Processing external domain 1285/1708: revv.lat
+Processing external domain 1286/1708: revv.me.uk
+Processing external domain 1287/1708: revv.motorcycles
+Processing external domain 1288/1708: revv.quest
+Processing external domain 1289/1708: revv.top
+Processing external domain 1290/1708: revv.tours
+Processing external domain 1291/1708: revv.travel
+Processing external domain 1292/1708: revv.website
+Processing external domain 1293/1708: revvtravel.wiki
+Processing external domain 1294/1708: revvtravel.world
+Processing external domain 1295/1708: revvtravel.xyz
+Processing external domain 1296/1708: revyriders.com
+Processing external domain 1297/1708: rhrhmn.ai
+Processing external domain 1298/1708: rhrhmn.app
+Processing external domain 1299/1708: rhrhmn.io
+Processing external domain 1300/1708: ridgewaterinc.com
+Processing external domain 1301/1708: rips.video
+Processing external domain 1302/1708: ripwiki.com
+Processing external domain 1303/1708: rlty.digital
+Processing external domain 1304/1708: rlty.net
+Processing external domain 1305/1708: rmkt.net
+Processing external domain 1306/1708: robinsoncrusoe1719.com
+Processing external domain 1307/1708: rocker.video
+Processing external domain 1308/1708: rose.cards
+Processing external domain 1309/1708: roses.wiki
+Processing external domain 1310/1708: rottnest.boats
+Processing external domain 1311/1708: rottnest.pics
+Processing external domain 1312/1708: rottnestcharter.com.au
+Processing external domain 1313/1708: sai.pink
+Processing external domain 1314/1708: salestrack.net
+Processing external domain 1315/1708: sar.ong
+Error scraping sar.ong: HTTPConnectionPool(host='sar.ong', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='sar.ong', port=80): Failed to resolve 'sar.ong' ([Errno -2] Name or service not known)"))
+Processing external domain 1316/1708: save.com.de
+Processing external domain 1317/1708: saveonthefly.wiki
+Processing external domain 1318/1708: sayonara.cyou
+Processing external domain 1319/1708: scans.cyou
+Processing external domain 1320/1708: seam.beauty
+Processing external domain 1321/1708: seam.quest
+Processing external domain 1322/1708: seamstress.beauty
+Processing external domain 1323/1708: seamstress.quest
+Processing external domain 1324/1708: searchitcentral.com
+Processing external domain 1325/1708: seattlemovingservices.com
+Processing external domain 1326/1708: seattleperks.com
+Processing external domain 1327/1708: securityalarmperth.com.au
+Processing external domain 1328/1708: securitygrillsperth.com.au
+Processing external domain 1329/1708: seeyoulater.cyou
+Processing external domain 1330/1708: semioticsaid.com
+Error scraping semioticsaid.com: HTTPConnectionPool(host='semioticsaid.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='semioticsaid.com', port=80): Failed to resolve 'semioticsaid.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1331/1708: seoconsultant-uk.com
+Processing external domain 1332/1708: seositeexplorer.com
+Processing external domain 1333/1708: server.courses
+Processing external domain 1334/1708: server.insure
+Processing external domain 1335/1708: serveroverload.meme
+Processing external domain 1336/1708: sherlockholmesorigin.com
+Processing external domain 1337/1708: shopal.com.au
+Processing external domain 1338/1708: shopals.com.au
+Processing external domain 1339/1708: shuttle.wiki
+Processing external domain 1340/1708: signalconductor.dev
+Processing external domain 1341/1708: signalconductor.xyz
+Processing external domain 1342/1708: silver-jewelers.com
+Processing external domain 1343/1708: silver.cheap
+Processing external domain 1344/1708: silver.enterprises
+Processing external domain 1345/1708: simpalife.com
+Processing external domain 1346/1708: simplewaterfuel.com
+Processing external domain 1347/1708: sing.bingo
+Processing external domain 1348/1708: sing.cab
+Processing external domain 1349/1708: sing.cards
+Processing external domain 1350/1708: sing.ceo
+Processing external domain 1351/1708: sing.codes
+Processing external domain 1352/1708: sing.courses
+Processing external domain 1353/1708: sing.doctor
+Processing external domain 1354/1708: sing.exchange
+Processing external domain 1355/1708: sing.llc
+Processing external domain 1356/1708: sing.pet
+Processing external domain 1357/1708: sing.rip
+Processing external domain 1358/1708: sing.surf
+Processing external domain 1359/1708: singitback.cyou
+Processing external domain 1360/1708: singpal.ai
+Processing external domain 1361/1708: singpal.app
+Processing external domain 1362/1708: singpal.cyou
+Processing external domain 1363/1708: singpal.io
+Processing external domain 1364/1708: singpal.net
+Processing external domain 1365/1708: singpal.org
+Processing external domain 1366/1708: singpals.com
+Processing external domain 1367/1708: sings.cyou
+Processing external domain 1368/1708: sings.fun
+Processing external domain 1369/1708: sings.lol
+Processing external domain 1370/1708: sings.my
+Processing external domain 1371/1708: sings.ong
+Error scraping sings.ong: HTTPConnectionPool(host='sings.ong', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='sings.ong', port=80): Failed to resolve 'sings.ong' ([Errno -2] Name or service not known)"))
+Processing external domain 1372/1708: sings.pro
+Processing external domain 1373/1708: sjds.casa
+Processing external domain 1374/1708: sjds.fyi
+Processing external domain 1375/1708: sjds.homes
+Processing external domain 1376/1708: ska.lat
+Processing external domain 1377/1708: slay.meme
+Processing external domain 1378/1708: sleeptelemedicine.com
+Processing external domain 1379/1708: sludgebludge.com
+Error scraping sludgebludge.com: HTTPConnectionPool(host='sludgebludge.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='sludgebludge.com', port=80): Failed to resolve 'sludgebludge.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1380/1708: slumberland1905.com
+Processing external domain 1381/1708: smartshadow.dev
+Processing external domain 1382/1708: smelloulater.cyou
+Processing external domain 1383/1708: sn.observer
+Processing external domain 1384/1708: snotdev.com
+Error scraping snotdev.com: HTTPConnectionPool(host='snotdev.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='snotdev.com', port=80): Failed to resolve 'snotdev.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1385/1708: sols.cafe
+Processing external domain 1386/1708: somethingwentwrong.help
+Processing external domain 1387/1708: song.builders
+Processing external domain 1388/1708: song.cab
+Processing external domain 1389/1708: song.ceo
+Processing external domain 1390/1708: song.contact
+Processing external domain 1391/1708: song.courses
+Processing external domain 1392/1708: songbook.cyou
+Processing external domain 1393/1708: songible.com
+Processing external domain 1394/1708: songpal.ai
+Processing external domain 1395/1708: songpal.app
+Processing external domain 1396/1708: songpal.bond
+Processing external domain 1397/1708: songpal.click
+Processing external domain 1398/1708: songpal.co.nz
+Processing external domain 1399/1708: songpal.cyou
+Processing external domain 1400/1708: songpal.dev
+Processing external domain 1401/1708: songpal.io
+Processing external domain 1402/1708: songpal.live
+Processing external domain 1403/1708: songpal.me
+Processing external domain 1404/1708: songpal.net
+Processing external domain 1405/1708: songpal.org
+Processing external domain 1406/1708: songpal.studio
+Creating embeddings for 100 new documents...
+Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.89s/it]Batches:  50%|█████     | 2/4 [00:03<00:03,  1.86s/it]Batches:  75%|███████▌  | 3/4 [00:04<00:01,  1.15s/it]Batches: 100%|██████████| 4/4 [00:04<00:00,  1.01s/it]
+Total corpus: 4371 documents
+Processing external domain 1407/1708: songpal.top
+Processing external domain 1408/1708: songpal.xyz
+Processing external domain 1409/1708: songpalrecords.com
+Processing external domain 1410/1708: songsz.com
+Processing external domain 1411/1708: sound.band
+Processing external domain 1412/1708: sound.directory
+Processing external domain 1413/1708: sound.discount
+Processing external domain 1414/1708: sound.gripe
+Processing external domain 1415/1708: sound.lease
+Processing external domain 1416/1708: sound.radio.am
+Processing external domain 1417/1708: sound.radio.fm
+Processing external domain 1418/1708: sound.singles
+Processing external domain 1419/1708: soundzone.net
+Processing external domain 1420/1708: southafricanlawyers.com
+Processing external domain 1421/1708: speakerbeat.com
+Error scraping speakerbeat.com: HTTPConnectionPool(host='speakerbeat.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='speakerbeat.com', port=80): Failed to resolve 'speakerbeat.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1422/1708: spec2code.dev
+Processing external domain 1423/1708: spinndrop.dance
+Processing external domain 1424/1708: spinningdrop.com
+Processing external domain 1425/1708: spinningdrop.fit
+Processing external domain 1426/1708: spinningdrop.net
+Processing external domain 1427/1708: spinningdrop.shop
+Processing external domain 1428/1708: starsofstage.com
+Processing external domain 1429/1708: startingnow.cyou
+Processing external domain 1430/1708: startyourwebpage.com
+Processing external domain 1431/1708: staycool.cyou
+Processing external domain 1432/1708: stellarfuzz.com
+Processing external domain 1433/1708: stems.video
+Processing external domain 1434/1708: stgeorgelots.com
+Processing external domain 1435/1708: stoppedsmoking.com
+Processing external domain 1436/1708: sublime.wiki
+Processing external domain 1437/1708: sublimeoracle.com
+Processing external domain 1438/1708: sublimeoracle.net
+Processing external domain 1439/1708: superspin.art
+Processing external domain 1440/1708: supramens.fyi
+Processing external domain 1441/1708: swanriver.boats
+Processing external domain 1442/1708: swanriver.pics
+Processing external domain 1443/1708: swanriverboatcharters.com.au
+Processing external domain 1444/1708: swanriverboathire.com.au
+Processing external domain 1445/1708: swanrivercharter.com.au
+Processing external domain 1446/1708: swanriverpartyboat.com.au
+Processing external domain 1447/1708: swen.dog
+Processing external domain 1448/1708: swen.mom
+Processing external domain 1449/1708: swen.my
+Processing external domain 1450/1708: swiftvibe.co
+Processing external domain 1451/1708: syklus.com
+Processing external domain 1452/1708: synagentai.com
+Processing external domain 1453/1708: sync.observer
+Processing external domain 1454/1708: sync.pictures
+Processing external domain 1455/1708: sync.pink
+Processing external domain 1456/1708: sync.rip
+Processing external domain 1457/1708: sync.tips
+Processing external domain 1458/1708: synclocal.dev
+Processing external domain 1459/1708: syncrovault.com
+Processing external domain 1460/1708: syncs.cyou
+Processing external domain 1461/1708: syncyourfile.cloud
+Processing external domain 1462/1708: syncyourfile.com
+Processing external domain 1463/1708: syncyourfile.fyi
+Processing external domain 1464/1708: syncyourfile.gripe
+Processing external domain 1465/1708: syncyourfile.help
+Processing external domain 1466/1708: syncyourfile.online
+Processing external domain 1467/1708: syncyourfile.top
+Processing external domain 1468/1708: syncyourfile.wiki
+Processing external domain 1469/1708: syncyourfile.xyz
+Processing external domain 1470/1708: syntacticsai.com
+Error scraping syntacticsai.com: HTTPConnectionPool(host='syntacticsai.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='syntacticsai.com', port=80): Failed to resolve 'syntacticsai.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1471/1708: syntag.meme
+Processing external domain 1472/1708: syntaxcontextintent.com
+Error scraping syntaxcontextintent.com: HTTPConnectionPool(host='syntaxcontextintent.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='syntaxcontextintent.com', port=80): Failed to resolve 'syntaxcontextintent.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1473/1708: syslogic.org
+Processing external domain 1474/1708: tai.fish
+Processing external domain 1475/1708: tai.pink
+Processing external domain 1476/1708: talktoyoulater.cyou
+Processing external domain 1477/1708: tapebackups.com
+Processing external domain 1478/1708: teak-furniture.com
+Processing external domain 1479/1708: teak.bar
+Processing external domain 1480/1708: teak.beauty
+Processing external domain 1481/1708: teak.best
+Processing external domain 1482/1708: teak.boats
+Processing external domain 1483/1708: teak.builders
+Processing external domain 1484/1708: teak.casa
+Processing external domain 1485/1708: teak.construction
+Processing external domain 1486/1708: teak.deals
+Processing external domain 1487/1708: teak.lat
+Processing external domain 1488/1708: teak.my
+Processing external domain 1489/1708: teak.pics
+Processing external domain 1490/1708: teak.video
+Processing external domain 1491/1708: teca.lat
+Processing external domain 1492/1708: tempusloquendi.com
+Error scraping tempusloquendi.com: HTTPConnectionPool(host='tempusloquendi.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='tempusloquendi.com', port=80): Failed to resolve 'tempusloquendi.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1493/1708: termstate.com
+Processing external domain 1494/1708: testingpatients.com
+Error scraping testingpatients.com: HTTPConnectionPool(host='testingpatients.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='testingpatients.com', port=80): Failed to resolve 'testingpatients.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1495/1708: tet.band
+Processing external domain 1496/1708: tetra.com.de
+Processing external domain 1497/1708: text2song.cyou
+Processing external domain 1498/1708: textgo.video
+Processing external domain 1499/1708: textyou.cyou
+Processing external domain 1500/1708: theaidental.com
+Processing external domain 1501/1708: thearmoury.agency
+Processing external domain 1502/1708: thechurchai.com
+Processing external domain 1503/1708: thefirstdetective.com
+Error scraping thefirstdetective.com: HTTPConnectionPool(host='thefirstdetective.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='thefirstdetective.com', port=80): Failed to resolve 'thefirstdetective.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1504/1708: thegivenname.com
+Processing external domain 1505/1708: thegrandballroom.com
+Processing external domain 1506/1708: theinconnection.com
+Processing external domain 1507/1708: themand.meme
+Processing external domain 1508/1708: theremotefinder.com
+Processing external domain 1509/1708: theworldlog.org
+Processing external domain 1510/1708: thexeye.com
+Processing external domain 1511/1708: thingsgirlslike.com
+Error scraping thingsgirlslike.com: HTTPConnectionPool(host='thingsgirlslike.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='thingsgirlslike.com', port=80): Failed to resolve 'thingsgirlslike.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1512/1708: thisalgorithmiclife.com
+Processing external domain 1513/1708: thlq.net
+Processing external domain 1514/1708: tiburon.casa
+Processing external domain 1515/1708: tiburon.surf
+Processing external domain 1516/1708: ticketbug.com
+Processing external domain 1517/1708: timemachine1895.com
+Processing external domain 1518/1708: tinysoftwaresolutions.com
+Processing external domain 1519/1708: tonespecialist.net
+Processing external domain 1520/1708: tony.video
+Processing external domain 1521/1708: toodles.cyou
+Processing external domain 1522/1708: touches.cyou
+Processing external domain 1523/1708: tracks.video
+Processing external domain 1524/1708: trackyourmusic.com
+Processing external domain 1525/1708: trap.video
+Processing external domain 1526/1708: trendingmp3.com
+Processing external domain 1527/1708: truth.repair
+Processing external domain 1528/1708: tryagainlater.meme
+Processing external domain 1529/1708: trymiliagents.com
+Processing external domain 1530/1708: twalkietalkie.com
+Error scraping twalkietalkie.com: HTTPConnectionPool(host='twalkietalkie.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='twalkietalkie.com', port=80): Failed to resolve 'twalkietalkie.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1531/1708: twinmirror.me
+Processing external domain 1532/1708: twoyolk.com
+Processing external domain 1533/1708: txt.ceo
+Processing external domain 1534/1708: txt.contact
+Processing external domain 1535/1708: txt.doctor
+Processing external domain 1536/1708: txt.legal
+Processing external domain 1537/1708: txt.tax
+Processing external domain 1538/1708: txt.toys
+Processing external domain 1539/1708: ubet.cyou
+Processing external domain 1540/1708: uflixit.com
+Processing external domain 1541/1708: ujoin.cyou
+Processing external domain 1542/1708: ultimatebarter.com
+Processing external domain 1543/1708: ultracaredentalclinic.com
+Processing external domain 1544/1708: unicore3d.com
+Processing external domain 1545/1708: unieyess.com
+Processing external domain 1546/1708: universityofsantamonica.com
+Processing external domain 1547/1708: untilnexttime.cyou
+Processing external domain 1548/1708: untilthen.cyou
+Processing external domain 1549/1708: upick.cyou
+Processing external domain 1550/1708: uplay.cyou
+Processing external domain 1551/1708: uquiz.cyou
+Processing external domain 1552/1708: ur.gripe
+Processing external domain 1553/1708: ur.legal
+Processing external domain 1554/1708: ur14.com
+Processing external domain 1555/1708: ur25.com
+Processing external domain 1556/1708: urbano.video
+Processing external domain 1557/1708: urbanomusica.com
+Error scraping urbanomusica.com: HTTPConnectionPool(host='urbanomusica.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='urbanomusica.com', port=80): Failed to resolve 'urbanomusica.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1558/1708: urgency.page
+Processing external domain 1559/1708: urgencynews.com
+Processing external domain 1560/1708: user.observer
+Processing external domain 1561/1708: userabusers.com
+Error scraping userabusers.com: HTTPConnectionPool(host='userabusers.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='userabusers.com', port=80): Failed to resolve 'userabusers.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1562/1708: usererror.fyi
+Processing external domain 1563/1708: using.cyou
+Processing external domain 1564/1708: usysware.com
+Processing external domain 1565/1708: v12.engineer
+Processing external domain 1566/1708: v12engine.com
+Processing external domain 1567/1708: validme.app
+Processing external domain 1568/1708: vancouverdentalcare.com
+Processing external domain 1569/1708: varicoseveincentral.com
+Processing external domain 1570/1708: vaultsfault.com
+Processing external domain 1571/1708: vcsafrica.com
+Processing external domain 1572/1708: vds.engineer
+Processing external domain 1573/1708: venividivici.fyi
+Processing external domain 1574/1708: verbaljoust.com
+Error scraping verbaljoust.com: HTTPConnectionPool(host='verbaljoust.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='verbaljoust.com', port=80): Failed to resolve 'verbaljoust.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1575/1708: verbumnunc.com
+Error scraping verbumnunc.com: HTTPConnectionPool(host='verbumnunc.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='verbumnunc.com', port=80): Failed to resolve 'verbumnunc.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1576/1708: vergelijkverzekeringen.com
+Processing external domain 1577/1708: verrtravel.agency
+Processing external domain 1578/1708: vibing.cyou
+Processing external domain 1579/1708: vibing.meme
+Processing external domain 1580/1708: vibing.wiki
+Creating embeddings for 100 new documents...
+Batches:   0%|          | 0/4 [00:00<?, ?it/s]Batches:  25%|██▌       | 1/4 [00:01<00:05,  1.97s/it]Batches:  50%|█████     | 2/4 [00:02<00:02,  1.13s/it]Batches:  75%|███████▌  | 3/4 [00:02<00:00,  1.33it/s]Batches: 100%|██████████| 4/4 [00:02<00:00,  1.40it/s]
+Total corpus: 4471 documents
+Processing external domain 1581/1708: video.rich
+Processing external domain 1582/1708: videosme.com
+Processing external domain 1583/1708: vidz.video
+Processing external domain 1584/1708: villazio.com
+Processing external domain 1585/1708: vivaenmexico.com
+Processing external domain 1586/1708: vncomm.com
+Processing external domain 1587/1708: voxare.com
+Processing external domain 1588/1708: vpn64.com
+Processing external domain 1589/1708: wantmeto.com
+Error scraping wantmeto.com: HTTPConnectionPool(host='wantmeto.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='wantmeto.com', port=80): Failed to resolve 'wantmeto.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1590/1708: wappingersfallsbraces.com
+Processing external domain 1591/1708: wappingersfallsorthodontist.com
+Processing external domain 1592/1708: water.gripe
+Processing external domain 1593/1708: water.isla.pr
+Processing external domain 1594/1708: water.rip
+Processing external domain 1595/1708: waterflowtechnologies.com
+Processing external domain 1596/1708: webtravelcenter.com
+Processing external domain 1597/1708: webuildlinks.com
+Processing external domain 1598/1708: wedding.enterprises
+Processing external domain 1599/1708: wedding.lat
+Processing external domain 1600/1708: weddingscatering.com
+Processing external domain 1601/1708: weguaranteeprivacy.com
+Processing external domain 1602/1708: wen.cards
+Processing external domain 1603/1708: wen.dog
+Processing external domain 1604/1708: wen.onl
+Processing external domain 1605/1708: wen.pics
+Processing external domain 1606/1708: wen.rest
+Processing external domain 1607/1708: westernaustralia.pics
+Processing external domain 1608/1708: whatdontyouknow.com
+Error scraping whatdontyouknow.com: HTTPConnectionPool(host='whatdontyouknow.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='whatdontyouknow.com', port=80): Failed to resolve 'whatdontyouknow.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1609/1708: wheni.cyou
+Processing external domain 1610/1708: wheres.meme
+Processing external domain 1611/1708: whichwitchsnitch.com
+Processing external domain 1612/1708: whileyourasleep.com
+Processing external domain 1613/1708: who.isla.pr
+Processing external domain 1614/1708: whois.isla.pr
+Processing external domain 1615/1708: whoisto.com
+Processing external domain 1616/1708: whoistoo.com
+Processing external domain 1617/1708: whowhatwherewhenwhynhow.com
+Error scraping whowhatwherewhenwhynhow.com: HTTPConnectionPool(host='whowhatwherewhenwhynhow.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='whowhatwherewhenwhynhow.com', port=80): Failed to resolve 'whowhatwherewhenwhynhow.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1618/1708: why.bingo
+Processing external domain 1619/1708: why.center
+Processing external domain 1620/1708: why.ceo
+Processing external domain 1621/1708: why.contact
+Processing external domain 1622/1708: why.doctor
+Processing external domain 1623/1708: why.moi
+Processing external domain 1624/1708: why.ski
+Processing external domain 1625/1708: whyai.cyou
+Processing external domain 1626/1708: whyailies.com
+Processing external domain 1627/1708: whymoi.cyou
+Processing external domain 1628/1708: wider.miami
+Processing external domain 1629/1708: wife4.life
+Processing external domain 1630/1708: wifefor.life
+Processing external domain 1631/1708: wiki.rip
+Processing external domain 1632/1708: wikimusic.dev
+Processing external domain 1633/1708: wikirip.dev
+Processing external domain 1634/1708: wikirip.rip
+Processing external domain 1635/1708: wildonjaco.com
+Processing external domain 1636/1708: willnotsleep.com
+Processing external domain 1637/1708: wisge.com
+Processing external domain 1638/1708: witchsnitcher.com
+Processing external domain 1639/1708: wordplay.bingo
+Processing external domain 1640/1708: workikigai.com
+Error scraping workikigai.com: HTTPConnectionPool(host='workikigai.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='workikigai.com', port=80): Failed to resolve 'workikigai.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1641/1708: wrabbit.ai
+Processing external domain 1642/1708: wrabbit.app
+Processing external domain 1643/1708: wrabbit.click
+Processing external domain 1644/1708: xclee.com
+Processing external domain 1645/1708: xtractorfans.com
+Processing external domain 1646/1708: yaldo.net
+Processing external domain 1647/1708: yatchs.video
+Processing external domain 1648/1708: ynot.beauty
+Processing external domain 1649/1708: ynot.boats
+Processing external domain 1650/1708: ynot.courses
+Processing external domain 1651/1708: ynot.cyou
+Processing external domain 1652/1708: ynot.dance
+Processing external domain 1653/1708: ynot.gold
+Processing external domain 1654/1708: ynot.guru
+Processing external domain 1655/1708: ynot.hair
+Processing external domain 1656/1708: ynot.lat
+Processing external domain 1657/1708: ynot.makeup
+Processing external domain 1658/1708: ynot.quest
+Processing external domain 1659/1708: ynot.skin
+Processing external domain 1660/1708: ynot.surf
+Processing external domain 1661/1708: ynot.video
+Processing external domain 1662/1708: ynot.watch
+Processing external domain 1663/1708: ynot.wine
+Processing external domain 1664/1708: ynot.xin
+Processing external domain 1665/1708: ynot.yachts
+Processing external domain 1666/1708: youlittle.dev
+Processing external domain 1667/1708: youlittledev.com
+Processing external domain 1668/1708: your.engineering
+Processing external domain 1669/1708: your.fish
+Processing external domain 1670/1708: your.hockey
+Processing external domain 1671/1708: your.jetzt
+Processing external domain 1672/1708: your.kaufen
+Processing external domain 1673/1708: youraidental.com
+Processing external domain 1674/1708: yourheiness.com
+Error scraping yourheiness.com: HTTPConnectionPool(host='yourheiness.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='yourheiness.com', port=80): Failed to resolve 'yourheiness.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1675/1708: yourrightai.com
+Processing external domain 1676/1708: zal.gold
+Processing external domain 1677/1708: zerotocode.dev
+Processing external domain 1678/1708: zigumarket.com
+Processing external domain 1679/1708: zoneofprivacy.com
+Processing external domain 1680/1708: zyn.skin
+Processing external domain 1681/1708: zynclaw.fyi
+Processing external domain 1682/1708: zyncontext.ai
+Processing external domain 1683/1708: zynjj.com
+Processing external domain 1684/1708: zynmaestro.com
+Error scraping zynmaestro.com: HTTPConnectionPool(host='zynmaestro.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='zynmaestro.com', port=80): Failed to resolve 'zynmaestro.com' ([Errno -5] No address associated with hostname)"))
+Processing external domain 1685/1708: zynmaestro.xyz
+Processing external domain 1686/1708: zynmind.rocks
+Processing external domain 1687/1708: zynmind.xyz
+Processing external domain 1688/1708: zynrip.app
+Processing external domain 1689/1708: zynrip.me
+Processing external domain 1690/1708: zynrose.app
+Processing external domain 1691/1708: zynrose.xyz
+Processing external domain 1692/1708: zynthio.ai
+Processing external domain 1693/1708: zynthio.app
+Processing external domain 1694/1708: zynthio.co.nz
+Processing external domain 1695/1708: zynthio.cyou
+Processing external domain 1696/1708: zynthio.help
+Processing external domain 1697/1708: zynthio.icu
+Processing external domain 1698/1708: zynthio.io
+Processing external domain 1699/1708: zynthio.lat
+Processing external domain 1700/1708: zynthio.music
+Processing external domain 1701/1708: zynthio.net
+Processing external domain 1702/1708: zynthio.quest
+Processing external domain 1703/1708: zynthio.stream
+Processing external domain 1704/1708: zynthio.wiki
+Processing external domain 1705/1708: zynthio.xyz
+Processing external domain 1706/1708: zzaj.live
+Processing external domain 1707/1708: zzaj.lol
+Processing external domain 1708/1708: zzaj.video
+Creating embeddings for 91 new documents...
+Batches:   0%|          | 0/3 [00:00<?, ?it/s]Batches:  33%|███▎      | 1/3 [00:01<00:03,  1.85s/it]Batches:  67%|██████▋   | 2/3 [00:02<00:00,  1.04it/s]Batches: 100%|██████████| 3/3 [00:02<00:00,  1.58it/s]Batches: 100%|██████████| 3/3 [00:02<00:00,  1.23it/s]
+Total corpus: 4562 documents
+External domain ingestion complete

@@ -1,0 +1,31 @@
+PORKBUN API FIX - 2026-08-20
+============================
+
+ROOT CAUSE IDENTIFIED:
+- Scripts were using wrong API base URL: porkbun.com/api/json/v3
+- Correct URL: api.porkbun.com/api/json/v3 (subdomain api.)
+- This caused 403 Forbidden errors from marketing site, not API server
+
+FIXES APPLIED:
+1. Updated all Porkbun scripts to use correct API base URL
+2. Updated API credentials to latest keys from porkie.txt
+3. Switched to header-based authentication (recommended method)
+4. Fixed domain extraction to handle dict response format
+
+CURRENT CREDENTIALS:
+API Key: pk1_6f31c072da949de78af42a38e0e6a2f12d509c4fc04cb638a263f437130a1a7a
+Secret Key: sk1_9f6bc019b58fd3fa5a20407d4293031149ced68e493f71d80599ee6ffb311399
+
+FILES UPDATED:
+- porkbun_export.py (VDS main script)
+- porkbun_domains.py (VDS alternative script)
+- porkbun_export_macbook.py (MacBook version, synced to VDS)
+
+TEST RESULTS:
+- Successfully exported 1000 domains from Porkbun
+- File size: 13.5KB (txt) + 274KB (json)
+- API now responding correctly with JSON responses
+
+VERIFICATION:
+Run: python3 /root/zynthio/corpus/porkbun_export.py
+Expected: Status: 200, Found domains, Saved to /tmp/porkbun_domains.txt

@@ -1,9 +1,9 @@
 # MASTER DOMAIN LIST — LIVE
-**Signal:** 336 · **Updated:** 2026-08-19T19:24:48+00:00
+**Signal:** 336 · **Updated:** 2026-08-21T13:19:21+00:00
 **Groundhog fix:** this file is the canonical domain truth. Refresh: `python3 18JUNE/scripts/master_domain_list_builder.py` — never re-derive from scratch.
 
 ## Counts
-- **Total:** 1622 · Porkbun: 1592 · Cloudflare registrar: 0 · both: 0
+- **Total:** 1596 · Porkbun: 1596 · Cloudflare registrar: 0 · both: 0
 - CF registrar error: HTTP Error 403: Forbidden
 
 ## Oldest 20 (age years)
@@ -37,17 +37,3 @@
 ## Files
 - Full JSON: `desk/MASTER_DOMAIN_LIST_LIVE.json`
 - CSV (ages, expiry): `desk/MASTER_DOMAIN_LIST_LIVE.csv`
-
----
-## GROUNDHOG KILLER — CF registrar lane (2026-08-19)
-- Canon: `handover/INCIDENT_API_A_DAY_GROUNDHOG_20260814.json` + `INCIDENT_AI_GROUNDHOG_DAY_8_MONTHS_DEPLOYMENT_FAILURE_20260802.json` + `songs/SONG_API_GONE_AWAY_COREY_20260724.md`.
-- **Token API for Cloudflare registrar = DEAD END. Verified 2026-08-19: ALL 7 credentials denied** (3 Mac tokens, 4 VDS tokens, global key ×2 emails — 403/401, none carry `Registrar:Read`).
-- **DO NOT retry token/global-key lookups for the CF lane. DO NOT ask the operator for new keys** (API-a-day ban). The 138-registrar pull is NOT the mission; the master list is.
-- **Working path (only):** operator pastes CF domain-list pages → RDAP-verify → `desk/cf_registered_snapshot.json` (30/138 done).
-- Porkbun lane (1,592) is API-complete with ages. CF lane is a labeled snapshot lane until pasted pages arrive.
-
----
-## READ-FIRST RULE (incident 2026-08-19)
-- **Any session touching domains: read this file FIRST. Never re-derive.**
-- Predecessor with CF-zone columns (merge planned): `MASTER_DOMAIN_HOLISTIC_20260813.csv` (1703 domains, in_porkbun/in_cloudflare/expiry/cf_plan/cf_status).
-- Incidents: `handover/INCIDENT_MASTER_DOMAIN_LIST_MADE_MANY_TIMES_NEVER_CANONICAL_20260819.json` · `handover/INCIDENT_API_A_DAY_9_MONTHS_TOKEN_WALL_20260819.json`
