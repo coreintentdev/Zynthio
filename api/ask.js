@@ -1,6 +1,6 @@
 const ORIGIN = 'https://zynthio.ai';
 
-// Copy of the brand cards already in public/index.html. Not the live CoreyAI tree.
+// Brand cards already in public/index.html. Not the live VDS trees.
 const SITES = [
   {
     keys: ['zynthio.ai', 'zynthio.com', 'zynthio'],
@@ -11,12 +11,15 @@ const SITES = [
     source: 'public/index.html'
   },
   {
-    keys: ['coreyai.ai', 'coreyai.com', 'coreyai', 'coreeyai', 'corey ai'],
+    keys: ['coreyai.ai', 'coreyai', 'coreeyai', 'corey ai'],
     name: 'CoreeyAI',
     role: 'AI intelligence layer',
     description: 'Multi-model orchestration engine. Claude, Grok, Perplexity routed through a hexagonal adapter layer with deterministic rule engines (PHREAK algorithm). The brain behind the trading decisions.',
-    urls: ['https://coreyai.ai', 'https://coreyai.com'],
-    source: 'public/index.html'
+    urls: ['https://coreyai.ai'],
+    source: 'public/index.html',
+    live_files: { present: false, path: '/var/www/html/coreyai.ai' },
+    public: { url: 'https://coreyai.ai', note: 'HTTP 403 from the public internet' },
+    not_ours: [{ host: 'coreyai.com', note: 'parked Afternic/GoDaddy — not owned' }]
   },
   {
     keys: ['songpal.ai', 'songpal'],
@@ -27,19 +30,19 @@ const SITES = [
     source: 'public/index.html'
   },
   {
-    keys: ['mosoko.com', 'mosoko'],
+    keys: ['mosoko.ai', 'mosoko.io', 'mosoko'],
     name: 'MOSOKO',
     role: 'Fashion & creative design',
     description: 'Streetwear and creative fashion brand. Cultural fusion design with Aotearoa roots. Currently in design/concept phase with curriculum and product line in development.',
-    urls: ['https://mosoko.com'],
+    urls: ['https://mosoko.ai'],
     source: 'public/index.html'
   },
   {
-    keys: ['kervalon.com', 'kervalon'],
+    keys: ['kervalon.ai', 'kervalon'],
     name: 'KERVALON',
     role: 'Education & research',
     description: 'Educational technology and research platform. Curriculum development, AI-assisted learning, and knowledge architecture. Building the next generation of creative-tech education.',
-    urls: ['https://kervalon.com'],
+    urls: ['https://kervalon.ai'],
     source: 'public/index.html'
   },
   {
@@ -60,37 +63,56 @@ const SITES = [
   }
 ];
 
-const MISSING = {
-  'zyncontext.ai': 'not in this repo',
-  'sublimeoracle.com': 'not in this repo',
-  'agentictwin.dev': 'not in this repo'
+const NOT_IN_THIS_REPO = {
+  'coreyai.com': {
+    error: 'not ours',
+    host: 'coreyai.com',
+    note: 'parked Afternic/GoDaddy — not owned'
+  },
+  'zyncontext.ai': {
+    error: 'not in this repo',
+    host: 'zyncontext.ai',
+    missing: '/root/sites/zyncontext'
+  },
+  'sublimeoracle.com': {
+    error: 'not in this repo',
+    host: 'sublimeoracle.com',
+    missing: 'not in this repo'
+  },
+  'agentictwin.dev': {
+    error: 'not in this repo',
+    host: 'agentictwin.dev',
+    missing: 'not in this repo'
+  }
 };
+
+function payload(site) {
+  const body = {
+    name: site.name,
+    role: site.role,
+    description: site.description,
+    urls: site.urls,
+    source: site.source
+  };
+  if (site.live_files) body.live_files = site.live_files;
+  if (site.public) body.public = site.public;
+  if (site.not_ours) body.not_ours = site.not_ours;
+  return body;
+}
 
 export function answer(question) {
   const q = String(question || '').toLowerCase();
   if (!q.trim()) return { status: 400, body: { error: 'question required' } };
 
-  for (const host of Object.keys(MISSING)) {
-    if (q.includes(host.replace('.ai', '').replace('.com', '').replace('.dev', '')) || q.includes(host)) {
-      return { status: 404, body: { error: 'not in this repo', host, missing: MISSING[host] } };
-    }
+  for (const host of Object.keys(NOT_IN_THIS_REPO)) {
+    if (!q.includes(host)) continue;
+    if (host === 'coreyai.com' && q.includes('coreyai.ai')) continue;
+    return { status: 404, body: NOT_IN_THIS_REPO[host] };
   }
 
   const site = SITES.find((s) => s.keys.some((key) => q.includes(key)));
-  if (!site) {
-    return { status: 404, body: { error: 'not in this repo' } };
-  }
-
-  return {
-    status: 200,
-    body: {
-      name: site.name,
-      role: site.role,
-      description: site.description,
-      urls: site.urls,
-      source: site.source
-    }
-  };
+  if (!site) return { status: 404, body: { error: 'not in this repo' } };
+  return { status: 200, body: payload(site) };
 }
 
 export default async function handler(req, res) {

@@ -29,6 +29,8 @@ Vercel auto-deploys on push to `main`. No build step required — pure static HT
 
 `POST /api/waitlist` — Accepts `{ email }`, sends confirmation via Resend.
 
+`GET /api/ask?q=what+is+on+coreyai.ai` — Answers from the CoreeyAI card in `public/index.html`. Live CoreyAI files are not in this repo (`/var/www/html/coreyai.ai`).
+
 Required env var (set in Vercel dashboard):
 ```
 RESEND_API_KEY=your_resend_api_key

@@ -135,7 +135,7 @@ footer{padding:60px 20px;text-align:center;border-top:1px solid var(--border)}
       <div class="card-header"><div class="card-dot" style="background:var(--brand-core)"></div><div class="card-name">CoreeyAI</div></div>
       <div class="card-role">AI intelligence layer</div>
       <div class="card-desc">Multi-model orchestration engine. Claude, Grok, Perplexity routed through a hexagonal adapter layer with deterministic rule engines (PHREAK algorithm). The brain behind the trading decisions.</div>
-      <div class="card-links"><a class="card-link card-link-live" href="https://coreyai.ai">coreyai.ai</a><a class="card-link card-link-live" href="https://coreyai.com">coreyai.com</a><a class="card-link" href="https://github.com/coreintentdev/coreintentai">GitHub</a></div>
+      <div class="card-links"><a class="card-link card-link-live" href="https://coreyai.ai">coreyai.ai</a><a class="card-link" href="https://github.com/coreintentdev/coreintentai">GitHub</a></div>
     </div>
     <div class="card" style="border-color:var(--brand-song)">
       <div class="card-header"><div class="card-dot" style="background:var(--brand-song)"></div><div class="card-name">SongPal</div></div>
@@ -147,13 +147,13 @@ footer{padding:60px 20px;text-align:center;border-top:1px solid var(--border)}
       <div class="card-header"><div class="card-dot" style="background:var(--brand-moso)"></div><div class="card-name">MOSOKO</div></div>
       <div class="card-role">Fashion &amp; creative design</div>
       <div class="card-desc">Streetwear and creative fashion brand. Cultural fusion design with Aotearoa roots. Currently in design/concept phase with curriculum and product line in development.</div>
-      <div class="card-links"><a class="card-link card-link-live" href="https://mosoko.com">mosoko.com</a></div>
+      <div class="card-links"><a class="card-link card-link-live" href="https://mosoko.ai">mosoko.ai</a></div>
     </div>
     <div class="card" style="border-color:var(--brand-kerv)">
       <div class="card-header"><div class="card-dot" style="background:var(--brand-kerv)"></div><div class="card-name">KERVALON</div></div>
       <div class="card-role">Education &amp; research</div>
       <div class="card-desc">Educational technology and research platform. Curriculum development, AI-assisted learning, and knowledge architecture. Building the next generation of creative-tech education.</div>
-      <div class="card-links"><a class="card-link card-link-live" href="https://kervalon.com">kervalon.com</a></div>
+      <div class="card-links"><a class="card-link card-link-live" href="https://kervalon.ai">kervalon.ai</a></div>
     </div>
     <div class="card" style="border-color:var(--brand-ci)">
       <div class="card-header"><div class="card-dot" style="background:var(--brand-ci)"></div><div class="card-name">COREINTENT</div></div>
@@ -224,8 +224,8 @@ footer{padding:60px 20px;text-align:center;border-top:1px solid var(--border)}
 </footer>
 <script>
 document.getElementById('waitlistForm').addEventListener('submit',async function(e){e.preventDefault();var email=document.getElementById('email').value;var msg=document.getElementById('message');var btn=e.target.querySelector('button');btn.disabled=true;btn.textContent='...';msg.textContent='';fetch('/api/waitlist',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email})}).then(function(r){return r.json().then(function(d){if(r.ok){msg.className='success';msg.textContent='You are in.';document.getElementById('email').value='';}else{throw new Error(d.error||'Failed');}});}).catch(function(err){msg.className='error';msg.textContent=err.message;}).finally(function(){btn.disabled=false;btn.textContent='JOIN';});});
-function showAsk(data,card){var out=document.getElementById('askResult');document.querySelectorAll('.card-hit').forEach(function(el){el.classList.remove('card-hit');});if(!data){out.textContent='Not in this repo.';return;}out.innerHTML='<strong>'+data.name+'</strong> — '+data.role+'. '+data.description;if(card){card.classList.add('card-hit');card.scrollIntoView({behavior:'smooth',block:'center'});}}
-function askFromCards(q){q=q.toLowerCase();var cards=document.querySelectorAll('.card');for(var i=0;i<cards.length;i++){var text=cards[i].innerText.toLowerCase();if(q.indexOf('coreyai')!==-1&&text.indexOf('coreyai')!==-1){return{card:cards[i],data:{name:cards[i].querySelector('.card-name').textContent,role:cards[i].querySelector('.card-role').textContent,description:cards[i].querySelector('.card-desc').textContent}};}}return null;}
+function showAsk(data,card){var out=document.getElementById('askResult');document.querySelectorAll('.card-hit').forEach(function(el){el.classList.remove('card-hit');});if(!data||!data.name){out.textContent=data&&data.missing?'Not in this repo. Missing: '+data.missing:'Not in this repo.';return;}var extra=data.live_files&&!data.live_files.present?' Live tree is not in this repo: '+data.live_files.path+'.':'';out.innerHTML='<strong>'+data.name+'</strong> — '+data.role+'. '+data.description+extra;if(card){card.classList.add('card-hit');card.scrollIntoView({behavior:'smooth',block:'center'});}}
+function askFromCards(q){q=q.toLowerCase();if(q.indexOf('coreyai.com')!==-1&&q.indexOf('coreyai.ai')===-1)return null;var cards=document.querySelectorAll('.card');for(var i=0;i<cards.length;i++){var text=cards[i].innerText.toLowerCase();if(q.indexOf('coreyai')!==-1&&text.indexOf('coreyai')!==-1){return{card:cards[i],data:{name:cards[i].querySelector('.card-name').textContent,role:cards[i].querySelector('.card-role').textContent,description:cards[i].querySelector('.card-desc').textContent,live_files:{present:false,path:'/var/www/html/coreyai.ai'}}};}}return null;}
 function runAsk(q){var local=askFromCards(q);if(local){showAsk(local.data,local.card);return;}showAsk(null);fetch('/api/ask?q='+encodeURIComponent(q)).then(function(r){return r.json().then(function(d){if(!r.ok)throw new Error(d.error||'Not in this repo.');showAsk(d);});}).catch(function(){showAsk(null);});}
 document.getElementById('askForm').addEventListener('submit',function(e){e.preventDefault();runAsk(document.getElementById('ask').value);});
 (function(){var q=new URLSearchParams(location.search).get('q');if(q){document.getElementById('ask').value=q;runAsk(q);}})();
