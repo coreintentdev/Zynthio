@@ -7,7 +7,8 @@
   "scripts": {
     "deploy": "vercel --prod",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test api/ask.test.ts"
+    "test": "node --experimental-strip-types --test api/ask.test.ts ops/vds/push-threads.test.ts",
+    "vds:threads": "node --experimental-strip-types ops/vds/push-threads.ts"
   },
   "engines": {
     "node": ">=20.0.0"

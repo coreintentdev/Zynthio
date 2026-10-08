@@ -36,7 +36,10 @@ JEV is paid TypeSafe infrastructure at `https://api.typesafe.ai/v1/systemone` (`
 ```
 npm test
 npm run typecheck
+npm run vds:threads   # packs workspace threads; rsync only when mesh SSH is real
 ```
+
+Workspace threads stage in `_meta/threads/` for VDS `/root/zynthio/_meta/threads/`. Git is the clone pipe. Mesh rsync needs real `ZYNTHIO_DC_SSH_KEY` + `HEADSCALE_PREAUTH_KEY` (never paste keys). `.vercelignore` keeps `_meta` and `ops` off zynthio.ai.
 
 Required env var (set in Vercel dashboard):
 ```
