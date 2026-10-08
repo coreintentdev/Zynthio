@@ -2,11 +2,18 @@
   "name": "zynthio",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Zynthio.ai — Glass Box AI Trading Platform landing page and waitlist",
   "scripts": {
-    "deploy": "vercel --prod"
+    "deploy": "vercel --prod",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test api/ask.test.ts"
   },
   "engines": {
     "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
   }
 }

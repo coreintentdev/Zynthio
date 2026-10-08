@@ -1,7 +1,55 @@
-const ORIGIN = 'https://zynthio.ai';
+const ORIGIN = 'https://zynthio.ai' as const;
 
-// Brand cards already in public/index.html. Not the live VDS trees.
-const SITES = [
+export type AskHit = {
+  ok: true;
+  name: string;
+  role: string;
+  description: string;
+  urls: string[];
+  source: 'public/index.html';
+  live_files?: { present: false; path: string };
+  public?: { url: string; note: string };
+  not_ours?: { host: string; note: string }[];
+};
+
+export type AskMiss = {
+  ok: false;
+  error: 'not in this repo';
+  host?: string;
+  missing?: string;
+};
+
+export type AskNotOurs = {
+  ok: false;
+  error: 'not ours';
+  host: string;
+  note: string;
+};
+
+export type AskBadRequest = { ok: false; error: 'question required' };
+export type AskMethod = { ok: false; error: 'Method not allowed' };
+
+export type AskBody = AskHit | AskMiss | AskNotOurs | AskBadRequest | AskMethod;
+
+export type AskResult =
+  | { status: 200; body: AskHit }
+  | { status: 400; body: AskBadRequest }
+  | { status: 404; body: AskMiss | AskNotOurs }
+  | { status: 405; body: AskMethod };
+
+type Site = {
+  keys: string[];
+  name: string;
+  role: string;
+  description: string;
+  urls: string[];
+  source: 'public/index.html';
+  live_files?: { present: false; path: string };
+  public?: { url: string; note: string };
+  not_ours?: { host: string; note: string }[];
+};
+
+const SITES: Site[] = [
   {
     keys: ['zynthio.ai', 'zynthio.com', 'zynthio'],
     name: 'ZYNTHIO',
@@ -63,31 +111,42 @@ const SITES = [
   }
 ];
 
-const NOT_IN_THIS_REPO = {
+const NOT_IN_THIS_REPO: Record<string, AskMiss | AskNotOurs> = {
   'coreyai.com': {
+    ok: false,
     error: 'not ours',
     host: 'coreyai.com',
     note: 'parked Afternic/GoDaddy — not owned'
   },
   'zyncontext.ai': {
+    ok: false,
     error: 'not in this repo',
     host: 'zyncontext.ai',
     missing: '/root/sites/zyncontext'
   },
   'sublimeoracle.com': {
+    ok: false,
     error: 'not in this repo',
     host: 'sublimeoracle.com',
     missing: 'not in this repo'
   },
   'agentictwin.dev': {
+    ok: false,
     error: 'not in this repo',
     host: 'agentictwin.dev',
     missing: 'not in this repo'
+  },
+  'jevsdev.com': {
+    ok: false,
+    error: 'not in this repo',
+    host: 'jevsdev.com',
+    missing: 'JEV lane — https://jevsdev.com/llms.txt'
   }
 };
 
-function payload(site) {
-  const body = {
+function payload(site: Site): AskHit {
+  const body: AskHit = {
+    ok: true,
     name: site.name,
     role: site.role,
     description: site.description,
@@ -100,30 +159,46 @@ function payload(site) {
   return body;
 }
 
-export function answer(question) {
-  const q = String(question || '').toLowerCase();
-  if (!q.trim()) return { status: 400, body: { error: 'question required' } };
+export function answer(question: unknown): AskResult {
+  const q = String(question ?? '').toLowerCase();
+  if (!q.trim()) return { status: 400, body: { ok: false, error: 'question required' } };
 
   for (const host of Object.keys(NOT_IN_THIS_REPO)) {
     if (!q.includes(host)) continue;
     if (host === 'coreyai.com' && q.includes('coreyai.ai')) continue;
-    return { status: 404, body: NOT_IN_THIS_REPO[host] };
+    const body = NOT_IN_THIS_REPO[host];
+    if (!body) continue;
+    return { status: 404, body };
   }
 
   const site = SITES.find((s) => s.keys.some((key) => q.includes(key)));
-  if (!site) return { status: 404, body: { error: 'not in this repo' } };
+  if (!site) return { status: 404, body: { ok: false, error: 'not in this repo' } };
   return { status: 200, body: payload(site) };
 }
 
-export default async function handler(req, res) {
+type VercelReq = {
+  method?: string;
+  query?: { q?: string | string[] };
+  body?: { q?: unknown };
+};
+
+type VercelRes = {
+  setHeader: (name: string, value: string) => void;
+  status: (code: number) => VercelRes;
+  json: (body: AskBody) => unknown;
+  end: () => unknown;
+};
+
+export default async function handler(req: VercelReq, res: VercelRes): Promise<unknown> {
   res.setHeader('Access-Control-Allow-Origin', ORIGIN);
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'GET' && req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
+    return res.status(405).json({ ok: false, error: 'Method not allowed' });
   }
-  const question = req.method === 'GET' ? req.query?.q : req.body?.q;
+  const raw = req.method === 'GET' ? req.query?.q : req.body?.q;
+  const question = Array.isArray(raw) ? raw[0] : raw;
   const result = answer(question);
   return res.status(result.status).json(result.body);
 }
