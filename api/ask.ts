@@ -77,7 +77,7 @@ const SITES: Site[] = [
     source: 'public/index.html'
   },
   {
-    keys: ['coreyai.ai', 'coreyai', 'coreeyai', 'corey ai'],
+    keys: ['coreyai.ai', 'coreyai', 'coreeyai', 'corey ai', 'coreintentai'],
     name: 'CoreeyAI',
     role: 'AI intelligence layer',
     description: 'Multi-model orchestration engine. Claude, Grok, Perplexity routed through a hexagonal adapter layer with deterministic rule engines (PHREAK algorithm). The brain behind the trading decisions.',
@@ -187,6 +187,14 @@ const JEV: AskJev = {
   site: { url: 'https://jevsdev.com', note: 'x-fleet-catchall HTML — not the API' }
 };
 
+function escapeRegex(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function matchesKey(query: string, key: string): boolean {
+  return new RegExp(`(^|[^a-z0-9])${escapeRegex(key)}([^a-z0-9]|$)`).test(query);
+}
+
 function isJevQuestion(q: string): boolean {
   return (
     q.includes('typesafe.ai') ||
@@ -210,7 +218,7 @@ export function answer(question: unknown): AskResult {
     return { status: 404, body };
   }
 
-  const site = SITES.find((s) => s.keys.some((key) => q.includes(key)));
+  const site = SITES.find((s) => s.keys.some((key) => matchesKey(q, key)));
   if (!site) return { status: 404, body: { ok: false, error: 'not in this repo' } };
   return { status: 200, body: payload(site) };
 }

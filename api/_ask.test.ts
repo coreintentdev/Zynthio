@@ -24,6 +24,16 @@ test('coreyai.com is typed not-ours', () => {
   assert.equal(result.body.error, 'not ours');
 });
 
+test('coreintentai maps to CoreeyAI, not COREINTENT', () => {
+  const result = answer('what is coreintentai');
+  assert.equal(result.status, 200);
+  assert.equal(result.body.ok, true);
+  if (result.body.ok !== true) throw new Error('expected hit');
+  assert.equal(result.body.kind, 'site');
+  if (result.body.kind !== 'site') throw new Error('expected site');
+  assert.equal(result.body.name, 'CoreeyAI');
+});
+
 test('JEV is TypeSafe API, not the jevsdev.com catchall site', () => {
   const result = answer('what is jev');
   assert.equal(result.status, 200);
