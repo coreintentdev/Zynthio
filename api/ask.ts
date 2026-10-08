@@ -1,7 +1,8 @@
 const ORIGIN = 'https://zynthio.ai' as const;
 
-export type AskHit = {
+export type AskSite = {
   ok: true;
+  kind: 'site';
   name: string;
   role: string;
   description: string;
@@ -11,6 +12,23 @@ export type AskHit = {
   public?: { url: string; note: string };
   not_ours?: { host: string; note: string }[];
 };
+
+export type AskJev = {
+  ok: true;
+  kind: 'jev';
+  name: 'JEV';
+  role: 'Paid TypeSafe infrastructure';
+  description: string;
+  urls: string[];
+  source: 'https://api.typesafe.ai/health';
+  endpoint: 'https://api.typesafe.ai/v1/systemone';
+  model: 'jev-latest';
+  threshold: 0.85;
+  method: 'POST';
+  site: { url: 'https://jevsdev.com'; note: 'x-fleet-catchall HTML — not the API' };
+};
+
+export type AskHit = AskSite | AskJev;
 
 export type AskMiss = {
   ok: false;
@@ -136,17 +154,12 @@ const NOT_IN_THIS_REPO: Record<string, AskMiss | AskNotOurs> = {
     host: 'agentictwin.dev',
     missing: 'not in this repo'
   },
-  'jevsdev.com': {
-    ok: false,
-    error: 'not in this repo',
-    host: 'jevsdev.com',
-    missing: 'JEV lane — https://jevsdev.com/llms.txt'
-  }
 };
 
-function payload(site: Site): AskHit {
-  const body: AskHit = {
+function payload(site: Site): AskSite {
+  const body: AskSite = {
     ok: true,
+    kind: 'site',
     name: site.name,
     role: site.role,
     description: site.description,
@@ -159,9 +172,35 @@ function payload(site: Site): AskHit {
   return body;
 }
 
+const JEV: AskJev = {
+  ok: true,
+  kind: 'jev',
+  name: 'JEV',
+  role: 'Paid TypeSafe infrastructure',
+  description: 'POST https://api.typesafe.ai/v1/systemone with model jev-latest and a 0.85 gate. GET /health is the API. jevsdev.com is a fleet catchall website, not JEV.',
+  urls: ['https://api.typesafe.ai/v1/systemone', 'https://api.typesafe.ai/health'],
+  source: 'https://api.typesafe.ai/health',
+  endpoint: 'https://api.typesafe.ai/v1/systemone',
+  model: 'jev-latest',
+  threshold: 0.85,
+  method: 'POST',
+  site: { url: 'https://jevsdev.com', note: 'x-fleet-catchall HTML — not the API' }
+};
+
+function isJevQuestion(q: string): boolean {
+  return (
+    q.includes('typesafe.ai') ||
+    q.includes('jev-latest') ||
+    q.includes('jevsdev') ||
+    /(^|[^a-z])jev([^a-z]|$)/.test(q)
+  );
+}
+
 export function answer(question: unknown): AskResult {
   const q = String(question ?? '').toLowerCase();
   if (!q.trim()) return { status: 400, body: { ok: false, error: 'question required' } };
+
+  if (isJevQuestion(q)) return { status: 200, body: JEV };
 
   for (const host of Object.keys(NOT_IN_THIS_REPO)) {
     if (!q.includes(host)) continue;

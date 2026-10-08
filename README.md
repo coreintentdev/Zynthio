@@ -29,7 +29,9 @@ Vercel auto-deploys on push to `main`. No build step required — pure static HT
 
 `POST /api/waitlist` — Accepts `{ email }`, sends confirmation via Resend.
 
-`GET /api/ask?q=what+is+on+coreyai.ai` — Typed JSON (`ok: true | false`) from the CoreeyAI card in `public/index.html`. Live CoreyAI files are not in this repo (`/var/www/html/coreyai.ai`). JEV stays on `jevsdev.com`; Hermes is mesh-only.
+`GET /api/ask?q=what+is+on+coreyai.ai` — Typed JSON (`ok: true | false`) from the CoreeyAI card in `public/index.html`. Live CoreyAI files are not in this repo (`/var/www/html/coreyai.ai`).
+
+JEV is paid TypeSafe infrastructure at `https://api.typesafe.ai/v1/systemone` (`jev-latest`, 0.85 gate). `jevsdev.com` is a fleet catchall website, not the API. This repo does not POST inference (no spend). Hermes is mesh-only.
 
 ```
 npm test
