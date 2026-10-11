@@ -1,0 +1,35 @@
+# Key material — never commit secrets
+KEYS_CANONICAL.env
+*.env
+!.env.example
+.env.*
+state/*.json
+secrets/
+credentials/
+
+# State files (may contain keys from integrations)
+mac_offload_*/
+ui_sessions_ingest/
+proton_monitor_state.json
+whatsapp_monitor_state.json
+hermes_ingest_state.json
+mail_autopilot_state.json
+_operator_todo_live.json
+_operator_truth_live.json
+communications_unified_report.json
+
+# Large data/exports
+export_data/
+SCAN_RESULTS/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Mac artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
