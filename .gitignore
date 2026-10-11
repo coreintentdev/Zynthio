@@ -33,3 +33,4 @@ venv/
 .DS_Store
 .AppleDouble
 .LSOverride
+seamstress/batch/blueprint_raw_extract.txt
