@@ -21,7 +21,7 @@ mkdir -p "$BASE/state" "$BASE/reports"
 MAX_AGE_H=${MAX_AGE_H:-6}
 OPS_WEBHOOK=${OPS_WEBHOOK:-}
 TS=$(date -u +%Y%m%dT%H%M%SZ)
-SHELLS_RE='^(-?bash|-?zsh|-?sh|sshd.*|tmux.*|screen|login|su|sudo|agetty|cron|crond|systemd.*|dbus-daemon|rpcbind)$'
+SHELLS_RE='^(-?bash|-?zsh|-?sh|sshd.*|tmux.*|screen|login|su|sudo|agetty|cron|crond|systemd.*|dbus-daemon|rpcbind|pool|pool\s+|pool acp)$'
 ADHOC_RE='http\.server|SimpleHTTPServer'
 
 [ -f "$SECRET_FILE" ] || cat > "$SECRET_FILE" <<'RE_EOF'
